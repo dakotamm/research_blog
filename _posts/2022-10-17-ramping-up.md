@@ -12,3 +12,5 @@ This week, I've been getting set up to try and test data loading and plotting DF
 
 The following are plots from the existing bottle and CTD cast plotting scripts. Figures 1 & 2 are for the default year 2017. Figures 3 & 4 are for 2014. Figure 5 is bottle samples from 2001 (no CTD data exists that year in the dataframe).
 
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm-private/blob/main/research-blog/2022-10-17/2017_ctd.png?raw=true" width="600"/><br>Fig 1. DFO CTD data from 2017.</p><br>
+
