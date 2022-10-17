@@ -21,3 +21,12 @@ The following are plots from the existing bottle and CTD cast plotting scripts. 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm-private/blob/main/research-blog/2022-10-17/2014_bottle.png?raw=true" width="600"/><br>Fig 4. DFO bottle data from 2014.</p><br>
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm-private/blob/4101c67f7fa214441639a538c0a49944feadb148/research-blog/2022-10-17/2001_bottle.png" width="600"/><br>Fig 5. DFO bottle data from 2001.</p><br>
+
+###Issues/Questions
+1. I ran into a bug in the GSW Python packages having to do with ufunc. It seems to be a known pandas issue (but hasn't yet been resolved in whatever we are getting from GSW). More info is here: https://github.com/pandas-dev/pandas/issues/39853
+
+###Looking Ahead
+1. Continue to familiarize myself with pandas/general python/LO - I got "Python for Data Analysis"!
+2. Review SQL (I've used it before but it's been awhile).
+3. Work on 1-pager for KC review meeting (incorporate Baltic Sea examples of direction from Science of Salish Sea workshop) - FYI I won't be able to attend the meeting given YCSECA conference! :(
+4. Work on academic year plan for review.
