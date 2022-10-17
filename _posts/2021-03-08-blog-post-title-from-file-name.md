@@ -1,32 +1,9 @@
-## Blog Post Title From First Header
+## Ramping Up
 
-Due to a plugin called `jekyll-titles-from-headings` which is supported by GitHub Pages by default. The above header (in the markdown file) will be automatically used as the pages title.
+This week, I've been getting set up to try and test data loading and plotting DFO data. Largely, it's been helpful to continue to learn the LO framework and how to work between machines and with Github. I copied both dfo folders to my local LO_data/obs/dfo and LO_user/obs/dfo respectively. I've been able to reproduce a few plots of CTD/bottle samples from DFO SQL data bases for various years. However, I ran into 
 
-If the file does not start with a header, then the post title will be derived from the filename.
+### Goals for Last Week:
+1. Copy LO_data/obs/dfo to local and LO/obs/dfo to LO_user/obs/dfo.
+2. Run test code and start understanding pandas as data processing tool.
 
-This is a sample blog post. You can talk about all sorts of fun things here.
 
----
-
-### This is a header
-
-#### Some T-SQL Code
-
-```tsql
-SELECT This, [Is], A, Code, Block -- Using SSMS style syntax highlighting
-    , REVERSE('abc')
-FROM dbo.SomeTable s
-    CROSS JOIN dbo.OtherTable o;
-```
-
-#### Some PowerShell Code
-
-```powershell
-Write-Host "This is a powershell Code block";
-
-# There are many other languages you can use, but the style has to be loaded first
-
-ForEach ($thing in $things) {
-    Write-Output "It highlights it using the GitHub style"
-}
-```
