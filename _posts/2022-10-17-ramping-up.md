@@ -14,3 +14,10 @@ The following are plots from the existing bottle and CTD cast plotting scripts. 
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm-private/blob/main/research-blog/2022-10-17/2017_ctd.png?raw=true" width="600"/><br>Fig 1. DFO CTD data from 2017.</p><br>
 
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm-private/blob/main/research-blog/2022-10-17/2017_bottle.png?raw=true" width="600"/><br>Fig 2. DFO bottle data from 2017.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm-private/blob/main/research-blog/2022-10-17/2014_ctd.png?raw=true" width="600"/><br>Fig 3. DFO CTD data from 2014.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm-private/blob/main/research-blog/2022-10-17/2014_bottle.png?raw=true" width="600"/><br>Fig 4. DFO bottle data from 2014.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm-private/blob/main/research-blog/2022-10-17/2014_bottle.png?raw=true" width="600"/><br>Fig 5. DFO bottle data from 2001.</p><br>
