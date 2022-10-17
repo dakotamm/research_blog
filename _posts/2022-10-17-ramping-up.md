@@ -8,7 +8,7 @@
 ### Completed Goals:
 1. Copy LO_data/obs/dfo to local and LO/obs/dfo to LO_user/obs/dfo.
 2. Run test code and start understanding pandas as data processing tool.
-3. 3. Read Fennel et al. 2022 paper to start to understand OBMs.
+3. Read Fennel et al. 2022 paper to start to understand OBMs.
 
 This week, I've been getting set up to try and test data loading and plotting DFO data. Largely, it's been helpful to continue to learn the LO framework and how to work between machines and with Github. I've been able to reproduce a few plots of CTD/bottle samples from DFO SQL data bases for various years.
 
