@@ -29,4 +29,5 @@ The following are plots from the existing bottle and CTD cast plotting scripts. 
 1. Continue to familiarize myself with pandas/general python/LO - I got "Python for Data Analysis"!
 2. Review SQL (I've used it before but it's been awhile).
 3. Work on 1-pager for KC review meeting (incorporate Baltic Sea examples of direction from Science of Salish Sea workshop) - FYI I won't be able to attend the meeting given YCSECA conference! :(
-4. Work on academic year plan for review.
+4. Review Ben's Jupiter Notebook with various data sources.
+5. Work on academic year plan for review.
