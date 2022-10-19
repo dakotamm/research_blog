@@ -35,5 +35,6 @@ The following are plots from the existing bottle and CTD cast plotting scripts. 
 5. Review Ben's Jupiter Notebook with various data sources.
 
 ### Goals For Next Week:
-For discussion in group meeting.
-
+1. Continue to familiarize myself with pandas/general python/LO (SQL is not used widely in LO, so focus on python dataframes).
+2. Work on 1-pager for KC review meeting (likely a statement of intent; incorporate Baltic Sea examples of direction from Science of Salish Sea workshop, data source availability in relation to Baltic and existing, etc.).
+3. Work on specifics of Year 1 plan (consider main focus: e.g. trends in DO over many decades, temporal and spatial variation in modern times, etc.).
