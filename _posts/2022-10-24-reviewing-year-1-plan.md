@@ -12,7 +12,7 @@
 
 This week, I've created a rough draft Year 1 plan, for both our use and for King County (upon refinement).
 
-## 
+---
 
 ### Year 1 Plan
 
@@ -49,7 +49,7 @@ This week, I've created a rough draft Year 1 plan, for both our use and for King
 2. Conference preparation...?
 3. Zoom in on Penn Cove data (data gap) - toward potential data collection proposal...?
 
-## 
+--- 
 
 ### Issues/Questions:
 1. Where does WWTP effluent data come from? WWTP plants themselves? KC?
