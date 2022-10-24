@@ -1,4 +1,4 @@
-#$ Reviewing Year 1 Plan
+# Reviewing Year 1 Plan
 
 ### Goals for Last Week:
 1. Continue to familiarize myself with pandas/general python/LO.
