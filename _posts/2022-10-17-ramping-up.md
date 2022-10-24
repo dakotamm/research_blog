@@ -1,4 +1,4 @@
-## Ramping Up
+# Ramping Up
 
 ### Goals for Last Week:
 1. Copy LO_data/obs/dfo to local and LO/obs/dfo to LO_user/obs/dfo.
