@@ -19,19 +19,19 @@ This week, I've created a rough draft Year 1 plan, for both our use and for King
 #### Autumn 2022
 1. Build confidence with Python data analysis. This includes continued course-style learning (i.e., Python for DS, Parker's computing class) and also using available data sets and processing scripts to come up to speed (e.g., DFO ctd/bottle samples).
 2. Gain understanding and wrangle data sets from all applicable sources. Sources (to my knowledge and from Parker's website) are:
-    * BC DFO
-    * WA Dept. of Ecology
-    * King County
-    * Collias (for longer term trends)
-    * USGS (rivers), NCDC (climatology)
-    * WOAC cruises
-    * NANOOS (ORCA buoys)
-    * Port Susan Stillaguamish mooring
-    * more???
+    - BC DFO
+    - WA Dept. of Ecology
+    - King County
+    - Collias (for longer term trends)
+    - USGS (rivers), NCDC (climatology)
+    - WOAC cruises
+    - NANOOS (ORCA buoys)
+    - Port Susan Stillaguamish mooring
+    - more...?
 4. Solidify data focus topic. Current ideas:
-    * *Long-term trends in Puget Sound and the Salish Sea.* This has been somewhat addressed by Mike & Parker, so understanding where I need to start and extend from will be necessary. From Baltic precedent, understand potential perennial, seasonal, and episodic trends in hypoxia and relate to climate trends.
-    * *Temporal/seasonal trends in the Salish Sea over the last decade(-ish).* This would include more in-depth understanding of perennial/seasonal/episodic trends. Given higher fidelity data of recent times, this would look towards calculating hypoxic volume/area and spatial/temporal variation.
-    * (Realistically - a combination would be important...?)
+    - *Long-term trends in Puget Sound and the Salish Sea.* This has been somewhat addressed by Mike & Parker, so understanding where I need to start and extend from will be necessary. From Baltic precedent, understand potential perennial, seasonal, and episodic trends in hypoxia and relate to climate trends.
+    - *Temporal/seasonal trends in the Salish Sea over the last decade(-ish).* This would include more in-depth understanding of perennial/seasonal/episodic trends. Given higher fidelity data of recent times, this would look towards calculating hypoxic volume/area and spatial/temporal variation.
+    - (Realistically - a combination would be important...?)
 
 #### Winter 2023
 1. Work on data focus topic. Identify gaps in data.
