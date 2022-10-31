@@ -62,5 +62,5 @@ This week, I've created a rough draft Year 1 plan, for both our use and for King
 
 ### Goals For Next Week:
 1. YCSECA - poster preparation happening this week (I'll need some focus time for that).
-2. Finalize Year 1 schedule + 1-pager for KC.
+2. Finalize Year 1 schedule + 1-pager for KC (i.e., hypoxic volume estimation using DFO data set through fall quarter and more per 10/24 discussion).
 3. Continue work on coming up to Python/LO speed.
