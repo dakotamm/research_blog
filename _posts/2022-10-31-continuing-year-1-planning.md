@@ -49,7 +49,6 @@ Quarter Science Question: Synthesize and analyze long-term trends in hypoxic vol
 #### Summer 2023
 Quarter Science Question: Continue to synthesize and analyze long-term trends in hypoxic volume and related metrcs for the Salish Sea and Puget Sound.
 1. Target journal paper draft completion by end of summer.
-2. ****
 
 #### Ahead
 1. Given higher resolution data within most recent decade, what shorter-term trends in water quality in Salish Sea? What mechanisms might contribute to observed trends?
