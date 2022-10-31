@@ -19,6 +19,7 @@ Guiding Science Question: What are the long- (several decade) and short-term (wi
 #### Autumn 2022
 Quarter Science Question: Using data from a single source, how has hypoxic volume changed over time in the Salish Sea?
   - Selected data source: Canadian Department of Fisheries & Oceans (DFO) CTD & bottle casts due to temporal range (since 1930s), spatial coverage of the Strait of Georgia, relative completeness within these ranges, and existing data framework.
+
 1. Within existing framework, create method to understand volume-based (hypsographic) estimates for state variables (e.g., temperature, dissolved oxygen).
 2. Understand long term trends in hypoxic volume within DFO data set.
 
@@ -34,6 +35,7 @@ Quarter Science Question: How do trends in hypoxic volume vary between data sets
     - NANOOS (ORCA buoys)
     - Port Susan Stillaguamish mooring
     - more...?
+
 1. Pull existing data sets into framework.
 2. Apply method derived during Autumn quarter for volume-based estimates of state variables to additional data sets.
 3. As part of this process, begin to build validation routines for LO.
