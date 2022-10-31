@@ -14,7 +14,7 @@ This week, I've created a rough draft Year 1 plan, for both our use and for King
 
 ---
 
-### Year 1 Plan
+### Year 1 Plan DRAFT - TO BE UPDATED BASED ON 10/24 DISCUSSIONS
 
 #### Autumn 2022
 1. Build confidence with Python data analysis. This includes continued course-style learning (i.e., Python for DS, Parker's computing class) and also using available data sets and processing scripts to come up to speed (e.g., DFO ctd/bottle samples).
@@ -61,5 +61,6 @@ This week, I've created a rough draft Year 1 plan, for both our use and for King
 3. Continue work on coming up to Python/LO speed.
 
 ### Goals For Next Week:
-
-
+1. YCSECA - poster preparation happening this week (I'll need some focus time for that).
+2. Finalize Year 1 schedule + 1-pager for KC.
+3. Continue work on coming up to Python/LO speed.
