@@ -73,4 +73,5 @@ Quarter Science Question: Continue to synthesize and analyze long-term trends in
 1. Finalize Year 1 schedule + 1-pager for KC by Friday, 11/4.
 2. Meeting regarding Port Susan Stillaguamish mooring on Wednesday, 11/2.
 3. Start building strategy for volume-based state variable estimates.
+4. Sign up for CEWA 599 (Alex/Parker's estuary class) and CEWA 547 (Mike's lake/watershed/Salish Sea model class).
 
