@@ -78,6 +78,8 @@ As a quick note, I had a good time in Pensacola for the YCSECA conference presen
 
 <p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/200405728-34128c73-bfa7-433e-aae7-6ede85bd0ce4.png" width="800"/><br>Fig 1. Me pointing and explaining my poster - for posterity.</p><br>
 
+---
+
 ### Issues/Questions:
 1. I missed the KC meeting on Friday, 11/4/2022 due to the YCSECA. Can we debrief?
 2. Takeaways from Stillaguamish/KC meeting.
