@@ -70,5 +70,7 @@ Quarter Science Question: Continue to synthesize and analyze long-term trends in
 4. Start building strategy for volume-based state variable estimates (talk to Kate Hewitt and Sam Fung, dig into Carstensen (Baltic) analyses).
 
 ### Goals For Next Week:
-
+1. Finalize Year 1 schedule + 1-pager for KC by Friday, 11/4.
+2. Meeting regarding Port Susan Stillaguamish mooring on Wednesday, 11/2.
+3. Start building strategy for volume-based state variable estimates.
 
