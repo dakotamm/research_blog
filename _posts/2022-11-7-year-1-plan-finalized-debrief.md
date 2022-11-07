@@ -76,7 +76,7 @@ These are not comprehensive notes, but things to discuss during a debrief.
 
 As a quick note, I had a good time in Pensacola for the YCSECA conference presenting for the Coastal Fronts project I was involved in during the Spring and Summer of this year with Alex Fisher and Jim Thomson. My poster presentation went well, and I got lots of interest in using drone imagery for surface currents. (I'll mention I got many compliments on design - so feeling proud of that!)
 
-<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/200405728-34128c73-bfa7-433e-aae7-6ede85bd0ce4.png" width="1200"/><br>Fig 1. Me pointing and explaining my poster - for posterity.</p><br>
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/200405728-34128c73-bfa7-433e-aae7-6ede85bd0ce4.png" width="800"/><br>Fig 1. Me pointing and explaining my poster - for posterity.</p><br>
 
 ### Issues/Questions:
 1. I missed the KC meeting on Friday, 11/4/2022 due to the YCSECA. Can we debrief?
