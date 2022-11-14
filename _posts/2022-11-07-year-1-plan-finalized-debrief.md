@@ -88,4 +88,7 @@ As a quick note, I had a good time in Pensacola for the YCSECA conference presen
 1. Reach out to Susan Allen regarding access to DFO data and use requirements.
 2. Dig deep into building volume-based state variable estimates (noting Kate Hewitt & Sam Fung as potential resources + Carstensen's Baltic work).
 
-### Goals For Next Week:
+### Goals For This Week:
+1. Reach out to Susan Allen regarding DFO data.
+2. Review bathymetry datasets for volume-based estimates.
+3. Begin reaching out to Kate Hewitt/Greg Johnson for estimation schemes.
