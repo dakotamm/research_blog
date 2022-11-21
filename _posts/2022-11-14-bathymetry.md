@@ -19,7 +19,7 @@
 
 In reviewing bathymeteries and topographies used for LiveOcean, I found the following two bathymetries for the northern Salish Sea/Strait of Georgia. There are higher resolution bathymetries for Puget Sound, but these are the two I found applicable to the DFO study region. I'd like to select one of these bathymeteries for beginning to estimate state variables using DFO data.
 
-The first appears to be from Salish Seacast's ERDDAP server, collected from: https://salishsea.eos.ubc.ca/erddap/griddap/ubcSSnBathymetryV17-02.html (in 2019, according to the README). Max resoluton???
+The first appears to be from Salish Seacast's ERDDAP server, collected from: https://salishsea.eos.ubc.ca/erddap/griddap/ubcSSnBathymetryV17-02.html (in 2019, according to the README). The finest resolution is approximately 272m.
 
 <p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/201752591-c3548b67-334b-4efb-8f81-9463cab9032d.png" width="1200"/><br>Fig 1. Salish Seacast bathymetry (pulled 2019).</p><br>
 
@@ -31,7 +31,9 @@ A few questions:
 - When I find Salish Seacast's resolution - should I use the finest mesh in Strait of Georgia?
 - Advantages to using LO-native grid (assuming that's Cascadia_Gridded)?
 
-This should be easy to adapat down the line, but want a nice starting bathymetry!
+This should be easy to adapt down the line, but want a nice starting bathymetry!
+
+**Note from Discussion**: The cas6 grid is what LO uses to run - we decided that would be the best bathymetry to use to allow easier comparisons from observational data to the model. We also discussed changing tracks slightly to start coming up with hypsographic methods to use LO output data in the region encompassed by DFO data (Strait of Georgia) - I'll have to start wrangling LO outputs and start to understand tidal-averaging, noting the "extact/lowpass" filters on current outputs. In parellel, I'll start to pull down DFO data from the CIOOS ERDDAP server and making that pretty.
 
 ## Literature Review
 
@@ -50,7 +52,12 @@ I've started pulling sources (and will put them on a UW student license of Endno
 ### Looking Ahead:
 1. Confirm bathymetry.
 2. Pull in DFO dataset from CIOOS Paciric ERDDAP server -> usable format.
-3. Reach out to Greg Johnson if necessary (next week).
+3. Reach out to Greg Johnson if necessary (next week) - hold on this until I know more about these methods.
 4. Continue lit. review.
 
 ### Goals For This Week:
+1. Use cas6 (LO) grid - learn how to use/plot/etc.
+2. Begin to understand LO daily output formats + lowpass tidal-averaging.
+3. Bring down and organize DFO data from CIOOS ERDDAP server (take notes).
+4. Get Endnote up and running.
+5. Meet with Kate (scheduled for Tuesday, 11/22/2022).
