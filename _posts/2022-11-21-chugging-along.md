@@ -20,11 +20,11 @@ From last week, we changed direction somewhat to work with LO output to develop 
 
 1. Plot the cas6 grid - most of my time was spent learning how to read in NetCDF file formats and variable naming conventions. I haven't gotten to visualization yet.
 2. Run an extract lowpass method on LO data on Perigee to get tidally-averaged results. This will be useful for estimatation methods but was also intended as a pathway to get me into working with LO outputs. I was able to locate existing methods, get set up to run on my Perigee machine, work through some kinds, but I ran into a bug that has blocked me:
-  - "*** Missing required argument to extract_argfun.intro(): gtagex" - I have the correct pathways set up on Perigee (to the best of my knowledge). So I'm pointing at the right function in lo_tools. It looks like this function shouldn't need an input argument and doesn't in the extract code. I'm sure I'm missing something :P
+    - "*** Missing required argument to extract_argfun.intro(): gtagex" - I have the correct pathways set up on Perigee (to the best of my knowledge). So I'm pointing at the right function in lo_tools. It looks like this function shouldn't need an input argument and doesn't in the extract code. I'm sure I'm missing something :P
 
 In parallel, I've been efforting getting DFO data from the ERDDAP server and into a usable format similar to the UBC set. I ran into timeout issues on the ERDDAP server with formats other than CSV... Might be an issue with my RAM? In either case, I have the huge CSVs and documentation of how I got them. The next step is getting them into a nice dataframe and then applying similar calculations used in the UBC dataset (mainly for ease of use and being able to not overhaul all existing processing code).
-  - Note: UBC added calculated columns not present in original code. I'm planning to replicate this.
-  - Any particular place I should store the raw data/working README/intermediate dataframes?
+    - Note: UBC added calculated columns not present in original code. I'm planning to replicate this.
+    - Any particular place I should store the raw data/working README/intermediate dataframes?
 
 Kate and I are meeting tomorrow - I'm excited to get an intro to her methods!
 
