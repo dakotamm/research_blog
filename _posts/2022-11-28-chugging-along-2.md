@@ -21,7 +21,7 @@ Despite the short week last week, I've been able to get more familiar with LO_da
 
 Since Parker's generous tutorial last week, I've gained more familiarity with the cas6 grid and LO functions set up (i.e., using command-line arguments). Generally, I'm getting more used to LO structure and functions.
 
-<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/204375154-7bad4cfb-4ff2-4ecd-b785-af4a7c2703c7.png" width="1200"/><br>Fig 1. cas6 psi-grid depth values.</p><br>
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/204375154-7bad4cfb-4ff2-4ecd-b785-af4a7c2703c7.png" width="600"/><br>Fig 1. cas6 psi-grid depth values.</p><br>
 
 The next objective is to start working with actual LO output data. I haven't gotten too far, but I can access the LO_roms live data. As I learn to work with it, a few questions to minimzie wheel-spinning:
 1. Are there processed data products I should be working with instead of straight ROMs outputs?
