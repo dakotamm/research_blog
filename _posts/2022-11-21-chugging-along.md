@@ -32,7 +32,7 @@ Kate and I are meeting tomorrow - I'm excited to get an intro to her methods!
 
 ### Issues/Questions:
 1. I'm trying to sort out workflow through LO_user, LO_data, LO_output, etc. when working locally/on my repo... Confirming that "LO_user" should be copy of whatever I'm working on that would otherwise be in the LO folder? Other folders I copy and work within those, which are not connected to a repo...
-2. **Shift meeting to Tuesday next quarter?**
+2. **Shift meeting to Tuesday next quarter?** Confirmed!
 
 ### Looking Ahead:
 1. Continue with cas6 (LO) grid - learn how to use/plot/etc.
@@ -42,3 +42,8 @@ Kate and I are meeting tomorrow - I'm excited to get an intro to her methods!
 5. Meet with Kate (scheduled for Tuesday, 11/22/2022).
 
 ### Goals For This Week:
+1. Familiarize with cas6 grid.
+2. Continue to build understanding of LO daily output formats + lowpass tidal-averaging (after).
+3. Clean/organize DFO data from CIOOS ERDDAP server.
+4. Get Endnote up and running - lit. review + notetaking.
+5. Meet with Kate (scheduled for Tuesday, 11/22/2022).
