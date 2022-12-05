@@ -45,3 +45,7 @@ For the rest of the quarter, I'm still targeting getting a volume estimation sch
 4. Get Endnote up and running - lit. review + notetaking.
 
 ### Goals For This Week:
+1. Find hypoxic cells - be able to plot/calculate total volume.
+2. Figure out LO "casts" - start depth-based estimation scheme.
+3. Concatenate/organize DFO data (nco tools).
+4. Get Endnote up and running - lit. review + notetaking.
