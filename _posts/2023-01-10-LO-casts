@@ -1,0 +1,57 @@
+# More Time with LO DO
+
+### Goals From Last Week:
+1. Create time series of total hypoxic volume/average DO concentration.
+2. Start working with segments - get with Parker.
+3. Figute out LO "casts" to start depth-based estimation scheme.
+4. Concatenate/organize DFO data.
+
+### Completed Goals:
+1. Create time series of total hypoxic volume/average DO concentration.
+2. Start working with segments - get with Parker.
+3. Working with DFO data on perigee (it's big).
+
+---
+
+## Finding LO Hypoxic Gridcells
+
+Over the last week, I cleaned up the process of working with LO DO outputs. I was able to get bottom DO volume as it evolves over a test time period, get hypoxic volume as it evolves over time, and also work with simple calculations like weighted average DO. The following figure shows the evolution of bottom hypoxic volume as taken from LO for the specified time period.
+
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/207697706-a5c0cddc-41b9-44d4-88f7-7c4328fe20be.gif" width="400"/><br>Fig 1. Bottom dissolved oxygen from LO from 11/15/2022 through 11/30/2022, all at 01:00 UTC.</p><br>
+
+I was able to work through and learn how to find hypoxic volume and average concentration for the whole domain, as it evolved over time.
+
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/207698439-2579f9e9-7ddd-47ed-a1da-0bef34dad6b1.png" width="600"/><br>Fig 2. Total hypoxic volume (< 2.0 mg/L) from LO from 11/15/2022 through 11/30/2022, all at 01:00 UTC.</p><br>
+
+Naturally, this value shows minor variations given the magnitude of hypoxic deep water within the model domain in the Pacific. Segmentation is required to make this a more usable value.
+
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/207698500-8cde9f3d-4cd6-455c-956a-b256a5163536.png" width="600"/><br>Fig 3. Average DO concentration from LO from 11/15/2022 through 11/30/2022, all at 01:00 UTC.</p><br>
+
+The volume-weighted average DO concentration is fairly low overall and is fairly stable over a few weeks.
+
+Naturally, seasonal and annual variation are important as we go forward; however, these two weeks have served as a good learning exercise for working with the entire domain. Now, I am beginning to work with the segments built into LO in order to extract more meaningful values (e.g., Strait of Georgia and Puget Sound). While the predefined segments are useful, I will also learn how to recreate the built process to create my own, if necessary.
+
+---
+
+## Miscellaneous/Bookkeeping 
+* Finals are done - on to next quarter.
+* Vacation: Friday, 12/16/2022 - Friday, 12/23/2022
+* Upcoming Conflicts: Friday, 1/6/2023 & Monday, 1/9/2023
+* Plan for Break: I will be taking it easy, but I am interested in getting to work with LO casts and start into hypsographic plots! Then onto DFO casts...
+* New Year's Resolution: Send updates earlier! :)
+
+---
+
+### Issues/Questions:
+1. Any issues if I have 15 GB on /data1/dakotamm in perigee? Where do I put the DFO database as I'm working with it?
+2. I'm starting to get fancy indexing, but I'm not quite there yet...
+3. Tidal-averaging, monthly averaging... Working with larger timescales efficiently.
+
+### Looking Ahead:
+1. Familiarize with working with segments.
+2. Working with extract/casts tools, create sample CTD casts in Strait of Geogia.
+3. Starting with DO, get volume-based average DO + hypoxic volume measurements + compare to LO grid "source-of-truth" (with error estimation).
+4. Continue organizing DFO data (including unit conversions, compiling CTD + bottle if necessary).
+5. Tracking - NANOOS data from source (download and organize).
+
+### Goals For This Week:
