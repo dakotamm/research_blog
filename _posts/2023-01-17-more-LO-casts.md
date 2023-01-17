@@ -22,7 +22,7 @@ This functionality allows me to segment further into smaller, more usable areas 
 <p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/212983887-0f7a8874-f3aa-4235-a633-00e1dd5b388c.png" width="900"/><br>Fig 2. Sample LO casts from DFO locations near the San Juan Islands during 2019 using an LO history file for 11/30/2022 01:00 UTC. Cast locations, surface temperature and salinity vs. bottom temperature and salinity (blue and orange, respectively, subplot 2), and dissolved O2 with depth are shown. </p><br>
 
 
-## Find Cast "Areas"
+## Finding Cast "Areas"
 
 The next step in the process toward volume-based estimates is getting the area attributable to each cast (in this case, casts on the LO grid). While using the LO grid data, Parker recommended an adaptable routine which can find the cast closest to each gridcell. This seems a useful solution using the LO grid.
 
