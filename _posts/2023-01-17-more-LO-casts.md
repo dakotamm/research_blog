@@ -15,7 +15,12 @@
 
 From last week, I modified my LO cast scheme to use proper LO segments and use Parker's new "fast" cast function. I have been able to pull all casts in the Strait of Georgia region using 2019 as the dfo lat/lon database and a given history file (01:00UTC on 11/30/2022) as the LO grid and basis of data.
 
-***plot***
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/212982815-3b128424-ee1b-4683-84be-3d0bfdaec0d9.png" width="900"/><br>Fig 1. Sample LO casts from DFO locations during 2019 using an LO history file for 11/30/2022 01:00 UTC. Cast locations, surface temperature and salinity vs. bottom temperature and salinity (blue and orange, respectively, subplot 2), and dissolved O2 with depth are shown. </p><br>
+
+This functionality allows me to segment further into smaller, more usable areas for initial volume-estimation method development. Below is segment "G1" which corresponds to the San Juan Island region.
+
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/212983887-0f7a8874-f3aa-4235-a633-00e1dd5b388c.png" width="900"/><br>Fig 2. Sample LO casts from DFO locations near the San Juan Islands during 2019 using an LO history file for 11/30/2022 01:00 UTC. Cast locations, surface temperature and salinity vs. bottom temperature and salinity (blue and orange, respectively, subplot 2), and dissolved O2 with depth are shown. </p><br>
+
 
 ## Find Cast "Areas"
 
@@ -43,6 +48,7 @@ For the upcoming week, I will:
 
 ### Issues/Questions:
 1. Segments - is the entire LO domain assigned segments?
+2. DFO data curation - leave to Kate & Parker?
 
 ### Looking Ahead:
 1. Impelement LO cast area-finding routine.
