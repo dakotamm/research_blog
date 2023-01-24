@@ -16,14 +16,17 @@ KDTrees are mathematically fascinating and complex, it turns out! They are a spa
 Starting with "example_cKDTree_extract.py", I have begun learning how to use this tool. I can run cKDTree as shown, filling an array with masked (missing) values with each values nearest neighbor.
 
 However, I've found that this simple algorithm doesn't have the spatial robustness I expected. In the output below, one can see that instead of filling with the closest values in any direction, the output filled with the nearest value in the columnar-direction.
-
-![image](https://user-images.githubusercontent.com/55995675/214395565-8bf0f266-b202-451d-bed5-aeb0a3b611f3.png)
+<p align="center">
+  ![image](https://user-images.githubusercontent.com/55995675/214395565-8bf0f266-b202-451d-bed5-aeb0a3b611f3.png)
+</p>
 
 This indicates that there is (most likely) an argument that indicates dimension of closet neighbor and/or the algorithm struggles at smallest distances to the nearest neighbor. This may make sense given the KDTree algorithm (using hyperplanes to partition tree space closer to the queried point, which may not be super precise at close neighbors).
 
 I also looked for lat/lon specific applications of the cKDTree (instead of solely focusing on indices) in case that provided an easier pathway. I found a few examples of finding points within a certain distance of a reference point, including as shown in the figure below from another grad student's (http://qingkaikong.blogspot.com/2017/12/use-k-d-tree-to-query-points-part-2-use.html).
 
-![image](https://user-images.githubusercontent.com/55995675/214397054-074d5c3e-d119-4d7a-be23-ad711d6e7592.png)
+<p align="center">
+  ![image](https://user-images.githubusercontent.com/55995675/214397054-074d5c3e-d119-4d7a-be23-ad711d6e7592.png)
+</p>
 
 This student is specifying a point on a lat/lon grid and using "KDTree.query_ball_point" to find grid points within 30km of the reference point. It's a similar and useful application with reference code.
 
@@ -37,7 +40,9 @@ In trying to implement the algorithm on my end as of today, I'm running into the
    * If this works, how to apply back to LO grid (i.e., take 2D array and convert back to indices)
 3. In writing this and creating plots, I just realized that I have nearly overlapping casts. I will first omit overlaps to get the algorithm running to avoid issues with "too-near" neighbors.
 
-![Figure 2023-01-24 114046](https://user-images.githubusercontent.com/55995675/214398163-7b4c7c83-5fb4-46ad-85f8-ffafeda61246.png)
+<p align="center">
+  ![Figure 2023-01-24 114046](https://user-images.githubusercontent.com/55995675/214398163-7b4c7c83-5fb4-46ad-85f8-ffafeda61246.png)
+</p>
 
 ---
 
