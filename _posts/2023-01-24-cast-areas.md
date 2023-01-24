@@ -2,10 +2,10 @@
 
 ### Goals From Last Week:
 1. Implement LO cast area-finding routine - using cKDTree.
+2. Next: hypsography (e.g., hypoxic volume, average DO concentration in areas)!
 
 ### Completed Goals:
 1. Working through cKDTree.
-2. Attended Puget Sound Institute meeting regarding model underpredication of stratification.
 
 ---
 
