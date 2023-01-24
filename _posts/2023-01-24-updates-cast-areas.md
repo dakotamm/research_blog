@@ -33,7 +33,7 @@ Then I learned how to extract "observational-esque" casts from LO. These will se
 
 Now, I'm working on an algorithm that can find the nearest cast to each LO grid point. This will enable me to extend cast attributes to an area and volume of the model. Using these methods, I hope to be able to create lovely plots such as these:
 
-<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/214405473-379d709d-1758-467f-8cf3-6215d060c9c5.png" width="900"/><br>Fig 5. Sample plots from various sources (indicated) regarding Baltic Sea hypoxia using hypsographic methods. </p><br>
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/214405473-379d709d-1758-467f-8cf3-6215d060c9c5.png" width="600"/><br>Fig 5. Sample plots from various sources (indicated) regarding Baltic Sea hypoxia using hypsographic methods. </p><br>
 
 
 ## Using cKDTree (This Week)
@@ -46,13 +46,13 @@ Starting with "example_cKDTree_extract.py", I have begun learning how to use thi
 
 However, I've found that this simple algorithm doesn't have the spatial robustness I expected. In the output below, one can see that instead of filling with the closest values in any direction, the output filled with the nearest value in the columnar-direction.
 
-<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/214395565-8bf0f266-b202-451d-bed5-aeb0a3b611f3.png" width="300"/><br>Fig 5. Snippet from cKDTree example output.</p><br>
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/214395565-8bf0f266-b202-451d-bed5-aeb0a3b611f3.png" width="300"/><br>Fig 6. Snippet from cKDTree example output.</p><br>
 
 This indicates that there is (most likely) an argument that indicates dimension of closet neighbor and/or the algorithm struggles at smallest distances to the nearest neighbor. This may make sense given the KDTree algorithm (using hyperplanes to partition tree space closer to the queried point, which may not be super precise at close neighbors).
 
 I also looked for lat/lon specific applications of the cKDTree (instead of solely focusing on indices) in case that provided an easier pathway. I found a few examples of finding points within a certain distance of a reference point, including as shown in the figure below from another grad student's blog. They are specifying a point on a lat/lon grid and using "KDTree.query_ball_point" to find grid points within 30km of the reference point. It's a similar and useful application with reference code.
 
-<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/214397054-074d5c3e-d119-4d7a-be23-ad711d6e7592.png" width="300"/><br>Fig 6. Example using KDTree.query_ball_point (finding points within a certain distance on a lat/lon grid) from http://qingkaikong.blogspot.com/2017/12/use-k-d-tree-to-query-points-part-2-use.html.</p><br>
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/214397054-074d5c3e-d119-4d7a-be23-ad711d6e7592.png" width="300"/><br>Fig 7. Example using KDTree.query_ball_point (finding points within a certain distance on a lat/lon grid) from http://qingkaikong.blogspot.com/2017/12/use-k-d-tree-to-query-points-part-2-use.html.</p><br>
 
 Now, using LO grid, I'm working with the "G1" segment and all casts in that segment from 2019. This should prove a good test space, including the hurdle of having a built-in "land mask."
 
@@ -64,7 +64,7 @@ In trying to implement the algorithm on my end as of today, I'm running into the
    * If this works, how to apply back to LO grid (i.e., take 2D array and convert back to indices)
 3. In writing this and creating plots, I just realized that I have nearly overlapping casts. I will first omit overlaps to get the algorithm running to avoid issues with "too-near" neighbors.
 
-<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/214398163-7b4c7c83-5fb4-46ad-85f8-ffafeda61246.png" width="300"/><br>Fig 7. Casts in segment G1 (2019 DFO reference year).</p><br>
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/214398163-7b4c7c83-5fb4-46ad-85f8-ffafeda61246.png" width="300"/><br>Fig 8. Casts in segment G1 (2019 DFO reference year).</p><br>
 
 
 
