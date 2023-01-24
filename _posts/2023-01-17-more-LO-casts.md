@@ -52,6 +52,8 @@ For the upcoming week, I will:
 
 ### Looking Ahead:
 1. Impelement LO cast area-finding routine.
-2. Investiage area finding methods that aren't reliant on LO grid (if that makes sense).
+2. Investiage area finding methods that aren't reliant on LO grid (if that makes sense) - use LO grid.
 
 ### Goals For This Week:
+1. Impelement LO cast area-finding routine - using cKDTree.
+2. Track 1-month for Gordon Conference abstract draft.
