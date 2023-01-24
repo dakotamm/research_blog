@@ -2,7 +2,7 @@
 
 ### Goals From Last Week:
 1. Implement LO cast area-finding routine - using cKDTree.
-2. Next: hypsography (e.g., hypoxic volume, average DO concentration in areas)!
+2. Next: hypsography (e.g., hypoxic volume, average DO concentration in areas) with LO casts!
 
 ### Completed Goals:
 1. Working through cKDTree.
@@ -87,8 +87,7 @@ In trying to implement the algorithm on my end as of today, I'm running into the
 
 ### Looking Ahead:
 1. Implememnt LO cast area-finding routine using cKDTree.
-2. Next: hypsography (e.g., hypoxic volume, average DO concentration in areas).
-3. 
+2. Next: hypsography with LO data.
 
 ### Goals For This Week:
 1.
