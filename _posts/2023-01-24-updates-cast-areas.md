@@ -23,9 +23,9 @@ First, I learned how to extract state variables from LO, looking at selected dat
 
 <p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/207697706-a5c0cddc-41b9-44d4-88f7-7c4328fe20be.gif" width="400"/><br>Fig 1. Bottom dissolved oxygen from LO from 11/15/2022 through 11/30/2022, all at 01:00 UTC.</p><br>
 
-<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/207698439-2579f9e9-7ddd-47ed-a1da-0bef34dad6b1.png" width="600"/><br>Fig 2. Total hypoxic volume (< 2.0 mg/L) from LO from 11/15/2022 through 11/30/2022, all at 01:00 UTC.</p><br>
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/207698439-2579f9e9-7ddd-47ed-a1da-0bef34dad6b1.png" width="500"/><br>Fig 2. Total hypoxic volume (< 2.0 mg/L) from LO from 11/15/2022 through 11/30/2022, all at 01:00 UTC.</p><br>
   
-<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/207698500-8cde9f3d-4cd6-455c-956a-b256a5163536.png" width="600"/><br>Fig 3. Average DO concentration from LO from 11/15/2022 through 11/30/2022, all at 01:00 UTC.</p><br>
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/207698500-8cde9f3d-4cd6-455c-956a-b256a5163536.png" width="500"/><br>Fig 3. Average DO concentration from LO from 11/15/2022 through 11/30/2022, all at 01:00 UTC.</p><br>
 
 Then I learned how to extract "observational-esque" casts from LO. These will serve as my test casts, which I can compare to LO output. In this case, I've used a selected year of DFO data (2019) and applied it to one history file within LO, for ease of use on a local machine.
 
@@ -64,7 +64,7 @@ In trying to implement the algorithm on my end as of today, I'm running into the
    * If this works, how to apply back to LO grid (i.e., take 2D array and convert back to indices)
 3. In writing this and creating plots, I just realized that I have nearly overlapping casts. I will first omit overlaps to get the algorithm running to avoid issues with "too-near" neighbors.
 
-<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/214398163-7b4c7c83-5fb4-46ad-85f8-ffafeda61246.png" width="300"/><br>Fig 8. Casts in segment G1 (2019 DFO reference year).</p><br>
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/214398163-7b4c7c83-5fb4-46ad-85f8-ffafeda61246.png" width="600"/><br>Fig 8. Casts in segment G1 (2019 DFO reference year).</p><br>
 
 
 
