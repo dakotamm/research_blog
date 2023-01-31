@@ -90,4 +90,4 @@ In trying to implement the algorithm on my end as of today, I'm running into the
 2. Next: hypsography with LO data.
 
 ### Goals For This Week:
-1.
+1. Implememnt LO cast area-finding routine using cKDTree.
