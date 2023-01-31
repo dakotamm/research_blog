@@ -36,7 +36,7 @@ Some points of discussion:
 
 A note that the bottle processing scripts and nice easy-to-use data are very helpful! Here's the NCEI Salish Sea plots that are easily generated with LO/obs/plot_ctd_bottle.py. Thanks Parker and Kate!
 
-<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/215877917-4180ccc1-cea6-49df-abf0-ef9dd9322483.png" width="400"/><br>Fig 4. NCEI Salish bottle data from 2017, processed and plotted nicely.</p><br>
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/215877917-4180ccc1-cea6-49df-abf0-ef9dd9322483.png" width="1200"/><br>Fig 4. NCEI Salish bottle data from 2017, processed and plotted nicely.</p><br>
 
 ---
 
