@@ -23,12 +23,20 @@ Some discussions and unrelated learning brought me to the world of Voronoi tesse
 
 <p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/215873002-099b9732-1b85-47b5-adac-a19f5db837e1.png" width="400"/><br>Fig 2. Voronoi tesselation from https://en.wikipedia.org/wiki/Voronoi_diagram.</p><br>
 
-<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/215873963-468d510c-c703-40fd-b304-9be7dcab3f21.png" width="400"/><br>Fig 2. Voronoi tesselation avoiding obstructions from 
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/215873963-468d510c-c703-40fd-b304-9be7dcab3f21.png" width="400"/><br>Fig 3. Voronoi tesselation avoiding obstructions from 
 https://stackoverflow.com/questions/51708955/centroidal-voronoi-tesselations-around-obstacles.</p><br>
 
 Some points of discussion: 
 1. Ways to specify path around "land mask" for nearest-neighbor finding...Voronoi tesselations? That seems to abandon the LO grid approach.
 2. At what point am I spinning my wheels in the algorithmic details? Not yet, I don't think, but I want continue conversations about how to prioritize effectively.
+
+---
+
+## Keeping Up with Obs Data
+
+A note that the bottle processing scripts and nice easy-to-use data are very helpful! Here's the NCEI Salish Sea plots that are easily generated with LO/obs/plot_ctd_bottle.py. Thanks Parker and Kate!
+
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/215877917-4180ccc1-cea6-49df-abf0-ef9dd9322483.png" width="400"/><br>Fig 4. NCEI Salish bottle data from 2017, processed and plotted nicely.</p><br>
 
 ---
 
