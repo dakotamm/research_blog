@@ -1,11 +1,11 @@
 # More Finding Cast Areas
 
 ### Goals From Last Week:
-1. Implememnt LO cast area-finding routine using cKDTree.
+1. Implement LO cast area-finding routine using cKDTree.
 2. Next: hypsography!
 
 ### Completed Goals:
-1. Implement KDTree
+1. Implemented KDTree!
 
 ---
 
