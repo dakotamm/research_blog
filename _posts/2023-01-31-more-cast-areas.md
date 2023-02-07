@@ -62,3 +62,4 @@ A note that the bottle processing scripts and nice easy-to-use data are very hel
 
 ### Goals For This Week:
 1. Create estimation scheme for hypoxic volume in a cast area.
+2. Gordon Conference abstract - sooner rather than later.
