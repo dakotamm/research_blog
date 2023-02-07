@@ -57,8 +57,8 @@ A note that the bottle processing scripts and nice easy-to-use data are very hel
 2. DFO data - should I continue to clean/work on this?
 
 ### Looking Ahead:
-1. Figure out nearest-neighbor with obstacle avoidance, if possible, for assigning LO areas to casts.
+1. Figure out nearest-neighbor with obstacle avoidance, if possible, for assigning LO areas to casts. (This is not necessary per discussions in meetin 1/31/2023. Proceed with the KDTree algorithm.)
 2. Next: hypsography!
 
 ### Goals For This Week:
-1.
+1. Create estimation scheme for hypoxic volume in a cast area.
