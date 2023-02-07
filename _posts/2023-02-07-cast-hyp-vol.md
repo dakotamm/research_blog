@@ -28,7 +28,7 @@ Two of the casts fall below the arbitrary 6.2 mg/L threshold. If today was a bet
 
 Some points of musing: 
 1. If real casts do not reach lowest depth, do we infer the properties of the deepest cast point for that cast, or the properties of a point of the same depth from a different cast? Assuming time similariy.
-2. Calculating volume from LO with large grid spacing (casts may have finer resolution than gridcells, may need to part out gridcells).
+2. Calculating volume from obs data casts using LO gridcells with large spacing (casts may have finer resolution than gridcells, may need to part out gridcells).
 
 ---
 
