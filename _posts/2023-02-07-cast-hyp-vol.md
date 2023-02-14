@@ -57,3 +57,4 @@ Some points of musing:
 1. Gordon Conference abstract in the next days.
 2. Fully implement test hypoxic volume scheme.
 3. KC document overview starting next week.
+4. Set quals date with Mike/Parker/Alex.
