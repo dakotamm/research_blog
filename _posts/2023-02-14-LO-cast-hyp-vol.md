@@ -46,8 +46,6 @@ Now, I can compare this to LO grid data by finding the bottom area under the DO 
 
 We can see that there are certainly some bottom DO differences between LO cast estimation and LO grid data. To understand the three-dimensional comparison, we can plot trends in total volume below the DO threshold throughout the year for both LO casts and LO grid data.
 
-![hyp_vol_2022](https://user-images.githubusercontent.com/55995675/218859406-a1fda2ce-0dd8-46ed-b842-fb576db673ba.png)
-
 <p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/218859406-a1fda2ce-0dd8-46ed-b842-fb576db673ba.png" width="1200"/><br>Fig 10. LO cast volume estimation under DO threshold vs LO grid data throughout 2022.</p><br>
 
 Overall, I'm just excited I got this to work. Next is assessing errors with this method and digging into observational data.
@@ -59,12 +57,70 @@ Some thoughts:
 
 ---
 
+## KC Meeting Planning
+
+Here are some outlines for the KC slides and document that we'll present next Friday, 2/24/2023.
+
+*Guiding Science Question (maintained from last document):* What are the long- (several decade) and short-term (within the last decade) trends in dissolved oxygen and affecting factors in Puget Sound and the Salish Sea?
+
+*Progress Since Last Meeting:*
+During Autumn 2022, I began by using data from a single source to understand how hypoxic volume has changed over time in the Salish Sea. As I delved into this task, I came to require a framework with which to understand spatial data. I created a "testing environment": I was able to conduct "model" CTD/bottle casts using the LiveOcean framework. I used locations from DFO CTD/bottle casts and constrained a test domain to create volume estimation methodology. Given the high resolution inherent within LiveOcean's structured grid, I have used volumes defined by the LO grid domain.
+
+At this point, I have successfully used "model" CTD/bottle casts and have create schemes that estimate hypoxic volume given cast information. Comparing to LO grid data (i.e., using the whole LO domain versus just information given in a "model" cast), I find good agreement between the model cast method. A wide range of conditions can be applied to estimate errors introduced by this method, given specific spatial and temporal distribution of observational casts.
+
+Since using a LiveOcean testing environment proved the most efficient way to create with volume estimation schemes, the next step is to apply this methodology to a single data source - DFO data. After understanding trends in hypoxic volume within this dataset, I will extend analysis to other data sources and extend this throughout the quarter.
+
+Note: This means I'll update my Winter Quarter 2023 plan (below) to include starting with DFO dataset now that estimation scheme works...
+
+Note Note: KC fieldwork...
+
+
+FOR REFERENCE (last quarter's plan):
+
+Autumn 2022
+Question/Objective: Using data from a single source, how has hypoxic volume changed over time in the Salish Sea?
+• Selected data source: Canadian Department of Fisheries & Oceans (DFO) CTD & bottle casts due to temporal range (since 1930s), spatial coverage of the Strait of Georgia, relative completeness within these ranges, and existing data framework.
+1. Within existing framework, create method to understand volume-based (hypsographic) estimates for state variables (e.g., temperature, dissolved oxygen).
+2. Understand long term trends in hypoxic volume within DFO dataset.
+
+Winter 2023
+Question/Objective: How do trends in hypoxic volume correlate and vary working with more datasets?
+• Additional data sources:
+o King County Marine Water Quality Monitoring o WA Dept. of Ecology
+o Collias
+o USGS (rivers)
+o NCDC (climatology)
+o WOAC cruises
+o NANOOS (ORCA buoys)
+o Port Susan Stillaguamish mooring/casts
+1. Pull existing datasets into framework.
+2. Apply method derived during Autumn quarter for volume-based estimates of state variables to
+additional datasets.
+3. As part of this process, build validation routines for LO.
+
+Spring 2023
+Synthesize and analyze long-term trends in hypoxic volume and related metrics for the Salish Sea and Puget Sound.
+1. Compare findings in datasets for region-specific information and cross-validation between sources.
+2. Begin draft of journal paper: methods, literature review (ongoing).
+3. Continue work on LO validation.
+4. Compile intermodel comparison benchmark datasets.
+5. Potential WOAC cruise (April).
+6. Qualifying exams.
+
+Summer 2023
+Question/Objective: Continue to synthesize and analyze long-term trends in hypoxic volume and related metrics for the Salish Sea and Puget Sound.
+1. Target journal paper draft completion by end of summer.
+2. Consider conference preparation.
+
+---
+
 ## Bookkeeping 
 * KC Meeting scheduled for Friday, February 24, 2023
 * EFM Talk scheduled for Thursday, March 2, 2023 (20 minute presentation).
 * Gordon Conference Abstract - draft sent.
   * I may have a conflict with Sunday/Monday of conference dates.
 * Quals: April 17-21, 2023 (yikes)
+* WOAC Cruise: July 10-14, 2023???
 
 ---
 
