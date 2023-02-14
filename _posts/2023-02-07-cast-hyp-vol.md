@@ -11,7 +11,7 @@
 
 ## Hypoxic Volume from LO Cast Area
 
-*After working furiously to creating plots and finish out this milestone, I'm not quite done. This update is short and sweet! :)"
+*After working furiously to creating plots and finish out this milestone, I'm not quite done. This update is short and sweet! :)*
 
 Now that I can assign LO grid area to LO cast locations using KDTree, the next step is to put together the pieces and start to make estimates of hypoxic volume. From last week, I narrowed down to (9) cast locations occurring in real-life between June and August 2019 in the G1 segment.
 
@@ -54,4 +54,6 @@ Some points of musing:
 3. Next: hypsography!
 
 ### Goals For This Week:
-1. 
+1. Gordon Conference abstract in the next days.
+2. Fully implement test hypoxic volume scheme.
+3. KC document overview starting next week.
