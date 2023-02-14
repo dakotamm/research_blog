@@ -1,1 +1,80 @@
+# Finding Hypoxic Volume from LO Casts + KC Planning
 
+### Goals From Last Week:
+1. Gordon Conference abstract.
+2. Fully implement test hypoxic volume scheme.
+3. KC deliverable overview starting next week.
+4. Set quals date with Mike/Parker/Alex.
+
+### Completed Goals:
+1. Gordon Conference abstract - sent 2/14/2023.
+2. Fully implement test hypoxic volume scheme!
+3. KC deliverable review - preliminary included here.
+4. Set quals date with Mike/Parker/Alex - 4/17-21/2023.
+
+---
+
+## Hypoxic Volume from LO Casts
+
+Finally! Hypoxic volume from LO Casts!
+
+I was able to fully implement a method that takes given cast locations, creates LO casts, then estimates volume under a certain threshold of DO for the area applicable to the cast. I conducted this study using 9 locations (sampled from DFO sites June-August 2019) and then I applied these casts locations to LO history files on the 1st of each month during 2022. The figures below shows DO profiles from January, April, July, and September:
+
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/218854992-590d1fb7-3841-4997-ba8a-14047bc09f1e.png" width="600"/><br>Fig 1. DO profiles from LO casts taken January 1, 2022.</p><br>
+
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/218855189-6157926d-e390-4a18-8474-f4b4006159c7.png" width="600"/><br>Fig 2. DO profiles from LO casts taken April 1, 2022.</p><br>
+
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/218855270-41d23267-df11-4c65-ae04-da145df0308f.png" width="600"/><br>Fig 3. DO profiles from LO casts taken July 1, 2022.</p><br>
+
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/218855357-d5999d86-358d-44b4-a1fb-c0d76fae238c.png" width="600"/><br>Fig 4. DO profiles from LO casts taken July 1, 2022.</p><br>
+
+We can see seasonal variation throughout the selected months; July and September have comparatively lower DO than winter and spring.
+
+After assigning areas to each cast, I can then find which areas have DO under a certain threshold anywhere in the represented water column. In this case, I've shown 5.0 mg/L (since this region doesn't reach 2.0 mg/L or less during this study, and I needed to make plots...). An example from July is shown below.
+
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/218857272-a61a635a-50be-44ff-916b-af01d7834605.png" width="600"/><br>Fig 5. LO cast areas with DO concentration under the 5.0 mg/L threshold somewhere in the water column, from LO casts taken July 1, 2022.</p><br>
+
+Now, I can compare this to LO grid data by finding the bottom area under the DO threshold, shown below for all four months:
+
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/218858098-e1a44d66-f0fc-4603-88d9-43c5510b54e8.png" width="1200"/><br>Fig 6. LO cast areas with DO concentration under the 5.0 mg/L threshold vs. LO bottom grid data, from LO casts taken January 1, 2022.</p><br>
+
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/218858171-a1a9f0d7-e8a2-48f4-b5b2-0cbffaf88a60.png" width="1200"/><br>Fig 7. LO cast areas with DO concentration under the 5.0 mg/L threshold vs. LO bottom grid data, from LO casts taken April 1, 2022.</p><br>
+
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/218858210-3cda483c-8af7-4e4e-9c17-2c092f5b41fa.png" width="1200"/><br>Fig 8. LO cast areas with DO concentration under the 5.0 mg/L threshold vs. LO bottom grid data, from LO casts taken July 1, 2022.</p><br>
+
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/218858567-8cb1f74c-4ce6-4855-890e-64edbfec8482.png" width="1200"/><br>Fig 9. LO cast areas with DO concentration under the 5.0 mg/L threshold vs. LO bottom grid data, from LO casts taken September 1, 2022.</p><br>
+
+We can see that there are certainly some bottom DO differences between LO cast estimation and LO grid data. To understand the three-dimensional comparison, we can plot trends in total volume below the DO threshold throughout the year for both LO casts and LO grid data.
+
+![hyp_vol_2022](https://user-images.githubusercontent.com/55995675/218859406-a1fda2ce-0dd8-46ed-b842-fb576db673ba.png)
+
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/218859406-a1fda2ce-0dd8-46ed-b842-fb576db673ba.png" width="1200"/><br>Fig 10. LO cast volume estimation under DO threshold vs LO grid data throughout 2022.</p><br>
+
+Overall, I'm just excited I got this to work. Next is assessing errors with this method and digging into observational data.
+
+Some thoughts: 
+1. Error estimate methods...
+2. Interpolation within gridcells (volume partitioning).
+3. Averaging - currently only looking at one history file at a time.
+
+---
+
+## Bookkeeping 
+* KC Meeting scheduled for Friday, February 24, 2023
+* EFM Talk scheduled for Thursday, March 2, 2023 (20 minute presentation).
+* Gordon Conference Abstract - draft sent.
+  * I may have a conflict with Sunday/Monday of conference dates.
+* Quals: April 17-21, 2023 (yikes)
+
+---
+
+### Issues/Questions:
+1. How to do transects in LO?
+
+### Looking Ahead:
+1. Gordon Conference Abstract - finalize and submit.
+2. KC deliverables - slides and document.
+3. Continue on volume estimation scheme.
+
+### Goals For This Week:
+1. 
