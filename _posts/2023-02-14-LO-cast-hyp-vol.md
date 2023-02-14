@@ -79,20 +79,20 @@ FOR REFERENCE (last quarter's plan):
 
 Autumn 2022
 Question/Objective: Using data from a single source, how has hypoxic volume changed over time in the Salish Sea?
-• Selected data source: Canadian Department of Fisheries & Oceans (DFO) CTD & bottle casts due to temporal range (since 1930s), spatial coverage of the Strait of Georgia, relative completeness within these ranges, and existing data framework.
+* Selected data source: Canadian Department of Fisheries & Oceans (DFO) CTD & bottle casts due to temporal range (since 1930s), spatial coverage of the Strait of Georgia, relative completeness within these ranges, and existing data framework.
 1. Within existing framework, create method to understand volume-based (hypsographic) estimates for state variables (e.g., temperature, dissolved oxygen).
 2. Understand long term trends in hypoxic volume within DFO dataset.
 
 Winter 2023
 Question/Objective: How do trends in hypoxic volume correlate and vary working with more datasets?
-• Additional data sources:
-o King County Marine Water Quality Monitoring o WA Dept. of Ecology
-o Collias
-o USGS (rivers)
-o NCDC (climatology)
-o WOAC cruises
-o NANOOS (ORCA buoys)
-o Port Susan Stillaguamish mooring/casts
+* Additional data sources:
+ * King County Marine Water Quality Monitoring o WA Dept. of Ecology
+ * Collias
+ * USGS (rivers)
+ * NCDC (climatology)
+ * WOAC cruises
+ * NANOOS (ORCA buoys)
+ * Port Susan Stillaguamish mooring/casts
 1. Pull existing datasets into framework.
 2. Apply method derived during Autumn quarter for volume-based estimates of state variables to
 additional datasets.
