@@ -128,6 +128,7 @@ Question/Objective: Continue to synthesize and analyze long-term trends in hypox
 * Gordon Conference Abstract - draft sent.
   * I may have a conflict with Sunday/Monday of conference dates.
 * Quals: April 17-21, 2023 (yikes)
+* Ocean Visions Summit: April 4-6, 2023???
 * WOAC Cruise: July 10-14, 2023???
 
 ---
