@@ -70,20 +70,24 @@ At this point, I have successfully used "model" CTD/bottle casts and have create
 
 Since using a LiveOcean testing environment proved the most efficient way to create with volume estimation schemes, the next step is to apply this methodology to a single data source - DFO data. After understanding trends in hypoxic volume within this dataset, I will extend analysis to other data sources and extend this throughout the quarter.
 
-Note: This means I'll update my Winter Quarter 2023 plan (below) to include starting with DFO dataset now that estimation scheme works...
+*Note:* This means I'll update my Winter Quarter 2023 plan (below) to include starting with DFO dataset now that estimation scheme works...
 
-Note Note: KC fieldwork...
+*Note Note:* KC fieldwork...
+
 
 
 FOR REFERENCE (last quarter's plan):
 
 Autumn 2022
+
 Question/Objective: Using data from a single source, how has hypoxic volume changed over time in the Salish Sea?
 * Selected data source: Canadian Department of Fisheries & Oceans (DFO) CTD & bottle casts due to temporal range (since 1930s), spatial coverage of the Strait of Georgia, relative completeness within these ranges, and existing data framework.
 1. Within existing framework, create method to understand volume-based (hypsographic) estimates for state variables (e.g., temperature, dissolved oxygen).
 2. Understand long term trends in hypoxic volume within DFO dataset.
 
+
 Winter 2023
+
 Question/Objective: How do trends in hypoxic volume correlate and vary working with more datasets?
 * Additional data sources:
  * King County Marine Water Quality Monitoring o WA Dept. of Ecology
@@ -98,7 +102,9 @@ Question/Objective: How do trends in hypoxic volume correlate and vary working w
 additional datasets.
 3. As part of this process, build validation routines for LO.
 
+
 Spring 2023
+
 Synthesize and analyze long-term trends in hypoxic volume and related metrics for the Salish Sea and Puget Sound.
 1. Compare findings in datasets for region-specific information and cross-validation between sources.
 2. Begin draft of journal paper: methods, literature review (ongoing).
@@ -107,7 +113,9 @@ Synthesize and analyze long-term trends in hypoxic volume and related metrics fo
 5. Potential WOAC cruise (April).
 6. Qualifying exams.
 
+
 Summer 2023
+
 Question/Objective: Continue to synthesize and analyze long-term trends in hypoxic volume and related metrics for the Salish Sea and Puget Sound.
 1. Target journal paper draft completion by end of summer.
 2. Consider conference preparation.
