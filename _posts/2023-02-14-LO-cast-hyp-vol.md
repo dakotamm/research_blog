@@ -142,4 +142,6 @@ Question/Objective: Continue to synthesize and analyze long-term trends in hypox
 3. Continue on volume estimation scheme.
 
 ### Goals For This Week:
-1. 
+1. Gordon Conference Abstract - finalize and submit.
+2. KC deliverables - slides and document.
+3. Continue on volume estimation scheme.
