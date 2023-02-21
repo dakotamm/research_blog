@@ -1,4 +1,4 @@
-# KC Drafts, EFM Presentation, & Transects
+# KC Drafts, EFM Presentation, and Transects
 
 ### Goals From Last Week:
 1. Gordon Conference Abstract - finalize and submit.
@@ -26,19 +26,24 @@ I sent drafts of all three deliverables this morning, 2/21/2023. For the present
 3. Is my presentation too detailed?
 4. Is there a better word for "volume-from-casts" method???
 
-*Note:* KC fieldwork...
+**Note:** KC fieldwork...
 
 Below is my revised academic year plan draft:
 
-*Guiding Science Question: What are the long- (several decade) and short-term (within the last decade) trends in dissolved oxygen and affecting factors in Puget Sound and the Salish Sea?*
+# Academic Year Plan (Winter Revision) DRAFT
 
-Winter 2022
+**Guiding Science Question:** *What are the long- (several decade) and short-term (within the last decade) trends in dissolved oxygen and affecting factors in Puget Sound and the Salish Sea?*
+
+**Winter 2022**
+
 *Question/Objective:* Using data from a single source, how has hypoxic volume changed over time in the Salish Sea?
 •	Selected data source: Canadian Department of Fisheries & Oceans (DFO) CTD & bottle casts due to temporal range (since 1930s), spatial coverage of the Strait of Georgia, relative completeness within these ranges, and existing data framework.
 1.	Validate and understand errors/biases associated with the volume-from-cast method.
 2.	Use volume-from-casts to understand long term trends in hypoxic volume and associated state variables within DFO dataset.
 
-Spring 2023
+
+**Spring 2023**
+
 *Question/Objective:* How do trends in hypoxic volume correlate and vary working with more datasets?
 •	Additional data sources:
 o	King County Marine Water Quality Monitoring
@@ -54,7 +59,9 @@ o	Port Susan Stillaguamish mooring/casts
 3.	As part of this process, build validation routines for LO.
 4.	Qualifying exams (April).
 
-Summer 2023
+
+**Summer 2023**
+
 *Question/Objective:* Synthesize and analyze long-term trends in hypoxic volume and related metrics for the Salish Sea and Puget Sound. 
 1.	Compare findings in datasets for region-specific information and cross-validation between sources.
 2.	Begin draft of journal paper: methods, literature review (ongoing).
@@ -64,7 +71,9 @@ Summer 2023
 6.	Conference preparation.
 7.	Target journal paper draft completion by beginning of summer.
 
-Fall 2023
+
+**Fall 2023**
+
 *Question/Objective:* Continue to synthesize and analyze long-term trends in hypoxic volume and related metrics for the Salish Sea and Puget Sound.
 1.	Paper revisions.
 2.	Conference preparation.
@@ -95,7 +104,7 @@ Perhaps my transect isn't where it thinks it is? Is something wonky with the lan
 ---
 
 ## Bookkeeping 
-* EFM Talk *rescheduled* for Thursday, February 23, 2023 (20 minute presentation)
+* EFM Talk **rescheduled** for Thursday, February 23, 2023 (20 minute presentation)
 * KC Meeting scheduled for Friday, February 24, 2023
 * Gordon Conference Abstract - submitting today, 2/23/2023
   * I may have a conflict with Sunday/Monday of conference dates.
