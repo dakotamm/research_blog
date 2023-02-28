@@ -121,4 +121,7 @@ Perhaps my transect isn't where it thinks it is? Is something wonky with the lan
 4. Continue on volume-from-casts method.
 
 ### Goals For This Week:
-1. 
+1. Gordon Conference Abstract - submit today.
+2. KC deliverables - polish for secondary review tomorrow, 2/22/2023.
+3. EFM presentation - polish for secondary review tomorrow, 2/22/2023.
+4. Continue on volume-from-casts method.
