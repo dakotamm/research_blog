@@ -34,9 +34,9 @@ Last week, I presented at the EFM meeting on Thursday, 2/23/2023 and for King Co
 
 Figure 1 shows the main takeaway for the current state of the volume-from-casts method and a jumping-off point for error estimation as shown in the KC meeting.
 
-<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/221961601-6585cfdf-c1a1-4066-ac9d-4d8baf03418c.png" width="900"/><br>Fig 1. DO subthreshold (5.0 mg/L) thickness for volume-from-casts method and LO model output, all from October 1, 2022.</p><br>
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/221961601-6585cfdf-c1a1-4066-ac9d-4d8baf03418c.png" width="600"/><br>Fig 1. DO subthreshold (5.0 mg/L) thickness for volume-from-casts method and LO model output, all from October 1, 2022.</p><br>
 
-<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/221965526-78bce75f-85c9-49b6-bc44-c090368b74ed.png" width="900"/><br>Fig 2. Total subthreshold volume for the first of each month during 2022; orange is LO output and blue is estimate from volume-from-casts method.</p><br>
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/221965526-78bce75f-85c9-49b6-bc44-c090368b74ed.png" width="600"/><br>Fig 2. Total subthreshold volume for the first of each month during 2022; orange is LO output and blue is estimate from volume-from-casts method.</p><br>
 
 Figure 3 and 4 shows previous and updated one-year plans, as presented in the KC meeting.
 
