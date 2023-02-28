@@ -20,11 +20,11 @@
 
 Last week, I presented at the EFM meeting on Thursday, 2/23/2023 and for King County at our quarterly meeting on Friday, 2/24/2023. Both presentations went well. On Thursday, I presented plots which had a bug; this was corrected for Friday. A few comments from the meetings:
 
-*EFM Meeting:*
+**EFM Meeting:**
 1. Suggestion to look at the number of casts in an area required to converge on model solution.
 2. Technical questions about underestimation (largely due to the bug in the plotting that was resolved after the meeting).
 
-*KC Meeting:*
+**KC Meeting:**
 1. Suggestion to look at density versus depth bins for hypsometry (from Susan Allen).
 2. Mike emailed me regarding whether or not "fjordal" is a word - I showed him some literature using the term but I'm happy to omit this in the future. Thoughts?
 3. I felt like my presentation was too brief?
