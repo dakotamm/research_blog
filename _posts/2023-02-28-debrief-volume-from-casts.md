@@ -71,6 +71,7 @@ Rough next steps for volume-from-casts method:
 * Ocean Visions Summit: April 4-6, 2023 - need to confirm/book
 * Quals: April 24-28, 2023 - oral defense Friday, 4/28/2023 at 10am (pending Mike final approval).
 * WOAC Cruise: July 10-14, 2023
+* OOO - Wednesday, 3/8/2023 - Friday, 3/10/2023 (back Sunday night).
 
 ---
 
@@ -84,6 +85,7 @@ Rough next steps for volume-from-casts method:
 2. Expand volume-from-casts method domains.
 3. Gordon Conference registratation.
 4. Book AGU Ocean Visions.
+5. Finish out quarter!!!
 
 ### Goals For This Week:
 1.
