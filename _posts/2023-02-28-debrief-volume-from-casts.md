@@ -25,7 +25,7 @@ Last week, I presented at the EFM meeting on Thursday, 2/23/2023 and for King Co
 2. Technical questions about underestimation (largely due to the bug in the plotting that was resolved after the meeting).
 
 *KC Meeting:*
-1. Suggestion to look at density versus depth bins for hypsometry (from Susan).
+1. Suggestion to look at density versus depth bins for hypsometry (from Susan Allen).
 2. Mike emailed me regarding whether or not "fjordal" is a word - I showed him some literature using the term but I'm happy to omit this in the future. Thoughts?
 3. I felt like my presentation was too brief?
 4. KC fieldwork - punted, but want to keep this on the backburner.
