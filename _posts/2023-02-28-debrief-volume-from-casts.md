@@ -50,7 +50,7 @@ Figure 3 and 4 shows previous and updated one-year plans, as presented in the KC
 
 Given the push at the end of last week, I have not progressed too much further in the volume-from-casts method and/or error quantification. However, to follow up last week: I am able to create sections through land with Parker's revised code, which may help to evaluate sources of error in the volume-from-casts method. Figure 5 shows an updated transect using LO model output through East Sound taken July 1, 2022.
 
-<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/221960901-d2cab33b-7acb-4e8b-844c-a7cfe2a04c05.png" width="600"/><br>Fig 5. DO transect from LO output data taken September 1, 2022.</p><br>
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/221960901-d2cab33b-7acb-4e8b-844c-a7cfe2a04c05.png" width="1200"/><br>Fig 5. DO transect from LO output data taken September 1, 2022.</p><br>
 
 East Sound in the transect has bottom hypoxia, as seems to be the trend in shallow embayments; this would not be captured in the current estimation schemes. The intent of working in section space is to replicate this with the volume from casts method, understanding what is missing throughout the water column.
 
