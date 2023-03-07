@@ -42,7 +42,7 @@ This offset is nearly the same as the underprediction for 5.0 mg/L, which implie
 <p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/223530482-6fdc5d14-29f5-49b4-a4fa-9d5c1474aa9a.png" width="600"/><br>Fig 5. DO anoxic (0.0 mg/L) thickness for volume-from-casts method and LO model output, all from April 1, 2022.</p><br>
 
 This plot looks very similar to Figure 3 despite vastly different threshold values, implying that LO output shows these cells as anoxic. A few thoughts:
-1. This cells seem physically unrealistic...?
+1. These cells seem physically unrealistic...?
 2. Very possible that the way I'm calculating these values from LO output directly is somehow flawed or bugged, though I haven't been able to find that.
 3. This offset appears consistent when volume-from-casts predicts no subthreshold volume.
 
