@@ -26,7 +26,7 @@ Figure 1 shows the subthreshold volume using 5.0 mg/L DO concentration calculate
 
 We've discussed this constant offset value at earlier months in the year, and identified that it likely pertains to shallow cells which are not captured by casts. Figure 2 shows the difference in subthreshold thickness for each month of the year (volume-from-casts less LO output). Figure 2 shows areas of both under- and overprediction throughout the domain, but some agreement in deeper basins.
 
-<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/223527024-9e0ed9ec-4a99-43a3-9177-b942fd4b3024.png" width="1200"/><br>Fig 2. DO subthreshold (5.0 mg/L) thickness for volume-from-casts method and LO model output.</p><br>
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/223527024-9e0ed9ec-4a99-43a3-9177-b942fd4b3024.png" width="1200"/><br>Fig 2. DO subthreshold (5.0 mg/L) thickness for volume-from-casts method less LO output (noting that this plot is a lot, but here for reference).</p><br>
 
 Figure 3 shows a closer view of April LO vs. volume-from-casts subthreshold thickness. We can see there are cells in shallow areas and/or areas near the land that are not captured by the volume-from-casts method. Note that some of these cells show depths in excess of 150m, so not all the cells are shallow.
 
