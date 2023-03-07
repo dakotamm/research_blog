@@ -88,4 +88,8 @@ Rough next steps for volume-from-casts method:
 5. Finish out quarter!!!
 
 ### Goals For This Week:
-1.
+1. Reach out to KC for Whidbey Basin monitoring data status.
+2. Start error-estimations for volume-from-casts method.
+3. Gordon Conference registration.
+4. Book AGU Ocean Visions.
+5. Finish out quarter.
