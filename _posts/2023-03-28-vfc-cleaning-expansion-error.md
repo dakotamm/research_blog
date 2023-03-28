@@ -1,4 +1,4 @@
-# Volume-From-Casts (VFC) Method Cleaning, Domain Expansion, and Error Estimates Preview
+# Volume-From-Casts (VFC) Method Cleaning, Domain Expansion, and Error Quantification Preview
 
 ### Goals From Last Meeting:
 1. Fix bug causing erroneous "zero-ing" at domain edges.
@@ -17,7 +17,7 @@
 
 ---
 
-## Volume-From-Casts Domain Expansion (& Some Code Cleaning)
+## Volume-From-Casts Progress
 
 Since our last meeting, I have focused on organizing my workflow and cleaning up my VFC code. This has included defining flexible methods, breaking out functions to be in line with the LO ecosystem style, and enabling more automated workflow that is machine-agnostic, which will eventually allow full domain flexibility in time and space. This has elucidated some bugs rooted in lack of generality throughout the domain, which I'm working through.
 
