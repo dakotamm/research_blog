@@ -17,6 +17,20 @@
 
 ---
 
+## Follow-Up From Last Meeting
+
+From last meeting, we discussed sources of error in the VFC/LO subthreshold thickness. It was identified that some gridcells near land were showing erroneous 0 mg/L dissolved oxygen values due to my LO output subthreshold calculations. Debugging to ensure land mask match between the LO and VFC methods has removed the 0 values, and thus we can see better agreement between VFC and LO subthreshold volumes and thicknesses. The following figures illustrate improved agreement.
+
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/228362440-f7ed4b4d-adeb-4017-8358-f2f1b7bc69c1.png" width="500"/><br>Fig 1. Subthreshold volume using 0.0 mg/L throughout 2022 (first of each month) for LO output and VFC method.</p><br>
+
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/228362090-398b52ae-eb47-4e57-9d01-2e0ef5787a56.png" width="500"/><br>Fig 2. Subthreshold volume using 5.0 mg/L throughout 2022 (first of each month) for LO output and VFC method.</p><br>
+
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/228362908-926dc303-5500-473a-b6fe-df387ff58d75.png" width="700"/><br>Fig 3. Subthreshold thickness using 0.0 mg/L for April 1, 2022 for LO output and VFC method.</p><br>
+
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/228363016-2f9c4963-495f-4c40-9383-c5e3e46c7a4b.png" width="700"/><br>Fig 4. Subthreshold thickness using 5.0 mg/L for April 1, 2022 for LO output and VFC method.</p><br>
+
+---
+
 ## Volume-From-Casts Progress
 
 Since our last meeting, I have focused on organizing my workflow and cleaning up my VFC code. This has included defining flexible methods, breaking out functions to be in line with the LO ecosystem style, and enabling more automated workflow that is machine-agnostic, which will eventually allow full domain flexibility in time and space. This has elucidated some bugs rooted in lack of generality throughout the domain, which I'm working through.
