@@ -1,4 +1,4 @@
-# Volume-From-Casts (VFC) Method Cleaning, Domain Expansion, & Error Estimates Preview
+# Volume-From-Casts (VFC) Method Cleaning, Domain Expansion, and Error Estimates Preview
 
 ### Goals From Last Meeting:
 1. Fix bug causing erroneous "zero-ing" at domain edges.
