@@ -23,11 +23,11 @@ Since our last meeting, I have focused on organizing my workflow and cleaning up
 
 As I've been working through the overhaul, I've been able to extend the domain to more segments in the Strait of Georgia. In this demonstration, they are: G1, G2, and G3. For reference, Figure 1 shows the Strait of Georgia segments.
 
-<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/228325464-b0bf802a-86a8-4de4-b734-02f9a7daab82.png" width="600"/><br>Fig 1. LO segments in Strait of Georgia and Strait of Juan de Fuca.</p><br>
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/228325464-b0bf802a-86a8-4de4-b734-02f9a7daab82.png" width="300"/><br>Fig 1. LO segments in Strait of Georgia and Strait of Juan de Fuca.</p><br>
 
 For this brief study, I've specified a subthreshold volume for oxygen as 4.0 mg/L, and have specified casts from DFO locations during June 2019. Like previous studies, I've taken casts from LO history files on the first of each month throughout 2022. In order to understand the relative performance of VFC in each segment, I've calculated the RMSE and plotted the LO subthreshold volume for the three segments considered herein.
 
-<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/228346349-6cad61a4-27c7-4ccd-9dfa-d7a85ee0dd61.png" width="600"/><br>Fig 2. DO subthreshold (4.0 mg/L) volume calculated using the volume-from-casts method and LO model output through 2022; LO output is compared to VFC output. RMSE is shown for each segment.</p><br>
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/228346349-6cad61a4-27c7-4ccd-9dfa-d7a85ee0dd61.png" width="900"/><br>Fig 2. DO subthreshold (4.0 mg/L) volume calculated using the volume-from-casts method and LO model output through 2022; LO output is compared to VFC output. RMSE is shown for each segment.</p><br>
 
 We see that there is a higher normalized RMSE for the G3 region; there are also more months with subthreshold values in G3 (meaning that both LO and VFC predict subthreshold values during more months than in the other regions). Also there is a larger volume in this segment. These may explain the increase in normalized RMSE, but further investigation is required.
 
