@@ -70,3 +70,9 @@ This plot looks very similar to Figure 3 despite vastly different threshold valu
 5. Start studying for quals.
 
 ### Goals For This Week:
+1. Fix bug causing erroneous "zero-ing" at domain edges.
+2. Expand volume-from-casts method domains.
+3. Continue error-estimations.
+4. Continue discussion with KC for Whidbey Basin monitoring data.
+5. Finish out quarter!!!
+6. Start studying for quals.
