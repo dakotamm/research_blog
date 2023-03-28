@@ -19,9 +19,9 @@
 
 ## Volume-From-Casts Domain Expansion (& Some Code Cleaning)
 
-Since our last meeting, I have focused on organizing my workflow and cleaning up my VFC code. This elucidated some bugs rooted in lack of generality throughout the domain, which I'm working through with intent to be able to specify domain flexibly in time and space.
+Since our last meeting, I have focused on organizing my workflow and cleaning up my VFC code. This has included defining flexible methods, breaking out functions to be in line with the LO ecosystem style, and enabling more automated workflow that is machine-agnostic, which will eventually allow full domain flexibility in time and space. This has elucidated some bugs rooted in lack of generality throughout the domain, which I'm working through.
 
-As I've been working through the overhaul, I've been able to extend the domain to more segments in the Strait of Georgia, namely: G1, G2, and G3. For reference, Figure 1 shows the Strait of Georgia segments.
+As I've been working through the overhaul, I've been able to extend the domain to more segments in the Strait of Georgia. In this demonstration, they are: G1, G2, and G3. For reference, Figure 1 shows the Strait of Georgia segments.
 
 <p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/228325464-b0bf802a-86a8-4de4-b734-02f9a7daab82.png" width="600"/><br>Fig 1. LO segments in Strait of Georgia and Strait of Juan de Fuca.</p><br>
 
