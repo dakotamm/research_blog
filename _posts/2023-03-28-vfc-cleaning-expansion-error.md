@@ -63,6 +63,11 @@ I intend to extend this error analysis to evaluate error; this will be conducted
 
 ### Looking Ahead:
 1. Quals studying...
+2. AGU Ocean Visions next week
 
 ### Goals For This Week:
-1.
+1. Confirm class schedule.
+2. Quals studying - approximately 3-3.5 days a week.
+3. Compare segment indices to land mask to check for mismatch (ref. bug discussed in "Follow-Up from Last Meeting" section.
+4. Debug indexing issue that occurs when casts fall on masked domain.
+5. Expand domain/cast location source.
