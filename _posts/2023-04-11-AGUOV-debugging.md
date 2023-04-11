@@ -1,4 +1,4 @@
-# AGU Ocean Visions Reflections, Debugging VFC, and More Error Quantification
+# AGU Ocean Visions Reflections and Debugging VFC
 
 ### Goals From Last Meeting:
 1. Confirm class schedule.
