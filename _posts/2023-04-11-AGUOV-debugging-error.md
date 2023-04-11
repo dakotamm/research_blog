@@ -59,13 +59,13 @@ From last meeting, my goal was to extend VFC into more segment domains and handl
 
 Figure 4 shows normalized RMSE (where normalization is the range of LO values) for subthreshold volumes calculated in the Strait of Georgia using the VFC method vs. LO calculations. I've specified a subthreshold volume for oxygen as 4.0 mg/L and casts from DFO locations during June 2019. Like previous studies, I've taken casts from LO history files on the first of each month throughout 2022.
 
-<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/231269507-7f9b8bd4-5994-4d9b-b0e7-f9f2d02a5605.png" width="900"/><br>Fig 4. DO subthreshold (4.0 mg/L) volume calculated using the volume-from-casts method and LO model output through 2022; LO output is compared to VFC output. RMSE is shown for each segment in the Strait of Georgia.</p><br>
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/231269507-7f9b8bd4-5994-4d9b-b0e7-f9f2d02a5605.png" width="800"/><br>Fig 4. DO subthreshold (4.0 mg/L) volume calculated using the volume-from-casts method and LO model output through 2022; LO output is compared to VFC output. RMSE is shown for each segment in the Strait of Georgia.</p><br>
 
 I have not yet looked at each individual section's cast partitioning - I believe this will help elucidate the differences in RMSE. Largely, however, VFC performs well in this region, as discussed in part last meeting.
 
 Since I was able to debug in the Strait of Georgia, I extended my analysis to the Strait of Juan de Fuca...see Figure 5 for the same analysis as Figure 4 but on Juan de Fuca segments.
 
-<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/231270151-da8e7e9e-7f60-4730-a0fe-5daf7727816e.png" width="600"/><br>Fig 5. DO subthreshold (4.0 mg/L) volume calculated using the volume-from-casts method and LO model output through 2022; LO output is compared to VFC output. RMSE is shown for each segment in the Strait of Juan de Fuca.</p><br>
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/231270151-da8e7e9e-7f60-4730-a0fe-5daf7727816e.png" width="400"/><br>Fig 5. DO subthreshold (4.0 mg/L) volume calculated using the volume-from-casts method and LO model output through 2022; LO output is compared to VFC output. RMSE is shown for each segment in the Strait of Juan de Fuca.</p><br>
 
 Clearly the method has more to debug... :(
 
