@@ -46,7 +46,6 @@ Overall, this was an excellent, eye-opening experience. I am left with many ques
 Given the conference and quals studying, my progress hasn't been momentous. However, given discussion last week, I implemented a comparison of LO segment indices to the landmask used to determine cast areas via the VFC method. This was elucidated as a potential problem since early implementations of calculating LO subthreshold cells showed 0 values on edges near masked cells. This process investigated whether or not these cells were seen as a result of a bug in my early processing code or because of an error in the LO segment indices. As a note: I wasn't able to replicate this early error (the case for better version control...)
 
 Figure 2 shows the difference between binary matrix "mask_rho" extracted from the LO grid (0 indicates land cell) and the i & j segment indices used in calculating LO subthreshold cells. There are no cells that do not agree - this is good!
-![Figure 2023-04-11 094324](https://user-images.githubusercontent.com/55995675/231267501-c803e2a7-3752-4608-a95c-e3741f2e73c3.png)
 
 <p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/231267501-c803e2a7-3752-4608-a95c-e3741f2e73c3.png" width="400"/><br>Fig 2. Difference of binary matrices of "mask_rho" and LO segments. 0 indicates agreement.</p><br>
 
