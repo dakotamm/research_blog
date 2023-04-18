@@ -31,7 +31,7 @@ Et voilà - the same analysis in the Strait of Juan de Fuca!
 
 Given I can conduct error analysis on all segments within the DFO region, I have plotted the error for each segment as compared to other segments. Shown in Figure 4 are the normalized RMSE and the locations of each cast used. This uses the same study method as described above.
 
-<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/232884693-162ea12c-4dad-4235-b574-a7a8c383133f.png" width="400"/><br>Fig 5. DO subthreshold (4.0 mg/L) volume calculated using the volume-from-casts method and LO model output through 2022; LO output is compared to VFC output. Normalized RMSE is shown for each segment in the DFO region; cast locations are also shown.</p><br>
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/232884693-162ea12c-4dad-4235-b574-a7a8c383133f.png" width="800"/><br>Fig 4. DO subthreshold (4.0 mg/L) volume calculated using the volume-from-casts method and LO model output through 2022; LO output is compared to VFC output. Normalized RMSE is shown for each segment in the DFO region; cast locations are also shown.</p><br>
 
 A few thoughts:
 - 'G5' segment is oddly shaped!
@@ -41,7 +41,7 @@ A few thoughts:
 
 I've also taken a foray into other datasets, specifically ecology CTD locations for the summer of 2019 (June through August). I conducted the same analysis to get normalized RMSE, applied to LO history files for the first of each month during 2022.
 
-<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/232887491-f90ada41-c441-4723-b387-7a5c780f1a7b.png" width="400"/><br>Fig 6. DO subthreshold (4.0 mg/L) volume calculated using the volume-from-casts method and LO model output through 2022; LO output is compared to VFC output. Normalized RMSE is shown for each segment in the Ecology Hood Canal region; cast locations are also shown.</p><br>
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/232887491-f90ada41-c441-4723-b387-7a5c780f1a7b.png" width="800"/><br>Fig 5. DO subthreshold (4.0 mg/L) volume calculated using the volume-from-casts method and LO model output through 2022; LO output is compared to VFC output. Normalized RMSE is shown for each segment in the Ecology Hood Canal region; cast locations are also shown.</p><br>
 
 We see there is similar predictive capabilities in Hood Canal and in the DFO region given the graphical comparison. However, it is clear that the sparse and overlapping cast data in Hood Canal provides less spatial coverage per unit segment area. In absolute spatial terms, however, the distribution of casts seems similar between the two domains. More analysis to follow...
 
