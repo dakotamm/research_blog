@@ -1,4 +1,4 @@
-# VFC Domain Expansion and Understanding Spatial Patterns in Errors
+# VFC Domain Expansion and Understanding Spatial Errors
 
 ### Goals From Last Meeting:
 1. Quals studying...
