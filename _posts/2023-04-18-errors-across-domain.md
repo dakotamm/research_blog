@@ -34,10 +34,9 @@ Given I can conduct error analysis on all segments within the DFO region, I have
 <p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/232884693-162ea12c-4dad-4235-b574-a7a8c383133f.png" width="800"/><br>Fig 4. DO subthreshold (4.0 mg/L) volume calculated using the volume-from-casts method and LO model output through 2022; LO output is compared to VFC output. Normalized RMSE is shown for each segment in the DFO region; cast locations are also shown.</p><br>
 
 A few thoughts:
-- 'G5' segment is oddly shaped!
-- Correlation with number of casts not clear?
-- Correlation with bathymetry?
-- Overlapping casts handling
+* Correlation with number of casts not clear?
+* Correlation with bathymetry?
+* Overlapping casts handling
 
 I've also taken a foray into other datasets, specifically ecology CTD locations for the summer of 2019 (June through August). I conducted the same analysis to get normalized RMSE, applied to LO history files for the first of each month during 2022.
 
@@ -67,8 +66,7 @@ Next steps are as follows:
 1. Common error estimation methods - need lit. review.
 2. Figure out comments section on blog!!!
 3. Gordon Conference poster timeline...
-4. Weird G5 segment.
-5. Code slowness.
+4. Code slowness.
 
 ### Looking Ahead:
 1. Quals next week!!!
