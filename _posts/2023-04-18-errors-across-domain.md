@@ -45,7 +45,7 @@ I've also taken a foray into other datasets, specifically ecology CTD locations 
 
 We see there is similar predictive capabilities in Hood Canal and in the DFO region given the graphical comparison. However, it is clear that the sparse and overlapping cast data in Hood Canal provides less spatial coverage per unit segment area. In absolute spatial terms, however, the distribution of casts seems similar between the two domains. More analysis to follow...
 
-As noted last meeting, I'm feeling limited by the slowness/clunkiness of some of my codes. This will require some thought, so as to be able to efficiently conduct large scale analyses.
+As noted last meeting, I'm feeling limited by the slowness/clunkiness of some of my scripts. This will require some thought, so as to be able to efficiently conduct large scale analyses.
 
 Next steps are as follows:
 1. Continue to build robust VFC toolbox - ESPECIALLY code efficiency.
