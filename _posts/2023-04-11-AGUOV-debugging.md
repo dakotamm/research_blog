@@ -93,7 +93,8 @@ Next steps are as follows:
 ### Looking Ahead:
 1. Quals studying...
 2. Debug/build out VFC code (expand to all domains, at least...sheesh!)
-3. 
 
 ### Goals For This Week:
-1. 
+1. 1. Quals studying...
+2. Debug/build out VFC code (expand to all domains, at least...sheesh!)
+3. Create more efficient scripts especially for cast extraction/working with larger domain.
