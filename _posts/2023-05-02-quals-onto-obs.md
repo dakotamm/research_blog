@@ -18,7 +18,7 @@ Last week, I took the CEE - Hydrology and Hydrodynamics PhD Qualifying Exam - an
 
 Like Kronk (Figure 1), part of my studying was to create a flow chart of "what-happens-when-I-do-this" to the Navier-Stokes equations, which was really valuable and probably deserves to be solidified (Figure 2).
 
-<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/235787872-b95eaa64-77ca-42f9-a9ef-327870f2d3b1.png" width="500"/><br>Fig 2. A scribbly Navier-Stokes concept map.</p><br>
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/235787872-b95eaa64-77ca-42f9-a9ef-327870f2d3b1.png" width="1000"/><br>Fig 2. A scribbly Navier-Stokes concept map.</p><br>
 
 A few general takeaways to come out of my exam:
 * I'm feeling confident about my technical writing; when I get to publications, this confidence will be very helpful!
