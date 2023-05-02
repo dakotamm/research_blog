@@ -55,7 +55,7 @@ Next steps are as follows:
 ---
 
 ## Bookkeeping 
-* WWU Lecture - scheduled for Friday, 5/4/2023
+* WWU Lecture - scheduled for Thursday, 5/4/2023
 * Quals: April 24-28, 2023 - oral defense Friday, 4/28/2023 at 10am
 * Gordon Conference: flying Monday, 6/19/2023 (LATE) - Friday, 6/23/2023
 * WOAC Cruise: July 10-14, 2023
@@ -73,4 +73,7 @@ Next steps are as follows:
 2. Cleaning/improving VFC codebase as time allows.
 
 ### Goals For This Week:
+1. Quals - will take most of the next two weeks.
+2. Cleaning/improving VFC codebase as time allows.
+3. After quals - slight direction shift to start working with real observational data vs. strict error quantification.
 
