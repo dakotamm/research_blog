@@ -14,7 +14,7 @@
 
 Last week, I took the CEE - Hydrology and Hydrodynamics PhD Qualifying Exam - and passed! It was a challenging, time-consuming, but rewarding experience. It was an opportunity to really drill down on concepts that I've previously learned throughout the coursework so far, from fundamentals to our new estuarine physics class last quarter. The questions served to push me beyond my comfort zone and allowed me to think outside the box. We ensured that I have a good grasp of using our friend the Navier-Stokes, talked about modeling uncertainty, and discussed big picture project goals. Overall, I'm happy I did it and glad it's behind me!
 
-<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/235755691-2b6167f4-5d0e-4567-aeb3-44611841ca6c.jpg" width="300"/><br>Fig 1. Unnecessary meme.</p><br>
+<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/235755691-2b6167f4-5d0e-4567-aeb3-44611841ca6c.jpg" width="500"/><br>Fig 1. Kronk (The Emperor's New Groove) scaling the Navier-Stokes equations.</p><br>
 
 A few general takeaways to come out of my exam:
 * I'm feeling confident about my technical writing; when I get to publications, this confidence will be very helpful!
