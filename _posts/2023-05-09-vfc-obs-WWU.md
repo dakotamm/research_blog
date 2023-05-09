@@ -42,17 +42,17 @@ Overall, it was awesome. Here's our opening slide for posterity (Figure 1).
 
 I'm making strides in coming up with a seamless analysis codebase for analyzing hypoxic volume over time using cast data. My test environment this week is using DFO (dfo1) CTD DO measurements taken during 2017. I am using segments in the Straight of Georgia and for the purposes of the test, I'm combining casts within a calendar month. Figures 1-4 shows G1 in January, April, July, and October 2017.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/1251c8b3-6dc7-46ad-8958-7d994615e05a" width="500"/><br>Fig 1. January 2017 VFC subthreshold thickness for G1, 5 mg/L DO.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/1251c8b3-6dc7-46ad-8958-7d994615e05a" width="700"/><br>Fig 1. January 2017 VFC subthreshold thickness for G1, 5 mg/L DO.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/1c51a07c-60a4-486b-afec-c8f481ded6d2" width="500"/><br>Fig 1. April 2017 VFC subthreshold thickness for G1, 5 mg/L DO.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/1c51a07c-60a4-486b-afec-c8f481ded6d2" width="700"/><br>Fig 1. April 2017 VFC subthreshold thickness for G1, 5 mg/L DO.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/0326b407-c31e-4583-9a95-03a9f5a07622" width="500"/><br>Fig 1. July 2017 VFC subthreshold thickness for G1, 5 mg/L DO.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/0326b407-c31e-4583-9a95-03a9f5a07622" width="700"/><br>Fig 1. July 2017 VFC subthreshold thickness for G1, 5 mg/L DO.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/e79eb801-e37c-440e-8e94-3cff2c3cb1b8" width="500"/><br>Fig 1. October 2017 VFC subthreshold thickness for G1, 5 mg/L DO.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/e79eb801-e37c-440e-8e94-3cff2c3cb1b8" width="700"/><br>Fig 1. October 2017 VFC subthreshold thickness for G1, 5 mg/L DO.</p><br>
 
 Figure 5 shows a time series of all segments through 2017's subthreshold volume. This is a first step in some more exciting things.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/292b87c8-0ef7-481f-afe7-113b6c84d5ed" width="500"/><br>Fig 1. October 2017 VFC subthreshold thickness for G1, 5 mg/L DO.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/292b87c8-0ef7-481f-afe7-113b6c84d5ed" width="700"/><br>Fig 1. October 2017 VFC subthreshold thickness for G1, 5 mg/L DO.</p><br>
 
 Figure 5 shows a time series of all segments through 2017's subthreshold volume. This is a first step in some more exciting things.
 
