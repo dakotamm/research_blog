@@ -38,30 +38,42 @@ Overall, it was awesome. Here's our opening slide for posterity (Figure 1).
 
 ---
 
-## VFC Progress and Plan
+## VFC Using Observational Data
 
-Given the time spent on preparation and taking quals, I have not made huge progress on research. From our last meeting, we set my directive toward starting to plunge into observational data, instead of spending more time trying to minutely quantify VFC errors using solely LO casts. I want to note for posterity that there are a few kinds of error that I'm discussing:
+I'm making strides in coming up with a seamless analysis codebase for analyzing hypoxic volume over time using cast data. My test environment this week is using DFO (dfo1) CTD DO measurements taken during 2017. I am using segments in the Straight of Georgia and for the purposes of the test, I'm combining casts within a calendar month. Figures 1-4 shows G1 in January, April, July, and October 2017.
 
-1. **Sampling Error** - given a fraction of sampled points in the domain, how closely can we approximate the domain?
-  * This is what I've been doing with using the VFC method within the LO domain. Since we can only have full domain knowledge about a model, this is the only way to approach this question.
-  * Eventually, however, the domain is "real-life," and estimates made using the LO domain will inform the confidence we have in our VFC methods using real observational data.
-  * This could be captured taking "n" points out of the domain in LO and varying "n" until the VFC method and LO output converge. However, this simple implementation doesn't represent the spatial biases represented in real-life sampling (i.e., general undersampling of shallow areas).
-2. **Modeling Error** - given observational data CTD/bottle casts and model CTD/bottle casts/full domain output, how closely does the model reproduce real-life?
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/1251c8b3-6dc7-46ad-8958-7d994615e05a" width="500"/><br>Fig 1. January 2017 VFC subthreshold thickness for G1, 5 mg/L DO.</p><br>
 
-Both are important, but neither have meaning unless I actually start working with observational data. So onwards! The next order of business is what we've termed the "money-plot;" a time-series of hypoxic volume in the Salish Sea over as long as we have record, and compared to the LO output at available times.
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/1c51a07c-60a4-486b-afec-c8f481ded6d2" width="500"/><br>Fig 1. April 2017 VFC subthreshold thickness for G1, 5 mg/L DO.</p><br>
 
-Since quals finished Friday, I've been reconnecting to research and figuring out how to use observational data for the VFC method. Stay tuned throughout the week for more.
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/0326b407-c31e-4583-9a95-03a9f5a07622" width="500"/><br>Fig 1. July 2017 VFC subthreshold thickness for G1, 5 mg/L DO.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/e79eb801-e37c-440e-8e94-3cff2c3cb1b8" width="500"/><br>Fig 1. October 2017 VFC subthreshold thickness for G1, 5 mg/L DO.</p><br>
+
+Figure 5 shows a time series of all segments through 2017's subthreshold volume. This is a first step in some more exciting things.
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/292b87c8-0ef7-481f-afe7-113b6c84d5ed" width="500"/><br>Fig 1. October 2017 VFC subthreshold thickness for G1, 5 mg/L DO.</p><br>
+
+Figure 5 shows a time series of all segments through 2017's subthreshold volume. This is a first step in some more exciting things.
+
+(PS I have more images but ran out of time to add them/make them look nice).
+
+I note that the data gaps are areas where no casts were taken, and "0" indicates no subthreshold volume calculated. We observe the expected seasonal trends! This is a good first step. In general, we see that G1 has a big spike compared to other regions, but there is some serious data patchiness. All told - onward to more detailed analysis!
+
+Some issues:
+1. G4 indexing issues (not yet diagnosed).
+2. G1/G2 indexing overlap? Might be a plotting window remnant.
+3. Duplicate indices within time window (two casts taken too close together too soon).
+4. How do you make cool videos??? Spent way too much time on that...
 
 Next steps are as follows:
-1. Start using observational data in VFC method (likely using DFO in specific domains again).
-2. Continue to build robust VFC toolbox - ESPECIALLY code efficiency.
-3. Continue thought on error evaluation, but on the backburner for now.
-4. Working towards Gordon Conference poster plots/figures.
+1. Continue to build robust VFC toolbox - ESPECIALLY code efficiency.
+2. Continue thought on error evaluation, but on the backburner for now.
+3. Working towards Gordon Conference poster plots/figures.
 
 ---
 
 ## Bookkeeping 
-* WWU Lecture - scheduled for Thursday, 5/4/2023
 * KC Spring Update - scheduled Friday, 5/26/2023
 * Gordon Conference: flying Monday, 6/19/2023 (LATE) - Friday, 6/23/2023
 * WOAC Cruise: July 10-14, 2023
@@ -76,10 +88,9 @@ Next steps are as follows:
 5. Should we prepare for CERF?
 
 ### Looking Ahead:
-1. Plugging back into research, start using observational data in VFC method!
-2. Meet with Parker if available this week for code efficiency review.
+1. More VFC with observations.
+2. Parker meeting for code efficiency.
+3. GRC poster + KC presentation planning.
 
 ### Goals For This Week:
-1. Put together lecture for WWU - 5/4/2023.
-2. Consider "pitch" to WWU faculty regarding Penn Cove fieldwork; mooring ~ 1 month, shipboard sampling (understand processes controlling stratification, residence time, etc.).
-3. Build out codebase for VFC using observational data.
+
