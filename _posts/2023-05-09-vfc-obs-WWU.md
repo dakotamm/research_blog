@@ -5,6 +5,7 @@
 2. Consider "pitch" to WWU faculty regarding Penn Cove fieldwork; mooring ~ 1 month, shipboard sampling (understand processes controlling stratification, residence time, etc.).
 3. Build out codebase for VFC using observational data.
 4. Meet with Parker for code efficiency review - moved to this week.
+5. Start thinking about GRC poster content.
 
 ### Completed Goals:
 1. Put together lecture for WWU - 5/4/2023.
@@ -29,6 +30,9 @@ Some key takeaways:
 * Sam was intrigued in the idea of Penn Cove fieldwork. In general, I think I need to do more thought about what's possible and how much undergrad involvement would be helpful...
 
 Overall, it was awesome. Here's our opening slide for posterity (Figure 1).
+
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/a1e20fdd-10a5-494d-8fb8-7388241f18f9" width="500"/><br>Fig 1. WWU lecture title slide!</p><br>
 
 
 
