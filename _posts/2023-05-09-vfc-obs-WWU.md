@@ -4,6 +4,7 @@
 1. Put together lecture for WWU - 5/4/2023.
 2. Consider "pitch" to WWU faculty regarding Penn Cove fieldwork; mooring ~ 1 month, shipboard sampling (understand processes controlling stratification, residence time, etc.).
 3. Build out codebase for VFC using observational data.
+4. Meet with Parker for code efficiency review - moved to this week.
 
 ### Completed Goals:
 1. Put together lecture for WWU - 5/4/2023.
@@ -12,27 +13,24 @@
 
 ---
 
-## Quals Reflection
+## WWU Lecture Reflection
 
-Last week, I took the CEE - Hydrology and Hydrodynamics PhD Qualifying Exam - and passed! It was a challenging, time-consuming, but rewarding experience. It was an opportunity to really drill down on concepts that I've previously learned throughout the coursework so far, from fundamentals to our new estuarine physics class last quarter. The questions served to push me beyond my comfort zone and allowed me to think outside the box. We ensured that I have a good grasp of using our friend the Navier-Stokes, talked about modeling uncertainty, and discussed big picture project goals. Overall, I'm happy I did it and glad it's behind me!
+Last Thursday, 5/4/2023, Aurora and I gave a lecture to students in Sam Kastner's undergraduate class at Western Washington University in Bellingham. The students were extremely engaged and asked a lot of interesting questions! How fun!
 
-<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/235755691-2b6167f4-5d0e-4567-aeb3-44611841ca6c.jpg" width="500"/><br>Fig 1. Kronk (The Emperor's New Groove) scaling the Navier-Stokes equations.</p><br>
+We met with (4) faculty members after the lecture in a bit of a whirlwind. We met with Drs. Karin Lemkau, Dave Shull, Casey Saenger, and Dave Hooper. While they all had areas of specialty outside of our more comfortable physics world, it was easy and extremely eye-opening to chat with them. While I didn't have an opportunity to formally pitch for funding for a Penn Cove field campaign, I was able to start the conversation with both Sam and Casey Saenger. 
 
-Like Kronk (Figure 1), part of my studying was to create a flow chart of "what-happens-when-I-do-this" to the Navier-Stokes equations, which was really valuable and probably deserves to be solidified (Figure 2).
+Some key takeaways:
+* Students are engaged early and often for field data collection in Bellingham Bay, though certain faculty (Sam, Casey) are interested in getting them into more focused research work (like ours).
+* A student asked if using proxy fished species could help understand the historic DO trends - an intriguing idea I don't know the answer to.
+* Dr. Lemkau's work is very focused on pollutants (in lieu of anthropogenic nutrients). We broadly discussed modeling applications for oil-dispersal in Puget Sound.
+* Dr. Shull's work on quantifying denitrification rates, nutrient burial, and DO flux in Hood Canal (Santana and Schull 2023) seems very important to our work. Admittedly, a lot of his work is currently over my head, but he provided us with some canonical literature to bolster our understanding (e.g., Sutton et al. 2013).
+* Dr. Saenger is deals more in paleoclimate, and generally agreed that paleo-approaches to quantifying a "pre-anthropogenic" DO level was a bit unrealistic (but cool!). He also mentioned using N-isotopes to identify actual sources of nutrient inputs? All exciting but over my head. He asked us explicitly if we needed undergrads and general support for filling data gaps, so I told him about Penn Cove and that we'd be in touch if it makes sense.
+* Dr. Hooper's work is largely to do with terrestrial ecology but is setting out to quantify the effects of riparian restoration (generally from a salmon-protection view) on non-point source nutrient influx, especially in largely agricultural areas. We talked general knowledge of Puget Sound/Bellingham Bay watersheds - which was all very informative!
+* Sam was intrigued in the idea of Penn Cove fieldwork. In general, I think I need to do more thought about what's possible and how much undergrad involvement would be helpful...
 
-<p style="text-align:center;"><img src="https://user-images.githubusercontent.com/55995675/235787872-b95eaa64-77ca-42f9-a9ef-327870f2d3b1.png" width="1000"/><br>Fig 2. A scribbly Navier-Stokes concept map.</p><br>
+Overall, it was awesome. Here's our opening slide for posterity (Figure 1).
 
-A few general takeaways to come out of my exam:
-* I'm feeling confident about my technical writing; when I get to publications, this confidence will be very helpful!
-* I'm gaining confidence at discussing tricky concepts "on the chalkboard," which is helpful for teaching and general public speaking confidence.
-* I've accumulated very useful literature and am gaining familiarity with the major players in this field (mainly Parker!).
-* We discussed the potential of creating a field work proposal for Penn Cove, given the lack of physical and biogeochemical observational data in this area.
 
-Some specific points of critique:
-* I have been frequently using language indicative of a **proven** downward trend in DO concentration in Puget Sound in recent decades and that hypoxia is a common issue in shallow embayments like Penn Cove. I agree that this requires a lot more information before I make suchs claims. Parker's words of wisdom toward skepticism in all things in academia (and life?): "Is it true? How do you know?" As I continue to discuss and write about these concepts, I will certainly revise language to be reflective of what I myself understand enough to claim. Generally: **be wary the hype!**
-* My knowledge of biogeochemical processes affecting dissolved oxygen is fairly surface-level. I intend to take (or audit) Mike's Applied Limnology (CEE 462) class in the fall to bolster that knowledge.
-
-Overall, a relief to have that checkpoint done, and in a way that I feel pretty proud of!
 
 ---
 
@@ -70,6 +68,8 @@ Next steps are as follows:
 1. Common error estimation methods - need lit. review.
 2. Figure out comments section on blog!!!
 3. Organize literature - Endnote?
+4. Figure out what to do about CEE 462.
+5. Should we prepare for CERF?
 
 ### Looking Ahead:
 1. Plugging back into research, start using observational data in VFC method!
