@@ -77,3 +77,4 @@ Next steps are as follows:
 1. Put together lecture for WWU - 5/4/2023.
 2. Consider "pitch" to WWU faculty regarding Penn Cove fieldwork; mooring ~ 1 month, shipboard sampling (understand processes controlling stratification, residence time, etc.).
 3. Build out codebase for VFC using observational data.
+4. Meet with Parker if available for code efficiency review - pushed to next week.
