@@ -78,3 +78,4 @@ Next steps are as follows:
 2. Consider "pitch" to WWU faculty regarding Penn Cove fieldwork; mooring ~ 1 month, shipboard sampling (understand processes controlling stratification, residence time, etc.).
 3. Build out codebase for VFC using observational data.
 4. Meet with Parker if available for code efficiency review - pushed to next week.
+5. Start thinking about GRC poster content.
