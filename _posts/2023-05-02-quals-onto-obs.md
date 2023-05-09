@@ -74,4 +74,6 @@ Next steps are as follows:
 2. Meet with Parker if available this week for code efficiency review.
 
 ### Goals For This Week:
-1. 
+1. Put together lecture for WWU - 5/4/2023.
+2. Consider "pitch" to WWU faculty regarding Penn Cove fieldwork; mooring ~ 1 month, shipboard sampling (understand processes controlling stratification, residence time, etc.).
+3. Build out codebase for VFC using observational data.
