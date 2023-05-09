@@ -1,12 +1,14 @@
-# Quals Recovery and Moving Forward
+# VFC Using Observational Data and WWU Debrief
 
 ### Goals From Last Meeting:
-1. Quals!
-2. Cleaning/improving VFC codebase as time allows - work with Parker on improving code efficiency.
-3. After quals - slight direction shift to start working with real observational data vs. strict error quantification.
+1. Put together lecture for WWU - 5/4/2023.
+2. Consider "pitch" to WWU faculty regarding Penn Cove fieldwork; mooring ~ 1 month, shipboard sampling (understand processes controlling stratification, residence time, etc.).
+3. Build out codebase for VFC using observational data.
 
 ### Completed Goals:
-1. Quals!
+1. Put together lecture for WWU - 5/4/2023.
+2. Consider "pitch" to WWU faculty regarding Penn Cove fieldwork; mooring ~ 1 month, shipboard sampling (understand processes controlling stratification, residence time, etc.).
+3. Build out codebase for VFC using observational data.
 
 ---
 
