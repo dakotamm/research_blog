@@ -52,8 +52,9 @@ Next steps are (still) as follows:
 
 ### Issues/Questions:
 1. Common error estimation methods - need lit. review.
-3. Organize literature - Endnote?
-4. Figure out what to do about CEE 462.
+2. Organize literature - Endnote?
+3. Figure out what to do about CEE 462.
+4. Work out ffmpeg timing kinks.
 
 ### Looking Ahead:
 1. More VFC with observations.
