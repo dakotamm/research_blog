@@ -93,4 +93,6 @@ Next steps are as follows:
 3. GRC poster + KC presentation planning.
 
 ### Goals For This Week:
-
+1. More VFC with observations (plot updates including casts, cast regions, video).
+2. Parker meeting for code efficiency.
+3. GRC poster + KC presentation planning.
