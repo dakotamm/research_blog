@@ -28,11 +28,11 @@ Overall, there are a few issues I'm still working through:
 For now, I'll show some progress I've made in debugging. G2 now shows only segment values. I've ensured the method only uses i and j pairs within the appropriate segments, and that the surface-to-casts methods are re-assigning correctly for each time period. The following movie shows subthreshold thicknesses for DO < 5.0 mg/L calculated for month time-frames of CTD data from DFO during 2017 for segment G2.
 
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/f117c2d7-42fb-466d-a1f6-d92500b7c170" width="800"/><br>Fig 1. 2017 VFC subthreshold thickness for G2, 5 mg/L DO.</p><br>
+<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/f117c2d7-42fb-466d-a1f6-d92500b7c170" controls="controls" width="800"/><br>Fig 1. 2017 VFC subthreshold thickness for G2, 5 mg/L DO.</p><br>
 
 I've recalculated the time series of subthreshold volumes in the folliwing figure:
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/f1318037-cea0-48f8-bc0c-2133caa6009d" width="700"/><br>Fig 2. Subthreshold volumes for segments in the Strait of Geogia given DFO CTD data from 2017.
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/f1318037-cea0-48f8-bc0c-2133caa6009d" width="700"/><br>Fig 2. Subthreshold volumes for segments in the Strait of Geogia given DFO CTD data from 2017.</p><br>
   
 As a note, I've expanded this process to using ecology data with success! I'll provide figures and videos asap.
 
