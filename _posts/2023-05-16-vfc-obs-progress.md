@@ -61,4 +61,5 @@ Next steps are (still) as follows:
 2. KC materials draft by end of week.
 
 ### Goals For This Week:
-
+1. KC materials.
+2. More VFC with observations.
