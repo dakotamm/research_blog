@@ -65,19 +65,19 @@ For each of the basins with data, the following figures show an animation of the
 
 Given these subthreshold thicknesses, we can further the analysis by creating time series for each month for each data analysis type in each region. We can also conduct error analysis for both sampling error (the deviation of the VFC conducted with LO casts from the LO history file) and the modeling error (the deviation of the LO history file from observational data VFC). I used normalized RMSE over the whole year to proxy both of these measurements, normalizing by the range of values in the "observed" dataset.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/98c6ade8-16a2-46f7-a6f1-66987afa17f5" width="700"/><br>Fig 9. Strait of Georgia time series and error estimates.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/98c6ade8-16a2-46f7-a6f1-66987afa17f5" width="800"/><br>Fig 9. Strait of Georgia time series and error estimates.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/2dc3468e-d8d9-4afc-bec0-f8e6516dbaa9" width="700"/><br>Fig 10. Strait of Juan de Fuca time series and error estimates.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/2dc3468e-d8d9-4afc-bec0-f8e6516dbaa9" width="800"/><br>Fig 10. Strait of Juan de Fuca time series and error estimates.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/1ca14ec1-8e46-4883-9e81-14ddce9bde8a" width="700"/><br>Fig 11. Admiralty Inlet time series and error estimates.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/1ca14ec1-8e46-4883-9e81-14ddce9bde8a" width="800"/><br>Fig 11. Admiralty Inlet time series and error estimates.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/23253659-8ddd-4b2a-ba46-cb63f172144e" width="700"/><br>Fig 12. Whidbey Basin time series and error estimates.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/23253659-8ddd-4b2a-ba46-cb63f172144e" width="800"/><br>Fig 12. Whidbey Basin time series and error estimates.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/03e2e038-dbf6-433e-b339-f880ba94a6a3" width="700"/><br>Fig 13. Main Basin time series and error estimates.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/03e2e038-dbf6-433e-b339-f880ba94a6a3" width="800"/><br>Fig 13. Main Basin time series and error estimates.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/6f092389-3e34-4010-8284-9a54b548416b" width="700"/><br>Fig 14. South Sound time series and error estimates.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/6f092389-3e34-4010-8284-9a54b548416b" width="800"/><br>Fig 14. South Sound time series and error estimates.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/b10179f9-c732-4f8f-9e13-308563be9dff" width="700"/><br>Fig 15. Hood Canal time series and error estimates.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/b10179f9-c732-4f8f-9e13-308563be9dff" width="800"/><br>Fig 15. Hood Canal time series and error estimates.</p><br>
 
 We can summarize the spatial variation in normalized RMSEs (as proxy for sampling, left, and modeling error, right) in the following plot.
 
@@ -85,11 +85,11 @@ We can summarize the spatial variation in normalized RMSEs (as proxy for samplin
 
 We can understand more deeply and look at the spatiotemporal variation of monthly "error" by plotting the percent difference of the observed and predicted values (LO history vs. VFC using LO casts for sampling error, left, and VFC using observational data and LO history files for modeling error, right), shown in the following figure.
 
-<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/4a1d282d-56bd-4006-83ee-1502bf9397e1" controls="controls" style="max-width: 800px;"></video><br>Fig 17. Percent error to proxy sampling error (left) and modeling error (right) for subthreshold volumes throughout 2017.</p><br>
+<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/4a1d282d-56bd-4006-83ee-1502bf9397e1" controls="controls" style="max-width: 700px;"></video><br>Fig 17. Percent error to proxy sampling error (left) and modeling error (right) for subthreshold volumes throughout 2017.</p><br>
 
 Finally, to understand the trends in observed subthreshold volumes over the year, this preliminary analysis yields the following time history of subthreshold volumes normalized by each basin's total volume. This doesn't have error bars and is merely representative of the beginning of larger analyses.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/f7538108-7281-4efb-89f7-6896d62003d5" width="700"/><br>Fig 18. Normalized subthreshold volumes per basin throughout 2017; color indicates relative basin total volumes.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/f7538108-7281-4efb-89f7-6896d62003d5" width="800"/><br>Fig 18. Normalized subthreshold volumes per basin throughout 2017; color indicates relative basin total volumes.</p><br>
 
 This is the first step among many steps, but at least is a fun and exciting first look at some observational data. Here are some next steps (some from the KC meeting, but generally):
 * Get set up to run on Apogee - in lieu of using just one history file to represent a month for personal computer space efficiency, start working with the full suite of model data and perform analyses more quickly.
