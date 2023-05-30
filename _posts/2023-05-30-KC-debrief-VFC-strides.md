@@ -81,15 +81,15 @@ Given these subthreshold thicknesses, we can further the analysis by creating ti
 
 We can summarize the spatial variation in normalized RMSEs (as proxy for sampling, left, and modeling error, right) in the following plot.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/6dad8e55-e9d0-4796-bd75-b1e2f2305ca6" width="700"/><br>Fig 16. Normalized RMSE proxies for sampling error and modeling error for all of 2017 (determined using monthly subthreshold volumes).</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/6dad8e55-e9d0-4796-bd75-b1e2f2305ca6" width="800"/><br>Fig 16. Normalized RMSE proxies for sampling error and modeling error for all of 2017 (determined using monthly subthreshold volumes).</p><br>
 
 We can understand more deeply and look at the spatiotemporal variation of monthly "error" by plotting the percent difference of the observed and predicted values (LO history vs. VFC using LO casts for sampling error, left, and VFC using observational data and LO history files for modeling error, right), shown in the following figure.
 
-<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/4a1d282d-56bd-4006-83ee-1502bf9397e1" controls="controls" style="max-width: 700px;"></video><br>Fig 17. Percent error to proxy sampling error (left) and modeling error (right) for subthreshold volumes throughout 2017.</p><br>
+<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/4a1d282d-56bd-4006-83ee-1502bf9397e1" controls="controls" style="max-width: 800px;"></video><br>Fig 17. Percent error to proxy sampling error (left) and modeling error (right) for subthreshold volumes throughout 2017.</p><br>
 
 Finally, to understand the trends in observed subthreshold volumes over the year, this preliminary analysis yields the following time history of subthreshold volumes normalized by each basin's total volume. This doesn't have error bars and is merely representative of the beginning of larger analyses.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/f7538108-7281-4efb-89f7-6896d62003d5" width="800"/><br>Fig 18. Normalized subthreshold volumes per basin throughout 2017; color indicates relative basin total volumes.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/f7538108-7281-4efb-89f7-6896d62003d5" width="700"/><br>Fig 18. Normalized subthreshold volumes per basin throughout 2017; color indicates relative basin total volumes.</p><br>
 
 This is the first step among many steps, but at least is a fun and exciting first look at some observational data. Here are some next steps (some from the KC meeting, but generally):
 * Get set up to run on Apogee - in lieu of using just one history file to represent a month for personal computer space efficiency, start working with the full suite of model data and perform analyses more quickly.
