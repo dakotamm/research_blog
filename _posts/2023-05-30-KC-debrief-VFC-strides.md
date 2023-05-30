@@ -49,19 +49,19 @@ I can subdivide the domain into any division based on the i/j indices for LO seg
 
 For each of the basins with data, the following figures show an animation of the subthreshold thickness LO history (top, blue), VFC with LO casts (middle, purple), and VFC with observational data (bottom, green). Note that for LO casts, the same locations as observational data is used.
 
-<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/ce9b8d57-facd-407d-9389-69448eaf4110" controls="controls" style="max-width: 800px;"></video><br>Fig 2. Subthreshold thicknesses for Strait of Georgia.</p><br>
+<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/ce9b8d57-facd-407d-9389-69448eaf4110" controls="controls" style="max-width: 400px;"></video><br>Fig 2. Subthreshold thicknesses for Strait of Georgia.</p><br>
 
-<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/04254614-9aff-4e85-abc2-df73eb1d5a03" controls="controls" style="max-width: 800px;"></video><br>Fig 3. Subthreshold thicknesses for Strait of Juan de Fuca.</p><br>
+<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/04254614-9aff-4e85-abc2-df73eb1d5a03" controls="controls" style="max-width: 400px;"></video><br>Fig 3. Subthreshold thicknesses for Strait of Juan de Fuca.</p><br>
 
-<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/d2165b10-c559-4673-9a8b-9e4c3edaf75a" controls="controls" style="max-width: 800px;"></video><br>Fig 4. Subthreshold thicknesses for Admiralty Inlet.</p><br>
+<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/d2165b10-c559-4673-9a8b-9e4c3edaf75a" controls="controls" style="max-width: 400px;"></video><br>Fig 4. Subthreshold thicknesses for Admiralty Inlet.</p><br>
 
-<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/dab2968c-f6ce-4f1e-bdd7-ff6ae6a383c0" controls="controls" style="max-width: 800px;"></video><br>Fig 5. Subthreshold thicknesses for Whidbey Basin.</p><br>
+<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/dab2968c-f6ce-4f1e-bdd7-ff6ae6a383c0" controls="controls" style="max-width: 400px;"></video><br>Fig 5. Subthreshold thicknesses for Whidbey Basin.</p><br>
 
-<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/09157868-23f0-483e-828c-ce43c234b706" controls="controls" style="max-width: 800px;"></video><br>Fig 6. Subthreshold thicknesses for Main Basin.</p><br>
+<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/09157868-23f0-483e-828c-ce43c234b706" controls="controls" style="max-width: 400px;"></video><br>Fig 6. Subthreshold thicknesses for Main Basin.</p><br>
 
-<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/100af1b8-d7cd-4b59-9957-8b02915f155b" controls="controls" style="max-width: 800px;"></video><br>Fig 7. Subthreshold thicknesses for South Sound.</p><br>
+<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/100af1b8-d7cd-4b59-9957-8b02915f155b" controls="controls" style="max-width: 400px;"></video><br>Fig 7. Subthreshold thicknesses for South Sound.</p><br>
 
-<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/271c404d-c3bb-45d4-a521-e864a6bb4cba" controls="controls" style="max-width: 800px;"></video><br>Fig 8. Subthreshold thicknesses for Hood Canal.</p><br>
+<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/271c404d-c3bb-45d4-a521-e864a6bb4cba" controls="controls" style="max-width: 400px;"></video><br>Fig 8. Subthreshold thicknesses for Hood Canal.</p><br>
 
 Given these subthreshold thicknesses, we can further the analysis by creating time series for each month for each data analysis type in each region. We can also conduct error analysis for both sampling error (the deviation of the VFC conducted with LO casts from the LO history file) and the modeling error (the deviation of the LO history file from observational data VFC). I used normalized RMSE over the whole year to proxy both of these measurements, normalizing by the range of values in the "observed" dataset.
 
