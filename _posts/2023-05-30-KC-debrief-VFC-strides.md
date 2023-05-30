@@ -1,13 +1,27 @@
-# VFC Using Observations Progress
+# KC Debrief and VFC Big Stdies
 
 ### Goals From Last Meeting:
-1. More VFC with observations (plot updates including casts, cast regions, video).
-2. Parker meeting for code efficiency.
-3. GRC poster + KC presentation planning.
+1. KC materials.
+2. More VFC with observations.
 
 ### Completed Goals:
-1. More VFC with observations (plot updates including casts, cast regions, video).
-2. Parker meeting for code efficiency.
+1. KC materials - presented on Friday, 5/26/2023.
+2. More VFC with observations.
+
+---
+
+## KC Meeting Debrief
+
+Last Friday we had our quartertly update with King County. I felt that I presented a good chunk of progress since our last meeting with them. There were a lot of thought-provoking questions and suggestions, which were great. In general, I'll note a few takeaways:
+* KC Whidbey Basin Monitoring, Port Susan mooring(?), and Coupeville mooring data are available for use - Taylor Martin will distribute the link for us.
+* Susan Allen recommended I incorporate field observations from the Strait of Georgia Date Centre (https://sogdatacentre.ca/atlas/citscidata/).
+* Mike Brett emailed me after my presentation regarding my misuse of the terms "bias" and "error" in my discussion of method viability, recommending I review Stow et al. (2003) to refresh my discussion. I appreciate this critique and I agree - I really need to brush up on not only my statistical knowledge, but what is appropriate in my discussions.
+* Discussion in the chat advocated for use of the term model "evaluation" vs. "validation" - this comes up a lot and I will practice honing my terminology.
+* Two further refinements for the VFC method seem important (and will be something I'll effort in future revisions):
+  * Checking that observational casts go full depth.
+  * Handling DO concentration "inversions".
+
+Any other comments, critiques, takeaways, etc. for my work? I appreciate it!
 
 ---
 
