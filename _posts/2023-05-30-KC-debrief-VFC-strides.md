@@ -144,8 +144,10 @@ I would love to discuss this in more depth, but will effort a draft and evaluate
 ### Looking Ahead:
 1. GRC poster draft - target by end of next week.
 2. CEE PhD Performance Review - draft by end of next week.
-3. Get set up on Apogee.
-4. Continue analysis and refinement of VFC method.
+3. Continue analysis and refinement of VFC method.
 
 ### Goals For This Week:
-
+1. Incorporate DO inversion handling + shallow casts usage.
+2. Run hypoxic and interannual conditions.
+3. GRC poster draft - target by end of next week.
+4. CEE PhD Performance Review - draft by end of next week.
