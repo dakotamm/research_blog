@@ -86,3 +86,5 @@ My draft is lagging but will be ready to be printed as soon as I start to piece 
 2. CEE PhD Performance Review - finish ASAP.
 
 ### Goals For This Week:
+1. GRC poster draft.
+2. CEE PhD performance review draft.
