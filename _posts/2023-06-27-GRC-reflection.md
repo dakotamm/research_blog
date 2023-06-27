@@ -30,37 +30,38 @@ I have so many more questions and thoughts from the conference, but a few that s
 
 
 
-data from 2008-2017 (mainly obs, with some LO history and LO casts). More on this in the poster review.
+For posterity - here's a picture of the MacCready Lab Lunch group...
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/6917a7ee-0837-41d6-aa59-974a1d374904" width="800"/><br>Fig 1. Salish Sea 2008-2017 hypoxic volume.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/2ff357da-4d56-4335-9501-8c7c73f933ec" width="400"/><br>Fig 1. Eager GRC students.</p><br>
 
-*Given the huge coding effort this week, I have not yet had time to fully vet all of these results.*
+---
 
-I'll leave my updated to-do list here.
+## Summer Planning
 
-This is the first step among many steps, but at least is a fun and exciting first look at some observational data. Here are some next steps (some from the KC meeting, but generally):
-* ~~Get set up to run on perigee - in lieu of using just one history file to represent a month for personal computer space efficiency, start working with the full suite of model data and perform analyses more quickly.~~
-* ~~Incorporate variable inversions + cast depth checking.~~
-* ~~Start looking at interannual variability.~~
+For this summer, I'd like to pick up where I left off before the GRC and start looking at correlations for the trends that I'm seeing. There is a whole lot of other work to do, but I'd like to get a rought idea of other state-variables and forcing that may correlate with the trends I'm started to observe.
+
+Some VFC To-Dos:
 * Investigate differences in time-binning.
-* Investigate Whidbey Basin vs. Strait of Geogia (e.g.) differences in error (Whidbey Basin tends to have less throughout the year).
-* Apply uncertainties to measurements of subthreshold volumes estimated with VFC.
 * Refine statistical understanding and presentation of errors and biases - what's the best way to do this?
-* ~~Conduct analysis of hypoxic volume (<2.0 mg/L).~~
 * Conduct analyses of different domains, time periods, and state variables of interest.
 * Continue refinenement of codebase and work towards making it more time efficient.
 * Clean and incorporate more data (especially KC Whidbey Basin data).
-* ~~Define GRC poster scope.~~
 * Synthesize trends -> paper draft toward end of 2023???
 * Work with Ben/Aurora on what I can build to be helpful!
+
+Summer Items:
+* Refine and improve VFC method.
+* Literature review and improvement of error estimation.
+* Start synthesizing trends...
+* Reach out to WWU about potential fieldwork.
 
 
 ---
 
 ## Bookkeeping 
-* Gordon Conference: flying Monday, 6/19/2023 (LATE) - Friday, 6/23/2023
 * CEE PhD Performance Reviews: due 6/30/2023
-* WOAC Cruise: July 10-14, 2023
+* WOAC Cruise: last-minute schedule change; *I may only be able to go for part of it.*
+* August 21 - September 15, 2023 remote work...
 
 ---
 
@@ -69,9 +70,8 @@ This is the first step among many steps, but at least is a fun and exciting firs
 2. Organize literature - Endnote?
 
 ### Looking Ahead:
-1. GRC poster draft - finish ASAP.
-2. CEE PhD Performance Review - finish ASAP.
+1. Summer planning.
+2. CEE PhD performance review - schedule meeting with Alex.
 
 ### Goals For This Week:
-1. GRC poster draft.
-2. CEE PhD performance review draft.
+
