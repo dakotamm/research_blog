@@ -11,7 +11,9 @@
 
 ## GRC Reflection
 
-Last week was a super exciting and valuable experience and I was glad to participate! After awesome and totally novel talks about hurricane resilience, internal waves caused by glacial calving, and subterranean estuaries suffice to say my mind is sufficiently blown and I'm really excited to be a part of this awesome community. I really appreaicated the speakers' ability to engage the audience and certainly hope to use that as inpiration for future work. In particular, I found Susan Allen's teaching style to be super effective!
+Last week was a super exciting and valuable experience and I was glad to participate! After awesome and totally novel talks about hurricane resilience, internal waves caused by glacial calving, and subterranean estuaries suffice to say my mind is sufficiently blown and I'm really excited to be a part of this awesome community. I really appreaicated the speakers' ability to engage the audience and certainly hope to use that as inpiration for future work. In particular, I found Susan Allen's teaching style to be super effective! I was able to make some good connections with Susan, John Wilkin, Jody Klymak (UVic), and Erica McPhee-Shaw (WWU), among many other students and faculty.
+
+At the poster session, any anticipation was quickly rewolved and folks were generally supportive and enthusiastic. It was also very valuable to see some later-in-grad-school work that was extremely compelling - some goals!
 
 
 
