@@ -74,4 +74,5 @@ Summer Items:
 2. CEE PhD performance review - schedule meeting with Alex.
 
 ### Goals For This Week:
-
+1. CEE PhD performance review - meet with Alex Thursday 6/29/2023.
+2. Summer schedule.
