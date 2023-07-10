@@ -80,9 +80,11 @@
 1. General Exam.
 2. Refine paper for summer publication?
 
+---
 
+## VFC Updates
 
-
+Longer time series, PARCEL OUT PENN COVE
 
 
 For posterity - here's a picture of the MacCready Lab Lunch group...
