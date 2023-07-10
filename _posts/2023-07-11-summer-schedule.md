@@ -10,7 +10,47 @@
 
 ---
 
-## Summer Schedule
+## Planning
+
+**Guiding Science Questions & Objectives:**
+* Using observational data, how has dissolved oxygen changed over time in the Salish Sea?
+  * What are the spatial and temporal patterns? Are certain areas exhibiting similar or disparate trends?
+* Can we observe trends in hypoxic volume using observational data? How confidant are we in these estimates?
+  * What tools do we need to understand uncertainty?
+* What are we limited by in areas that are predicted to have high incidence of hypoxia?
+  * Do we need more observations? Can we plan this?
+  * Do we need more modeling?
+* Can we explain any trends using observations and theory?
+* Are there specific areas that should be studied in more depth, such as Penn Cove, Lynch Cove, etc.?
+* Compile all available observational data for these tasks.
+* Build datasets for model evaluation and intermodel comparison.
+
+ 
+**Some Broad Notes:**
+* I'd like to complete my PhD by Spring 2026.
+  * I am goaling to hone data science skills via the CEE Data Science Option certificate (requires ~2 more classes).
+* I'd like to do my General Exam in Spring 2024.
+* Concurrently, I'd like to aim for my first publication (Spring 2024).
+* I hope to get some experience using LiveOcean and ROMS for future job opportunities.
+* I hope to get experience scoping and potentially conducting meaningful fieldwork.
+  * There may be opportunity to do this with WWU faculty in some capacity.
+  * Can we broach the idea of tagging along with King County again?
+* I want to improve my public speaking and grow overall confidence in my work and ability.
+* I'm on the look out for opportunities to improve my coding for research + graphic design for presentations.
+
+### This Summer
+
+**Big Picture:** I want to dig into the data and start understanding some trends, or perhaps lack thereof. There has been discussion regarding more advanced statistics to understand uncertainty; this is something that I'd like to let simmer while I begin digging in a little more (also, the UW Stats department doesn't resume consulting until Fall. It seems like an interesting idea to pursue at that point.) By the end of summer, I'd like to come up with a hypothesis that may form a dissertation chapter regarding trends in hypoxic volume in the Salish Sea. This may be something to do with differences in trends observed in various regions. Also, I will be working remote Monday, August 21, 2023 - Friday, September 15, 2023.
+
+#### Rest of July
+1. Data exploration - what can we see so far in DO data? Other state variables? What is the spatial variation?
+2. Pull in KC Penn Cove data. Work with model evaluation in Penn Cove with Aurora.
+3. Continue to track uncertainties and think toward further analysis.
+
+#### August
+1. Hypothesis formation for Chapter 1/first paper.
+2. Pull in all available data (e.g. Colius, etc.).
+3. Remote work
 
 
 
