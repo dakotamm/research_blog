@@ -37,6 +37,9 @@
   * Can we broach the idea of tagging along with King County again?
 * I want to improve my public speaking and grow overall confidence in my work and ability.
 * I'm on the look out for opportunities to improve my coding for research + graphic design for presentations.
+* Potential conferences:
+  * OSM 2024
+  * PECS 2024
 
 ### This Summer
 
@@ -50,7 +53,32 @@
 #### August
 1. Hypothesis formation for Chapter 1/first paper.
 2. Pull in all available data (e.g. Colius, etc.).
-3. Remote work
+3. **Learn how to run LO model?**
+4. Remote work on PDT Monday, 8/21 - Friday, 8/25.
+5. Remote work from Europe Monday, 8/28 - Friday, September 15.
+   * I won't be able to attend our regularly scheduled meetings - could meet at alternative times.
+   * Prioritize independent work such as dataset incorporation/model learning?
+  
+#### September
+1. Remote work from Europe Monday, 8/28 - Friday, September 15 (see above).
+2. Vet hypothesis for Chapter 1/first paper.
+3. ***
+
+### Fall 2023
+1. Classes: CEE 464 (Mike's limnology class) + CEWA 565 (Data Analysis in Water Sciences)
+2. Hypothesis testing for first paper/Chapter 1.
+3. Consulting with UW Stats department.
+4. Plan EFM presentation.
+
+### Winter 2024
+1. Start work on general exam + confirm three chapters for dissertation.
+3. Start on paper draft.
+4. **OSM 2024?**
+
+### Spring 2024
+1. General Exam.
+2. Refine paper for summer publication?
+
 
 
 
