@@ -47,15 +47,16 @@
 
 #### Rest of July
 1. Data exploration - what can we see so far in DO data? Other state variables? What is the spatial variation?
-2. Pull in KC Penn Cove data. Work with model evaluation in Penn Cove with Aurora.
+2. Pull in KC Penn Cove data. Work with model evaluation in Penn Cove with Aurora (scoped July 24-August 18).
 3. Continue to track uncertainties and think toward further analysis.
 
 #### August
 1. Hypothesis formation for Chapter 1/first paper.
 2. Pull in all available data (e.g. Colius, etc.).
 3. **Learn how to run LO model?**
-4. Remote work on PDT Monday, 8/21 - Friday, 8/25.
-5. Remote work from Europe Monday, 8/28 - Friday, September 15.
+4. KC update meeting.
+5. Remote work on PDT Monday, 8/21 - Friday, 8/25.
+6. Remote work from Europe Monday, 8/28 - Friday, September 15.
    * I won't be able to attend our regularly scheduled meetings - could meet at alternative times.
    * Prioritize independent work such as dataset incorporation/model learning?
   
