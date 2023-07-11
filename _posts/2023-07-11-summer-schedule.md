@@ -86,6 +86,8 @@
 
 Longer time series, PARCEL OUT PENN COVE
 
+***GREG JOHNSON reading
+
 
 For posterity - here's a picture of the MacCready Lab Lunch group...
 
