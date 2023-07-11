@@ -103,33 +103,16 @@ Further, identifying areas of interest (such as Whidbey Basin and Hood Canal) wi
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/70fb5fff-954f-47dd-88fd-9fd339cd13f6" width="800"/><br>Fig 3. Hood Canal and Whidbey Basin hypoxic volume in the Salish Sea since 2008.</p><br>
 
-
-***GREG JOHNSON reading
-
+I acknowledge that there is a whole lot of literature out there and I'm not the first person to invent this wheel! So I'll be dedicating some time to reading (especially Greg Johnson's work in the big ocean).
 
 
-For posterity - here's a picture of the MacCready Lab Lunch group...
-
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/2ff357da-4d56-4335-9501-8c7c73f933ec" width="400"/><br>Fig 1. Eager GRC students.</p><br>
-
-
-For this summer, I'd like to pick up where I left off before the GRC and start looking at correlations for the trends that I'm seeing. There is a whole lot of other work to do, but I'd like to get a rought idea of other state-variables and forcing that may correlate with the trends I'm started to observe.
-
-Some VFC To-Dos:
+Some VFC To-Dos For My Own Reference:
 * Investigate differences in time-binning.
 * Refine statistical understanding and presentation of errors and biases - what's the best way to do this?
 * Conduct analyses of different domains, time periods, and state variables of interest.
 * Continue refinenement of codebase and work towards making it more time efficient.
 * Clean and incorporate more data (especially KC Whidbey Basin data).
-* Synthesize trends -> paper draft toward end of 2023???
 * Work with Ben/Aurora on what I can build to be helpful!
-
-Summer Items:
-* Refine and improve VFC method.
-* Literature review and improvement of error estimation.
-* Start synthesizing trends...
-* Reach out to WWU about potential fieldwork.
-
 
 ---
 
@@ -143,9 +126,8 @@ Summer Items:
 2. Organize literature - Endnote?
 
 ### Looking Ahead:
-1. Summer planning.
-2. CEE PhD performance review - schedule meeting with Alex.
+1. Digging into Whidbey Basin/Hood Canal.
+2. Start pulling Whidbey Basin data.
 
 ### Goals For This Week:
-1. CEE PhD performance review - meet with Alex Thursday 6/29/2023.
-2. Summer schedule.
+1. 
