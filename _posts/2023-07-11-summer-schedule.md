@@ -27,36 +27,41 @@
 
  
 **Some Broad Notes:**
-* I'd like to complete my PhD by Spring 2026.
-  * I am goaling to hone data science skills via the CEE Data Science Option certificate (requires ~2 more classes).
+* I'd like to complete my PhD by Spring 2026 (or earlier!). During this time:
+  * I want to hone data science skills via the CEE Data Science Option certificate (requires ~2 more classes).
+  * I want to improve public speaking and grow overall confidence in my work and ability.
+  * I want to become more proficient at coding and graphic design.
+  * **I hope to get some experience using LiveOcean and ROMS for future job opportunities.**
+  * **I hope to get experience scoping and potentially conducting meaningful fieldwork.**
+    * There may be opportunity to do this with WWU faculty in some capacity.
+    * Can we broach the idea of tagging along with King County again?
 * I'd like to do my General Exam in Spring 2024.
 * Concurrently, I'd like to aim for my first publication (Spring 2024).
-* I hope to get some experience using LiveOcean and ROMS for future job opportunities.
-* I hope to get experience scoping and potentially conducting meaningful fieldwork.
-  * There may be opportunity to do this with WWU faculty in some capacity.
-  * Can we broach the idea of tagging along with King County again?
-* I want to improve my public speaking and grow overall confidence in my work and ability.
-* I'm on the look out for opportunities to improve my coding for research + graphic design for presentations.
 * Potential conferences:
   * OSM 2024
   * PECS 2024
 
 ### This Summer
 
-**Big Picture:** I want to dig into the data and start understanding some trends, or perhaps lack thereof. There has been discussion regarding more advanced statistics to understand uncertainty; this is something that I'd like to let simmer while I begin digging in a little more (also, the UW Stats department doesn't resume consulting until Fall. It seems like an interesting idea to pursue at that point.) By the end of summer, I'd like to come up with a hypothesis that may form a dissertation chapter regarding trends in hypoxic volume in the Salish Sea. This may be something to do with differences in trends observed in various regions. Also, I will be working remote Monday, August 21, 2023 - Friday, September 15, 2023.
+**Big Picture:** I want to dig into the data and start understanding some trends, or perhaps lack thereof. There has been discussion regarding more advanced statistics to understand uncertainty; this is something that I'd like to let simmer while I begin digging in more. (Also, the UW Stats department doesn't resume consulting until Fall. It seems like an interesting idea to pursue at that point.) By the end of summer, I'd like to come up with a hypothesis that may form a dissertation chapter regarding trends in hypoxic volume in the Salish Sea. This may be something to do with differences in trends observed in various regions. *I will be working remote Monday, August 21, 2023 - Friday, September 15, 2023.*
 
 #### Rest of July
 1. Data exploration - what can we see so far in DO data? Other state variables? What is the spatial variation?
-2. Pull in KC Penn Cove data. Work with model evaluation in Penn Cove with Aurora (scoped July 24-August 18).
-3. Continue to track uncertainties and think toward further analysis.
+   * Plot trends in temperature, salinity, wind, upwelling, climate indicators, etc.
+3. Pull in KC Penn Cove data. Work with model evaluation in Penn Cove with Aurora (scoped July 24-August 18).
+4. Investigate and incorporate all available data (e.g., Colius, etc.).
+5. Continue to track uncertainties and think toward further analysis.
+6. Literature review - especially Stramma et al. (2008) & (2010) (with Greg Johnson) to understand techniques in using cast data in larger ocean.
+7. Reach out to Susan Allen's new post-doc starting some work with observational data.
 
 #### August
-1. Hypothesis formation for Chapter 1/first paper.
-2. Pull in all available data (e.g. Colius, etc.).
-3. **Learn how to run LO model?**
-4. KC update meeting.
-5. Remote work on PDT Monday, 8/21 - Friday, 8/25.
-6. Remote work from Europe Monday, 8/28 - Friday, September 15.
+1. Continue to work with Aurora on Penn Cove deep dive.
+2. Hypothesis formation for Chapter 1/first paper.
+3. Continue to pull in all available data.
+4. **Learn how to run LO model?**
+5. KC update meeting.
+6. Remote work on PDT Monday, 8/21 - Friday, 8/25.
+7. Remote work from Europe Monday, 8/28 - Friday, September 15.
    * I won't be able to attend our regularly scheduled meetings - could meet at alternative times.
    * Prioritize independent work such as dataset incorporation/model learning?
   
@@ -82,11 +87,25 @@
 
 ---
 
-## VFC Updates
+## VFC Updates - Zooming in on Puget Sound
 
-Longer time series, PARCEL OUT PENN COVE
+After GRC, I have found myself needing to spend a lot of time thinking through various directions that the work needs to go next. Upon talking with Alex, we think the most interesting avenue of exploration is to start trying to make sense of the data instead of focusing on intense statistical analysis (at least for now). I will keep tracking uncertainties via simple differencing between the LiveOcean model history output and LiveOcean using VFC.
+
+First, I've incorporated all of the available data and created a timeseries since 1930. Largely the gaps are due to lack of data availaibility, but I do filter out if basins are beneath a certain threshold (i.e., if there is only one sample in the basin, or if specific samples take up too much of the surface domain). Figure 1 shows a time series since 1930 (earliest DFO data).
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/a7a93be9-9d82-440e-9cf7-fc6da9a97c10" width="800"/><br>Fig 1. Regional hypoxic volume in the Salish Sea since 1930.</p><br>
+
+Error bars, as previously discussed, are based on the comparison of 2017 LO output and LO casts using VFC during 2017, and are applied per month. From the effort for GRC, we know that the data is somewhat sparse and that in order to understand the trends, I'll need to look at  factors that might influence DO. This may be challenging to do in the whole basin at once. Zooming in on the different components of Puget Sound unfortunately loses a significant portion of the data range, since that data is currently not incorporated if it exists. I note that the error bars in this plot seem a little off - *this merits further investigation and will be revised once I debug*.
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/b38c62f4-82c5-42dd-bb68-ba6f35a49a07" width="800"/><br>Fig 2. Puget Sound regional hypoxic volume in the Salish Sea since 2008.</p><br>
+
+Further, identifying areas of interest (such as Whidbey Basin and Hood Canal) will further narrow my search for trends and their explanations (see Figure 3).
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/70fb5fff-954f-47dd-88fd-9fd339cd13f6" width="800"/><br>Fig 3. Hood Canal and Whidbey Basin hypoxic volume in the Salish Sea since 2008.</p><br>
+
 
 ***GREG JOHNSON reading
+
 
 
 For posterity - here's a picture of the MacCready Lab Lunch group...
