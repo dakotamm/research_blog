@@ -47,7 +47,7 @@
 
 #### Rest of July
 1. Data exploration - what can we see so far in DO data? Other state variables? What is the spatial variation?
-   * Plot trends in temperature, salinity, wind, upwelling, climate indicators, etc.
+   * Plot trends in temperature, salinity, wind, upwelling, climate indicators, WWTP, etc.
 3. Pull in KC Penn Cove data. Work with model evaluation in Penn Cove with Aurora (scoped July 24-August 18).
 4. Investigate and incorporate all available data (e.g., Colius, etc.).
 5. Continue to track uncertainties and think toward further analysis.
@@ -104,6 +104,8 @@ Further, identifying areas of interest (such as Whidbey Basin and Hood Canal) wi
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/70fb5fff-954f-47dd-88fd-9fd339cd13f6" width="800"/><br>Fig 3. Hood Canal and Whidbey Basin hypoxic volume in the Salish Sea since 2008.</p><br>
 
 I acknowledge that there is a whole lot of literature out there and I'm not the first person to invent this wheel! So I'll be dedicating some time to reading (especially Greg Johnson's work in the big ocean).
+
+Broadly, next steps are to continue this literature review and continue the observational data exploration, finding other state variables that may covary with hypoxic volume (such as temperature, salinity, wind, climate indicators, WWTP, etc.). Also, I will effort pulling in KC Whidbey Basin data and then seeking to incorporate more data sources.
 
 
 Some VFC To-Dos For My Own Reference:
