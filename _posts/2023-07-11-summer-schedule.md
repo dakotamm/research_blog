@@ -68,7 +68,7 @@
 #### September
 1. Remote work from Europe Monday, 8/28 - Friday, September 15 (see above).
 2. Vet hypothesis for Chapter 1/first paper.
-3. ***
+3. ?
 
 ### Fall 2023
 1. Classes: CEE 464 (Mike's limnology class) + CEWA 565 (Data Analysis in Water Sciences)
