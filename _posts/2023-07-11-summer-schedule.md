@@ -132,4 +132,5 @@ Some VFC To-Dos For My Own Reference:
 2. Start pulling Whidbey Basin data.
 
 ### Goals For This Week:
-1. 
+1. Different lenses for analyzing trends - seasonal, avg. below 40m DO, T/S analysis, etc.
+2. Data cleaning for KC/Whidbey Basin data.
