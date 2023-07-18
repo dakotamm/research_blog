@@ -26,7 +26,7 @@ The data, as assumed, is pretty messy and odd to work with. A few questions and 
   * "Orthophosphate phosphorus" OR "total phosphate" = PO4?
   * "- field" suffix - does this mean pre-QA/QC?
   * UTC or local time?
-*(A good argument for super-specific READMEs and documentation!)*
+  * *(A good argument for super-specific READMEs and documentation!)*
 
 Currently, I'm pretty close to an infrastructure that can get it into a similar format as "ecology," "dfo," and "ncei" data formats. It is using a slightly different mechanism than Parker's scripts but is similarly time efficient. (**Parker** - perhaps we can review this in an offline meeting?)
 
@@ -46,6 +46,8 @@ I spent some time getting weighted averages for state variables up and running. 
 * seasonal avg (with avg if repeated location of sampling***)
 * T/S quick look  (colors vary with time in one location, do for size?)
 * color dot with cast? taylor recommendation
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/a7a93be9-9d82-440e-9cf7-fc6da9a97c10" width="800"/><br>Fig 1. Regional hypoxic volume in the Salish Sea since 1930.</p><br>
 
 ---
 
@@ -123,37 +125,6 @@ I spent some time getting weighted averages for state variables up and running. 
 ### Spring 2024
 1. General Exam.
 2. Refine paper for summer publication?
-
----
-
-## VFC Updates - Zooming in on Puget Sound
-
-After GRC, I have found myself needing to spend a lot of time thinking through various directions that the work needs to go next. Upon talking with Alex, we think the most interesting avenue of exploration is to start trying to make sense of the data instead of focusing on intense statistical analysis (at least for now). I will keep tracking uncertainties via simple differencing between the LiveOcean model history output and LiveOcean using VFC.
-
-First, I've incorporated all of the available data and created a timeseries since 1930. Largely the gaps are due to lack of data availaibility, but I do filter out if basins are beneath a certain threshold (i.e., if there is only one sample in the basin, or if specific samples take up too much of the surface domain). Figure 1 shows a time series since 1930 (earliest DFO data).
-
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/a7a93be9-9d82-440e-9cf7-fc6da9a97c10" width="800"/><br>Fig 1. Regional hypoxic volume in the Salish Sea since 1930.</p><br>
-
-Error bars, as previously discussed, are based on the comparison of 2017 LO output and LO casts using VFC during 2017, and are applied per month. From the effort for GRC, we know that the data is somewhat sparse and that in order to understand the trends, I'll need to look at  factors that might influence DO. This may be challenging to do in the whole basin at once. Zooming in on the different components of Puget Sound unfortunately loses a significant portion of the data range, since that data is currently not incorporated if it exists. I note that the error bars in this plot seem a little off - *this merits further investigation and will be revised once I debug*.
-
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/b38c62f4-82c5-42dd-bb68-ba6f35a49a07" width="800"/><br>Fig 2. Puget Sound regional hypoxic volume in the Salish Sea since 2008.</p><br>
-
-Further, identifying areas of interest (such as Whidbey Basin and Hood Canal) will further narrow my search for trends and their explanations (see Figure 3).
-
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/70fb5fff-954f-47dd-88fd-9fd339cd13f6" width="800"/><br>Fig 3. Hood Canal and Whidbey Basin hypoxic volume in the Salish Sea since 2008.</p><br>
-
-I acknowledge that there is a whole lot of literature out there and I'm not the first person to invent this wheel! So I'll be dedicating some time to reading (especially Greg Johnson's work in the big ocean).
-
-Broadly, next steps are to continue this literature review and continue the observational data exploration, finding other state variables that may covary with hypoxic volume (such as temperature, salinity, wind, climate indicators, WWTP, etc.). Also, I will effort pulling in KC Whidbey Basin data and then seeking to incorporate more data sources.
-
-
-Some VFC To-Dos For My Own Reference:
-* Investigate differences in time-binning.
-* Refine statistical understanding and presentation of errors and biases - what's the best way to do this?
-* Conduct analyses of different domains, time periods, and state variables of interest.
-* Continue refinenement of codebase and work towards making it more time efficient.
-* Clean and incorporate more data (especially KC Whidbey Basin data).
-* Work with Ben/Aurora on what I can build to be helpful!
 
 ---
 
