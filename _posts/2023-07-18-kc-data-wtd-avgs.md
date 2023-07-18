@@ -1,4 +1,4 @@
-# Summer Schedule
+# KC Data Cleaning, Weighted Averages, & Summer Planning
 
 ### Goals From Last Meeting:
 1. Different lenses for analyzing trends - seasonal, avg. below 40m DO, T/S analysis, etc.
@@ -6,6 +6,7 @@
 
 ### Completed Goals:
 1. Data cleaning for KC/Whidbey Basin data.
+2. Weighted average plot below 40m.
 
 * meg stuff??
 * greg johnson stuff
@@ -37,6 +38,9 @@ It's been very useful to be able to look at real data and see what it is we actu
 ---
 
 ## Some Work on Trends
+
+I spent some time getting weighted averages for state variables up and running. I am almost ready to have a plot...
+
 
 * avg 40 m and less using data
 * seasonal avg (with avg if repeated location of sampling***)
@@ -163,10 +167,9 @@ Some VFC To-Dos For My Own Reference:
 2. Organize literature - Endnote?
 
 ### Looking Ahead:
-1. Digging into Whidbey Basin/Hood Canal.
-2. Start pulling Whidbey Basin data.
+1. Continue data exploration.
+2. Continue data cleaning.
+3. Reach out to Greg Johnson!
 
 ### Goals For This Week:
-1. Different lenses for analyzing trends - seasonal, avg. below 40m DO, T/S analysis, etc.
-2. Data cleaning for KC/Whidbey Basin data.
-
+1. 
