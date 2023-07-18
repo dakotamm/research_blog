@@ -1,4 +1,4 @@
-# KC Data Cleaning, Weighted Averages, & Summer Planning
+# KC Data Cleaning, Weighted Averages, and Summer Planning
 
 ### Goals From Last Meeting:
 1. Different lenses for analyzing trends - seasonal, avg. below 40m DO, T/S analysis, etc.
@@ -41,11 +41,9 @@ It's been very useful to be able to look at real data and see what it is we actu
 
 I spent some time getting weighted averages for state variables up and running. I am almost ready to have a plot...
 
+As of right before the meeting I do not have this plot yet. 
 
-* avg 40 m and less using data
-* seasonal avg (with avg if repeated location of sampling***)
-* T/S quick look  (colors vary with time in one location, do for size?)
-* color dot with cast? taylor recommendation
+**Please pretend this plot also has weighted average DO concentration.**
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/a7a93be9-9d82-440e-9cf7-fc6da9a97c10" width="800"/><br>Fig 1. Regional hypoxic volume in the Salish Sea since 1930.</p><br>
 
