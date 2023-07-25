@@ -5,11 +5,7 @@
 2. Data cleaning for KC/Whidbey Basin data.
 
 ### Completed Goals:
-1. Data cleaning for KC/Whidbey Basin data.
-2. Weighted average plot below 40m.
-
-* meg stuff??
-* greg johnson stuff
+1. Data cleaning for KC/Whidbey Basin data started.
 
 ---
 
@@ -141,4 +137,5 @@ As of right before the meeting I do not have this plot yet.
 3. Reach out to Greg Johnson!
 
 ### Goals For This Week:
-1. 
+1. Continue data exploration.
+2. Continue data cleaning.
