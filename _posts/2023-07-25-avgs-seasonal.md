@@ -46,8 +46,6 @@ I also plotted these using individual regions as an independent variable, as fol
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/0bac3fc8-c15f-46f1-b69e-84dd6ce4969d" width="800"/><br>Fig 11. Bivariate plots for regions in Puget Sound with regions as independent variables.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/abd5faae-6a39-4155-a5c1-11bb99053c99" width="800"/><br>Fig 12. Bivariate plots for Whidbey Basin and Hood Canal with regions as independent variables.</p><br>
-
 I haven't spent too much timing combing these yet for trends, but I think these could help with extricating key analyses and analyzing variables independently.
 
 ----
