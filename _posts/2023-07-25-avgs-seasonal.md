@@ -1,124 +1,65 @@
-# KC Data Cleaning, Weighted Averages, and Summer Planning
+# Average DO Concentrations, Seasonal Variation, and More
 
 ### Goals From Last Meeting:
-1. Different lenses for analyzing trends - seasonal, avg. below 40m DO, T/S analysis, etc.
-2. Data cleaning for KC/Whidbey Basin data.
+1. Continue data exploration.
+2. Continue data cleaning.
 
 ### Completed Goals:
-1. Data cleaning for KC/Whidbey Basin data started.
+1. Weighted average below a depth threshold, average below a depth threshold, and seasonal trends have been calculated and plotted.
+2. Small bit of data cleaning!
 
 ---
+
+## Data Exploration (Averages, Seasonal, etc.)
+
+I've taken the last week to finally get some data exploration plots out (as was not quite prepared last week) and continue some trend exploration using different time frames. For the first set of plots, I have monthly time resolution for all parameters. I've created time series for hypoxic volume, sub-40m DO weighted average concentration, and sub-40m average concentration. I investigate the Strait of Georgia, Strait of Juan de Fuca, and Puget Sound in one set (Figure 1); then I investigate the different regions of Puget Sound (Figure 2); and finally I investigate just Whidbey Basin and Hood Canal (Figure 3). **Note:** Weighted average concentration is volume-weighted. It uses the same surface partitioning as VFC to find hypoxic volume, but it is *not* subject to provisions that filter data based on coverage condition (e.g., too few casts in one region).
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/e99fa66e-ef41-4440-ad73-45253597f4a7" width="800"/><br>Fig 1. Regional monthly hypoxic volume, sub-40m weighted average concentration, and sub-40m average concentration in the Salish Sea since 1930.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/4638dbff-b68d-4413-96bd-43e599c48e78" width="800"/><br>Fig 2. Regional monthly hypoxic volume, sub-40m weighted average concentration, and sub-40m average concentration in Puget Sound since 1999.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/eee5df79-03f2-495d-b4f9-7f026bb6e1d7" width="800"/><br>Fig 3. Regional monthly hypoxic volume, sub-40m weighted average concentration, and sub-40m average concentration in Whidbey Basin and Hood Canal since 1999.</p><br>
+
+In all the plots, we note an obvious concentration of data points toward more recent years, as well as more casts (indicated by individual dot size) included in data points. Likely due to this fact, there is a large spread in oxygen concentration data even within a concentrated time period likely corresponding to seasonal variation. It is challenging, with current data availability, to discern a long-term upward or downward trend since 1930 in the Salish Sea in any region. However, the last two decades there is a discernable "peak" in DO concentrations occuring in approximately 2012, then a decrease of average DO over the last decade. This is likely similar to the trend reported in EPA reports (see: https://www.epa.gov/salish-sea/marine-water-quality#:~:text=Marine%20dissolved%20oxygen%20levels%20continue,areas%20in%20the%20Salish%20Sea.). Again, however, this trend does not appear to have a clear smoking-gun trend over the last 8 decades or so.
+
+Next, I investigated the same three spatial breakouts (Figures 4, 5, and 6) using seasonal averaging. **For this case, I used an average parameter over seasons divided within one calendar year and averaged over the three months.** I did not rerun a VFC method to calculate this, mainly due to the issue of averaging casts that occur in the same location within a time window that I have not yet resolved. This is on my radar to solve but I haven't been able to do so yet. In either case, the seasonal time series are as follows:
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/eb102ae4-340e-4db4-bd74-82a774881a99" width="800"/><br>Fig 4. Regional seasonal hypoxic volume, sub-40m weighted average concentration, and sub-40m average concentration in the Salish Sea since 1930.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/21a12cc3-763a-4783-8270-c67f2b958c8f" width="800"/><br>Fig 5. Regional seasonal hypoxic volume, sub-40m weighted average concentration, and sub-40m average concentration in Puget Sound since 1999.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/8e91cc43-296b-46cd-ac91-5fb6e6c6a197" width="800"/><br>Fig 6. Regional seasonal hypoxic volume, sub-40m weighted average concentration, and sub-40m average concentration in Whidbey Basin and Hood Canal since 1999.</p><br>
+
+Despite searching for better built-in ways to represent seasonality, marker-differentiation was the best thing I came up with to represent seasonality in a time series. I may have to design my own plotting method to make these more readable... Either way, the same trends as the monthly breakout are readable. However, in order to understand the influence of seasonality better, I created bivariate plots to not only investigate seasonal variation but also other variable covariance. Following a similar spatial breakout as previous plots, Figures 7, 8, and 9 investigate several bivariate plots of important independent variables and calculated parameters.
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/b5f8a508-f64a-46b4-a019-711f4410b709" width="800"/><br>Fig 7. Bivariate plots for regions in the Salish Sea.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/b9e3ced5-7d71-41f3-840a-21f1eb5faf58" width="800"/><br>Fig 8. Bivariate plots for regions in Puget Sound.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/a4d03779-f7e9-4797-9bdf-c554a9131234" width="800"/><br>Fig 9. Bivariate plots for Whidbey Basin and Hood Canal.</p><br>
+
+These are kind of fun to look at, but also show a clear seasonal pattern as expected for DO-cycling. More investigation into these could be really cool!
+
+I also plotted these using individual regions as an independent variable, as follows:
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/eab88e86-42a2-4e12-8152-59c97fb32f35" width="800"/><br>Fig 10. Bivariate plots for regions in the Salish Sea with regions as independent variables.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/0bac3fc8-c15f-46f1-b69e-84dd6ce4969d" width="800"/><br>Fig 11. Bivariate plots for regions in Puget Sound with regions as independent variables.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/abd5faae-6a39-4155-a5c1-11bb99053c99" width="800"/><br>Fig 12. Bivariate plots for Whidbey Basin and Hood Canal with regions as independent variables.</p><br>
+
+I haven't spent too much timing combing these yet for trends, but I think these could help with extricating key analyses and analyzing variables independently.
+
+----
 
 ## KC Data Cleaning
 
-Since last meeting, I have downloaded and have been working to pull in KC data (including Whidbey Basin monitoring). I've started with downloading what's currently available on the KC site, which is a large dataset with all water quality monitoring data (includes Whidbey Basin new monitoring) and Whidbey Basin CTDs. **Note:** Taylor has mooring data from Coupeville and Port Susan, but has not gotten back to me with it.
+Since last week, I haven't made huge strides (I got sucked into data exploration!). I did, however, reach out to King County contacts to answer Jilian's and my questions about the dataset in general. Wrapping up a first pass and setting a meeting with Parker to discuss specifics is high priority for this week. I'm close!
 
-The data, as assumed, is pretty messy and odd to work with. A few questions and notes:
-* KC seems to have combined earlier CTD data into the "water quality/bottle" data spreadsheet. Should we keep this in the "bottle" category or sift this into "ctd" format?
-* Does every bottle cast have to have salinity/temperature?? (Example: ecology uses CTDs taken concurrently and puts that into bottle formatted data.)
-* Further documentation questions (probably for KC):
-  * I'm not sure if the measurements are already "conservative temperature" and "absolute salinity," or if conversion is required (documentation isn't clear).
-  * "Silica" = SiO4?
-  * "Orthophosphate phosphorus" OR "total phosphate" = PO4?
-  * "- field" suffix - does this mean pre-QA/QC?
-  * UTC or local time?
-  * *(A good argument for super-specific READMEs and documentation!)*
-
-Currently, I'm pretty close to an infrastructure that can get it into a similar format as "ecology," "dfo," and "ncei" data formats. It is using a slightly different mechanism than Parker's scripts but is similarly time efficient. (**Parker** - perhaps we can review this in an offline meeting?)
-
-It's been very useful to be able to look at real data and see what it is we actually have to go off of. Here's a list of other data sources that could be helpful:
+Running list of other data sets I want to include:
 * Strait of Georgia Data Centre (https://sogdatacentre.ca/atlas/citscidata/) - other than DFO.
 * Collias (when Parker has cleaned it).
 * ORCA buoys
-
----
-
-## Some Work on Trends
-
-I spent some time getting weighted averages for state variables up and running. I am almost ready to have a plot...
-
-As of right before the meeting I do not have this plot yet. 
-
-**Please pretend this plot also has weighted average DO concentration.**
-
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/a7a93be9-9d82-440e-9cf7-fc6da9a97c10" width="800"/><br>Fig 1. Regional hypoxic volume in the Salish Sea since 1930.</p><br>
-
----
-
-## Planning
-
-**Guiding Science Questions & Objectives:**
-* Using observational data, how has dissolved oxygen changed over time in the Salish Sea?
-  * What are the spatial and temporal patterns? Are certain areas exhibiting similar or disparate trends?
-* Can we observe trends in hypoxic volume using observational data? How confidant are we in these estimates?
-  * What tools do we need to understand uncertainty?
-* What are we limited by in areas that are predicted to have high incidence of hypoxia?
-  * Do we need more observations? Can we plan this?
-  * Do we need more modeling?
-* Can we explain any trends using observations and theory?
-* Are there specific areas that should be studied in more depth, such as Penn Cove, Lynch Cove, etc.?
-* Compile all available observational data for these tasks.
-* Build datasets for model evaluation and intermodel comparison.
-
- 
-**Some Broad Notes:**
-* I'd like to complete my PhD by Spring 2026 (or earlier!). During this time:
-  * I want to hone data science skills via the CEE Data Science Option certificate (requires ~2 more classes).
-  * I want to improve public speaking and grow overall confidence in my work and ability.
-  * I want to become more proficient at coding and graphic design.
-  * **I hope to get some experience using LiveOcean and ROMS for future job opportunities.**
-  * **I hope to get experience scoping and potentially conducting meaningful fieldwork.**
-    * There may be opportunity to do this with WWU faculty in some capacity.
-    * Can we broach the idea of tagging along with King County again?
-* I'd like to do my General Exam in Spring 2024.
-* Concurrently, I'd like to aim for my first publication (Spring 2024).
-* Potential conferences:
-  * OSM 2024
-  * PECS 2024
-
-### This Summer
-
-**Big Picture:** I want to dig into the data and start understanding some trends, or perhaps lack thereof. There has been discussion regarding more advanced statistics to understand uncertainty; this is something that I'd like to let simmer while I begin digging in more. (Also, the UW Stats department doesn't resume consulting until Fall. It seems like an interesting idea to pursue at that point.) By the end of summer, I'd like to come up with a hypothesis that may form a dissertation chapter regarding trends in hypoxic volume in the Salish Sea. This may be something to do with differences in trends observed in various regions. *I will be working remote Monday, August 21, 2023 - Friday, September 15, 2023.*
-
-#### Rest of July
-1. Data exploration - what can we see so far in DO data? Other state variables? What is the spatial variation?
-   * Plot trends in temperature, salinity, wind, upwelling, climate indicators, WWTP, etc.
-3. Pull in KC Penn Cove data. Work with model evaluation in Penn Cove with Aurora (scoped July 24-August 18).
-4. Investigate and incorporate all available data (e.g., Colius, etc.).
-5. Continue to track uncertainties and think toward further analysis.
-6. Literature review - especially Stramma et al. (2008) & (2010) (with Greg Johnson) to understand techniques in using cast data in larger ocean.
-7. Reach out to Susan Allen's new post-doc starting some work with observational data.
-
-#### August
-1. Continue to work with Aurora on Penn Cove deep dive.
-2. Hypothesis formation for Chapter 1/first paper.
-3. Continue to pull in all available data.
-4. **Learn how to run LO model?**
-5. KC update meeting.
-6. Remote work on PDT Monday, 8/21 - Friday, 8/25.
-7. Remote work from Europe Monday, 8/28 - Friday, September 15.
-   * I won't be able to attend our regularly scheduled meetings - could meet at alternative times.
-   * Prioritize independent work such as dataset incorporation/model learning?
-  
-#### September
-1. Remote work from Europe Monday, 8/28 - Friday, September 15 (see above).
-2. Vet hypothesis for Chapter 1/first paper.
-3. ?
-
-### Fall 2023
-1. Classes: CEE 464 (Mike's limnology class) + CEWA 565 (Data Analysis in Water Sciences)
-2. Hypothesis testing for first paper/Chapter 1.
-3. Consulting with UW Stats department.
-4. Plan EFM presentation.
-
-### Winter 2024
-1. Start work on general exam + confirm three chapters for dissertation.
-3. Start on paper draft.
-4. **OSM 2024?**
-
-### Spring 2024
-1. General Exam.
-2. Refine paper for summer publication?
 
 ---
 
@@ -130,11 +71,23 @@ As of right before the meeting I do not have this plot yet.
 ### Issues/Questions:
 1. Common error estimation methods + statistical bias/error - need lit. review.
 2. Organize literature - Endnote?
+3. CTD/bottle duplicate DO in ecology set - clean this in VFC (output not affected, only number of casts included).
+4. Weird "1-cast = np.nan hyp_vol" issue comes up on 4/2017, 5/2019, and 6/2019. May be an averaging problem.
+5. Data cleaning (1950 DO concentrations).
+6. Averaging casts in same location.
+7. Write VFC-specific command-line tags.
+8. Weighted averages are not doing a linear interpolation between gridcell depths yet.
+9. Averages below threshold depth are only written for obs data so far.
+10. Averages are only written as "below a threshold" versus within certain depth bins.
+11. Write plotting functions.
 
 ### Looking Ahead:
 1. Continue data exploration.
-2. Continue data cleaning.
-3. Reach out to Greg Johnson!
+2. Finish KC data cleaning first pass - meet with Parker if necessary.
+3. VFC for Aurora's LO output.
+4. 
+5. Readings with Aurora.
+6. Reach out to Greg Johnson!
 
 ### Goals For This Week:
 1. Continue data exploration.
