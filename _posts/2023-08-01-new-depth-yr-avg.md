@@ -1,6 +1,3 @@
-![HoodCanal_avgDObot20pct_seasonal](https://github.com/dakotamm/dakotamm.github.io/assets/55995675/eb9ddab5-f0ca-4e12-b30c-0c4464ab4337)
-![MainBasin_avgDObot20pct_seasonal](https://github.com/dakotamm/dakotamm.github.io/assets/55995675/8226f515-e78a-4e51-b7a1-f19b303f2c02)
-![SouthSound_avgDObot20pct_seasonal](https://github.com/dakotamm/dakotamm.github.io/assets/55995675/a0109677-cfcc-4243-bff0-db7ad4fb1507)
 # New Depth Thresholds and Yearly Averages for DO Concentration
 
 ### Goals From Last Meeting:
@@ -45,11 +42,19 @@ In some cases, such as Main Basin, there is some downward trend observed. Howeve
 
 ----
 
-## KC Data Cleaning
+## KC Data Cleaning and 2017 Initial Conditions Using Observational Data
 
-Since last week, I haven't made huge strides (I got sucked into data exploration!). I did, however, reach out to King County contacts to answer Jilian's and my questions about the dataset in general. Wrapping up a first pass and setting a meeting with Parker to discuss specifics is high priority for this week. I'm close!
+This is the second week of not too much progress on this data cleaning front (nor the added initial conditions effort) - I need to figure out how to parallelize data exploration and data engineering efforts. I have reviewed King County's email clarifying data questions and will incorporate their responses into getting KC's dataset clean and usable.
 
-Running list of other data sets I want to include:
+For the initial conditions effort, I have explored the files at LO/forcing. The output format for initial condition files seems to make sense and a lot of the structure using CTDs to extrapolate and infill data is similar to my VFC method.
+
+However, I have a few questions:
+1. What's most current? ocn0 or ocn00?
+2. Should I prioritize cleaning KC data to use with this method? Or write this method first?
+
+**My goal is to have the highest priority item up and running this week, and then the next item completed the following week.**
+
+*Running list of other data sets I want to include:*
 * Strait of Georgia Data Centre (https://sogdatacentre.ca/atlas/citscidata/) - other than DFO.
 * Collias (when Parker has cleaned it).
 * ORCA buoys
@@ -57,6 +62,7 @@ Running list of other data sets I want to include:
 ---
 
 ## Bookkeeping 
+* KC Quarterly Update - Thursday, August 17, 2023
 * August 21 - September 15, 2023 remote work...
 
 ---
@@ -71,17 +77,14 @@ Running list of other data sets I want to include:
 7. Write VFC-specific command-line tags.
 8. Weighted averages are not doing a linear interpolation between gridcell depths yet.
 9. Averages below threshold depth are only written for obs data so far.
-10. Averages are only written as "below a threshold" versus within certain depth bins.
-11. Write plotting functions.
+10. Write plotting functions.
 
 ### Looking Ahead:
-1. Continue data exploration.
+1. Initial conditions for 2017 by end of this week.
 2. Finish KC data cleaning first pass - meet with Parker if necessary.
-3. VFC for Aurora's LO output.
+3. KC meeting planning.
+4. VFC for Aurora's LO output.
 5. Readings with Aurora.
 6. Reach out to Greg Johnson!
 
 ### Goals For This Week:
-1. Continue data exploration.
-2. Continue data cleaning.
-3. High priority - initial conditions for 2017 run (work with Aurora).
