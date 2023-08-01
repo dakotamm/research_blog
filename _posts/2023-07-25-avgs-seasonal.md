@@ -83,10 +83,10 @@ Running list of other data sets I want to include:
 1. Continue data exploration.
 2. Finish KC data cleaning first pass - meet with Parker if necessary.
 3. VFC for Aurora's LO output.
-4. 
 5. Readings with Aurora.
 6. Reach out to Greg Johnson!
 
 ### Goals For This Week:
 1. Continue data exploration.
 2. Continue data cleaning.
+3. High priority - initial conditions for 2017 run (work with Aurora).
