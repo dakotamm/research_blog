@@ -88,3 +88,6 @@ However, I have a few questions:
 6. Reach out to Greg Johnson!
 
 ### Goals For This Week:
+1. Initial conditions for 2017 - high pri.
+2. Plots with horizontal year average for DO, T, S.
+3. Questions for Paper 1.
