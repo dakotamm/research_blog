@@ -1,4 +1,4 @@
-# New Depth Thresholds and Yearly Averages for DO Concentration
+# Initial Conditions Progress and Temperature/Salinity Exploration
 
 ### Goals From Last Meeting:
 1. Continue data exploration - individual seasonal plots, yearly averages, new depth threshold based on percentage of water column.
