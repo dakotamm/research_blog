@@ -1,14 +1,15 @@
 # Initial Conditions Progress and Temperature/Salinity Exploration
 
 ### Goals From Last Meeting:
-1. Continue data exploration - individual seasonal plots, yearly averages, new depth threshold based on percentage of water column.
-2. Continue data cleaning - KC/Whidbey.
-3. High priority - initial conditions for 2017 run with TRAPS (work with Aurora).
+1. Initial conditions for 2017 - high pri.
+2. Plots with horizontal year average for DO, T, S.
+3. Questions for Paper 1.
 
 ### Completed Goals:
-1. Seasonal breakouts plotted per region.
-2. Redid depth-averaging with bottom 20% of water column.
-3. Yearly averages overlaid.
+1. Initial conditions for 2017 - some progress.
+2. Plots with horizontal year average for DO, T, S.
+3. Questions for Paper 1.
+
 
 ---
 
@@ -83,6 +84,6 @@ From last week, I was asked to make my data exploration a little more honed via 
 6. Reach out to Greg Johnson!
 
 ### Goals For This Week:
-1. Initial conditions for 2017 - high pri.
-2. Plots with horizontal year average for DO, T, S.
-3. Questions for Paper 1.
+1. Initial conditions for 2017!!!
+2. KC draft by end of week.
+3. Looking ahead to TS plots + digging more into 2015 anomaly.
