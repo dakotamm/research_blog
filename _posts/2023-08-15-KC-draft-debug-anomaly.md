@@ -1,4 +1,4 @@
-# Initial Conditions Progress and Temperature/Salinity Exploration
+# KC Draft Review and Data Anomaly Debugging
 
 ### Goals From Last Meeting:
 1. Initial conditions for 2017!!!
