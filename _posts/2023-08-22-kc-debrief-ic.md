@@ -70,11 +70,16 @@ Taking this a step further, I looked at the variation of DO with T and S:
 
 This is pretty interesting. Highest DO is correlated with moderate salinity and lower temperature (which makes sense due to winter mixing). On the other hand, lowest DO is not necessarily correlated with an extreme in T/S and tend to be somewhat scattered.
 
-To get a little more intrigue, I took a quick look at T/S with DO coloration broken out by season to understand individual season trends.
+To get a little more intrigue, I took a quick look at combinations of temperature, salinity, and DO and colored the plots by the non-axis variable broken out by season to understand individual season trends.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/77daabfc-f97a-4be0-ad71-cfd495033181" width="800"/><br>Fig 3. Hood Canal bottom 20% of water column temperature and salinity monthly averages colored by DO broken out by seasons.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/46571737-3d1d-4718-b627-bc474971b444" width="800"/><br>Fig 3. Hood Canal bottom 20% of water column temperature and salinity monthly averages colored by DO and broken out by seasons.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/e08a945a-60cf-4c16-92c4-fadb83066382" width="800"/><br>Fig 4. Hood Canal bottom 20% of water column salinity and DO monthly averages colored by temperature and broken out by seasons.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/db5d34d1-09e3-4b77-94cc-40cba65a5d49" width="800"/><br>Fig 5. Hood Canal bottom 20% of water column temperature and DO monthly averages colored by salinity and broken out by seasons.</p><br>
 
 This also shows that the lowest measured DO are a bit unremarkable on the T/S scale, occurring in summer and generally pretty central in the T/S range. I'm not quite sure what to make of this yet...more thoughts to come!
+
 
 ---
 
