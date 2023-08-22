@@ -14,6 +14,31 @@
 
 ---
 
+## Remote Work Schedule
+
+Since I'm working remotely the next few weeks, the following comprises some of those logistics:
+
+**Week 1:** Monday 8/21 - Friday 8/25
+* **Hornby Island, BC - PDT**
+* Goal: Complete the initial conditions using obs data + debug with Aurora for 2017 test run
+
+**Week 2:** Monday 8/28 - Friday 9/1
+* **Sardinia, IT - 9 hours ahead**
+* Goal: Finish incorporating and cleaning KC data
+
+**Week 3:** Monday 9/4 - Friday 9/8
+* **Sardinia, IT - 9 hours ahead**
+* **Crete, GR - 10 hours ahead**
+* Goal: Refactoring VFC and data exploration methods
+* Goal: Resume data exploration with new KC data
+
+**Week 4:** Monday 9/11 - Friday 9/15
+* **Sicily, IT - 9 hours ahead**
+* Goal: Visualize T/S + DO for all regions with new KC dataset + start looking at bio trends
+* Goal: Investigate climate/PDO/ENSO indicators and visualize trends along with DO
+
+---
+
 ## KC Debrief
 
 The KC summer update was short and sweet and since there were a few people missing/having to leave early, there wasn't as much opportunity for feedback. However, here's a few takeaways:
