@@ -1,4 +1,4 @@
-![HoodCanal_avgbot20pct_seasonal_TSDO](https://github.com/dakotamm/dakotamm.github.io/assets/55995675/3b72613b-e99b-4593-a419-9cd7f12147e7)# KC Debrief, Continuing Initial Conditions, and A Bit of Data Exploration
+# KC Debrief, Continuing Initial Conditions, and A Bit of Data Exploration
 
 ### Goals From Last Meeting:
 1. Initial conditions for 2017!!!
