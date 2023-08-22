@@ -1,4 +1,4 @@
-# KC Debrief, Continuing Initial Conditions, and A Bit of Data Exploration
+![HoodCanal_avgbot20pct_seasonal_TSDO](https://github.com/dakotamm/dakotamm.github.io/assets/55995675/3b72613b-e99b-4593-a419-9cd7f12147e7)# KC Debrief, Continuing Initial Conditions, and A Bit of Data Exploration
 
 ### Goals From Last Meeting:
 1. Initial conditions for 2017!!!
@@ -47,7 +47,7 @@ This is pretty interesting. Highest DO is correlated with moderate salinity and 
 
 To get a little more intrigue, I took a quick look at T/S, S/DO, and T/DO plots broken out by season and colored by the non-axis property. I need to work a little on the presentation of this but I think this provides an interesting look at correlations in Hood Canal.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/444c75b8-3bb5-42a3-a0dc-d26e0ca8bf1d" width="800"/><br>Fig 3. Hood Canal bottom 20% of water column property-property plots **colored by the non-axis property**.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/4c537f7a-913b-4967-a8b2-ed58bcb1b894" width="800"/><br>Fig 3. Hood Canal bottom 20% of water column property-property plots **colored by the non-axis property**.</p><br>
 
 ---
 
