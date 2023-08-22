@@ -10,7 +10,7 @@
 1. KC draft and meeting!
 2. TS plots - more data exploration.
 3. Remote work plan by end of the week.
-4. Progress on initial conditions...
+4. Progress on initial conditions...almost there!
 
 ---
 
@@ -45,9 +45,11 @@ Taking this a step further, I looked at the variation of DO with T and S:
 
 This is pretty interesting. Highest DO is correlated with moderate salinity and lower temperature (which makes sense due to winter mixing). On the other hand, lowest DO is not necessarily correlated with an extreme in T/S and tend to be somewhat scattered.
 
-To get a little more intrigue, I took a quick look at T/S, S/DO, and T/DO plots broken out by season and colored by the non-axis property. I need to work a little on the presentation of this but I think this provides an interesting look at correlations in Hood Canal.
+To get a little more intrigue, I took a quick look at T/S with DO coloration broken out by season to understand individual season trends.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/4c537f7a-913b-4967-a8b2-ed58bcb1b894" width="800"/><br>Fig 3. Hood Canal bottom 20% of water column property-property plots **colored by the non-axis property**.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/77daabfc-f97a-4be0-ad71-cfd495033181" width="800"/><br>Fig 3. Hood Canal bottom 20% of water column temperature and salinity monthly averages colored by DO broken out by seasons.</p><br>
+
+This also shows that the lowest measured DO are a bit unremarkable on the T/S scale, occurring in summer and generally pretty central in the T/S range. I'm not quite sure what to make of this yet...more thoughts to come!
 
 ---
 
@@ -58,16 +60,15 @@ I was asked to make my data exploration a little more honed via asserting questi
 1. Is there an observable multi-decadal trend in DO throughout the whole Salish Sea?
    * So far, we've seen that there is really sparse data (in current datasets) before the 2000s. With this data, we can't really make out an upward or downward trend in the Salish Sea as whole, or in the Strait of Georgia, Strait of Juan de Fuca, and Puget Sound as a whole.
 2. Are there observable multi-decadal trends in DO throughout different regions? How do regions compare and contrast in DO trends?
-   * We DO see some variation since 2000; however, the trend is increasing DO peaking at 2012 and then a decrease reaching a low during 2015 (Blob year). Some regions seem to show a slight decline since 1999 (like South Sound) and some regions show a "mountain" pattern (like Hood Canal).
+   * We DO see some variation since 2000; however, the trend is increasing DO peaking at 2012 and then a decrease. Some regions seem to show a slight decline since 1999 (like South Sound) and some regions show a "mountain" pattern (like Hood Canal).
 3. Does DO co-vary with temperature, salinity, NO3, etc.? What are the most significant predictors of DO, if there are any?
 4. What's the correlation between environmental indicators and events (i.e., the Blob, PDO, ENSO) that correlate with these trends?
 5. Are there significant events that warrant further study, like the Blob?
-   * 2015 seems to be a spicy year - so maybe!
+   * 2015 seems less spicy than anticipated so maybe!
 
 ---
 
 ## Bookkeeping 
-* KC Quarterly Update - Thursday, August 17, 2023
 * August 21 - September 15, 2023 remote work
 
 ---
@@ -87,15 +88,11 @@ I was asked to make my data exploration a little more honed via asserting questi
 ### Looking Ahead:
 1. Initial conditions for 2017.
 2. Finish KC data cleaning.
-3. KC meeting deliverables ongoing.
-4. VFC for Aurora's LO output.
-5. Readings with Aurora.
-6. Reach out to Greg Johnson!
-7. Remote work next week!
+3. VFC for Aurora's LO output.
+4. Readings with Aurora (e.g., Santana & Shull, Sutton et al.).
+5. Reach out to Greg Johnson!
+6. OSM abstracts???
 
 ### Goals For This Week:
-1. Initial conditions for 2017!!!
-2. KC draft by end of week.
-3. Looking ahead to TS plots, more data exploration.
-4. Remote work plan by end of the week.
-
+1. Initial conditions for 2017 + work with Aurora by end of week.
+2. More data exploration...
