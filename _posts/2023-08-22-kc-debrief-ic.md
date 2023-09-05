@@ -126,3 +126,6 @@ I was asked to make my data exploration a little more honed via asserting questi
 ### Goals For This Week:
 1. Initial conditions for 2017 + work with Aurora by end of week.
 2. More data exploration...
+3. Hood Canal hydrodynamics literature review.
+4. Correspondence with Taylor about 10/18 meeting + Tall.
+5. Look into ORCA buoy data work stream.
