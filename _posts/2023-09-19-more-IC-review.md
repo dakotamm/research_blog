@@ -36,9 +36,9 @@ Since returning this weekend, I took a brief exploration of property-property pl
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/7c566955-86e6-41eb-8f6e-248e44f1a861" width="600"/><br>Fig 8. Salish Sea original vs. new initial conditions for 2017 - alkalinity. </p><br>
 
-I also have broken out these property-property plots per region, similar to the below. I have not included all of them for purposes of not overwhelming the blogpost but can happily show them during the meeting. This will allow a more in-depth analysis of regional changes to initial conditions.
+I also have broken out these property-property plots per region, similar to the below. I have not included all of them for purposes of not overwhelming the blogpost but can happily show them during the meeting. This will allow a more in-depth analysis of regional changes to initial conditions. **EDIT: My segmentation didn't actually work correctly, so disregard this plot. I'll fix this.**
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/562e8a43-2bf7-4f6e-a1b1-212ccd5e04a7" width="800"/><br>Fig 9. Strait of Georgia original vs. new initial conditions for 2017 - salt </p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/562e8a43-2bf7-4f6e-a1b1-212ccd5e04a7" width="800"/><br>Fig 9. Strait of Georgia original vs. new initial conditions for 2017 - salt. </p><br>
 
 Overall, there is not excellent agreement between the two initial conditions. My method seems to make broad strokes and significantly modify the existing extrapolations. In general, the new salt is lower than original, new temperature is higher (but with more variation), new NO3 is 0 (analysis needed if this is data or method error), new NH4 is non-zero, new TIC is lower, and new alkalinity is lower. Additionally, oxygen is showing a strange pattern of constancy in various regions that is likely due to undersampling bias, especially in the Strait of Georgia. This is something we identified two weeks ago as a potential issue due to Strait of Georgia long residence times.
 
