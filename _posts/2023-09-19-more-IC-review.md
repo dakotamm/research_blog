@@ -20,25 +20,25 @@ Since returning this weekend, I took a brief exploration of property-property pl
 
 **Note:** I have not changed the parameters of the initial condition calculations given the time off during the last few weeks. I recognize that expanding the window for observations (using a longer period of time) would allow better data coverage. This is just analyzing the initial conditions discussed last meeting.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/5c6763a8-1ff1-48b3-9728-e28c3eeb65a3" width="400"/><br>Fig 1. Salish Sea original vs. new initial conditions for 2017 - salt.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/5c6763a8-1ff1-48b3-9728-e28c3eeb65a3" width="600"/><br>Fig 1. Salish Sea original vs. new initial conditions for 2017 - salt.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/014b340a-71cb-4f6e-bff6-19f1e389cd60" width="400"/><br>Fig 2. Salish Sea original vs. new initial conditions for 2017 - temperature. </p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/014b340a-71cb-4f6e-bff6-19f1e389cd60" width="600"/><br>Fig 2. Salish Sea original vs. new initial conditions for 2017 - temperature. </p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/c1fcf458-f8fa-499f-b9c5-5baa73b96869" width="400"/><br>Fig 3. Salish Sea original vs. new initial conditions for 2017 - oxygen. </p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/c1fcf458-f8fa-499f-b9c5-5baa73b96869" width="600"/><br>Fig 3. Salish Sea original vs. new initial conditions for 2017 - oxygen. </p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/b3e7402f-e8c3-4e58-9754-f9edf2ce474c" width="400"/><br>Fig 4. Salish Sea original vs. new initial conditions for 2017 - NO3. </p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/b3e7402f-e8c3-4e58-9754-f9edf2ce474c" width="600"/><br>Fig 4. Salish Sea original vs. new initial conditions for 2017 - NO3. </p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/fbd50b5e-9a89-4891-8d93-7fdc91499856" width="400"/><br>Fig 5. Salish Sea original vs. new initial conditions for 2017 - NH4. </p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/fbd50b5e-9a89-4891-8d93-7fdc91499856" width="600"/><br>Fig 5. Salish Sea original vs. new initial conditions for 2017 - NH4. </p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/51a746a9-ea7f-4f1c-a338-3e9d7a2f502f" width="400"/><br>Fig 6. Salish Sea original vs. new initial conditions for 2017 - chlorophyll. </p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/51a746a9-ea7f-4f1c-a338-3e9d7a2f502f" width="600"/><br>Fig 6. Salish Sea original vs. new initial conditions for 2017 - chlorophyll. </p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/b813ee22-5771-481c-97a5-b29f37b79cc7" width="400"/><br>Fig 7. Salish Sea original vs. new initial conditions for 2017 - TIC. </p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/b813ee22-5771-481c-97a5-b29f37b79cc7" width="600"/><br>Fig 7. Salish Sea original vs. new initial conditions for 2017 - TIC. </p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/7c566955-86e6-41eb-8f6e-248e44f1a861" width="400"/><br>Fig 8. Salish Sea original vs. new initial conditions for 2017 - alkalinity. </p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/7c566955-86e6-41eb-8f6e-248e44f1a861" width="600"/><br>Fig 8. Salish Sea original vs. new initial conditions for 2017 - alkalinity. </p><br>
 
 I also have broken out these property-property plots per region, similar to the below. I have not included all of them for purposes of not overwhelming the blogpost but can happily show them during the meeting. This will allow a more in-depth analysis of regional changes to initial conditions.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/562e8a43-2bf7-4f6e-a1b1-212ccd5e04a7" width="400"/><br>Fig 9. Strait of Georgia original vs. new initial conditions for 2017 - salt </p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/562e8a43-2bf7-4f6e-a1b1-212ccd5e04a7" width="800"/><br>Fig 9. Strait of Georgia original vs. new initial conditions for 2017 - salt </p><br>
 
 Overall, there is not excellent agreement between the two initial conditions. My method seems to make broad strokes and significantly modify the existing extrapolations. In general, the new salt is lower than original, new temperature is higher (but with more variation), new NO3 is 0 (analysis needed if this is data or method error), new NH4 is non-zero, new TIC is lower, and new alkalinity is lower. Additionally, oxygen is showing a strange pattern of constancy in various regions that is likely due to undersampling bias, especially in the Strait of Georgia. This is something we identified two weeks ago as a potential issue due to Strait of Georgia long residence times.
 
