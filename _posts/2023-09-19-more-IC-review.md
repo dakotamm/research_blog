@@ -12,45 +12,10 @@
 
 ---
 
-## 2017 Initial Conditions for LO Run Review
+## Continued Review of Initial Conditions
 
-Since last meeting (and since being unable to attend last week due to travel chaos), I was able to implement a first pass of the 2017 LO initial conditions using observational data. Preliminary review deemed them not totally unreasonable and usable for starting the run; however, I'd still like to review it here! I modified the following variables for initial conditions based on data availability:
-1. Temperature
-2. Salinity
-3. Oxygen
-4. NO3 (calculated as NO3 + NO2 measured)
-5. NH4
-6. chlorophyll
-7. TIC (assumed to be DIC measured)
-8. alkalinity
+Since returning this weekend, I took a brief exploration of property-property plots for the new initial conditions from observations that we discussed last week. Reading Aurora's blogpost, this may or may not be immediately relevant to group direction, but I'll include some broad plots for discussion.
 
-In theory, I should have not changed anything outside of the Salish Sea region, and regions where there was no data availability should default to use the original data field (I'm simply overwriting with new VFC-type data filling). There are some areas where bio variables seem to look different, even though there are now bio casts present. I think this is largely due to a dependence on these bio fields on salinity or temperature, which may already be set by different casts in an "apply CTD casts to initial conditions" step. I'll have to look into this further. **Note:** This is using two months of cast on either side of a selected date (January 1, 2017 in this case) and I'm using similar "minimum casts" condition as I do in volume calculations, such as:
-1. Saanich Inlet casts can't count for more than 10% of the Strait of Georgia domain.
-2. A single cast can't account for more than 60% of a region.
-
-The following animations show the results of the initial conditions for each variable I modified for each layer, with "original" and "new" shown side by side.
-
-<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/504c08ea-c0d1-4e53-a569-535bf7e6812b
-" controls="controls" style="max-width: 800px;"></video><br>Fig 1. 2017 salt IC method comparison.</p><br>
-
-<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/c286b9b6-4d60-459d-8c95-a42600e582e4" controls="controls" style="max-width: 800px;"></video><br>Fig 2. 2017 temperature IC method comparison.</p><br>
-
-
-<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/a53e632a-e782-4423-b5ae-a79a568f7a42
-" controls="controls" style="max-width: 800px;"></video><br>Fig 3. 2017 DO IC method comparison.</p><br>
-
-<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/d97081b8-efcb-433e-a1d1-9f4b2adcd80e
-" controls="controls" style="max-width: 800px;"></video><br>Fig 4. 2017 NO3 IC method comparison.</p><br>
-
-<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/94b6f532-b59e-460e-a61d-559a2d0c2bf1" controls="controls" style="max-width: 800px;"></video><br>Fig 5. 2017 NH4 IC method comparison.</p><br>
-
-<p style="text-align:center;"><video
-src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/00f02125-f681-4bd5-83a3-fd95be7a356c" controls="controls" style="max-width: 800px;"></video><br>Fig 6. 2017 chlorophyll IC method comparison.</p><br>
-
-<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/c394c3b7-1ec7-4e31-9de5-7829e7f325e1
-" controls="controls" style="max-width: 800px;"></video><br>Fig 7. 2017 TIC IC method comparison.</p><br>
-
-<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/49ae5b4b-07ed-4847-9e4e-fdea470f8cf5" controls="controls" style="max-width: 800px;"></video><br>Fig 8. 2017 alkalinity IC method comparison.</p><br>
 
 Next steps for this initial conditions include:
 1. Confirming that there are no bugs in start-up with TRAPS 2017 run.
