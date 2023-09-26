@@ -138,4 +138,6 @@ Leaving this on here for posterity:
 4. Getting back into observations analysis.
 
 ### Goals For This Week:
-
+1. Dive into spatial averaging in VFC method - toward constructing climatologies and understanding interannual variation. This requires a significant code rewrite.
+2. Meet with UBC on 9/20.
+3. Read Scully 2013.
