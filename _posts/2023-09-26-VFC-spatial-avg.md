@@ -99,3 +99,5 @@ Leaving this on here for posterity:
 5. KC data cleaning - ascertain the relative impact to the trends found; complete data incorporation into LO ecosystem.
 
 ### Goals For This Week:
+1. Move ahead with Option #2 - use TEF segments in existing VFC method.
+2. Confirm audit version of CEWA 562.
