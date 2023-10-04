@@ -1,12 +1,12 @@
 # Improving VFC Spatial Averaging - Continued
 
 ### Goals From Last Meeting:
-1. Move ahead with Option #2 - use TEF segments in existing VFC method.
+1. Move ahead with Option 2 - use TEF segments in existing VFC method.
 2. Confirm audit version of CEWA 562.
 3. Read Sutton et al. (2013).
 
 ### Completed Goals:
-1. Move ahead with Option #2 - use TEF segments in existing VFC method.
+1. Move ahead with Option 2 - use TEF segments in existing VFC method.
 2. Confirm audit version of CEWA 562.
 3. Read Sutton et al. (2013).
 
