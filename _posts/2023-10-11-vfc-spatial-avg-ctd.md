@@ -16,39 +16,56 @@
 
 Last week I discussed a hurdle using TEF segments for VFC where despite checking through an averaging scheme, I had odd values (sometimes negative) for state variables (see previous post for more detail). This was due to the using np.empty() to create initialize a matrix, which uses random numbers to fill. Thanks Parker for finding this and helping me get through! Here's a plot of some variable filling in the Salish Sea that I was able to generate after my bug was squashed.
 
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/e667f659-f1e7-41b3-bde4-b26c16a965fe" width="400"/><br>Fig 1. Surface sigma layer DO fields [mg/L] using new VFC scheme with TEF segments.</p><br>
 
 
 ## Prioritizing 2013 Initial Conditions and Robust Code
 
-Yesterday, Parker and I met for a very fruitful code review. We discussed the goal of using initial conditions calculated from observations in a well-vetted manner to create LO histories starting in 2013. This is my highest priority at the moment, and will ideally be a few more steps of code development before vetting calculated initial conditions. Of course, the code I develop is equally applicable to VFC and observational data analysis, and so this task is beneficial for all of my workstreams.
+Yesterday, Parker and I met for a very fruitful code review. We discussed the goal of using initial conditions calculated from observations in a well-vetted manner to create LO histories starting in 2013. This is my highest priority at the moment, and will ideally require few more steps of code development before vetting calculated initial conditions. Of course, the code I develop is equally applicable to VFC and observational data analysis, and so this task is beneficial for all of my workstreams.
 
-Additionally, we discussed making my averaging scheme a bit more robust. As discussed in some depth, my current averaging scheme creates arrays for every cast within each segment and time period, sums the values in each gridcell, and then divides them by the number of casts (a weighted average). While this is a simple average.
+Additionally, we discussed making my averaging scheme a bit more robust. As discussed in some depth, my current averaging scheme creates arrays for every cast within each segment and time period, sums the values in each gridcell, and then divides them by the number of casts (a weighted average). While this is a simple average, it may not be the most logical or robust way to calculate an average conditions within a segment. Some improvements to the code from yesterday's discussion to be implemented are as follows:
+
+1. Instead of individual TEF segments, use **regions**. This will allow all regions to be filled for the purposes of initial conditions:
+   * Northern Strait of Georgia
+   * Southern Strait of Georgia (including San Juan Islands)
+   * Strait of Juan de Fuca
+   * Main Basin (including Admiraly Inlet)
+   * Whidbey Basin
+   * Hood Canal
+   * South Sound (including Tacoma Narrows)
+2. Use bottle cast data only for simplicity and prioritize the following variables for initial conditions:
+   * Temperature
+   * Salinity
+   * DO
+   * NO3
+   * NH4 (if enough information at depth)
+   * DIC (if enough data)
+   * TA (if enough data)
+   * Else: 0 initial fields
+2. Create an average cast within pre-defined depth bins (in lieu of binning based on cast depths themselves). If there are unfilled bins, interpolate between bins.
+3. Map the bins onto gridcells for each region.
+4. Potentially expand time range if not enough data available for initial conditions.
+5. Review plots of all casts in region/time period vs. average calculated cast.
+
+This will be a process of refinement as code improvements are made. Ultimately, these improvements will allow an effective and realistic initial condition for LO histories starting in 2013.
 
 
+---
 
-Last week, I laid a roadmap for potential improvements to VFC spatial averaging schemes. In particular, I laid out three code architecture options. I had previously been working to implement Option 1 (using nearest-neighbor domain segmentation per spatiotemporal bin) with spatial averaging. However, we decided that Option 2 (using pre-existing TEF segments as spatial bins) allows greater comparison means of temporal comparison and potentially greater code efficiency.
+## KCWASH + Taylor Meeting Next Week
 
-I have worked the last week to try to get Option 2 up and running, which was a significant code architecture debate. I think I'm on the right path, BUT I have some hurdles remaining before I show results.
+Next week, we plan to host Taylor Martin (KC) at our monthly meeting with the broader UW group (including Mike and Ben). We had initially stated that we wanted her to rehash her CEE seminar presentation from April. I'd like to assemble an agenda this week to send to her with all of our input! **What other goals should we discuss during this meeting with Taylor?**
 
-### Code Architecture Explanation
+---
 
-Though the change seems simple, I did a fair bit of thinking to get this running efficiently. The domain is divided into 37 segments per the TEF workflow, which are given by arrays of i and j indices. For the purposes of this example, say I've binned for April 2017 for segment J1 (in the Strait of Juan de Fuca). There are over 2000 individual surface cells in this segment, all with 30 sigma layers. There are three casts taken in this bin.
+## CEWA 565 Class Project Research Opportunity
 
-The architecture I've chosen to tackle this (after exploring several options) is creating weighted averages iteratively using a mask for bins based on cast depths. I've created depth bins based on each individual cast, and then create a mask for the array of i/j indices that make up a segment where the depth of the gridcells masked is within that bin. Iteratively, I can add the arrays built by binning and masking for each cast, and then take an average at each element. This is fast and *seemingly* reliable. (This option avoids making an "average" cast given varying sampling depths and large matrix manipulations.)
+For my data analysis in water sciences class, there will be a term project that is intended to put our "new" stats skills to use. We can use our own research, and I certainly intend to do so. I have a few ideas in terms of research questions that may fit the bill, but if there's something that would be more immediately important to the project (that's still the size of a class project), I'm happy to consider that. I'm thinking along the lines of:
+1. Has bottom oxygen changed over time in Puget Sound/Salish Sea? (I'm thinking of the "declining trend" reported in the [2019 Salish Sea EPA Report](https://www.epa.gov/salish-sea/marine-water-quality#:~:text=Marine%20dissolved%20oxygen%20levels%20continue,areas%20in%20the%20Salish%20Sea.); I could perform some simple stats using all our data to understand if there's a difference in mean bottom DO before 2010 and after.)
+2. Same as above, but hypoxic volume.
+3. Pick an indicator (like rainfall, river flow) and determine covariance with a state variable like DO.
 
-### Hurdle 1 (Bug)
-
-Unfortunately, I have run into a hurdle with this code architecture. For some reason, I'm getting negative average values when I add values binned and masked for each cast then divide by the number of casts. I have checked that all values are positive and that no gridcells are unmasked (by design). This is SUPER odd and only occurs after several iterations. I believe this is a **copy vs. deep copy** issue (love those), and I have not yet debugged it.
-
-### Hurdle 2 (Upcoming)
-
-The next hurdle I anticipate after debugging Hurdle 1 is how to fill "cast-less" segments - or what options should be incorporated. We've talked about a few so far:
-1. Create bigger segments (basin-sized).
-2. Combine segments without data with filled segments.
-   * Combine with next segment (in dictionary order), unless end segment?
-   * Combine with two closest segments, if within the same basin (otherwise just one).
-   * What if there are multiple segments without data?
-3. Interpolate between adjacent filled segments (requires adjacent filled segments).
+---
 
 ### Meta-Goals:
 
@@ -82,7 +99,6 @@ Leaving this on here for posterity:
 ---
 
 ## Bookkeeping 
-* Fall Quarter Classes: "auditing" Mike's limnology class (CEWA 562) and data analysis in water sciences (CEWA 565).
 * Taylor participating in group meeting on Wednesday 10/18.
 
 ---
@@ -96,5 +112,5 @@ Leaving this on here for posterity:
 6. Are warming events more common in NE Pacific? Paper??? (Ref. [this](https://www.pugetsoundinstitute.org/2023/09/warm-ocean-waters-work-their-way-into-puget-sound/) Puget Sound Institute article Parker pointed toward me...)
 
 ### Goals For This Week:
-1. Fix bug!
-2. Read paper for discussion next week.
+1. Build code and initial first-pass of initial conditions for 2013 run.
+2. Read new paper.
