@@ -19,7 +19,7 @@ Last week I discussed a hurdle using TEF segments for VFC where despite checking
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/e667f659-f1e7-41b3-bde4-b26c16a965fe" width="400"/><br>Fig 1. Surface sigma layer DO fields [mg/L] using new VFC scheme with TEF segments.</p><br>
 
 
-## Prioritizing 2013 Initial Conditions and Robust Code
+### Prioritizing 2013 Initial Conditions and Robust Code
 
 Yesterday, Parker and I met for a very fruitful code review. We discussed the goal of using initial conditions calculated from observations in a well-vetted manner to create LO histories starting in 2013. This is my highest priority at the moment, and will ideally require few more steps of code development before vetting calculated initial conditions. Of course, the code I develop is equally applicable to VFC and observational data analysis, and so this task is beneficial for all of my workstreams.
 
