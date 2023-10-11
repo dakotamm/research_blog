@@ -42,7 +42,7 @@ Additionally, we discussed making my averaging scheme a bit more robust. As disc
    * DIC (if enough data)
    * TA (if enough data)
    * Else: 0 initial fields
-2. Create an average cast within pre-defined depth bins (in lieu of binning based on cast depths themselves). If there are unfilled bins, interpolate between bins.
+2. Create an average cast within pre-defined depth bins (in lieu of binning based on cast depths themselves). If there are unfilled bins, interpolate between bins. Maintain shallow casts (i.e., don't exclude on basis of not casting to full depth of the water column).
 3. Map the bins onto gridcells for each region.
 4. Potentially expand time range if not enough data available for initial conditions.
 5. Review plots of all casts in region/time period vs. average calculated cast.
