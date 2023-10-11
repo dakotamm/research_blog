@@ -21,7 +21,7 @@ Last week I discussed a hurdle using TEF segments for VFC where despite checking
 
 ### Prioritizing 2013 Initial Conditions and Robust Code
 
-Yesterday, Parker and I met for a very fruitful code review. We discussed the goal of using initial conditions calculated from observations in a well-vetted manner to create LO histories starting in 2013. This is my highest priority at the moment, and will ideally require few more steps of code development before vetting calculated initial conditions. Of course, the code I develop is equally applicable to VFC and observational data analysis, and so this task is beneficial for all of my workstreams.
+Yesterday, Parker and I met for a very fruitful code review. We discussed the goal of using initial conditions calculated from observations in a well-vetted manner to create an LO hindcast starting in 2013. This is my highest priority at the moment, and will ideally require few more steps of code development before vetting calculated initial conditions. Of course, the code I develop is equally applicable to VFC and observational data analysis, and so this task is beneficial for all of my workstreams.
 
 Additionally, we discussed making my averaging scheme a bit more robust. As discussed in some depth, my current averaging scheme creates arrays for every cast within each segment and time period, sums the values in each gridcell, and then divides them by the number of casts (a weighted average). While this is a simple average, it may not be the most logical or robust way to calculate an average conditions within a segment. Some improvements to the code from yesterday's discussion to be implemented are as follows:
 
@@ -47,7 +47,7 @@ Additionally, we discussed making my averaging scheme a bit more robust. As disc
 4. Potentially expand time range if not enough data available for initial conditions.
 5. Review plots of all casts in region/time period vs. average calculated cast.
 
-This will be a process of refinement as code improvements are made. Ultimately, these improvements will allow an effective and realistic initial condition for LO histories starting in 2013.
+This will be a process of refinement as code improvements are made. Ultimately, these improvements will allow an effective and realistic initial condition for LO hindcasting starting in 2013.
 
 
 ---
