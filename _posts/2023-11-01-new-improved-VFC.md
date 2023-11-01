@@ -12,10 +12,6 @@
 
 ---
 
-***taylor debrief!!!
-
-
-
 ## New and Improved VFC Spatial Averaging
 
 ### Spatial Averaging Via Average Casts
@@ -46,63 +42,57 @@ Here are some average casts from September 2012 in Main Basin. The black lines i
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/67ef6c3e-b87f-4d8c-9756-dff17ae088bc" width="800"/><br>Fig 1. Average casts for selected state variables for Main Basin, September 2012.</p><br>
 
-I can use these average casts to then fill the domain in the segment. In this case, the average casts have been used to fill DO fields in the model domain (useful both for calculated volumetric state variables and for initial conditions filling):
+I want to point out the effectiveness of this method for controlling for extreme values, especially in Saanich Inlet. Note the "blue" cast trending toward anoxia that doesn't significantly impact the overall average. However, we should be wary of underestimating Saanich Inlet hypoxic volume in this case.
 
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/40d0b2b5-acc8-402f-abab-2f20b1833373" width="800"/><br>Fig 2. Average casts for selected state variables for Southern Strait of Georgia, September 2012.</p><br>
 
+I can use these average casts to then fill the whole domain with their respective values. In this case, the average casts have been used to fill DO fields in the model domain (useful both for calculated volumetric state variables and for initial conditions filling):
 
+<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/0bc926bd-2775-48c0-a970-e9cff01b31eb" controls="controls" style="max-width: 600px;"></video><br>Fig 3. September 2012 DO [mg/L] in sigma layers.</p><br>
 
-https://github.com/dakotamm/dakotamm.github.io/assets/55995675/0bc926bd-2775-48c0-a970-e9cff01b31eb
+Exciting! September is an awesome test month since it has lots of casts, but not every month has the same spatial coverage. Importantly for initial conditions, December 2012 is missing values for DO in Northern Strait of Georgia and Whidbey Basin...
 
+<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/91241e90-d71f-4852-b95c-583236623d35
+" controls="controls" style="max-width: 600px;"></video><br>Fig 4. December 2012 DO [mg/L] in sigma layers.</p><br>
 
-***CAS7
-***intelligently fill gaps
-***conditions if there's too few or too shallow casts - currently using 20% depth condition
-***bin size? does it matter?
+...which brings me to a some items that still need some work:
+1. We've alleviated a lot of the gappiness from previous VFC architecture by using large regional segments. To fill segments that are missing values, I could fill with the most adjacent segment, but that might be erroneous in some cases. Also a one-size-fits-all solution is unlikely to work here.
+2. Currently, all of this work is developed using cas6. I have previously been able to fill initial conditions in cas7, but haven't tested this new method yet.
+3. Currently I'm using a filter that casts must exceed 20% of water depth or greater in the cast location. This allowed me to circumvent a few interpolation bugs, namely: only (1) data point in a cast and cast depth less than the minimum bin size. Since these casts are likely either one-off surface samples or "failed" casts, I feel comfortable using this condition to exclude them from use in averaging casts.
+4. I'm using 1m bin-sizes. Any reason for bigger/smaller?
+
 
 ### Toward 2013 Initial Conditions
 
-data exploration ***
+To get effective initial conditions for 2013, we must evaluate the ability of this method to fill data in a reasonable and realistic way. At first pass, one could use December 2012 values for initial conditions (I can show plots here to illustrate this, but didn't include here for blog readability), but the data is spatially sparse and has limited nutrient, DIC, and alkalinity data. Parker has mentioned using a different model to fill DIC and alkalinity. To increase the spatial coverage across all variables, I can increase the temporal range to include more casts. To guide this work, I conducted a brief time series study of data availability, binned by month:
 
-2012 dec casts and filling plots
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/adf37cbe-50d3-4ea2-810a-2cddfb629209" width="800"/><br>Fig 5. 2012 cast data availability - DO.</p><br>
 
-***try more months
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/465af8de-5f77-4696-ac0a-cf1ded31d7b3" width="800"/><br>Fig 6. 2012 cast data availability - temperature.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/ee8b8c86-3a48-4169-8d31-d61ef56f9e20)" width="800"/><br>Fig 7. 2012 cast data availability - salinity.</p><br>
 
 
-Last week I discussed a hurdle using TEF segments for VFC where despite checking through an averaging scheme, I had odd values (sometimes negative) for state variables (see previous post for more detail). This was due to the using np.empty() to create initialize a matrix, which uses random numbers to fill. Thanks Parker for finding this and helping me get through! Here's a plot of some variable filling in the Salish Sea that I was able to generate after my bug was squashed.
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/8bc33f89-a8e0-4603-aacc-0128f3556f8e" width="800"/><br>Fig 8. 2012 cast data availability - NO3.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/e667f659-f1e7-41b3-bde4-b26c16a965fe" width="400"/><br>Fig 1. Surface sigma layer DO fields [mg/L] using new VFC scheme with TEF segments.</p><br>
 
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/2048948b-73ba-4bca-a80a-99d167f2311b" width="800"/><br>Fig 5. 2012 cast data availability - NH4.</p><br>
+
+Here we see some data with increased availability during summer months. Expanding the time range to 4 or 6 months before the start of the 2013 run may allow for more cast data, though it may not perfectly represent winter conditions.
+
+Alternatively, we'd discussed a climatological approach, where I gain understanding of interannual variability of state variables, and can apply a modifier to a climatological "December" condition based on this interannual variability. I need more time to noodle on the best way to do this, given that December 2012 is not uncommon in terms of data coverage.
+
+Next week, I'd like to have some initial conditions options ready to discuss!
 
 ---
 
 ## KCWASH + Taylor Meeting Next Week
 
-Next week, we plan to host Taylor Martin (KC) at our monthly meeting with the broader UW group (including Mike and Ben). We had initially stated that we wanted her to rehash her CEE seminar presentation from April. I'd like to assemble an agenda this week to send to her with all of our input! **What other goals should we discuss during this meeting with Taylor?**
+Two weeks ago, we got to meet with Taylor from KC about her data analysis that had been in part presented at the CEE 500 seminar in April. What a cool learning experience! Not only is it validating to see some trends I've discerned be reflected in King County's dataset, but it's excellent to learn a bit about their analysis and statistical techniques. It pairs well with CEWA 565 (Data Analysis in Water Sciences), which is very statistics-focused. I'm excited to bring the stats I'm learning and into my own data analysis.
 
----
+Also, it was great to get an update regarding Whidbey Basin data collection from KC, though it's a bummer that summer sampling frequency will decrease. I'd like to prioritize incorporating KC data into our LO database soon, and taking a look at mooring data in more depth (including ORCA).
 
-## CEWA 565 Class Project Research Opportunity
-
-For my data analysis in water sciences class, there will be a term project that is intended to put our "new" stats skills to use. We can use our own research, and I certainly intend to do so. I have a few ideas in terms of research questions that may fit the bill, but if there's something that would be more immediately important to the project (that's still the size of a class project), I'm happy to consider that. I'm thinking along the lines of:
-1. Has bottom oxygen changed over time in Puget Sound/Salish Sea? (I'm thinking of the "declining trend" reported in the [2019 Salish Sea EPA Report](https://www.epa.gov/salish-sea/marine-water-quality#:~:text=Marine%20dissolved%20oxygen%20levels%20continue,areas%20in%20the%20Salish%20Sea.); I could perform some simple stats using all our data to understand if there's a difference in mean bottom DO before 2010 and after.)
-2. Same as above, but hypoxic volume.
-3. Pick an indicator (like rainfall, river flow) and determine covariance with a state variable like DO.
-
----
-
-### Meta-Goals:
-
-After soaring over these two hurdles, I remind us of some of the bigger goals this code architecture change will help me accomplish:
-1. Create initial conditions based on observations for model runs that are more realistic than previous code architecture (excluded a lot of data areas given sparse resolution).
-   * Spefically and additionally - create climatological initial conditions:
-     * Perform the method for all "Decembers", say.
-     * Perform the method for all years.
-     * Weight the climatological "December" by statistics derived from interannual variations.
-2. Apply to observational record and evaluate trends in volume-based state variables in a more systematic way than previous VFC architecture.
-3. Nice, tidy, usable codebase :D.
-4. (sort of goal) Confirm this all performs well compared to previous VFC architecture and observations.
-
-Stay tuned...
+I also appreciate the shout to get me out on a cruise! Finger crossed to make that happen at some point.
 
 ---
 
@@ -122,18 +112,16 @@ Leaving this on here for posterity:
 ---
 
 ## Bookkeeping 
-* Taylor participating in group meeting on Wednesday 10/18.
+* Vacation: 12/18-12/22
 
 ---
 
 ### Looking Ahead:
-1. Finish spatial averaging scheme in existing VFC method.
-2. Create monthly and annual climatologies for gridded state variables.
-3. ORCA buoys - incorporate this into trend analysis ASAP.
-4. KC data cleaning - ascertain the relative impact to the trends found; complete data incorporation into LO ecosystem.
-5. Upwelling data - look into NANOOS NVS (NDBC or the NSF OOI Endurance Array).
-6. Are warming events more common in NE Pacific? Paper??? (Ref. [this](https://www.pugetsoundinstitute.org/2023/09/warm-ocean-waters-work-their-way-into-puget-sound/) Puget Sound Institute article Parker pointed toward me...)
+1. Create monthly and annual climatologies for gridded state variables.
+2. ORCA buoys - incorporate this into trend analysis ASAP.
+3. KC data cleaning - ascertain the relative impact to the trends found; complete data incorporation into LO ecosystem.
+4. Upwelling data - look into NANOOS NVS (NDBC or the NSF OOI Endurance Array).
+5. Are warming events more common in NE Pacific? Paper??? (Ref. [this](https://www.pugetsoundinstitute.org/2023/09/warm-ocean-waters-work-their-way-into-puget-sound/) Puget Sound Institute article Parker pointed toward me...)
 
 ### Goals For This Week:
-1. Build code and initial first-pass of initial conditions for 2013 run.
-2. Read new paper.
+1.
