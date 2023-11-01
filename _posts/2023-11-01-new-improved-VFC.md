@@ -86,7 +86,7 @@ Next week, I'd like to have some initial conditions options ready to discuss!
 
 ---
 
-## KCWASH + Taylor Meeting Next Week
+## KCWASH + Taylor Meeting Debrief
 
 Two weeks ago, we got to meet with Taylor from KC about her data analysis that had been in part presented at the CEE 500 seminar in April. What a cool learning experience! Not only is it validating to see some trends I've discerned be reflected in King County's dataset, but it's excellent to learn a bit about their analysis and statistical techniques. It pairs well with CEWA 565 (Data Analysis in Water Sciences), which is very statistics-focused. I'm excited to bring the stats I'm learning and into my own data analysis.
 
