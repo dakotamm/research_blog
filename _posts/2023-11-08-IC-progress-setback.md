@@ -19,7 +19,7 @@ To illustrate the issue, I'll represent the following plots that show all the *m
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/6232e137-51c8-45c4-95d6-be4fb4787b5d" width="300"/><br>Fig 1. Hood Canal casts with DO for 2012.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/4bcf6f77-ae0f-4d61-a565-437e14a7c7fe" width="300"/><br>Fig 2. All casts with DO for 2013.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/4bcf6f77-ae0f-4d61-a565-437e14a7c7fe" width="300"/><br>Fig 2. Hood Canal casts with DO for 2013.</p><br>
 
 Note the casts in December 2012 and January 2013 in each region!
 
