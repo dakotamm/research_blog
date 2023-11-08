@@ -17,9 +17,9 @@ At first pass, there was no redflags! However, in creating more in-depth plots t
 
 To illustrate the issue, I'll represent the following plots that show all the *maximum depths* of casts for each variable, for each region, for each year, etc. Note that the "sorting" that puts each cast into their respective regions is based on the i/j indices, which is based on TEF segments, which are tied to the specific grid that is referenced when calling the function. In this case, I used **cas6**, for reasons I can get into but don't need to here. The following plots are relevant to an initial condition set to start 1/1/2013, thus I'm pulling months from both late 2012 and early 2013:
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/2b1c19f5-71dd-42bb-8961-33bc2c160796" width="800"/><br>Fig 1. All casts with DO for 2012.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/6232e137-51c8-45c4-95d6-be4fb4787b5d" width="300"/><br>Fig 1. Hood Canal casts with DO for 2012.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/4b7adb5b-3ce3-4e2f-86bb-fba9be0d44f8" width="800"/><br>Fig 2. All casts with DO for 2013.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/4bcf6f77-ae0f-4d61-a565-437e14a7c7fe" width="300"/><br>Fig 2. All casts with DO for 2013.</p><br>
 
 Note the casts in December 2012 and January 2013 in each region!
 
