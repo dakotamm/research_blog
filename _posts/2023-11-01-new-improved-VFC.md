@@ -124,4 +124,4 @@ Leaving this on here for posterity:
 5. Are warming events more common in NE Pacific? Paper??? (Ref. [this](https://www.pugetsoundinstitute.org/2023/09/warm-ocean-waters-work-their-way-into-puget-sound/) Puget Sound Institute article Parker pointed toward me...)
 
 ### Goals For This Week:
-1.
+1. Finish incorporating initial conditions!
