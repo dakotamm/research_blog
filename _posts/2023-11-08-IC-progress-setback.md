@@ -35,7 +35,7 @@ Hood Canal :( where are your casts?! Figures 1-3 indicate that there should be c
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/ae02fbf9-d526-42ea-b522-e3eca2b7c807" width="800"/><br>Fig 5. 1-month window inital conditions for January 1, 2013 DO average cast and cast locations for Hood Canal using cas6.</p><br>
 
-The plot thickens...
+There should be more than two casts! The plot thickens...
 
 I identified this bug today and have not yet worked through it. I'm sure it's something silly I've created in implementing my methods into the forcing/ocn00 framework. I'll work through it and fix the cause this week, so I can proceed with evaluating the hotly-sought initial conditions. I'd love any thoughts anyone has, and can review in more detail if need be.
 
