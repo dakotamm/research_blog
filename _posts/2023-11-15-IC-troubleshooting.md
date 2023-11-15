@@ -20,7 +20,7 @@ At the King County meeting, I presented some preliminary data analysis that eval
 
 In these plots, I'm using 1999-2018 DOE CTD casts and NOAA NCEI OCADS bottle data (i.e., NANOOS and WOAC cruises conducted about 3x/year). These values represent monthly and regional averages of the average bottom 20% of each casts' maximum depth. Given spatiotemporal resolution variability, there are different numbers of cast that inform each one of these plots.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/97255b8b-a46d-4c99-a730-4c2a3e318c1b" width="300"/><br>Fig 1. Hood Canal T-S diagram with 1999-2018 data, colored by season and sized by [DO].</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/97255b8b-a46d-4c99-a730-4c2a3e318c1b" width="500"/><br>Fig 1. Hood Canal T-S diagram with 1999-2018 data, colored by season and sized by [DO].</p><br>
 
 This plot is really interesting for a couple of reasons. Briefly, fall has the warmest and saltiest bottom water and summer and spring seem to have the coolest and freshest bottom water! It seems that there is potentially a complex stratification interaction occuring, along with the possibility of deepwater intrusions. Potentially, Hood Canal may be acting as a three end-member system, with rivers, mixing, and deep-water intrusions potentially creating a complex interaction between temperature, salinity, and DO.
 
@@ -78,13 +78,13 @@ Aurora, Parker, Alex, and I have been doing weekly-ish literature reviews. In pa
 
 ## Initial Conditions Progress Update
 
-Since last time, I was able to figure out why I was getting inconsistent regional casts between different LO grids (shown last week for Hood Canal). I plotted the regional breakout I've been using between cas6 and cas7...
+Since last time, I was able to figure out why I was getting inconsistent regional casts between different LO grids (shown last week for Hood Canal). I plotted the regional breakout I've been using between cas6 and cas7 (colors and numbers are simply meant to differentiate segments)...
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/4253fe0d-1f1f-4001-b1b5-d607fdd182e2" width="300"/><br>Fig 4. Salish Sea regions based on TEF segments for **cas6**.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/4253fe0d-1f1f-4001-b1b5-d607fdd182e2" width="300"/><br>Fig 4. Salish Sea regions based on TEF segments for cas6.</p><br>
 
 So cas6 regions look reasonable! However...
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/db101fc8-48bf-469f-9392-3f8578d3c633" width="300"/><br>Fig 5. Salish Sea regions based on TEF segments for **cas7**.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/db101fc8-48bf-469f-9392-3f8578d3c633" width="300"/><br>Fig 5. Salish Sea regions based on TEF segments for cas7.</p><br>
 
 For cas7, we see that, for some reason, Hood Canal and the Strait of Juan de Fuca are considered the same region. In fact, Strait of Juan de Fuca contains all the indices that comprise Hood Canal. Obviously this is...not good. I modified the method that creates TEF segments for cas7 myself since the grid update added Swinomish Channel and Agate Pass, rendering the previous version of the TEF segment building method unable to create segments for this grid. It seems I implemented but an imaginary fix.
 
@@ -92,11 +92,11 @@ LO has left TEF in the dust in favor of TEF2, so I have two options for VFC goin
 1. Debug my TEF segmentation method for cas7 that is causing regions to get lost.
 2. Integrate TEF2 and get with the times! We can see in the following figure created by Parker to test my initial conditions that it uses polygons drawn around segments instead of rectilinear, manual lat/lon bounds as are used in TEF.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/473df631-ce7d-4d51-8e82-ab29dd5e84a" width="800"/><br>Fig 6. Salish Sea regions and associated state variable profile data (**plot by Parker**).</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/f36b83df-960a-4121-ae65-8eb1c4e6a109" width="800"/><br>Fig 6. Salish Sea regions and associated state variable profile data (plot by Parker).</p><br>
 
 I believe that going with TEF2 is the better way forward (and keeps with the current state of LO).
 
-I'm humbled by all the code mistakes and reworks that have bubbled to the surface, but bugs are made to be squashed and code is meant to be rewritten, so onward I go!
+I'm humbled by all the code mistakes and reworks that have bubbled to the surface in this initial conditiosn process, but bugs are made to be squashed and code is meant to be rewritten, so onward I go!
 
 ---
 
