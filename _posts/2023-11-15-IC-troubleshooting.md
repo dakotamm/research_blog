@@ -28,7 +28,7 @@ Looking in more depth at different correlations and allowing us to see seasonal 
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/9bfd7d20-b83d-4295-9455-8c896cd6a529" width="800"/><br>Fig 2. Hood Canal T-S diagram with 1999-2018 data, columns by season and colored by [DO].</p><br>
 
-Without going into too much depth, this spurned a thought toward more mechanistic understanding of Hood Canal, which should start with a literature review on my part (pending more bandwidth!). This furthered discussion toward my first paper (as well as my General Exam, targeting Spring next year...). Here are some science questions that this data exploration spurred:
+Without going into too much depth, this spurned a thought toward more mechanistic understanding of Hood Canal, which should start with a literature review on my part (pending more bandwidth!). This furthered discussion toward my first paper (as well as my General Exam, targeting Spring next year...). Here are some science questions that this data exploration initiated:
 
 1. Is there an observable multi-decadal trend in DO throughout the whole Salish Sea?
    * So far, we've seen that there is really sparse data (in current datasets) before the 2000s. With this data, we can't really make out an upward or downward trend in the Salish Sea as whole, or in the Strait of Georgia, Strait of Juan de Fuca, and Puget Sound as a whole.
