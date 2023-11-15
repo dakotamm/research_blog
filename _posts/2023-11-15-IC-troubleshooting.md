@@ -20,13 +20,13 @@ At the King County meeting, I presented some preliminary data analysis that eval
 
 In these plots, I'm using 1999-2018 DOE CTD casts and NOAA NCEI OCADS bottle data (i.e., NANOOS and WOAC cruises conducted about 3x/year). These values represent monthly and regional averages of the average bottom 20% of each casts' maximum depth. Given spatiotemporal resolution variability, there are different numbers of cast that inform each one of these plots.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/29963561-2aa8-49a6-8ce0-9786cfcf012" width="300"/><br>Fig 1. Hood Canal T-S diagram with 1999-2018 data, colored by season and sized by [DO].</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/5b7d1517-dd2e-44bc-beef-544ce894e0c" width="300"/><br>Fig 1. Hood Canal T-S diagram with 1999-2018 data, colored by season and sized by [DO].</p><br>
 
 This plot is really interesting for a couple of reasons. Briefly, fall has the warmest and saltiest bottom water and summer and spring seem to have the coolest and freshest bottom water! It seems that there is potentially a complex stratification interaction occuring, along with the possibility of deepwater intrusions. Potentially, Hood Canal may be acting as a three end-member system, with rivers, mixing, and deep-water intrusions potentially creating a complex interaction between temperature, salinity, and DO.
 
 Looking in more depth at different correlations and allowing us to see seasonal trends, I've created T/S plot by season:
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/9bfd7d20-b83d-4295-9455-8c896cd6a529" width="300"/><br>Fig 2. Hood Canal T-S diagram with 1999-2018 data, columns by season and colored by [DO].</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/9bfd7d20-b83d-4295-9455-8c896cd6a529" width="800"/><br>Fig 2. Hood Canal T-S diagram with 1999-2018 data, columns by season and colored by [DO].</p><br>
 
 Without going into too much depth, this spurned a thought toward more mechanistic understanding of Hood Canal, which should start with a literature review on my part (pending more bandwidth!). This furthered discussion toward my first paper (as well as my General Exam, targeting Spring next year...). Here are some science questions that this data exploration spurred:
 
