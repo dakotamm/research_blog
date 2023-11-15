@@ -5,12 +5,12 @@
 2. Spend time on homework...
    
 ### Completed Goals:
-1. Still working in debugging.
+1. Still working on debugging IC grid issue.
 2. Need to do my homework :).
 
 ---
 
-## Quick Summary of What I've Been Up to Since the Last Time I Chatted With Mike and Ben
+## Quick Summary of What I've Been Up
 
 Last time I gave Ben and Mike a research update was too long ago (during the August King County debrief)! Briefly, I want to summarize what my goals and findings have been since then...
 
@@ -20,7 +20,7 @@ At the King County meeting, I presented some preliminary data analysis that eval
 
 In these plots, I'm using 1999-2018 DOE CTD casts and NOAA NCEI OCADS bottle data (i.e., NANOOS and WOAC cruises conducted about 3x/year). These values represent monthly and regional averages of the average bottom 20% of each casts' maximum depth. Given spatiotemporal resolution variability, there are different numbers of cast that inform each one of these plots.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/5b7d1517-dd2e-44bc-beef-544ce894e0c" width="300"/><br>Fig 1. Hood Canal T-S diagram with 1999-2018 data, colored by season and sized by [DO].</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/97255b8b-a46d-4c99-a730-4c2a3e318c1b" width="300"/><br>Fig 1. Hood Canal T-S diagram with 1999-2018 data, colored by season and sized by [DO].</p><br>
 
 This plot is really interesting for a couple of reasons. Briefly, fall has the warmest and saltiest bottom water and summer and spring seem to have the coolest and freshest bottom water! It seems that there is potentially a complex stratification interaction occuring, along with the possibility of deepwater intrusions. Potentially, Hood Canal may be acting as a three end-member system, with rivers, mixing, and deep-water intrusions potentially creating a complex interaction between temperature, salinity, and DO.
 
