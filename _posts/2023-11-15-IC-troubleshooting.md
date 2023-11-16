@@ -24,11 +24,11 @@ In these plots, I'm using 1999-2018 DOE CTD casts and NOAA NCEI OCADS bottle dat
 
 This plot is really interesting for a couple of reasons. Briefly, fall has the warmest and saltiest bottom water and summer and spring seem to have the coolest and freshest bottom water! It seems that there is potentially a complex stratification interaction occuring, along with the possibility of deepwater intrusions. Potentially, Hood Canal may be acting as a three end-member system, with rivers, mixing, and deep-water intrusions potentially creating a complex interaction between temperature, salinity, and DO.
 
-Looking in more depth at different correlations and allowing us to see seasonal trends, I've created T/S plot by season:
+Breaking down this plot to see seasonal trends, I created T/S plot by season:
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/9bfd7d20-b83d-4295-9455-8c896cd6a529" width="800"/><br>Fig 2. Hood Canal T-S diagram with 1999-2018 data, columns by season and colored by [DO].</p><br>
 
-Without going into too much depth, this spurned a thought toward more mechanistic understanding of Hood Canal, which should start with a literature review on my part (pending more bandwidth!). This furthered discussion toward my first paper (as well as my General Exam, targeting Spring next year...). Here are some science questions that this data exploration initiated:
+Without going into too much depth, this inspired us to look toward a more mechanistic understanding of Hood Canal, which should start with a literature review on my part (pending me having more bandwidth!). This furthered discussion toward my first paper (as well as my General Exam, targeting Spring next year...). Here are some science questions that this data exploration initiated, which may serve to form a paper:
 
 1. Is there an observable multi-decadal trend in DO throughout the whole Salish Sea?
    * So far, we've seen that there is really sparse data (in current datasets) before the 2000s. With this data, we can't really make out an upward or downward trend in the Salish Sea as whole, or in the Strait of Georgia, Strait of Juan de Fuca, and Puget Sound as a whole.
@@ -38,15 +38,15 @@ Without going into too much depth, this spurned a thought toward more mechanisti
 4. What's the correlation between environmental indicators and events (i.e., the Blob, PDO, ENSO) that correlate with these trends?
 5. Are there significant events that warrant further study, like the Blob?
 
-I have not spent time since late summer on observational data analysis, but I would love to pick this back up soon.
+I have not spent time since late summer on observational data analysis, but I would love to pick this back up soon!
 
 ### Pivot to LO Initial Conditions
 
-After this initial data analysis, we decided that I would lead a brief detour and work on LiveOcean initial conditions to create a new "baseline" 2017 model run alongside Aurora's traps integration. My goal was to apply my VFC (volume-from-casts) framework to fill state variables (i.e., salt, temperature, DO, NO3, NH4, DIC, and TA) from more observations. Previous initial conditions relied on only Ecology observations within the Salish Sea. Building this took some time, but I was able to create initial conditions using windows around January 1, 2017. However, the spatiotemporal resolution of casts especially during winter months and in large areas such as the Strait of Georgia led to questionable initial conditions. Also, the code architecture (VFC) was questionable for this application...
+After this initial data analysis, we decided that I would spearhead a brief detour in my data analysis and work on LiveOcean initial conditions to create a new "baseline" 2017 model run alongside Aurora's traps integration. My goal was to apply my VFC (volume-from-casts) framework to fill state variables (i.e., salt, temperature, DO, NO3, NH4, DIC, and TA) from more observations. Previous initial conditions relied on only Ecology observations within the Salish Sea. Building this took some time, but I was able to create initial conditions using windows around January 1, 2017. However, the spatiotemporal resolution of casts especially during winter months and in large areas such as the Strait of Georgia led to questionable initial conditions. Also, the code architecture (VFC) was questionable for this application...
 
 ### VFC Refinement
 
-Part of creating these initial conditions elucidated some issues that arise with my bespoke VFC method that I've spent some time the last year developing. In particular, I was unable to capture overlapping casts (more detail can be found in previous blogposts...) and the method was fairly inefficient, as each different spatiotemporal segment required a new nearest-neighbor search to be performed. This created different grid segmentations which led to more gappy initial conditions (i.e., sections missing data given data low data availability) and data loss if casts were overlapping in a given period (say, using two-month windows where Ecology samples monthly in the same location!). So, I spent time rewriting my VFC method to use Parker's TEF segments and create static regions.
+Part of creating these initial conditions elucidated some issues that arise with my VFC method that I've spent some time the last year developing. In particular, I was unable to easily capture overlapping casts (more detail can be found in previous blogposts...) and the method was fairly inefficient, as each different spatiotemporal segment required a new nearest-neighbor search to be performed and the grid to be uniquely segmented. This created different grid partitions which led to more gappy initial conditions (i.e., sections missing data given data low data availability) and data loss if casts were overlapping in a given period (say, using two-month windows where Ecology samples monthly in the same location!). So, I spent time rewriting my VFC method to use Parker's TEF segments and create static grid segmentation (that is, temporally constant).
 
 Additionally, this refinement uses linearly interpolated "average" casts for each spatiotempoeral segment. These average casts are depth-binned averages of all casts in within the given spatiotemporal segment. For example, here's a plot of September 2012 in Hood Canal. There are plots to show the locations of applicable casts, data profiles, and then the average casts for each variable in black.
 
@@ -60,12 +60,12 @@ Focusing now on an LO hindcast starting in 2013, I'm progression towards making 
 
 ### Literature Reviews
 
-Aurora, Parker, Alex, and I have been doing weekly-ish literature reviews. In particular, we've explored local and large-scale climate forcing in Puget Sound, nutrients and hypoxia in Chesapeake Bay and Gulf of Mexico, and Strait of Georgia nitrogen budgets (which has been great!). 
+Aurora, Parker, Alex, and I have been doing weekly-ish literature reviews. In particular, we've explored local and large-scale climate forcing in Puget Sound, nutrients and hypoxia in Chesapeake Bay and Gulf of Mexico, and Strait of Georgia nitrogen budgets (which has been great!).
 
 ### Other Things
 
 * Applied and accepted for poster session at Ocean Sciences - need to scope!
-* Hosted Taylor at UW to discuss KC data findings (really cool!). Also, lots of data with no good route to publication at present...
+* Hosted Taylor at UW to discuss KC data findings (really cool!).
 * Learned a bunch about lakes - fish are not leaves! :)
 * Statistics and data analysis - term project on Puget Sound DO coming soon...
 * Working (slowly) on incorporating King County water quality monitoring data
