@@ -26,7 +26,7 @@ This plot is really interesting for a couple of reasons. Briefly, fall has the w
 
 Breaking down this plot to see seasonal trends, I created T/S plot by season:
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/7c1b617a-4cd2-4f7d-a55d-353f28d84792" width="800"/><br>Fig 2. Hood Canal T-S diagram with 1999-2018 data, columns by season and colored by [DO].</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/39d70e2b-64c9-4e65-8ed7-c567c36441b1" width="800"/><br>Fig 2. Hood Canal T-S diagram with 1999-2018 data, columns by season and colored by [DO].</p><br>
 
 Without going into too much depth, this inspired us to look toward a more mechanistic understanding of Hood Canal, which should start with a literature review on my part (pending me having more bandwidth!). This furthered discussion toward my first paper (as well as my General Exam, targeting Spring next year...). Here are some science questions that this data exploration initiated, which may serve to form a paper:
 
