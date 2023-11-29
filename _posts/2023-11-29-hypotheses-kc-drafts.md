@@ -109,7 +109,7 @@ This is definitely a better predictor, as expected given Henry's Gas Law!
 
 Finally, I tried to proxy stratification by differencing deep salinity and shallow salinity (I know there are much better ways...). Needless to say this was not the best predictor either, but here it is:
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/9592c8cc-b614-460e-a0ad-756f7368f99c" width="600"/><br>Fig 7. Puget Sound linear regression of temperature vs. DO (full-depth, all-months).</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/9592c8cc-b614-460e-a0ad-756f7368f99c" width="600"/><br>Fig 7. Puget Sound linear regression of stratification proxy vs. DO (full-depth, all-months).</p><br>
 
 A loose positive trend??? As stratification increases, so does DO? This is definitely not yielding anything very useful yet, but it's a start!
 
