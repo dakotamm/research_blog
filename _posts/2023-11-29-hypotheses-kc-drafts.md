@@ -48,7 +48,7 @@ For these analyses, I've enabled various data partitions to be made. Like with m
 I'm using depth-averaged variables at the following partitions:
 1. Full depth (average over the whole water column)
 2. <35m ("shallow")
-3. >35m ("deep")
+3. 35m and deeper ("deep")
 
 I've also analyzed each region and each depth-averaged variable considering different temporal partitions:
 1. All months
@@ -61,11 +61,11 @@ I've also analyzed each region and each depth-averaged variable considering diff
 
 Given the EPA*** report stating a downward trend since 2010, I have conducted a simple hypothesis test to confirm if there is a statistically significant change. I am using a "two-tailed, two-sampled z-test" for this. I've confirmed that each partition analyzed meets the minimum data requirements for using a z-test (data is approximately normally distributed, 30 or more data points) in lieu of t-test, say. The null hypothesis is that there is no difference in mean DO before and after 2010; the alternative is that there has been a change. Finally, I set a confidence level of 95%. Here's some example output for Puget Sound, full-depth, all-months:
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/e89b5e36-815c-4efe-8403-293f02459bff" width="400"/><br>Fig 2. Puget Sound pre- and post-2010 z-test of mean DO (full-depth, all-months).</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/e89b5e36-815c-4efe-8403-293f02459bff" width="600"/><br>Fig 2. Puget Sound pre- and post-2010 z-test of mean DO (full-depth, all-months).</p><br>
 
 This is showing a normalized PDF of the **difference** between the post-2010 mean and the pre-2010 mean. A positive value corresponds to an **increase** in DO. The red line is the test statistic. Since the test statistic is not more extreme than the 95% confidence rejection regions, there is **not** a statistically significant change in mean (we can't reject the null). Other test permutations are summarized as follows:
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/47b8623c-f858-48d0-a2dd-2f60b2a8a26d" width="400"/><br>Fig 3. Summary of z-test for pre- and post-2010 DO mean difference. Increase indicates a statistically significant increase in DO concentration wiht 95% confidence.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/47b8623c-f858-48d0-a2dd-2f60b2a8a26d" width="300"/><br>Fig 3. Summary of z-test for pre- and post-2010 DO mean difference. Increase indicates a statistically significant increase in DO concentration wiht 95% confidence.</p><br>
 
 ### Test 2: Is there a trend in DO concentration over time?
 
@@ -81,9 +81,7 @@ Graphically, the purple dashed line represents the null hypothesis (i.e., slope 
 
 Here's a summary of permutations indicating direction of statistically significant trend.
 
-![image](https://github.com/dakotamm/dakotamm.github.io/assets/55995675/7e75d2af-0985-42ab-9cdd-c47b7b4eddaf)
-
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/c8564c8d-2564-4aa7-bad8-c60ed873f7db" width="400"/><br>Fig 5. Summary of linear regression significant trends of DO.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/7e75d2af-0985-42ab-9cdd-c47b7b4eddaf" width="300"/><br>Fig 5. Summary of linear regression significant trends of DO.</p><br>
 
 
 ### Test 3: Is a polynomial fit a better approximation of data?
