@@ -65,7 +65,7 @@ Given the EPA*** report stating a downward trend since 2010, I have conducted a 
 
 This is showing a normalized PDF of the **difference** between the post-2010 mean and the pre-2010 mean. A positive value corresponds to an **increase** in DO. The red line is the test statistic. Since the test statistic is not more extreme than the 95% confidence rejection regions, there is **not** a statistically significant change in mean (we can't reject the null). Other test permutations are summarized as follows:
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/47b8623c-f858-48d0-a2dd-2f60b2a8a26d" width="300"/><br>Fig 3. Summary of z-test for pre- and post-2010 DO mean difference. Increase indicates a statistically significant increase in DO concentration wiht 95% confidence.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/47b8623c-f858-48d0-a2dd-2f60b2a8a26d" width="400"/><br>Fig 3. Summary of z-test for pre- and post-2010 DO mean difference. Increase indicates a statistically significant increase in DO concentration wiht 95% confidence.</p><br>
 
 ### Test 2: Is there a trend in DO concentration over time?
 
@@ -81,7 +81,7 @@ Graphically, the purple dashed line represents the null hypothesis (i.e., slope 
 
 Here's a summary of permutations indicating direction of statistically significant trend.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/7e75d2af-0985-42ab-9cdd-c47b7b4eddaf" width="300"/><br>Fig 5. Summary of linear regression significant trends of DO.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/7e75d2af-0985-42ab-9cdd-c47b7b4eddaf" width="400"/><br>Fig 5. Summary of linear regression significant trends of DO.</p><br>
 
 
 ### Test 3: Is a polynomial fit a better approximation of data?
