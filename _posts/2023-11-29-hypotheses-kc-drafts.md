@@ -61,86 +61,86 @@ I've also analyzed each region and each depth-averaged variable considering diff
 
 Given the EPA*** report stating a downward trend since 2010, I have conducted a simple hypothesis test to confirm if there is a statistically significant change. I am using a "two-tailed, two-sampled z-test" for this. I've confirmed that each partition analyzed meets the minimum data requirements for using a z-test (data is approximately normally distributed, 30 or more data points) in lieu of t-test, say. The null hypothesis is that there is no difference in mean DO before and after 2010; the alternative is that there has been a change. Finally, I set a confidence level of 95%. Here's some example output for Puget Sound, full-depth, all-months:
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/e89b5e36-815c-4efe-8403-293f02459bff" width="800"/><br>Fig 2. Puget Sound pre- and post-2010 z-test of mean DO (full-depth, all-months).</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/e89b5e36-815c-4efe-8403-293f02459bff" width="400"/><br>Fig 2. Puget Sound pre- and post-2010 z-test of mean DO (full-depth, all-months).</p><br>
 
 This is showing a normalized PDF of the **difference** between the post-2010 mean and the pre-2010 mean. A positive value corresponds to an **increase** in DO. The red line is the test statistic. Since the test statistic is not more extreme than the 95% confidence rejection regions, there is **not** a statistically significant change in mean (we can't reject the null). Other test permutations are summarized as follows:
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/47b8623c-f858-48d0-a2dd-2f60b2a8a26d" width="800"/><br>Fig 2. Puget Sound pre- and post-2010 z-test of mean DO (full-depth, all-months).</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/47b8623c-f858-48d0-a2dd-2f60b2a8a26d" width="400"/><br>Fig 3. Summary of z-test for pre- and post-2010 DO mean difference. Increase indicates a statistically significant increase in DO concentration wiht 95% confidence.</p><br>
 
-***
+### Test 2: Is there a trend in DO concentration over time?
 
-## VFC Refinement
+I had initially intended this as a check on my first test, but came to some interesting findings... I'm using a least-squares linear regression and calculating a 95% confidence interval on the slope and on data spread. The null hypothesis is a flat slope of a regression line, or no trend; alternate is a trend in either direction. For Puget Sound, full-depth, all-months:
 
-Part of creating these initial conditions elucidated some issues that arise with my VFC method that I've spent some time the last year developing. In particular, I was unable to easily capture overlapping casts (more detail can be found in previous blogposts...) and the method was fairly inefficient, as each different spatiotemporal segment required a new nearest-neighbor search to be performed and the grid to be uniquely segmented. This created different grid partitions which led to more gappy initial conditions (i.e., sections missing data given data low data availability) and data loss if casts were overlapping in a given period (say, using two-month windows where Ecology samples monthly in the same location!). So, I spent time rewriting my VFC method to use Parker's TEF segments and create static grid segmentation (that is, temporally constant).
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/c8564c8d-2564-4aa7-bad8-c60ed873f7db" width="800"/><br>Fig 4. Puget Sound linear regression of DO (full-depth, all-months) with confidence intervals.</p><br>
 
-Additionally, this refinement uses linearly interpolated "average" casts for each spatiotempoeral segment. These average casts are depth-binned averages of all casts in within the given spatiotemporal segment. For example, here's a plot of September 2012 in Hood Canal. There are plots to show the locations of applicable casts, data profiles, and then the average casts for each variable in black.
+Graphically, the purple dashed line represents the null hypothesis (i.e., slope of 0 of trend line). A couple of takeaways:
+1. The null hypothesis is actually outside of the confidence interval, so we should, in theory, reject the null and say that there **has**, likely, been a downward trend overtime. These results conflict the findings in Test 1...
+2. The r^2 values are attrocious - so **this is probably not a good test**. However, it does indicate that the EPA*** report claim of "declining trend" is somewhat erroneous over this time period.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/bd8ddfeb-3819-401b-b327-25cdd2e78f85" width="800"/><br>Fig 3. Hood Canal September 2012 average casts example.</p><br>
+**Note: My next step here is to redo these plots before and after 2010 and see what we get. Also, some outlier removal may clarify this...but on what basis? TBD.**
 
-This method has proven robust and allows for more direct temporal comparisons, since domain segmentation is now static in time. Plus, it's faster! Now back to initial conditions...
+Here's a summary of permutations indicating direction of statistically significant trend.
 
-### Back to LO Initial Conditions
+![image](https://github.com/dakotamm/dakotamm.github.io/assets/55995675/7e75d2af-0985-42ab-9cdd-c47b7b4eddaf)
 
-Focusing now on an LO hindcast starting in 2013, I'm progression towards making initial conditions for January 1, 2013. We've established that the lack of resolution for variables such as TIC and TA may prohibit using observations alone to fill Salish Sea initial conditions, but the applicability of higher resolution observational data may still be valuable. I integrated the new VFC framework into the initial conditions, and I thought I was there! I had spiffy new initial conditions, but last week I identified that there were some issues. In particular, modifications I'd made to accommodate a new LO grid may have messed up the indices I use to define regions... I will discuss this further in my "Research Update" section.
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/c8564c8d-2564-4aa7-bad8-c60ed873f7db" width="400"/><br>Fig 5. Summary of linear regression significant trends of DO.</p><br>
 
-### Literature Reviews
 
-Aurora, Parker, Alex, and I have been doing weekly-ish literature reviews. In particular, we've explored local and large-scale climate forcing in Puget Sound, nutrients and hypoxia in Chesapeake Bay and Gulf of Mexico, and Strait of Georgia nitrogen budgets (which has been great!).
+### Test 3: Is a polynomial fit a better approximation of data?
 
-### Other Things
+Here I tried to improve r^2 predictive capability by using a least-squares polynomial fit (third-order, in this case). Here's an example of that with Puget Sound, all-months, full-depth:
 
-* Applied and accepted for poster session at Ocean Sciences - need to scope!
-* Hosted Taylor at UW to discuss KC data findings (really cool!).
-* Learned a bunch about lakes - fish are not leaves! :)
-* Statistics and data analysis - term project on Puget Sound DO coming soon...
-* Working (slowly) on incorporating King County water quality monitoring data
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/3f1c1126-68e8-4089-9b3e-03b8dfdae8be" width="800"/><br>Fig 6. Puget Sound polynomial regression of DO (full-depth, all-months).</p><br>
 
-### Future Potential Research Avenues
-* King County data analysis...
-* Penn Cove nitrogen/DO budget (potential fieldwork with Western Washington University, nested LO model)
+There is moderate improvement in r^2, but it's still pretty bad. The data is definitely spread and not loving fitting to even a third-order polynomial. **Next steps?**
+
+
+### Test 4: How well do NO3, temperature, and stratification predict DO?
+
+I haven't fully summarized these results, but I've conducted a least-squares linear regression against NO3 within the specific data partition... Here's an example from Puget Sound, full-depth, all-months:
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/0f85b52e-ade7-451b-bbb1-7172268a0e95" width="800"/><br>Fig 6. Puget Sound linear regression of NO3 vs. DO (full-depth, all-months).</p><br>
+
+Definitely not a good predictor...but this is not considering lag of NO3 availability and oxygen depletion in the biogeochemical cycling; rather it's just a first pass.
+
+Now, performing the same analysis using temperature as a predictor:
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/6bab230c-2904-4e9a-a366-25cd2b749ebd" width="800"/><br>Fig 7. Puget Sound linear regression of temperature vs. DO (full-depth, all-months).</p><br>
+
+This is definitely a better predictor, as expected given Henry's Gas Law!
+
+Finally, I tried to proxy stratification by differencing deep salinity and shallow salinity (I know there are much better ways...). Needless to say this was not the best predictor either, but here it is:
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/9592c8cc-b614-460e-a0ad-756f7368f99c" width="800"/><br>Fig 7. Puget Sound linear regression of temperature vs. DO (full-depth, all-months).</p><br>
+
+A loose positive trend??? As stratification increases, so does DO? This is definitely not yielding anything very useful yet, but it's a start!
 
 ---
 
-## Initial Conditions Progress Update
+## KC Drafts
 
-Since last time, I was able to figure out why I was getting inconsistent regional casts between different LO grids (shown last week for Hood Canal). I plotted the regional breakout I've been using between cas6 and cas7 (colors and numbers are simply meant to differentiate segments)...
-
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/4253fe0d-1f1f-4001-b1b5-d607fdd182e2" width="300"/><br>Fig 4. Salish Sea regions based on TEF segments for cas6.</p><br>
-
-So cas6 regions look reasonable! However...
-
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/db101fc8-48bf-469f-9392-3f8578d3c633" width="300"/><br>Fig 5. Salish Sea regions based on TEF segments for cas7.</p><br>
-
-For cas7, we see that, for some reason, Hood Canal and the Strait of Juan de Fuca are considered the same region. In fact, Strait of Juan de Fuca contains all the indices that comprise Hood Canal. Obviously this is...not good. I modified the method that creates TEF segments for cas7 myself since the grid update added Swinomish Channel and Agate Pass, rendering the previous version of the TEF segment building method unable to create segments for this grid. It seems I implemented but an imaginary fix.
-
-LO has left TEF in the dust in favor of TEF2, so I have two options for VFC going forward:
-1. Debug my TEF segmentation method for cas7 that is causing regions to get lost.
-2. Integrate TEF2 and get with the times! We can see in the following figure created by Parker to test my initial conditions that it uses polygons drawn around segments instead of rectilinear, manual lat/lon bounds as are used in TEF.
-
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/f36b83df-960a-4121-ae65-8eb1c4e6a109" width="800"/><br>Fig 6. Salish Sea regions and associated state variable profile data (plot by Parker).</p><br>
-
-I believe that going with TEF2 is the better way forward (and keeps with the current state of LO).
-
-I'm humbled by all the code mistakes and reworks that have bubbled to the surface in this initial conditiosn process, but bugs are made to be squashed and code is meant to be rewritten, so onward I go!
+I sent my slides and report for review last night. I included a few plots from above, but overall would appreciate the help with the narrative through this preliminary data analysis. Thanks!
 
 ---
 
 ## Bookkeeping 
 * KC Quarterly Review: 11/30
+* CEWA 565 Project Presentation: 12/5
+* Working Remote: 12/6-12/8
 * Vacation: 12/18-12/22
 * Ocean Sciences: 2/18/-2/23
-
+* General Exam Timeline?
+  
 ---
 
 ### Looking Ahead:
-1. Create monthly and annual climatologies for gridded state variables.
-2. ORCA buoys - incorporate this into trend analysis ASAP.
-3. KC data cleaning - ascertain the relative impact to the trends found; complete data incorporation into LO ecosystem.
-4. Upwelling data - look into NANOOS NVS (NDBC or the NSF OOI Endurance Array).
-5. Are warming events more common in NE Pacific? Paper??? (Ref. [this](https://www.pugetsoundinstitute.org/2023/09/warm-ocean-waters-work-their-way-into-puget-sound/) Puget Sound Institute article Parker pointed toward me...)
-6. Penn Cove nitrogen budget with WWU + Penn Cove nested model...
-7. Keep on Taylor for me to be involved in KC Whidbey sampling...
+1. ORCA buoys - incorporate this into trend analysis ASAP.
+2. KC data cleaning - ascertain the relative impact to the trends found; complete data incorporation into LO ecosystem.
+3. Upwelling data - look into NANOOS NVS (NDBC or the NSF OOI Endurance Array).
+4. Are warming events more common in NE Pacific? Paper??? (Ref. [this](https://www.pugetsoundinstitute.org/2023/09/warm-ocean-waters-work-their-way-into-puget-sound/) Puget Sound Institute article Parker pointed toward me...)
+5. Penn Cove nitrogen budget with WWU + Penn Cove nested model...
+6. Keep on Taylor for me to be involved in KC Whidbey sampling...
 
 ### Goals For This Week:
-1. Debug initial conditions.
-2. Final quarter push.
+1. KC Meeting on Thursday
+2. CEWA 565 presentation on 12/5 (wrap up the quarter!
