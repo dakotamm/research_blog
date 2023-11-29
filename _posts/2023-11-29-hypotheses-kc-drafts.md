@@ -71,7 +71,7 @@ This is showing a normalized PDF of the **difference** between the post-2010 mea
 
 I had initially intended this as a check on my first test, but came to some interesting findings... I'm using a least-squares linear regression and calculating a 95% confidence interval on the slope and on data spread. The null hypothesis is a flat slope of a regression line, or no trend; alternate is a trend in either direction. For Puget Sound, full-depth, all-months:
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/c8564c8d-2564-4aa7-bad8-c60ed873f7db" width="800"/><br>Fig 4. Puget Sound linear regression of DO (full-depth, all-months) with confidence intervals.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/c8564c8d-2564-4aa7-bad8-c60ed873f7db" width="600"/><br>Fig 4. Puget Sound linear regression of DO (full-depth, all-months) with confidence intervals.</p><br>
 
 Graphically, the purple dashed line represents the null hypothesis (i.e., slope of 0 of trend line). A couple of takeaways:
 1. The null hypothesis is actually outside of the confidence interval, so we should, in theory, reject the null and say that there **has**, likely, been a downward trend overtime. These results conflict the findings in Test 1...
@@ -90,7 +90,7 @@ Here's a summary of permutations indicating direction of statistically significa
 
 Here I tried to improve r^2 predictive capability by using a least-squares polynomial fit (third-order, in this case). Here's an example of that with Puget Sound, all-months, full-depth:
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/3f1c1126-68e8-4089-9b3e-03b8dfdae8be" width="800"/><br>Fig 6. Puget Sound polynomial regression of DO (full-depth, all-months).</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/3f1c1126-68e8-4089-9b3e-03b8dfdae8be" width="600"/><br>Fig 6. Puget Sound polynomial regression of DO (full-depth, all-months).</p><br>
 
 There is moderate improvement in r^2, but it's still pretty bad. The data is definitely spread and not loving fitting to even a third-order polynomial. **Next steps?**
 
@@ -99,19 +99,19 @@ There is moderate improvement in r^2, but it's still pretty bad. The data is def
 
 I haven't fully summarized these results, but I've conducted a least-squares linear regression against NO3 within the specific data partition... Here's an example from Puget Sound, full-depth, all-months:
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/0f85b52e-ade7-451b-bbb1-7172268a0e95" width="800"/><br>Fig 6. Puget Sound linear regression of NO3 vs. DO (full-depth, all-months).</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/0f85b52e-ade7-451b-bbb1-7172268a0e95" width="600"/><br>Fig 6. Puget Sound linear regression of NO3 vs. DO (full-depth, all-months).</p><br>
 
 Definitely not a good predictor...but this is not considering lag of NO3 availability and oxygen depletion in the biogeochemical cycling; rather it's just a first pass.
 
 Now, performing the same analysis using temperature as a predictor:
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/6bab230c-2904-4e9a-a366-25cd2b749ebd" width="800"/><br>Fig 7. Puget Sound linear regression of temperature vs. DO (full-depth, all-months).</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/6bab230c-2904-4e9a-a366-25cd2b749ebd" width="600"/><br>Fig 7. Puget Sound linear regression of temperature vs. DO (full-depth, all-months).</p><br>
 
 This is definitely a better predictor, as expected given Henry's Gas Law!
 
 Finally, I tried to proxy stratification by differencing deep salinity and shallow salinity (I know there are much better ways...). Needless to say this was not the best predictor either, but here it is:
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/9592c8cc-b614-460e-a0ad-756f7368f99c" width="800"/><br>Fig 7. Puget Sound linear regression of temperature vs. DO (full-depth, all-months).</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/9592c8cc-b614-460e-a0ad-756f7368f99c" width="600"/><br>Fig 7. Puget Sound linear regression of temperature vs. DO (full-depth, all-months).</p><br>
 
 A loose positive trend??? As stratification increases, so does DO? This is definitely not yielding anything very useful yet, but it's a start!
 
