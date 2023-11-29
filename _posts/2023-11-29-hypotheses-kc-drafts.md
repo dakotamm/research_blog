@@ -48,7 +48,7 @@ For these analyses, I've enabled various data partitions to be made. Like with m
 I'm using depth-averaged variables at the following partitions:
 1. Full depth (average over the whole water column)
 2. <35m ("shallow")
-3. >=35m ("deep")
+3. >35m ("deep")
 
 I've also analyzed each region and each depth-averaged variable considering different temporal partitions:
 1. All months
