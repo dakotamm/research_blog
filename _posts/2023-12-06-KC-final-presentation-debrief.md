@@ -1,4 +1,4 @@
-# Hypothesis Testing and KC Draft Review
+# KC and Final Presentations Debrief and Future Planning
 
 ### Goals From Last Meeting:
 1. KC quarterly meeting 11/30
