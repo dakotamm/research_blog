@@ -38,11 +38,11 @@ I'd love any more thoughts and comments you have on the KC presentation or other
 As the quarter winds down and I get a few big presentations out of the way, now seems a good time for some refocusing. Here's an outline of a few big ticket items and some ideas on approaching them.
 
 * 2/22: Ocean Sciences Poster
-  1. Continuing this statistical trend analysis, extend this to Strait of Georgia + longer timescale with Colias dataset
+  * Option 1: Continuing this statistical trend analysis, extend this to Strait of Georgia + longer timescale with Colias dataset
     * Include King County data, ORCA buoys, Whidbey mooring data
     * Extend to other variables other than DO? Salinity? Temperature? NO3?
     * May be too much to add analysis of all correlated variables -> drivers
-  2. Narrow in on a region, try to ascertain the different drivers...
+  * Option 2: Narrow in on a region, try to ascertain the different drivers...
     * Eg. Hood Canal fall DO
       * Examine streamflow, precipitation, PDO/ENSO/NGSO, nutrient loading from DOE
   * For now - leave "volume-based" measurements on the back-burner?
@@ -60,7 +60,7 @@ As the quarter winds down and I get a few big presentations out of the way, now 
   * Since I already have a Masters (albeit in a different group), how many "chapters" are warranted? I've heard two for pre-existing MSCEs...
   * Where does Penn Cove stuff fit? Learning how to run LO?
 
-I realized it's a bit early for a swanky GANTT chart for my General Exam, but I'd love to get there next week after our chat today.
+I realized it's a bit early for a swanky Gantt chart for my General Exam, but I'd love to get there next week after our chat today.
 
 ---
 
