@@ -59,6 +59,7 @@ As the quarter winds down and I get a few big presentations out of the way, now 
   * Part 2: ??? specific regional analyses
   * Since I already have a Masters (albeit in a different group), how many "chapters" are warranted? I've heard two for pre-existing MSCEs...
   * Where does Penn Cove stuff fit? Learning how to run LO?
+  * Incorporating reading...
 
 I realized it's a bit early for a swanky Gantt chart for my General Exam, but I'd love to get there next week after our chat today.
 
