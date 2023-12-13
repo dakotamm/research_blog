@@ -55,11 +55,14 @@ With all of these plots, it's hard to see a trend at first glance. It's also rea
 
 I already have put so many plots here, but I do have seasonal time series, time series for a mid-depth bin (15-35m) and shallow bin (<15m), and time series for all measuresed variables (spoiler alert: it's pretty sparse with most of the other ones in earlier years). I can share these outside of the blogpost.
 
-**Note:** I have not yet created time series for volume-weighted means given time constraints with finishing up classes this week. I can effort that next!
+Next steps here:
+* I have Skagit discharge data since 1940...explore the correlation between monthly discharge and CT/SA/DO?
+* Volume-weighted averages?
+* Saanich Inlet breakout (if I can't get to it today)
 
 ---
 
-## Next Steps
+## Planning
 
 Last week, we chatted about Ocean Sciences and the direction for Paper 1. Here's some summary:
 
