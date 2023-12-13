@@ -83,3 +83,5 @@ I realized it's a bit early for a swanky Gantt chart for my General Exam, but I'
 
 ### Goals For This Week:
 1. Continue to scope future work.
+2. Discuss general exam next week.
+3. Make time series plots with confidence intervals for next week.
