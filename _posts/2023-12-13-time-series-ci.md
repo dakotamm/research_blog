@@ -15,11 +15,11 @@ To wrap up my analysis of pre- and post-2010 DO trends that I presented both for
 
 Here's my old conclusions from the z-test:
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/e67239de-e1bd-44dc-9925-9237879c3b7b" width="800"/><br>Fig 1. z-test results for a change in mean [DO] below 35m in Puget Sound before and after 2010 (OUTDATED).</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/e67239de-e1bd-44dc-9925-9237879c3b7b" width="600"/><br>Fig 1. z-test results for a change in mean [DO] below 35m in Puget Sound before and after 2010 (OUTDATED).</p><br>
 
 Here's my new conclusions from the Welch's t-test:
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/257838d6-5210-4169-b08b-9498f736dbbb" width="800"/><br>Fig 2. Welch's t-test results for a change in mean [DO] below 35m in Puget Sound before and after 2010 (NEW AND IMPROVED).</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/257838d6-5210-4169-b08b-9498f736dbbb" width="600"/><br>Fig 2. Welch's t-test results for a change in mean [DO] below 35m in Puget Sound before and after 2010 (NEW AND IMPROVED).</p><br>
 
 Conclusions don't change much and find less statistically significant change, as expected. All this to say that further understanding of our dataset is always helpful and questioning what is the appropriate statistical tool is good practice going forward. 
 
@@ -33,23 +33,23 @@ From last time, we discussed that a next important step in my data analysis is u
 
 For the following plots, I am using every month and all data points deeper than 35m to create an average. The confidence interval shown is 95%, which is 1.96x the standard deviation, divided by the squareroot of the number of data points. I removed average with only one sample, since that implies confidence intervals of 0, which is misleading in these plots. (This tended to occur sporadically in older datasets, where confidence intervals tend to be much larger due to smaller sample sizes). These focus on salinity, temperature, and dissolved oxygen.
 
-<p style="text-align:center;"><img src=https://github.com/dakotamm/dakotamm.github.io/assets/55995675/93456af4-951d-4c3d-a350-abebf168df88" width="400"/><br>Fig 3. Main Basin mean monthly [DO] below 35m time series with 95% confidence intervals.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/93456af4-951d-4c3d-a350-abebf168df88" width="400"/><br>Fig 3. Main Basin mean monthly [DO] below 35m time series with 95% confidence intervals.</p><br>
 
-<p style="text-align:center;"><img src=https://github.com/dakotamm/dakotamm.github.io/assets/55995675/49fab505-48fd-45f9-ae24-cc439ba4b7e9" width="400"/><br>Fig 4. Whidbey Basin mean monthly [DO] below 35m time series with 95% confidence intervals.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/49fab505-48fd-45f9-ae24-cc439ba4b7e9" width="400"/><br>Fig 4. Whidbey Basin mean monthly [DO] below 35m time series with 95% confidence intervals.</p><br>
 
-<p style="text-align:center;"><img src=https://github.com/dakotamm/dakotamm.github.io/assets/55995675/986d7763-f278-418e-9fcc-865afa0c975c" width="400"/><br>Fig 5. Hood Canal mean monthly [DO] below 35m time series with 95% confidence intervals.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/986d7763-f278-418e-9fcc-865afa0c975c" width="400"/><br>Fig 5. Hood Canal mean monthly [DO] below 35m time series with 95% confidence intervals.</p><br>
 
-<p style="text-align:center;"><img src=https://github.com/dakotamm/dakotamm.github.io/assets/55995675/31c287ae-b0bc-411c-bebf-38ffe328fee2" width="400"/><br>Fig 6. South Sound mean monthly [DO] below 35m time series with 95% confidence intervals.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/31c287ae-b0bc-411c-bebf-38ffe328fee2" width="400"/><br>Fig 6. South Sound mean monthly [DO] below 35m time series with 95% confidence intervals.</p><br>
 
 We noted last week that we should focus on Puget Sound, but I also made plots for Strait of Georgia and Strait of Juan de Fuca.
 
-<p style="text-align:center;"><img src=https://github.com/dakotamm/dakotamm.github.io/assets/55995675/f046d397-4787-433f-93c1-3df1688a4a7e" width="400"/><br>Fig 7. Northern Strait of Georgia mean monthly [DO] below 35m time series with 95% confidence intervals.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/f046d397-4787-433f-93c1-3df1688a4a7e" width="400"/><br>Fig 7. Northern Strait of Georgia mean monthly [DO] below 35m time series with 95% confidence intervals.</p><br>
 
-<p style="text-align:center;"><img src=https://github.com/dakotamm/dakotamm.github.io/assets/55995675/e799b25e-15a9-4580-b171-113d0f3efb38" width="400"/><br>Fig 8. Southern Strait of Georgia mean monthly [DO] below 35m time series with 95% confidence intervals.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/e799b25e-15a9-4580-b171-113d0f3efb38" width="400"/><br>Fig 8. Southern Strait of Georgia mean monthly [DO] below 35m time series with 95% confidence intervals.</p><br>
 
-<p style="text-align:center;"><img src=https://github.com/dakotamm/dakotamm.github.io/assets/55995675/67606624-0ad4-467e-8c0a-9ca84f9b9579" width="400"/><br>Fig 9. Strait of Juan de Fuca mean monthly [DO] below 35m time series with 95% confidence intervals.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/67606624-0ad4-467e-8c0a-9ca84f9b9579" width="400"/><br>Fig 9. Strait of Juan de Fuca mean monthly [DO] below 35m time series with 95% confidence intervals.</p><br>
 
-<p style="text-align:center;"><img src=https://github.com/dakotamm/dakotamm.github.io/assets/55995675/7839a9ce-3c8b-494a-80f9-add886c17986" width="400"/><br>Fig 10. San Juan Islands region mean monthly [DO] below 35m time series with 95% confidence intervals.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/7839a9ce-3c8b-494a-80f9-add886c17986" width="400"/><br>Fig 10. San Juan Islands region mean monthly [DO] below 35m time series with 95% confidence intervals.</p><br>
 
 With all of these plots, it's hard to see a trend at first glance. It's also really challenging to infer anything given years missing data (**does anyone have this?!**) and the large confidence intervals in earlier data. I also want to note that Figure 8 shows that Southern Strait of Georgia has really low DO in recent years. I believe this is due to oversampling at Saanich Inlet (as usual). If I have time before the meeting, I'll break out Saanich Inlet versus the rest of the Southern Strait of Georgia.
 
