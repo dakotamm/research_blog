@@ -16,7 +16,7 @@
 
 During break, I sent an update which considered the average sampling depth over time for DO throughout the water column to understand if changes in sampling technique has influenced data over the years. I sent plots which considered the entire depth of the cast, and got comments to consider binning by depth. I've done that as follows.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/49347f49-cec8-476e-a470-17ccb325b82b" width="600"/><br>Fig 1. North Strait of Georgia mean [DO] sampling depth time series.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/49347f49-cec8-476e-a470-17ccb325b82b" width="800"/><br>Fig 1. North Strait of Georgia mean [DO] sampling depth time series.</p><br>
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/cfb31993-22d3-4ece-bc64-c184eff2e7d4" width="800"/><br>Fig 2. South Strait of Georgia WITHOUT Saanich Inlet mean [DO] sampling depth time series.</p><br>
 
