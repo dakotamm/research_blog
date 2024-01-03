@@ -36,7 +36,7 @@ During break, I sent an update which considered the average sampling depth over 
 
 I can do any breakout of depths, but I've kept it consistent with other variables I've reported so far. I'm happy to create more plots to further investigate this question.
 
-Alex also brought up a good point that the sampling depth increase from 2010 to 2020 may correlate to the decrease in observed average dissolved oxygen on average...more investigation to follow!
+Alex also brought up a good point that the sampling depth increase from 2010 to 2020 may correlate to the decrease in observed average dissolved oxygen, especially in Hood Canal...more investigation to follow!
 
 Next steps here:
 * Confidence intervals based on cast number, in lieu of data points (degrees-of-freedom).
