@@ -18,21 +18,21 @@ During break, I sent an update which considered the average sampling depth over 
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/49347f49-cec8-476e-a470-17ccb325b82b" width="600"/><br>Fig 1. North Strait of Georgia mean [DO] sampling depth time series.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/cfb31993-22d3-4ece-bc64-c184eff2e7d4" width="600"/><br>Fig 2. South Strait of Georgia WITHOUT Saanich Inlet mean [DO] sampling depth time series.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/cfb31993-22d3-4ece-bc64-c184eff2e7d4" width="800"/><br>Fig 2. South Strait of Georgia WITHOUT Saanich Inlet mean [DO] sampling depth time series.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/6dab9e37-8622-45e5-bfb0-8474b66389c8" width="600"/><br>Fig 3. Saanich Inlet mean [DO] sampling depth time series.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/6dab9e37-8622-45e5-bfb0-8474b66389c8" width="800"/><br>Fig 3. Saanich Inlet mean [DO] sampling depth time series.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/ecfbb90c-e81b-4d3c-89f0-898cfa225fe5" width="600"/><br>Fig 4. Strait of Juan de Fuca mean [DO] sampling depth time series.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/ecfbb90c-e81b-4d3c-89f0-898cfa225fe5" width="800"/><br>Fig 4. Strait of Juan de Fuca mean [DO] sampling depth time series.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/a1013b41-3a78-4d26-a4cb-cb09a6a286de" width="600"/><br>Fig 5. San Juan Islands mean [DO] sampling depth time series.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/a1013b41-3a78-4d26-a4cb-cb09a6a286de" width="800"/><br>Fig 5. San Juan Islands mean [DO] sampling depth time series.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/744b671a-3861-4165-a9a7-caf000f3612d" width="600"/><br>Fig 6. Main Basin mean [DO] sampling depth time series.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/744b671a-3861-4165-a9a7-caf000f3612d" width="800"/><br>Fig 6. Main Basin mean [DO] sampling depth time series.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/efed7dff-07ba-4140-ad35-1924107a220b" width="600"/><br>Fig 7. Whidbey Basin mean [DO] sampling depth time series.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/efed7dff-07ba-4140-ad35-1924107a220b" width="800"/><br>Fig 7. Whidbey Basin mean [DO] sampling depth time series.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/ebed1078-dec1-4beb-9ea6-d0dca56682dc" width="600"/><br>Fig 8. Hood Canal mean [DO] sampling depth time series.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/ebed1078-dec1-4beb-9ea6-d0dca56682dc" width="800"/><br>Fig 8. Hood Canal mean [DO] sampling depth time series.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/b63b76a4-7f30-4008-911c-36a642ec3fdb" width="600"/><br>Fig 9. South Sound mean [DO] sampling depth time series.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/b63b76a4-7f30-4008-911c-36a642ec3fdb" width="800"/><br>Fig 9. South Sound mean [DO] sampling depth time series.</p><br>
 
 I can do any breakout of depths, but I've kept it consistent with other variables I've reported so far. I'm happy to create more plots to further investigate this question.
 
