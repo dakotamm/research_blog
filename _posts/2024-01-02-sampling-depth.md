@@ -34,11 +34,10 @@ During break, I sent an update which considered the average sampling depth over 
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/b63b76a4-7f30-4008-911c-36a642ec3fdb" width="600"/><br>Fig 9. South Sound mean [DO] sampling depth time series.</p><br>
 
-With all of these plots, it's hard to see a trend at first glance. It's also really challenging to infer anything given years missing data (**does anyone have this?!**) and the large confidence intervals in earlier data. I also want to note that Figure 8 shows that Southern Strait of Georgia has really low DO in recent years. I believe this is due to oversampling at Saanich Inlet (as usual). If I have time before the meeting, I'll break out Saanich Inlet versus the rest of the Southern Strait of Georgia.
-
-I already have put so many plots here, but I do have seasonal time series, time series for a mid-depth bin (15-35m) and shallow bin (<15m), and time series for all measuresed variables (spoiler alert: it's pretty sparse with most of the other ones in earlier years). I can share these outside of the blogpost.
+*** comments!
 
 Next steps here:
+* Confidence intervals based on cast number, in lieu of data points (degrees-of-freedom).
 * I have Skagit discharge data since 1940...explore the correlation between monthly discharge and CT/SA/DO?
 * Volume-weighted averages?
 * Saanich Inlet breakout (if I can't get to it today)
@@ -73,10 +72,8 @@ Last week, we chatted about Ocean Sciences and the direction for Paper 1. Here's
 ---
 
 ## Bookkeeping 
-* Vacation: 12/18-12/22
 * Ocean Sciences: 2/18/-2/23 - Airbnb booked!
-* General Exam Timeline?
-  
+\  
 ---
 
 ### Looking Ahead:
