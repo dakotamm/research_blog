@@ -1,4 +1,4 @@
-# Lots of Plots - Temporal/Regional Exploration of DO and Sampling Depth Trends
+# Lots of Plots - Temporal/Regional Exploration of DO and Sampling Depth
 
 ### Goals From Last Meeting:
 1. Use number of casts as DOF for confidence intervals.
@@ -20,9 +20,9 @@
 
 ## Number of Casts as DOF for Confidence Intervals and Finer Depth-Binning
 
-**I am only going to show Hood Canal plots in this blog - it would be way too long otherwise! I do have all other plots available to chat about during our meeting! Honestly there's a lot to see here; I've created a data mountain that I haven't climbed yet...**
+**I am only going to show Hood Canal plots in this blog - it would be way too long otherwise! I do have all other plots available to chat about during our meeting! Honestly there's a lot to see here. This data lion has bitten off more than she can chew for one blog post!**
 
-First, I am using the number of casts as degrees-of-freedom for the confidence intervals (in lieu of using total data points previously). This will give us ***
+First, I have updated my scripts to use the number of casts as degrees-of-freedom for the confidence intervals (in lieu of using total data points previously). This will give us a better idea of the variation in time of averaged values, in lieu of using number of data points (which may be oversampled in depth by CTDs!). Yay!
 
 Second, I increased the depth-resolution by creating finer bin sizes (10 total), as follows:
 * <5m
@@ -34,9 +34,11 @@ Second, I increased the depth-resolution by creating finer bin sizes (10 total),
 * 75-100m
 * 100-150m
 * 150-200m
-* >200m
+* \>200m
 
-I've selected a few bins to show. We can see that for Hood Canal, we observed ****
+This helps us see trends in more specific portions of the water column, which are likely to be more homogenous than larger bins. Binning can only get us so far, but this is a useful first pass!
+
+I've selected a few bins to show (there are many more plots that I'm not showing!):
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/41bc6146-5105-4fcc-a869-2f5bce67381a" width="800"/><br>Fig 1. Hood Canal SA/CT/DO monthly average time series <5m depth.</p><br>
 
@@ -44,82 +46,83 @@ I've selected a few bins to show. We can see that for Hood Canal, we observed **
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/f1bf4c03-1265-4652-b40d-9887773cc0fe" width="800"/><br>Fig 3. Hood Canal SA/CT/DO monthly average time series 150-200m depth.</p><br>
 
-*********
+We can see that in the surface bin, there is substantially more variation than in deeper bins. This makes sense for a couple of reasons: a) there are more samples in shallower regions since not all casts go to the maximum depth and b) the surface is more bioactive and subject to environmental forcing like wind-driven mixing. We expect a lot more variation, and we're seeing it!
 
-***trends up and down per region summary???
+There's a lot to parse, but there isn't an apparent downward trend in surface DO. There is a downward trend in surface salinity over time, however! **Look into further...**
 
-compound plots!!!
+However, in the 30-50m range, there appears to be some decrease over time (also a wickedly large CI - **to investigate further***).
+
+At depth, there is less data, but it's less variable over all. We do not observe a downward trend here readily.
 
 ---
 
 ## Seasonal Averaging!
 
-Previously, I've focused heavily on monthly averages. Now, I'm recreating the same plots as above with seasonal averages.
+Previously, I've focused heavily on monthly averages. Now, I'm recreating the same plots as above with seasonal averages! Before, I showed similar plots that used monthly averages but selected for specific seasons. The following represent true thre-month averages, broken out by season.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/903dfcbb-5531-4360-8b8f-4e28b1a27878" width="800"/><br>Fig 4. Hood Canal SA/CT/DO monthly average time series <5m depth.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/903dfcbb-5531-4360-8b8f-4e28b1a27878" width="800"/><br>Fig 4. Hood Canal SA/CT/DO seasonal average time series <5m depth.</p><br>
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/d018196c-5af3-4ba0-a4b2-96ae602d1592" width="800"/><br>Fig 5. Hood Canal SA/CT/DO seasonal average time series 30-50m depth.</p><br>
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/d6eb391f-807f-4400-b726-30d5576d32e2" width="800"/><br>Fig 6. Hood Canal SA/CT/DO seasonal average time series 150-200m depth.</p><br>
 
-****compound plots!!!
+*Data visualizations under construction! Please excuse my tiny fonts and improper axes :D.*
 
+Both by creating seasonal averages and visualizing data by season separately, we see some more interesting trends. Importantly, lowest DO is observed during fall. Unlike the monthly visualizations above that were not separated by season, we can see a surface trend of decreasing SA and increasing CT over time, in each season. However, DO is not observed to be decreasing overtime in any season; in fact, fall DO looks to be increasing at the surface!
+
+However, at mid-depth, we see that although SA is fairly constant overtime, CT appears to be slightly increasing, and DO appears to be decreasing. At depth, subtle warming is observed.
 
 ---
 
 ## Yearly Averaging!
 
-***same with yearly averages!
+I can also look at the same data but with yearly averages. This doesn't really help elucidate more granular trends, but is a useful way to look quickly at interannual variation.
 
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/d929ada7-77b3-4f1a-b67e-7eebab317449" width="800"/><br>Fig 7. Hood Canal SA/CT/DO monthly average time series <5m depth.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/d929ada7-77b3-4f1a-b67e-7eebab317449" width="800"/><br>Fig 4. Hood Canal SA/CT/DO monthly average time series <5m depth.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/b440049c-d126-4c6d-83b9-d26682a5a70e" width="800"/><br>Fig 8. Hood Canal SA/CT/DO seasonal average time series 30-50m depth.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/b440049c-d126-4c6d-83b9-d26682a5a70e" width="800"/><br>Fig 5. Hood Canal SA/CT/DO seasonal average time series 30-50m depth.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/628f02f5-92e6-4033-b615-863bd53ed283" width="800"/><br>Fig 9. Hood Canal SA/CT/DO seasonal average time series 150-200m depth.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/628f02f5-92e6-4033-b615-863bd53ed283" width="800"/><br>Fig 6. Hood Canal SA/CT/DO seasonal average time series 150-200m depth.</p><br>
-
-****compound plots!!!
-
+There are significant confidence intervals that are fairly consistent in size (likely due to seasonal variation inherent in an annual average). These trends reflect what was observed in the the seasonal breakout above, but on even less granular timescales.
 
 ---
 
 ## Exploring Sampling Depth Variation
 
-***these three look pretty similar! sampling depth consistency even with different temporal resolution!
+Changing gears slightly - now I'm exploring sampling depth for DO over time. Previously, I'd used some pretty thich depth-bins and hadn't looked at different temporal resolution or time periods. The following plots show monthly, seasonal, and yearly sampling depth averages for each depth bin (defined above). Then, I've plotted the mean depth PER CAST, also binned as above. Plotting these against each other, I can see how central each mean is within the depth bin.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/0c4baeeb-343c-4511-b718-952a99583d20" width="800"/><br>Fig 7. Hood Canal monthly average DO sampling depth and all binned depth averages (binned), colored by depth bin.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/0c4baeeb-343c-4511-b718-952a99583d20" width="800"/><br>Fig 10. Hood Canal monthly average DO sampling depth and all binned depth averages (binned), colored by depth bin.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/22426840-a531-43a0-b90e-fa344bf8de33" width="800"/><br>Fig 8. Hood Canal seasonal average DO sampling depth and all binned depth averages (binned), colored by depth bin.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/22426840-a531-43a0-b90e-fa344bf8de33" width="800"/><br>Fig 11. Hood Canal seasonal average DO sampling depth and all binned depth averages (binned), colored by depth bin.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/14cf2b86-fa1e-4bdb-96f9-e64bb7c86c95" width="800"/><br>Fig 9. Hood Canal yearly average DO sampling depth and all binned depth averages (binned), colored by depth bin.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/14cf2b86-fa1e-4bdb-96f9-e64bb7c86c95" width="800"/><br>Fig 12. Hood Canal yearly average DO sampling depth and all binned depth averages (binned), colored by depth bin.</p><br>
 
+There is significantly more variation when taking monthly averages (as makes sense). But if we look within some groups of years (pre-1945, post-1995, and in between, say), we can see that they tend towards fairly similar values that do not change much within those broader time periods. For clarity, I'll continue this discussion using seasonal depth averages.
 
-***use seasonal for now...????
+Now, the following plots show the same information, but broken out by season to observe any seasonal trends in sampling depth for DO.
 
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/b921fa6d-b13e-43f1-8c07-32056924788c" width="800"/><br>Fig 13. Hood Canal seasonal average DO sampling depth and all binned depth averages (binned), colored by season.</p><br>
 
+There is not significant interseasonal variation, in my opinion! This consistency is helpful, but also requires further analysis.
 
+Looking at slightly more information, the seasonal breakout is now colored by data source (or, sampling agency):
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/b921fa6d-b13e-43f1-8c07-32056924788c" width="800"/><br>Fig 10. Hood Canal seasonal average DO sampling depth and all binned depth averages (binned), colored by season.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/f318d2d0-ea96-4114-9219-15617418e0d4" width="800"/><br>Fig 14. Hood Canal seasonal average DO sampling depth and all binned depth averages (binned), colored by source.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/f318d2d0-ea96-4114-9219-15617418e0d4" width="800"/><br>Fig 11. Hood Canal seasonal average DO sampling depth and all binned depth averages (binned), colored by source.</p><br>
-
-
-****
-
+Other than temporal variability, there is not a particular skew of one data source toward certain depth ranges. Again, this requires further analysis.
 
 ---
 
 ## Average Casts During Time Periods/Seasons
 
-Another ask from last week was to create DO vs. Z profiles from data and create binned averages PER season and time period. I've defined some time periods as follows:
+Finally, another ask from last week was to create DO vs. Z profiles from data and create binned averages PER season and time period (somewhat of a "climatological cast". This follows on from above, observing that mean sampling depth is consistent within year groupings, but not perfectly aligned between them. I've defined some time periods as follows:
 * Pre-1945
 * 1945-1980
 * 1980-1995
 * 1995-On
 
-Creating these profiles will allow us to see where sampling depth and DO variation occurs between samples and if adjustments for sampling depth are necessary*** 
-
-Note there is no data in Hood Canal between 1980 and 1995.***
+Creating these profiles will allow us to see where sampling depth and DO variation occurs between samples and if adjustments for sampling depth are necessary when comparing DO data. The following plots show average casts and all data points for each time period and season. Note there is no data in Hood Canal between 1980 and 1995.
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/09d8ef6d-df78-495a-9513-f4c76994da41" width="800"/><br>Fig 12. Hood Canal DO vs. depth for all seasons pre-1945; all data is plotted and average in 1-m bins.</p><br>
 
@@ -127,10 +130,21 @@ Note there is no data in Hood Canal between 1980 and 1995.***
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/9986ad2d-bcf0-4fed-bcfa-2bd77f6f61de" width="800"/><br>Fig 14. Hood Canal DO vs. depth for all seasons 1995-on; all data is plotted and average in 1-m bins.</p><br>
 
+Clearly there is way more high-resolution data in modern times which tends to smooth out the average casts. In all cases, the "widest" casts (further from mean) seem to be from the earliest years within the time period. We note the importance of using seasonal breakouts for these average casts, as there is significant variation between seasonal average casts.
+
+**A regression-type fit may be more appropriate than this average binning for smoothness of average casts!)**
+
+These are somewhat hard to compare how I've presented them. The key finding here will be the changes in these average casts in different time periods, and if they can be used to "correct" sampled data based on depth so as to allow depth-consistent comparisons of DO measurements.
 
 ---
 
 ## Miscellaneous
+
+Next steps:
+* Regional analyses like above for Hood Canal
+* Interregional comparison of sampling depths!!!
+* Explore large CI data points
+* Clean up plotting - how to show this succinctly?
 
 Thoughts for posterity:
 * Review Collias publications for early data context.
