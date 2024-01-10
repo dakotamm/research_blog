@@ -1,4 +1,4 @@
-# Off-Piste Data Update - Saanich Inlet and Saanich Inlet
+# Off-Piste Data Update - Saanich Inlet and Sampling Depth Over Time
 
 ---
 
