@@ -6,7 +6,8 @@
 3. Break out Lynch Cove from Hood Canal.
 4. Rebin based on bottle data sampling depths.
 5. Create average seasonal casts for each of SA/CT/DO and each time period + assess confidence intervals...(eliminate depth bin if too large)?
-6. Submit Ocean Sciences + computer reimburesements.
+6. Map of sampling locations per decade.
+7. Submit Ocean Sciences + computer reimburesements.
    
 ### Completed Goals:
 1. Set up my new computer!
@@ -44,6 +45,7 @@ The intent of creating these plots is a) to see if the average profiles have cha
 ## Miscellaneous
 
 Next steps:
+* Map of sampling locations per decade.
 * Different time periods for above analysis?
 * Regional analyses like above for Hood Canal
 * Interregional comparison of sampling depths!!!
