@@ -22,6 +22,8 @@
 
 **Again, I am only going to show Hood Canal due to sheer volume of info!**
 
+Last week, we talked about me staying in the "skepticism" phase - this continues that work!
+
 First, I updated by regions such that Hood Canal and Lynch Cove are processed separately. There is one cast with deep DO in Lynch Cove (~200m) but I believe that's erroneous and/or improperly located.
 
 Second, I create depth bins by looking at bottle samples (very manually). Here's some plots of DO bottle samples in Hood Canal.
