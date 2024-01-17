@@ -31,20 +31,20 @@ Roughly, I created bins with edges at half meters through the first 10m, then in
 
 Now, I created averages within each depth bin using bottle data only and then calculated each bins confidence interval for each time period (see plots), variable (SA/CT/DO), and season. That yielded the following plots for Hood Canal! Individual colored points are individual bottle samples. (Note these plots took stubbornly long to make and it's the extent of the plotting for this week.)
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/41bc6146-5105-4fcc-a869-2f5bce67381a" width="800"/><br>Fig 1. Hood Canal SA average casts per time period and season.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/f603d965-303d-461a-bfca-6d1552c44445" width="800"/><br>Fig 1. Hood Canal SA average casts per time period and season.</p><br>
   
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/41bc6146-5105-4fcc-a869-2f5bce67381a" width="800"/><br>Fig 2. Hood Canal CT average casts per time period and season.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/8054fc6e-80aa-4623-bd81-69ff5633748e" width="800"/><br>Fig 2. Hood Canal CT average casts per time period and season.</p><br>
   
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/41bc6146-5105-4fcc-a869-2f5bce67381a" width="800"/><br>Fig 3. Hood Canal DO average casts per time period and season.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/56dca5bd-410d-45d1-8bc3-165b8df2aeec" width="800"/><br>Fig 3. Hood Canal DO average casts per time period and season.</p><br>
 
 The intent of creating these plots is a) to see if the average profiles have changed over time and b) to be able to use these to compare across time periods when discussing trends at depth. I think there is not a clear change in these profiles over time that isn't within 95% confidence intervals, but perhaps further refining is important. Importantly, the confidence intervals (in Hood Canal) are fairly significant, which brings some difficulty to "weighting" based on these average casts when comparing across depths. However it's a good start! 
-
 
 ---
 
 ## Miscellaneous
 
 Next steps:
+* Different time periods for above analysis?
 * Regional analyses like above for Hood Canal
 * Interregional comparison of sampling depths!!!
 * Explore large CI data points
