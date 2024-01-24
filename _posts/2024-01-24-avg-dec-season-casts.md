@@ -38,7 +38,7 @@ Given the above, we can now have some confidence that the trends we're observing
 
 So there is definitely a change in Hood Canal in sampling location and spread over time. Since the 1940s largely sampled closer to the mouth of Hood Canal, these may be less suscetible to low DO naturally since they may have higher flushing rates... But there is also more potential for deep-water intrusions over the entry sill (though the casts may not be deep enough to capture this...)
 
-I'm thinking of how to control for this, and limiting trends to only overlapping areas may be the most straightforward way... Should I implement smaller polygons?
+I'm thinking of how to control for this, and limiting trends to only overlapping areas may be the most straightforward way... Should I implement smaller polygons? Seems a very granular approach.
 
 ---
 
@@ -46,7 +46,7 @@ I'm thinking of how to control for this, and limiting trends to only overlapping
 
 In looking at Hood Canal and Lynch Cove, I was perplexed by some deep casts that seemed out of place in Lynch Cove. Here's some figures that show what erroneous cast depths I'm talking about...
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/19ec4aff-36a8-4a7c-a34d-731b4ec5dd90 width="800"/><br>Fig 4. Lynch Cove SA/CT/DO seasonal decadal averages casts with erroneous deep casts.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/19ec4aff-36a8-4a7c-a34d-731b4ec5dd90" width="800"/><br>Fig 4. Lynch Cove SA/CT/DO seasonal decadal averages casts with erroneous deep casts.</p><br>
 
 This is weird because...Lynch Cove is only about 45 meters deep at max! So I manually went through and found ~10 casts that had erroneous depths (up to 175m) and I removed them from the dataset. I haven't gone through every area yet and run similar checks, but this is certainly something to keep in mind. Perhaps a filter based on the max depth of LO grid at cast locations would make this less manual?
 
@@ -55,6 +55,7 @@ This is weird because...Lynch Cove is only about 45 meters deep at max! So I man
 ## Miscellaneous
 
 Next steps:
+* Control for lat/lon change in cast locations over time.
 * Regional analyses like above for Hood Canal
 * Interregional comparison of sampling depths!!!
 * Explore large CI data points
@@ -91,7 +92,7 @@ Thoughts for posterity:
 * Spring 2023: General Exam (Thesis Proposal)
   * Part 1: Paper 1 content!
   * Part 2: ??? specific regional analyses
-  * Since I already have a Masters (albeit in a different group), how many "chapters" are warranted? I've heard two for pre-existing MSCEs...
+  * Aim for three chapters...
   * Where does Penn Cove stuff fit? Learning how to run LO?
   * Incorporating reading...especially Riche et al. 2014 and Moore and Mantua 2008 (likely reading bulk **after** Ocean Sciences).
   * **Need to assemble committee! Evidently Michelle can GSR**
@@ -102,6 +103,7 @@ Thoughts for posterity:
 ## Bookkeeping 
 * Ocean Sciences: 2/18/-2/23
   * Booked: flights, accommodations - **reimbursements pending**
+  * **Should I do a "digital poster"?**
 * New computer :) - **reimbursements pending**
 * PECS - on the radar
 
