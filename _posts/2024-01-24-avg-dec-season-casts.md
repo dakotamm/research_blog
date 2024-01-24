@@ -36,7 +36,9 @@ Given the above, we can now have some confidence that the trends we're observing
 
 **Note:** Though there are few dots, this generally does represent repeat sampling in this location. I have not found instances where this is not the case.
 
-So there is definitely a change in Hood Canal in sampling location and spread over time. I'm thinking of how to control for this, and limiting trends to only overlapping areas may be the most straightforward way... Should I implement smaller polygons?
+So there is definitely a change in Hood Canal in sampling location and spread over time. Since the 1940s largely sampled closer to the mouth of Hood Canal, these may be less suscetible to low DO naturally since they may have higher flushing rates... But there is also more potential for deep-water intrusions over the entry sill (though the casts may not be deep enough to capture this...)
+
+I'm thinking of how to control for this, and limiting trends to only overlapping areas may be the most straightforward way... Should I implement smaller polygons?
 
 ---
 
