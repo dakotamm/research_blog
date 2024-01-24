@@ -1,4 +1,4 @@
-# Revising Sampling Depth Bins Toward Change in Average Profiles Over Time
+# Preliminary Average Seasonal Decadal Casts
 
 ### Goals From Last Meeting:
 1. Map of sampling locations per decade.
