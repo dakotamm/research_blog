@@ -117,7 +117,7 @@ Thoughts for posterity:
 ## Bookkeeping
 * *Possible* Ocean Sciences Poster Review: 2/8
 * Ocean Sciences: 2/18/-2/23
-  * Booked: flights, accommodations - **reimbursements pending**
+  * Looks like reimbursements so far are approved!
   * **Should I do a "digital poster"?** - may be more effort than it's worth...
 * New computer :) - **reimbursements pending**
 * PECS - on the radar
