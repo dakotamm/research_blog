@@ -12,7 +12,7 @@
 
 ## Spatial Variation in Hood Canal Exploration
 
-From last week's async review (given that I was sick!), we discussed exploring spatial variation in sampling location over time as a possible driver of the trends we're seeing in Hood Canal. **Note: This is where my data analysis has gotten a little bespoke to Hood Canal, and so the results aren't generalizable to other regions readily.** This comes from maps I made last week showing a clear change in sampling locations within Hood Canal overtime. In general, earlier sampling was conducted closer to the mouth of Hood Canal, whereas modern sampling takes a consistent distribution down its length.
+From last week's async review (as I was languishing - thank you for your awesome comments regardless!), we discussed exploring spatial variation in sampling location over time as a possible driver of the trends we're seeing in Hood Canal. **Note: This is where my data analysis has gotten a little bespoke to Hood Canal, and so the results aren't generalizable to other regions readily.** This comes from maps I made last week showing a clear change in sampling locations within Hood Canal overtime. In general, earlier sampling was conducted closer to the mouth of Hood Canal, whereas modern sampling takes a consistent distribution down its length.
 
 First, I want to confirm a bit of intuition that we've discussed. In general, we believe the dissolved oxygen decreases as we toward Lynch Cove along Hood Canal due to less exchange possibility with the rest of Puget Sound via the mouth (longer residence times at a "dead end"). To confirm this, I focused on 2010s sampling. First, a map of all bottle cast locations measuring DO...
 
