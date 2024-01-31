@@ -5,8 +5,8 @@
 2. Start thinking Ocean Sciences poster outline.
    
 ### Completed Goals:
-1. Explore spatial variation over time as a potential driver for trends in DO/SA/CT.
-2. Start thinking Ocean Sciences poster outline.
+1. Explored spatial variation over time as a potential driver for trends in DO/SA/CT.
+2. Started thinking Ocean Sciences poster outline.
    
 ---
 
