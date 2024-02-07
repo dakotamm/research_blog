@@ -68,7 +68,7 @@ On to Main Basin:
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/02698fa5-c870-4be0-a184-0f995854122e" width="800"/><br>Fig 10. Near Alki decadal/seasonal average casts (CIs for 1950s and 2010s).</p><br>
 
-Perhaps bottle sampling at the sill is only conducted at shallow depths in recent years? Perhaps I should incorporate CTD data too to get more comparable data at depth.
+Perhaps bottle sampling at the sill is only conducted at shallow depths in recent years? Perhaps I should incorporate CTD data too to get more comparable data at depth. Also - Admiraly Inlet values may be dependent on tidal timing of sampling, especially at depth (e.g., deep water injections every other neap tide...). Thus it may be hard to draw long time series conclusions here.
 
 And finally Whidbey Basin:
 
