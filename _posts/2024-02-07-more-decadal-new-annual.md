@@ -48,6 +48,8 @@ Now I'm going to throw you a bunch of plots for each of these locations! First H
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/fa9c0408-475d-47c4-aa9d-bf20c7194daa" width="800"/><br>Fig 4. Lynch Cove Shallow decadal/seasonal average casts (CIs for 1950s and 2010s).</p><br>
 
+A quick note that current depth-binning perhaps isn't the best adapted to shallower casts, and that I'm also filtering out erroneous depths in Lynch Cove. I've mentioned this in previous posts.
+
 Now South Sound:
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/ab8c0e56-9b67-4162-a6ea-0ead0574d296" width="800"/><br>Fig 5. Budd Inlet decadal/seasonal average casts (CIs for 1950s and 2010s).</p><br>
@@ -56,7 +58,7 @@ Now South Sound:
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/f58e46e3-780d-4cbc-b5a9-d74efbfa382f" width="800"/><br>Fig 7. Carr Inlet Mid decadal/seasonal average casts (CIs for 1950s and 2010s).</p><br>
 
-*Something weird is happening at Budd Inlet (potentially I'm missing some large outliers). I need to check this in more depth.*
+Budd Inlet looks to have some high uncertainty. There were no erroneous outliers, but perhaps a lack of sampling frequency in this area during earlier decades is informing these wide confidence intervals.
 
 On to Main Basin:
 
@@ -66,7 +68,7 @@ On to Main Basin:
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/02698fa5-c870-4be0-a184-0f995854122e" width="800"/><br>Fig 10. Near Alki decadal/seasonal average casts (CIs for 1950s and 2010s).</p><br>
 
-*Perhaps bottle sampling at the sill is only at shallow depths in recent years? Perhaps I should incorporate CTD data too.*
+Perhaps bottle sampling at the sill is only conducted at shallow depths in recent years? Perhaps I should incorporate CTD data too to get more comparable data at depth.
 
 And finally Whidbey Basin:
 
@@ -76,21 +78,20 @@ And finally Whidbey Basin:
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/51c5ceeb-b99f-449d-931f-cc73169784ed" width="800"/><br>Fig 13. Port Susan Mid decadal/seasonal average casts (CIs for 1960s and 2010s).</p><br>
 
-*Port Susan is pretty darn sparse...*
+Port Susan is pretty darn sparse... But I wanted to take a look nonetheless.
+
+Overall, there are some wide 95% confidence intervals going on. There are also very few sites that have strong repeatability between decades. What we can definitely draw conclusions about is warming temperatures in the summer and fall in most locations.
 
 
 ---
 
 ## Interannual Variation Exploration
 
-Another item that came out of last week was trying to create smaller time increment seasonal depth-averaged casts. So I've employed a similar process for all basins in Puget Sound (given spatial consistency!) from 2000 to present. I'll focus on Hood Canal for brevity of this post, but I have all the other plots and can gladly share.
+Another item that came out of last week was trying to create smaller time increment seasonal depth-averaged casts. So I've employed a similar process for all basins in Puget Sound (given spatial consistency!) from 2000 to present. I'll focus on Hood Canal for brevity of this post, but I have all the other plots and can gladly share. I also have plots of pre-2010 and 2010 on, which I can show as well.
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/ff9d9421-3caf-4352-ab2a-6bc5f17c6b5a" width="800"/><br>Fig 13. Hood Canal (sans Lynch Cove) yearly/seasonal average casts since 2000.</p><br>
 
-*Add CIs if have time.**
-
-
-
+I have not yet added confidence intervals for lack of time. I can do that ASAP.
 
 ---
 
@@ -106,7 +107,7 @@ Motivation/Background:
 * Explain why there is focus on this...
   * Increase in population corresponding to increase in N-load? (read and ref. Ecology report)... BUT leading order source of N is ocean!
 
-*Fill in further planning for tomorrow.**
+*Fill in further planning for draft by end of week.**
 
 Here's some of my big answers:
 * In most places, no not really! DO isn't really declining over time (though CT seems to show a warming trend so far in Hood Canal).
@@ -117,7 +118,6 @@ Which brings me to the "SO WHAT":
 * So if DO is not really changing (that we can tell)...what else is changing? -> CT!
 * What is causing CT trends? -> ...climate change probably (shocking)...
 
-********
 
 ---
 
@@ -125,7 +125,7 @@ Which brings me to the "SO WHAT":
 ## Miscellaneous
 
 Next steps:
-* Regional analyses like above for Hood Canal
+* Ocean Sciences poster...
 
 Thoughts for posterity:
 * Review Collias publications for early data context.
@@ -167,11 +167,11 @@ Thoughts for posterity:
 ---
 
 ## Bookkeeping
-* *Possible* Ocean Sciences Poster Review: 2/8
+* Ocean Sciences EFM Poster Review: 2/15
 * Ocean Sciences: 2/18/-2/23
-  * Looks like reimbursements so far are approved!
+  * Reimbursements done!
   * **Should I do a "digital poster"?** - may be more effort than it's worth...
-* New computer :) - **reimbursements pending**
+* New computer :) - reimbursements done!
 * PECS - on the radar
 
 ---
