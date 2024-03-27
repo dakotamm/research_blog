@@ -103,7 +103,7 @@ Keeping this here (for General, Paper, etc. too):
 
 ## Skagit River Decadal Correlations
 
-For the PECS abstract and after follow-up conversations after Ocean Sciences, I have started to look at Skagit River correlation with decadal trends in our big 3: DO, salinity, and temperature. Here's a MONSTER PLOT!!!
+For the PECS abstract and after follow-up conversations after Ocean Sciences, I have started to look at Skagit River correlation with decadal trends in our big 3: DO, salinity, and temperature. Here I'm using the Mount Vernon USGS gauge. Here's a MONSTER PLOT!!!
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/17247b7f-0278-49ff-9bfa-b65fa164a1f7" width="800"/><br>Fig 1. Selected decadal average DO profiles with Skagit yearly and decadal mean discharge.</p><br>
 
