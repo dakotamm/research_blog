@@ -33,13 +33,13 @@ I also investigated the feasability of a deep dive into Whidbey Basin for a port
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/1f76cf70-feb6-4b32-b183-9c20476ea596" width="800"/><br>Fig 2. Average yearly profiles in Whidbey Basin 1999-2005.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/18266dd6-9cdc-41f4-bf82-7517b7632a20" width="800"/><br>Fig 3. Average yearly profiles in Whidbey Basin 2006-2007.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/18266dd6-9cdc-41f4-bf82-7517b7632a20" width="400"/><br>Fig 3. Average yearly profiles in Whidbey Basin 2006-2007.</p><br>
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/a42950eb-736d-40d6-9cea-2ae5d2403728" width="800"/><br>Fig 4. Average yearly profiles in Whidbey Basin 2009-2015.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/74dd28ce-50f9-40fb-a63d-1b89198c0496" width="800"/><br>Fig 5. Average yearly profiles in Whidbey Basin 2016-2018.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/fc9e0ef4-f71a-47eb-a5e9-2f0f5e67ff3e" width="400"/><br>Fig 5. Average yearly profiles in Whidbey Basin 2016-2018.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/cbe4af5c-de61-4a3a-9afa-2b570d5dc144" width="800"/><br>Fig 6. Average yearly profiles in Whidbey Basin 2022-2023.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/cbe4af5c-de61-4a3a-9afa-2b570d5dc144" width="400"/><br>Fig 6. Average yearly profiles in Whidbey Basin 2022-2023.</p><br>
 
 *Dakota to add more words about this here. Some notes:*
 * I still need to set a meeting with Taylor on her thoughts on feasibility here...
