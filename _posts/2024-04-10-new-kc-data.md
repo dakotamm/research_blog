@@ -1,4 +1,4 @@
-# Catching Up, Planning, and Some Skagit Correlations
+# New KC Data
 
 ### Goals From Last Meeting:
 1. Bring in new KC data (from Taylor, Whidbey CTDs, KC bottle).
