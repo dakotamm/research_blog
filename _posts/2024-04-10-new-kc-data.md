@@ -1,4 +1,4 @@
-# New KC Data
+# New KC Data and Contined General Scoping
 
 ### Goals From Last Meeting:
 1. Bring in new KC data (from Taylor, Whidbey CTDs, KC bottle).
