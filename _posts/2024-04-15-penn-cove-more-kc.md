@@ -46,11 +46,11 @@ I'll present all four sites, but the most comparable sites exclude PENNCOVECW gi
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/4c6ff27a-53a2-4b39-b6e1-6cd6754c9a30" width="800"/><br>Fig 1. Time series of sampled variables at KC CTD site SARATOGARP.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/bb447235-cdb5-4460-8805-69ca21719997" width="800"/><br>Fig 1. Time series of sampled variables at KC CTD site PENNCOVEENT.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/bb447235-cdb5-4460-8805-69ca21719997" width="800"/><br>Fig 2. Time series of sampled variables at KC CTD site PENNCOVEENT.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/dc934bf2-4385-4f2f-bbc6-170e7b3e081b" width="800"/><br>Fig 1. Time series of sampled variables at KC CTD site PENNCOVEWEST.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/dc934bf2-4385-4f2f-bbc6-170e7b3e081b" width="800"/><br>Fig 3. Time series of sampled variables at KC CTD site PENNCOVEWEST.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/ed3f032b-2e3b-4f24-8cae-fb4fc12cd72c" width="800"/><br>Fig 1. Time series of sampled variables at KC CTD site PENNCOVECW.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/ed3f032b-2e3b-4f24-8cae-fb4fc12cd72c" width="800"/><br>Fig 4. Time series of sampled variables at KC CTD site PENNCOVECW.</p><br>
 
 Some quick observations from the four sites:
 * We can see some clear seasonal patterns, but not a ton of interannual variation. It seems like both years have similar magnitudes of DO change seasonally. These lag chlorophyll maxima. NO3 depletion lags chlorophyll maxima as well.
@@ -69,7 +69,7 @@ Based on some email correspondence with Alex, we think this could be a good eval
 
 For Paper 1 (and Chapter 1/2 of my General Exam), I will focus heavily on decadal/annual trends in observations. What we've encountered as a primary difficulty is lack of temporal and spatial resolution to our data. In particular, it's hard to get time series extending through the entire timerange (1930s onward) in specific locations. The biggest dearth of data is the 70s-90s, especially for DO data. Taylor provided some data from historic KC monitoring stations (and promised a bit more that is still forthcoming). This data adds signficiant spatial resolution in and around King County. Note: This is typical of all the additional KC data. Here's an example from summer 1969 DO data showing the locations of sampling.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/8500f00c-1ce5-4b8a-9745-eaeafe3db43a" width="800"/><br>Fig 1. Summer 1969 DO data from various sources and locations within Puget Sound.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/8500f00c-1ce5-4b8a-9745-eaeafe3db43a" width="800"/><br>Fig 5. Summer 1969 DO data from various sources and locations within Puget Sound.</p><br>
 
 However, this data really only seems to add DO data from 1965-1975 in this specific location, though SA and CT samples are collected throughout the 1986. Perhaps data is missing? I've followed up with Taylor here, and also have checked in on some outstanding data she mentioned collected near Point Jefferson from the 1970s-1990s.
 
