@@ -1,4 +1,4 @@
-![ps_1969_summer_DO_mg_L_raw](https://github.com/dakotamm/dakotamm.github.io/assets/55995675/23ca18bb-ae4b-4577-9981-ae52d5cb5dd2)# More New KC Data and Further General Scoping
+# More New KC Data and Further General Scoping
 
 ### Goals From Last Meeting:
 1. Bring in new KC CTD data from Greg at KC.
