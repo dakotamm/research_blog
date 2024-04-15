@@ -84,6 +84,7 @@ So now that I've done some data incorporation and feasibility assessing, I am ge
 1. Chapter structure? See outlines.
 2. LaTex for paper writing
 3. Any focus on SOG in my thesis?!
+4. Episodic events? (ORCA buoys, Penn Cove/Port Susan moorings)
 
 
 ---
