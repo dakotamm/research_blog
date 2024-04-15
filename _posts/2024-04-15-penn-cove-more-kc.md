@@ -34,7 +34,7 @@ Note: I have plots for every decade, year, season, and variable for all of this 
 
 ## Penn Cove Feasibility Assessment
 
-In planning for my General Exam, scoping the feasibility of a Chapter 3 involving Penn Cove has been important. Last week, Alex and I discussed doing a spatial and temporal quick dive into KC's 2022-2024 monitoring data in Whidbey Basin. This would then inform whether or not it makes sense for me to dive into the specific mechanisms at play in these shallow areas that seem to be highlighted as hypoxia hotspots in the Salish Sea Model (and to some extent in LO as well). Given the lack of long-term data in these areas, a high-resolution model could be used to specifically target Penn Cove as an example for important mechanisms for hypoxia in these regions.
+In planning for my General Exam, scoping the feasibility of a Chapter 3 involving Penn Cove has been really important and has taken some time to realize. Last week, Alex and I discussed doing a spatial and temporal quick dive into KC's 2022-2024 monitoring data in Whidbey Basin. This would then inform whether or not it makes sense for me to dive into the specific mechanisms at play in these shallow areas that seem to be highlighted as hypoxia hotspots in the Salish Sea Model (and to some extent in LO as well). Given the lack of long-term data in these areas, a high-resolution model (like Jilian's Hood Canal nested model) could be used to specifically target Penn Cove as an example for important mechanisms for hypoxia in these regions.
 
 First, I looked at the available CTD sampling that KC has conducted since 2022. KC has 9 sites in Whidbey Basin, with 4 in and around Whidbey Basin. The sites are as follows:
 * SARATOGARP (outside of Penn Cove in Saratoga Pass)
@@ -61,7 +61,7 @@ Some quick observations from the four sites:
 * The shallowest site in the middle of Penn Cove does not development of hypoxia! However, it does show lower chlorophyll peaks in 2023, corresponding with higher DO.
 * At all sites, there is not a visually apparent annual-to-decadal trend in any variable.
 
-Based on some email correspondence with Alex, we think this could be a good evaluation dataset for a nested model and a promising Chapter 3 focused on Penn Cove drivers of hypoxia.
+Based on some email correspondence with Alex, we think this could be a good evaluation dataset for a nested model and a promising Chapter 3 focused on Penn Cove drivers of hypoxia. Perhaps I could work closely with Jilian on this model development and then perform sensitivity analysis for various interannual drivers (e.g., Skagit flow, temperature, wind). What could be challenging is incorporating nutrients...if it's a nested model, could I incorporate boundary conditions based on Aurora's with and without anthropogenic nutrients? Would a model of this shallow area require further work on benthic processes and fluxes? Does this work with WWU field observation thoughts in Penn Cove?
 
 ---
 
@@ -82,7 +82,7 @@ I'm a a little chagrined since I thought we'd be able to fill in some of the tem
 So now that I've done some data incorporation and feasibility assessing, I am getting the itch to put pen to paper for my Paper 1 and General Exam. I attached a working outline to my agenda email this week. Here's a few general thoughts:
 
 1. Chapter structure? See outlines.
-2. LaTex for paper writing...
+2. LaTex for paper writing
 3. Any focus on SOG in my thesis?!
 
 
@@ -111,10 +111,7 @@ Thoughts for posterity:
 ### Looking Ahead:
 1. Upwelling data - look into NANOOS NVS (NDBC or the NSF OOI Endurance Array).
 2. Are warming events more common in NE Pacific? Paper??? (Ref. [this](https://www.pugetsoundinstitute.org/2023/09/warm-ocean-waters-work-their-way-into-puget-sound/))
-3. Penn Cove nitrogen budget with WWU + Penn Cove nested model...
-4. Keep on Taylor for me to be involved in KC Whidbey sampling...
+3. Keep on Taylor for me to be involved in KC Whidbey sampling...
 
 ### Goals For This Week:
-1. Schedule General officially.
-2. Schedule meeting with Taylor about Whidbey scope feasability if necessary after this meeting.
-3. READ AND WRITE!
+1. ...
