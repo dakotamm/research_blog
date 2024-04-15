@@ -103,7 +103,7 @@ Thoughts for posterity:
 ## Bookkeeping
 * Ocean Sciences - reimbursements submitted
 * Schooner Series...
-* General Exam - tracking mid-late June
+* General Exam - scheduled 6/18
 
 
 ---
