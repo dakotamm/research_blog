@@ -104,15 +104,13 @@ These all look pretty much identical! That means that the minimum DO is found at
 
 ---
 
-## Next Steps - I Gotta Start Writing :)
+## General/Paper Progress
 
-So now that I've done some data incorporation and feasibility assessing, I am getting the itch to put pen to paper for my Paper 1 and General Exam. I attached a working outline to my agenda email this week. Here's a few general thoughts:
+This week I've put some time into literature review, though not quite as much as I've wanted! So far, I've been beefing up the outline (shared with Alex and Parker last week via Google Docs) regarding mechanisms driving hypoxia in different temperature estuaries. So far, I've mainly reviewed the Baltic Sea and I'm starting on the Chesapeake as of Monday afternoon! Some lingering questions...
 
 1. Chapter structure? See outlines.
 2. Any focus on SOG in my thesis?!
 3. Episodic events? (ORCA buoys, Penn Cove/Port Susan moorings)
-
-working on filling out my paper 1 outline, focusing on different mechanisms in different estuaries...Baltic Sea so far :)
 
 
 ---
@@ -124,7 +122,8 @@ Thoughts for posterity:
 * New paper: Alin et al. (2024) - WOAC OA/DO trends 2014-2018
 * Review Collias publications for early data context.
 * Gappy temperature data in SOG - investigate this.
-* 1970-2000 data - does it exist? Ask around...(DOE, Mesa Program) - Taylor provided more KC monitoring data in this time.
+* 1970-2000 data - does it exist? Ask around...(DOE, Mesa Program)
+* Taylor to provide 1970-2000 Point Jefferson data.
 
 
 ---
@@ -133,6 +132,7 @@ Thoughts for posterity:
 * Ocean Sciences - reimbursements submitted
 * Schooner Series...
 * General Exam - scheduled 6/18
+* OOO - 5/2-5/3
 
 
 ---
