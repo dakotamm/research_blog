@@ -85,19 +85,19 @@ Following in some of the footsteps already laid down by members of Parker's grou
 
 From last week, Aurora had some really cool 2D histogram plots for all of her model run in 2013. She identified what appeared to be a hotspot for modeled hypoxia bottom hypoxia in areas 10-50 meters deep. This lines up really well with KC observations in Penn Cove, and I also made some histograms to match Aurora's analysis. To begin, here's all of the sampling locations in 2013:
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/038ab172-1cbd-4e3d-bb9d-f4c1121fd089" width="800"/><br>Fig 6. 2013 DO sampling locations, colored by source and type.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/52850a6c-98e6-4018-bc0e-3645fd3a89fd" width="800"/><br>Fig 6. 2013 DO sampling locations, colored by source and type.</p><br>
 
 Here's a plot of cast DO minimum vs. cast minimum depth:
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/87f794e7-92d0-43c1-a2a6-9767ea17dd89" width="800"/><br>Fig 7. 2013 Puget Sound DO minima vs. depth minima.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/87f794e7-92d0-43c1-a2a6-9767ea17dd89" width="600"/><br>Fig 7. 2013 Puget Sound DO minima vs. depth minima.</p><br>
 
 We asked the question last week regarding the location of these DO minima (if potential mid-depth minima might confound these histograms). Here's a similar histogram, but the deepest DO measurement to cast minumum depth (effectively bottom DO):
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/6cfb0946-628c-413b-9150-60d46372104f" width="800"/><br>Fig 8. 2013 Puget Sound bottom DO vs. depth minima.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/6cfb0946-628c-413b-9150-60d46372104f" width="600"/><br>Fig 8. 2013 Puget Sound bottom DO vs. depth minima.</p><br>
 
 Finally, a histogram comparing the minimum DO measurement to the cast depth at which that measurement is taken:
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/c15f0202-ec60-4267-80cb-6a190fc1d5d6" width="800"/><br>Fig 9. 2013 Puget Sound DO minima vs. depth at DO minima.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/c15f0202-ec60-4267-80cb-6a190fc1d5d6" width="600"/><br>Fig 9. 2013 Puget Sound DO minima vs. depth at DO minima.</p><br>
 
 These all look pretty much identical! That means that the minimum DO is found at the minimum depth most of the time, according to our field observations. This also is really consistent with model results - that the hypoxic DO minima are at the bottom of regions between 10 and 50 meters deep! This is also really consistent with our findings in shallow areas like Penn Cove (and encourages me to move forward with that scope of work even more).
 
