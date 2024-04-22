@@ -1,4 +1,4 @@
-# More New KC Data and Further General Scoping
+# Observed DO Minima and General Exam Updates
 
 ### Goals From Last Meeting:
 1. Work on integrating new KC data into LO - README + Parker review.
