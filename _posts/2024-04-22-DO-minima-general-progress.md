@@ -85,7 +85,7 @@ Following in some of the footsteps already laid down by members of Parker's grou
 
 From last week, Aurora had some really cool 2D histogram plots for all of her model run in 2013. She identified what appeared to be a hotspot for modeled hypoxia bottom hypoxia in areas 10-50 meters deep. This lines up really well with KC observations in Penn Cove, and I also made some histograms to match Aurora's analysis. To begin, here's all of the sampling locations in 2013:
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/52850a6c-98e6-4018-bc0e-3645fd3a89fd" width="400"/><br>Fig 6. 2013 DO sampling locations, colored by source and type.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/52850a6c-98e6-4018-bc0e-3645fd3a89fd" width="300"/><br>Fig 6. 2013 DO sampling locations, colored by source and type.</p><br>
 
 Here's a plot of cast DO minimum vs. cast minimum depth:
 
