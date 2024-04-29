@@ -76,7 +76,7 @@ This is a bit disappointing since I thought I had a way to control for the depth
 
 ## Annual Analysis
 
-I also took a similar look at the annual trends we see in modern data (here from 1999 to 20. Though there is some variation between smapling locations since 1999, there is not a whole lot of variation in *spread* throughout each basin. I can show maps if we'd like of any season and variable for each year.
+I also took a similar look at the annual trends we see in modern data (here from 1999 to 2019). Though there is some variation between smapling locations since 1999, there is not a whole lot of variation in *spread* throughout each basin. I can show maps if we'd like of any season and variable for each year.
 
 Considering DO, SA, and CT, I have focused on each Puget Sound basin again. I'm not confident this is the correct approach, but to maintain consistency with decadal analysis, I performed the same bottom calculation as for decadal sites. I think assuming normality here is flawed given the lateral distribution of sampling, but I want to at least show the method. I did not perform any depth filtering for any basin here. Here's the result for fall:
 
