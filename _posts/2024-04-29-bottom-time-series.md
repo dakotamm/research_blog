@@ -103,7 +103,7 @@ Also - Taylor said she could likely have their 1975-2000 Point Jefferson data av
 
 ## General Exam Status Update
 
-Last week, we shuffled around my chapters a bit...
+Last week, we shuffled around my chapters a bit... (I need to update my outline.)
 
 * **Chapter 1:** *Also Paper 1...* Analyzing Decadal, Annual, and Spatial Variation of Salinity/Temperature/DO in Puget Sound
 * **Chapter 2:** Analysis of shallow cove/embayment hypoxia development and mechanisms using observations (KC Whidbey Basin data) and a high-resolution nested model! Given that most of the hypoxia we observe both from field measurements and via models is showing up in shallow regions and we now have nice data for Penn Cove, this is an important piece of the puzzle!
