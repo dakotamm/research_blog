@@ -10,7 +10,6 @@
 ### Completed Goals:
 1. Made histograms like Aurora's comparing depth and DO for 2013.
 2. Working on General Exam/Paper 1 - literature review for deoxygenation in temperature urban estuaries + set up documents.
-3. Formally schedule General Exam with CEE.
 
 ---
 
