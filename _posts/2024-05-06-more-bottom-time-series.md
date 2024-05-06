@@ -32,21 +32,21 @@ A few notes to start out: I was able to elucidate which sites do not have enough
 
 I've plotted the remaining sites, but there is a ton of temporal inconsistency among them. I'd love feedback on how to make this feel a little more useful! Also please note that I'm using the FULL water column at the Lynch Cove site. There is no sampling within 20% of my site's maximum depth, but there is extremely consistent sampling at 20 meters so I think it's important to include. For now I've just averaged over the whole water column. (*Parker - I forgot to place the x-axis labels on all the plots. Sorry about that! I'll fix in future iterations if necessary.*)
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/76169a7d-fbff-425e-bc2d-ffbbdefd4847" width="600"/><br>Fig 1. "Growing Season" Carr Inlet bottom SA/CT/DO.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/76169a7d-fbff-425e-bc2d-ffbbdefd4847" width="600"/><br>Fig 1. "Growing season" Carr Inlet bottom SA/CT/DO.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/6a74eaab-2937-4b16-b7ea-c21c798c459f" width="600"/><br>Fig 2. "Growing Season" Hat Island bottom SA/CT/DO.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/6a74eaab-2937-4b16-b7ea-c21c798c459f" width="600"/><br>Fig 2. "Growing season" Hat Island bottom SA/CT/DO.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/121635cc-262c-4b59-a3ab-b554729c9900" width="600"/><br>Fig 3. "Growing Season" Hood Canal Mouth bottom SA/CT/DO.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/121635cc-262c-4b59-a3ab-b554729c9900" width="600"/><br>Fig 3. "Growing season" Hood Canal Mouth bottom SA/CT/DO.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/ebf5a6b5-ee5c-4e42-8fab-39dd827d108a" width="600"/><br>Fig 4. "Growing Season" Lynch Cove Mid FULL COLUMN SA/CT/DO.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/ebf5a6b5-ee5c-4e42-8fab-39dd827d108a" width="600"/><br>Fig 4. "Growing season" Lynch Cove Mid FULL COLUMN SA/CT/DO.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/d38ecffe-248d-4811-9480-3297f8460c0d" width="600"/><br>Fig 5. "Growing Season" Near Seattle Offshore bottom SA/CT/DO.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/d38ecffe-248d-4811-9480-3297f8460c0d" width="600"/><br>Fig 5. "Growing season" Near Seattle Offshore bottom SA/CT/DO.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/51f0a836-ff00-4e41-9ab3-cb1dec83e29b" width="600"/><br>Fig 6. "Growing Season" Port Susan Mid bottom SA/CT/DO.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/51f0a836-ff00-4e41-9ab3-cb1dec83e29b" width="600"/><br>Fig 6. "Growing season" Port Susan Mid bottom SA/CT/DO.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/7330b302-290b-4f53-8fd9-57f918b917d9" width="600"/><br>Fig 7. "Growing Season" Saratoga Passage Mid bottom SA/CT/DO.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/7330b302-290b-4f53-8fd9-57f918b917d9" width="600"/><br>Fig 7. "Growing season" Saratoga Passage Mid bottom SA/CT/DO.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/f4a37190-a419-46f7-b44a-3f2f737bfca1" width="600"/><br>Fig 8. "Growing Season" Saratoga Passage North bottom SA/CT/DO.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/f4a37190-a419-46f7-b44a-3f2f737bfca1" width="600"/><br>Fig 8. "Growing season" Saratoga Passage North bottom SA/CT/DO.</p><br>
 
 Data is a little spotty. I'd love some help with direction here.
 
@@ -72,24 +72,22 @@ Both have slopes and shapes similar to those shown on the EPA webpage, though it
 
 We see these slopes are much less apparent than their smaller timerange counterparts. We see what appears to be multi-annual/decadal variation in this time series as well. Once again, we motivate our work trying to understand this data on multiple timescales.
 
-We also discussed analyzing individual DOE sites, given their spatial consistency for the last two decades. There are 22 total sites. For each of these sites, I've ploted its location and its bottom SA/CT/DO based on the bottom 20% of the cast's water column based on the LO grid, averaged per cast. Here's a video for space efficiency! (*I have not had a ton of time to synthesize these findings yet, but will try to do so before the meeting.*)
+We also discussed analyzing individual DOE sites, given their spatial consistency for the last two decades. There are 22 total sites. For each of these sites, I've ploted its location and its bottom SA/CT/DO based on the bottom 20% of the cast's water column based on the LO grid, averaged per cast during my "growing/respiring season" (see previous section). Here's a video for space efficiency! (*I have not had a ton of time to synthesize these findings yet, but will try to do so before the meeting.*)
 
-
+<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/2e66cd4f-99f7-4c92-86a0-e1c695b328d0" controls="controls" style="max-width: 800px;"></video><br>Fig 13. DOE sites and bottom 20% "growing season" average per cast for SA/CT/DO.</p><br>
 
 
 ---
 
 ## Other Action Items
 
-A note that I've officially requested Ecology data from 1973-1998 after talking with Christopher Krembs and team!
+Here's some more to-dos for my tracking/your knowledge:
 
-Also - Taylor said she could likely have their 1975-2000 Point Jefferson data available this week - received!
-
-dave clark
-
-christopher krembs DOE data chat
-
-metro vancouver data statement of intent sent
+* Keep an eye on requested Ecology data from 1973-1998.
+* Set up chat with Christopher Krembs regarding data usage.
+* Taylor sent Point Jefferson KC data (1975-present) - incorporate into analysis, could be helpful as decadal source.
+* Reach out to Dave Clark regarding analysis and collaboration for PNCWA conference.
+* Keep an eye on requested Metro Vancouver data from Alysia Herr.
 
 ---
 
@@ -100,6 +98,8 @@ Last week, we shuffled around my chapters a bit... (I need to update my outline.
 * **Chapter 1:** *Also Paper 1...* Analyzing Decadal, Annual, and Spatial Variation of Salinity/Temperature/DO in Puget Sound
 * **Chapter 2:** Analysis of shallow cove/embayment hypoxia development and mechanisms using observations (KC Whidbey Basin data) and a high-resolution nested model! Given that most of the hypoxia we observe both from field measurements and via models is showing up in shallow regions and we now have nice data for Penn Cove, this is an important piece of the puzzle!
 * **Chapter 3:** dentifying mechanisms for DO change from observations. Expand to include BGC variables. Expand to include Strait of Georgia/Strait of Juan de Fuca? Episodic timescales? (Still not so fine-tuned here.)
+
+Gotta read!
 
 Finally - I need to formally schedule this with the department.
 
