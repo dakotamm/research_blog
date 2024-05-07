@@ -50,6 +50,13 @@ I've plotted the remaining sites, but there is a ton of temporal inconsistency a
 
 Data is a little spotty. I'd love some help with direction here.
 
+### Side Quest
+
+I plotted all sites that record DO for every decade... Here's a video to succinctness.
+
+<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/c8adcb9e-9ec8-4d02-afb1-e497ff826bad" controls="controls" style="max-width: 800px;"></video><br>Fig 9. Decadal hypoxic sites "growing season".</p><br>
+
+
 ---
 
 ## Annual Analysis
@@ -57,24 +64,24 @@ Data is a little spotty. I'd love some help with direction here.
 Last week, I presented bottom SA/CT/DO trends for all of Puget Sound's basins. We redirected and discussed that it would make sense for me to take a look back at EPA's plots on [this site](https://www.epa.gov/salish-sea/marine-water-quality). I've created similarly plots to these before, but here I took a literal approach and did what I could do reconstruct them. The article does not mention exactly what filtering they use, so for mine I've calculated a cast average within each depth bin and for each time period, using the whole year's worth of casts. Here are two replicated time series for Puget Sound:
 
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/65c51504-f423-4cc3-889b-b06a081e6f7f" width="800"/><br>Fig 9. 2010-2018 DOE 0-35m DO (averaged per cast) with linear best-fit line.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/65c51504-f423-4cc3-889b-b06a081e6f7f" width="800"/><br>Fig 10. 2010-2018 DOE 0-35m DO (averaged per cast) with linear best-fit line.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/addea13b-d028-47c5-8c1f-088230e6e9a2" width="800"/><br>Fig 10. 2010-2018 DOE 35-105m DO (averaged per cast) with linear best-fit line.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/addea13b-d028-47c5-8c1f-088230e6e9a2" width="800"/><br>Fig 11. 2010-2018 DOE 35-105m DO (averaged per cast) with linear best-fit line.</p><br>
 
 (*Oops - I realize they are using mL/L and I'm using mg/L. They are within the same order of magnitude and slopes look similar. I'll try to fix this before our meeting tomorrow.*)
 
 Both have slopes and shapes similar to those shown on the EPA webpage, though it's difficult to compare apples to oranges without understanding their precise data analysis. We note the poor r^2 values (due to seasonal variation, likely). We also note that there is subtle downward slopes to both regression lines, which leads to a conclusion of "declining" water quality on the EPA site. Now, I'll create plots like this using all years available right now:
 
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/5285f59b-36db-4fdb-97dc-f4778f6852bc" width="800"/><br>Fig 11. DOE 0-35m DO (averaged per cast) with linear best-fit line.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/5285f59b-36db-4fdb-97dc-f4778f6852bc" width="800"/><br>Fig 12. DOE 0-35m DO (averaged per cast) with linear best-fit line.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/e839ffe5-efeb-4d10-8676-6db87ad74de3" width="800"/><br>Fig 12. DOE 35-105m DO (averaged per cast) with linear best-fit line.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/e839ffe5-efeb-4d10-8676-6db87ad74de3" width="800"/><br>Fig 13. DOE 35-105m DO (averaged per cast) with linear best-fit line.</p><br>
 
 We see these slopes are much less apparent than their smaller timerange counterparts. We see what appears to be multi-annual/decadal variation in this time series as well. Once again, we motivate our work trying to understand this data on multiple timescales.
 
 We also discussed analyzing individual DOE sites, given their spatial consistency for the last two decades. There are 22 total sites. For each of these sites, I've ploted its location and its bottom SA/CT/DO based on the bottom 20% of the cast's water column based on the LO grid, averaged per cast during my "growing/respiring season" (see previous section). Here's a video for space efficiency! (*I have not had a ton of time to synthesize these findings yet, but will try to do so before the meeting.*)
 
-<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/2e66cd4f-99f7-4c92-86a0-e1c695b328d0" controls="controls" style="max-width: 800px;"></video><br>Fig 13. DOE sites and bottom 20% "growing season" average per cast for SA/CT/DO.</p><br>
+<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/2e66cd4f-99f7-4c92-86a0-e1c695b328d0" controls="controls" style="max-width: 800px;"></video><br>Fig 14. DOE sites and bottom 20% "growing season" average per cast for SA/CT/DO.</p><br>
 
 
 ---
