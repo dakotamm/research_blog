@@ -54,7 +54,7 @@ Data is a little spotty. I'd love some help with direction here.
 
 I plotted all sites that record DO for every decade... Here's a video to succinctness.
 
-<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/c8adcb9e-9ec8-4d02-afb1-e497ff826bad" controls="controls" style="max-width: 800px;"></video><br>Fig 9. Decadal hypoxic sites "growing season".</p><br>
+<p style="text-align:center;"><video src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/c8adcb9e-9ec8-4d02-afb1-e497ff826bad" controls="controls" style="max-width: 600px;"></video><br>Fig 9. Decadal hypoxic sites "growing season".</p><br>
 
 
 ---
