@@ -21,12 +21,12 @@ Alongside all the writing, here's some new rough data analysis for Paper 1 scope
 1. Seasonally (summer/non-summer, defined as inside and outside of yeardays 125-325)
 2. By depth (surface: 5m and shallower like MacCready & Banas 2016 report; depth: bottom 20% of site water column)
 
-I've created yearly averages to explore these decadal trends, then I applied a Mann-Kendall test of monotonic trend (since we can't assume normal distribution of residuals around a linear trend nor do we have sufficiently large sets in all cases).
+I've created yearly averages to explore these decadal trends, then I applied a Mann-Kendall test of monotonic trend (since we can't assume normal distribution of residuals around a linear trend nor do we have sufficiently large sets in all cases). NOTE that this test does not necessarily imply direction! I'll have all the time series ready to go to dig into trends during the meeting if need be.
 
-I have PLOTS ON PLOTS for every basin with every time series and every result, which I am happy to pull up. Here's an example of time series in Main Basin...
+(Also there are sites which have discontinuous data for different seasons (e.g., Near Seattle Offshore during non-summer). This is also impacting the trend results. I think the best way to review this is to pull up time series individually, which doesn't read well and is too much for the blog, but I can do during our meeting. I digress.)
 
+Here's an example of time series in Main Basin...
 
-![mb_DO_mg_L_surf_deep_decadal](https://github.com/dakotamm/dakotamm.github.io/assets/55995675/120facff-a9f8-4d62-8d10-78dc22205158)
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/120facff-a9f8-4d62-8d10-78dc22205158" width="600"/><br>Fig 1. Main Basin decadal sites with DO MK trend test information; light color is surface and dark color is bottom.</p><br>
 
