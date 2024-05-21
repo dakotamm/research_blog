@@ -21,7 +21,7 @@ Alongside all the writing, here's some new rough data analysis for Paper 1 scope
 1. Seasonally (summer/non-summer, defined as inside and outside of yeardays 125-325)
 2. By depth (surface: 5m and shallower like MacCready & Banas 2016 report; depth: bottom 20% of site water column)
 
-I've created yearly averages to explore these decadal trends, then I applied a Mann-Kendall test of monotonic trend (since we can't assume normal distribution of residuals around a linear trend nor do we have sufficiently large sets in all cases). NOTE that this test does not necessarily imply direction! I'll have all the time series ready to go to dig into trends during the meeting if need be.
+I've created yearly averages to explore these decadal trends, then I applied a Mann-Kendall test of monotonic trend with an alpha of 0.05 (since we can't assume normal distribution of residuals around a linear trend nor do we have sufficiently large sets in all cases). NOTE that this test does not necessarily imply direction! I'll have all the time series ready to go to dig into trends during the meeting if need be.
 
 (Also there are sites which have discontinuous data for different seasons (e.g., Near Seattle Offshore during non-summer). This is also impacting the trend results. I think the best way to review this is to pull up time series individually, which doesn't read well and is too much for the blog, but I can do during our meeting. I digress.)
 
@@ -30,7 +30,7 @@ Here's an example of time series in Main Basin...
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/120facff-a9f8-4d62-8d10-78dc22205158" width="600"/><br>Fig 1. Main Basin decadal sites with DO MK trend test information; light color is surface and dark color is bottom.</p><br>
 
-A magenta text with "True" indicates that we reject the null hypothesis and there is evidence for a statistically significant trend. I've summarized the results of this test throughout Puget Sound for all three variables as follows:
+A magenta text with "True" indicates that we reject the null hypothesis and there is evidence for a statistically significant trend. I've listed each P-value. I've summarized the results of this test throughout Puget Sound for all three variables as follows:
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/0e642b99-16e5-4840-91c8-0294f2b57cc3" width="600"/><br>Fig 2. Puget Sound signficant decadal MK trends for SA.</p><br>
 
@@ -39,6 +39,8 @@ A magenta text with "True" indicates that we reject the null hypothesis and ther
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/5783a2c2-d4bf-4b6b-a0b2-ef5e988df701" width="600"/><br>Fig 4. Puget Sound signficant decadal MK trends for DO.</p><br>
 
 **NOTE:** I am concerned that Hat Island actually has too few data points to ascribe trends to. I may remove this from the analysis.
+
+Short summary: DO is only really decreasing at Hat Island (which is questionable data quality) and at Point Jefferson. There is a slight downward trend at depth for both summer and non-summer seasons! CT is largely ticking up throughout Puget Sound. Salinity is a bit harder to interpret and we see surface trends!
 
 I finally feel like I believe in this data analysis! Next step in this scope is understanding potential oscillation and variability. However, given the spotiness of the data, classic time series analysis (like FFT) are not really appropriate.
 
@@ -61,6 +63,8 @@ Here's plots showing where "True" trends are from the MK trend tests:
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/f4ce0b42-3d9a-4a9f-8778-4c24e50c9d8b" width="600"/><br>Fig 3. Puget Sound (Ecology) signficant annual MK trends for CT.</p><br>
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/453a0869-35f1-4706-a9f0-11c7b2d3efb" width="600"/><br>Fig 4. Puget Sound (Ecology) signficant annual MK trends for DO.</p><br>
+
+Short summary: DO is decreasing in South Sound but potentially INCREASING in Hood Canal. Temperature is largely ticking upwards. Salinity seems to have trends in surface values but I need to interpret these findings further, especially for direction and fit.
 
 Similarly, I haven't tried a frequency analysis. I'm open to suggestions on how to tackle that as I read.
 
