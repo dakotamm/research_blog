@@ -28,15 +28,15 @@ I've created yearly averages to explore these decadal trends, then I applied a M
 Here's an example of time series in Main Basin...
 
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/120facff-a9f8-4d62-8d10-78dc22205158" width="600"/><br>Fig 1. Main Basin decadal sites with DO MK trend test information; light color is surface and dark color is bottom.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/120facff-a9f8-4d62-8d10-78dc22205158" width="800"/><br>Fig 1. Main Basin decadal sites with DO MK trend test information; light color is surface and dark color is bottom.</p><br>
 
 A magenta text with "True" indicates that we reject the null hypothesis and there is evidence for a statistically significant trend. I've listed each P-value. I've summarized the results of this test throughout Puget Sound for all three variables as follows:
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/0e642b99-16e5-4840-91c8-0294f2b57cc3" width="600"/><br>Fig 2. Puget Sound signficant decadal MK trends for SA.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/0e642b99-16e5-4840-91c8-0294f2b57cc3" width="500"/><br>Fig 2. Puget Sound signficant decadal MK trends for SA.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/c626ca30-45c1-4477-bd0c-e24c3bc95a67" width="600"/><br>Fig 3. Puget Sound signficant decadal MK trends for CT.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/c626ca30-45c1-4477-bd0c-e24c3bc95a67" width="500"/><br>Fig 3. Puget Sound signficant decadal MK trends for CT.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/5783a2c2-d4bf-4b6b-a0b2-ef5e988df701" width="600"/><br>Fig 4. Puget Sound signficant decadal MK trends for DO.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/5783a2c2-d4bf-4b6b-a0b2-ef5e988df701" width="500"/><br>Fig 4. Puget Sound signficant decadal MK trends for DO.</p><br>
 
 **NOTE:** I am concerned that Hat Island actually has too few data points to ascribe trends to. I may remove this from the analysis.
 
@@ -58,11 +58,11 @@ I performed a similar analysis with Ecology sampling stations! Without showing g
 
 Here's plots showing where "True" trends are from the MK trend tests:
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/6e54d5a1-e155-44a4-8b8a-4f43f6a5e03c" width="600"/><br>Fig 2. Puget Sound (Ecology) signficant annual MK trends for SA.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/6e54d5a1-e155-44a4-8b8a-4f43f6a5e03c" width="500"/><br>Fig 2. Puget Sound (Ecology) signficant annual MK trends for SA.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/f4ce0b42-3d9a-4a9f-8778-4c24e50c9d8b" width="600"/><br>Fig 3. Puget Sound (Ecology) signficant annual MK trends for CT.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/f4ce0b42-3d9a-4a9f-8778-4c24e50c9d8b" width="500"/><br>Fig 3. Puget Sound (Ecology) signficant annual MK trends for CT.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/453a0869-35f1-4706-a9f0-11c7b2d3efb" width="600"/><br>Fig 4. Puget Sound (Ecology) signficant annual MK trends for DO.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/453a0869-35f1-4706-a9f0-11c7b2d3efb" width="500"/><br>Fig 4. Puget Sound (Ecology) signficant annual MK trends for DO.</p><br>
 
 Short summary: DO is decreasing in South Sound but potentially INCREASING in Hood Canal. Temperature is largely ticking upwards. Salinity seems to have trends in surface values but I need to interpret these findings further, especially for direction and fit.
 
