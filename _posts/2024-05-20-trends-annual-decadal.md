@@ -66,6 +66,8 @@ Here's plots showing where "True" trends are from the MK trend tests:
 
 Short summary: DO is decreasing in South Sound but potentially INCREASING in Hood Canal. Temperature is largely ticking upwards. Salinity seems to have trends in surface values but I need to interpret these findings further, especially for direction and fit.
 
+**NOTE:** These are per cast averages. Perhaps monthky averages would help smooth and decrease surface variability...
+
 Similarly, I haven't tried a frequency analysis. I'm open to suggestions on how to tackle that as I read.
 
 ---
