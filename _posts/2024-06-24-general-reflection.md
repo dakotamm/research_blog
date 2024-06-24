@@ -1,4 +1,4 @@
-# General Exam Reflection and Summer Planning
+# General Exam Reflection
 
 ### Goals From Last Meeting:
 1. General Exam!!!
