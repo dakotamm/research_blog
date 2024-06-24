@@ -16,7 +16,7 @@
 
 ## General Exam Debrief
 
-It's done! I'm excited to have a milestone accomplished and even more so to get all of the awesome feedback that our discusssion brought forth!
+It's done! I'm excited to have a milestone accomplished and even more so to get all of the awesome feedback that our discusssion brought forth! Overall, it was a good opportunity to go back to some fundamentals, do some good literature review, and make sure I can explain some of the theory in a digestible way. I was proud of my presentation! In terms of my research progress, I'm glad I did this earlier than usual in my PhD. It seems like there's a ton more to do, but I'm really excited to look back too at how much I've done.
 
 Some good notes from the discussions:
 1. Lots of great audience comments - Melissa Moulton mentioned using idealized terminal inlets for hypothesis testing using LO.
