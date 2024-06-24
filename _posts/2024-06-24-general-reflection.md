@@ -1,113 +1,65 @@
-# Mann-Kendall Trends for Decadal and Annual Time Series
+# General Exam Reflection and Summer Planning
 
 ### Goals From Last Meeting:
-1. Work on integrating new KC data into LO - README + Parker review.
-2. Decadal and annual time series.
-3. Work on General Exam/Paper 1 - write write write.
-4. Formally schedule General Exam with CEE.
-5. Process all new data.
-6. Follow up with Ecology and Metro Vancouver.
+1. General Exam!!!
+2. Work on integrating new KC data into LO - README + Parker review.
+3. Follow up with Ecology and Metro Vancouver.
+4. Contact Christopher Krembs (Ecology) for data discussion.
+5. Contact Dave Clark (HDR) to discuss long-term trends 
    
 ### Completed Goals:
-1. Decadal and annual time series - in progress.
-2. Working on General Exam/Paper 1 - literature review nearly there. Scope feeling more dialed for Paper 1.
-3. All new data processed (mainly Point Jefferson KC).
-
----
-
-## Decadal Trend Analysis
-
-Alongside all the writing, here's some new rough data analysis for Paper 1 scope. I have taken all 8 decadal sites and partitioned the data in two ways:
-1. Seasonally (summer/non-summer, defined as inside and outside of yeardays 125-325)
-2. By depth (surface: 5m and shallower like MacCready & Banas 2016 report; depth: bottom 20% of site water column)
-
-I've created yearly averages to explore these decadal trends, then I applied a Mann-Kendall test of monotonic trend with an alpha of 0.05 (since we can't assume normal distribution of residuals around a linear trend nor do we have sufficiently large sets in all cases). NOTE that this test does not necessarily imply direction! I'll have all the time series ready to go to dig into trends during the meeting if need be.
-
-(Also there are sites which have discontinuous data for different seasons (e.g., Near Seattle Offshore during non-summer). This is also impacting the trend results. I think the best way to review this is to pull up time series individually, which doesn't read well and is too much for the blog, but I can do during our meeting. I digress.)
-
-Here's an example of time series in Main Basin...
-
-
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/120facff-a9f8-4d62-8d10-78dc22205158" width="800"/><br>Fig 1. Main Basin decadal sites with DO MK trend test information; light color is surface and dark color is bottom.</p><br>
-
-A magenta text with "True" indicates that we reject the null hypothesis and there is evidence for a statistically significant trend. I've listed each P-value. I've summarized the results of this test throughout Puget Sound for all three variables as follows:
-
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/0e642b99-16e5-4840-91c8-0294f2b57cc3" width="500"/><br>Fig 2. Puget Sound signficant decadal MK trends for SA.</p><br>
-
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/c626ca30-45c1-4477-bd0c-e24c3bc95a67" width="500"/><br>Fig 3. Puget Sound signficant decadal MK trends for CT.</p><br>
-
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/5783a2c2-d4bf-4b6b-a0b2-ef5e988df701" width="500"/><br>Fig 4. Puget Sound signficant decadal MK trends for DO.</p><br>
-
-**NOTE:** I am concerned that Hat Island actually has too few data points to ascribe trends to. I may remove this from the analysis.
-
-Short summary: DO is only really decreasing at Hat Island (which is questionable data quality) and at Point Jefferson. There is a slight downward trend at depth for both summer and non-summer seasons! CT is largely ticking up throughout Puget Sound. Salinity is a bit harder to interpret and we see surface trends!
-
-I finally feel like I believe in this data analysis! Next step in this scope is understanding potential oscillation and variability. However, given the spotiness of the data, classic time series analysis (like FFT) are not really appropriate.
-
-*Any thoughts on how to tackle frequency of variation on decadal/annual scales using this set?*
-
-When I write up this analysis, my thoughts are to break out the discussion regionally, seasonally, and by depth. I will mention concurrent trends of state variables, but so far I'm not to the stage of assigning mechanisms - which is not in my Chapter 1 scope, so I feel like this analysis is on track for the appropriate scope.
-
----
-
-
-
-## Annual Trend Analysis
-
-I performed a similar analysis with Ecology sampling stations! Without showing gazillions of plots, I removed data sites that weren't consistently sampled over the 20-year available period, as I've found plots with few points can have erroneous trend output using Mann-Kendall tests (I can show you all the raw data here, but it's omitted for brevity).
-
-Here's plots showing where "True" trends are from the MK trend tests:
-
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/6e54d5a1-e155-44a4-8b8a-4f43f6a5e03c" width="500"/><br>Fig 2. Puget Sound (Ecology) signficant annual MK trends for SA.</p><br>
-
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/f4ce0b42-3d9a-4a9f-8778-4c24e50c9d8b" width="500"/><br>Fig 3. Puget Sound (Ecology) signficant annual MK trends for CT.</p><br>
-
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/453a0869-35f1-4706-a9f0-11c7b2d3efb" width="500"/><br>Fig 4. Puget Sound (Ecology) signficant annual MK trends for DO.</p><br>
-
-Short summary: DO is decreasing in South Sound but potentially INCREASING in Hood Canal. Temperature is largely ticking upwards. Salinity seems to have trends in surface values but I need to interpret these findings further, especially for direction and fit.
-
-**NOTE:** These are per cast averages. Perhaps monthky averages would help smooth and decrease surface variability...
-
-Similarly, I haven't tried a frequency analysis. I'm open to suggestions on how to tackle that as I read.
-
----
-
-## Writing
-
-Eek. I'm overwhelmed. But I have made some progress in terms of literature review and what I'm calling a conceptual model of DO in Puget Sound, and I feel like I'm starting to believe my own data analysis. I would like to get drafts out for my literature review and methods sections for my Paper 1 within the coming days...
-
-HOWEVER - I realized my time-till-General-Exam is dwindling. I'd love your input on scoping paper writing vs. general exam focus writing for this week.
-
----
-
-## KC Quarterly Update
-
-Double eek. I will put together some drafts, but I have admittedly not been prioritizing this as high as I do most months.
+1. General Exam!!!
+2. Contacted Marielle for introduction with Dave Clark (HDR) to discuss long-term trends
 
 
 ---
 
-## Other Action Items
+## General Exam Debrief
 
-Here's some more to-dos for my tracking/your knowledge:
+It's done! I'm excited to have a milestone accomplished and even more so to get all of the awesome feedback that our discusssion brought forth!
 
-* Keep an eye on requested Ecology data from 1973-1998.
-* Set up chat with Christopher Krembs regarding data usage.
-* Taylor sent Point Jefferson KC data (1975-present) - incorporate into analysis, could be helpful as decadal source.
-* Reach out to Dave Clark regarding analysis and collaboration for PNCWA conference.
-* Keep an eye on requested Metro Vancouver data from Alysia Herr.
+Some good notes from the discussions:
+1. Lots of great audience comments - Melissa Moulton mentioned using idealized terminal inlets for hypothesis testing using LO.
+2. Mike notes that using "sensitivity" or lack thereof when it comes to Puget Sound nitrogen is sticky, given that the balance of nutrients in the system is equally importance (ref. Mackas & Harrison 1997 figure).
+3. Mike recommends using quantitative model assessment, like "model skill score" or RMSE.
+4. Mike indicated interest in decadal analysis of river nutrient variability with CT/SA/DO - sent me a nice spreadsheet that he and Ben have workedo on with USGS data from 1948.
+5. Mike also indicated interest in other long-term correlations with largescale climate like PDO - e.g., using Race Rocks to correlate both with interdecadal variability in Puget Sound obs + climate oscillation.
+7. Comments on "avoiding inadvertant p-hacking" - basically, layout all my data analysis steps.
+   * Taylor recommended bootstrapping techniques, using Mann-Kendall trends with Thiel-Sen slope (and checking residuals when using linear-regressions...)
+   * Taylor/Alex recommended instead of "no slope detected" - explain the minimum detectable slope given data, say that slope does not exceed that.
+   * Group discussed propagating errors through to final results - e.g. what is the uncertainty on my solubility calculations given CT/SA etc.
+   * Also - listing out all the slopes and uncertainties, comparing slopes across sites, keeping 95% confidence interval on slopes...
+   * Investigate "step trends" as well as full time series
+   * Consider % change vs. absolute changes, like with stratification!
+8. Mike pointed out the importance of winter properties on DO minima...consider this in more expanded analyses.
+9. Penn Cove - pull in Ecology data as well + Coupeville wharf
+10. Emily Herrington - reach out to for Penn Cove data, especially on mussel growing stuff?
+
+Further reading:
+1. [Elmstrom et al. (2024)](https://www.nature.com/articles/s43247-024-01235-8) - nutrient trends
+2. Provisional WA water quality standards - Taylor emailed
+3. [Brandenburger et al. (2011)](https://link.springer.com/article/10.1007/s10498-011-9129-0) - sediment trends
+
+Homework
+1. Check into stratification plot labelling issue - confirmed that I just mislabeled. The stratification is DEEP density less SURFACE density in sigma [kg/m^3]. All indicated trends and interpretations are accurate with regards to my calculations, and that was just a typo. Oops, but at least I didn't totally mess up some simple math!
+2. Better solubility calcs using CT/SA - ref. [Garcia and Gordon (1992)](https://aslopubs.onlinelibrary.wiley.com/doi/abs/10.4319/lo.1992.37.6.1307) per Mike.
+   * Parker recommended calculating relative contributions of both overtime.
+4. Make sure I know equation of state specifics better - unit change in temperature vs. salinity impact on density.
+5. Parker HW question - can we do a box model to estimate a respiration rate from observations, say in Penn Cove? Basically, what can change our simple DO decay that I scraped together on the board (~ DO(t) = DO_i*e^(t/T)) where T is the time after which DO(T) = DO_i/e (or the e-folding timescale)?
+6. Mike HW question - using LO & SSM rates for settling and POC degradation and mean PS depth/Penn Cove depth/etc., how much organic matter reaches the sediment intact? Does water column or sediment respiration seem to dominate?
+7. Taylor HW question - compare linear regression trends to Mann-Kendall (broken out by seasons) and bootstrapping/subsampling vs. simple time-averaging
+8. Taylor fieldwork question - looks like some ADCPs in Penn Cove are possible! Where and how long? What other field data would be helpful in Penn Cove?
+
+Also as a note - I think I messed up recording the talk. I thought I pressed record but I don't have any cloud or local recordings. Darn it! Food for thought next time...
 
 ---
 
-## General Exam Status Update
+## Next Steps
 
-Last week, we shuffled around my chapters a bit... (I need to update my outline.)
+Next on the docket is getting a real Paper 1 out the door. I'd love to do some scoping over the next week so and refresh my outline.
 
-* **Chapter 1:** *Also Paper 1...* Analyzing Decadal, Annual, and Spatial Variation of Salinity/Temperature/DO in Puget Sound
-* **Chapter 2:** Analysis of shallow cove/embayment hypoxia development and mechanisms using observations (KC Whidbey Basin data) and a high-resolution nested model! Given that most of the hypoxia we observe both from field measurements and via models is showing up in shallow regions and we now have nice data for Penn Cove, this is an important piece of the puzzle!
-* **Chapter 3:** dentifying mechanisms for DO change from observations. Expand to include BGC variables. Expand to include Strait of Georgia/Strait of Juan de Fuca? Episodic timescales? (Still not so fine-tuned here.)
+I'd also like to select a target journal - any thoughts?
 
-**I need to formally schedule this with the department at least a week before.**
 
 ---
 
@@ -115,18 +67,17 @@ Last week, we shuffled around my chapters a bit... (I need to update my outline.
 ## Miscellaneous
 
 Thoughts for posterity:
-* Review Collias publications for early data context.
 * Gappy temperature data in SOG - investigate this.
 * 1970-2000 data - does it exist? Ask around...(DOE, Mesa Program)
+* Am I going to do anything in Strait of Georgia?!
 
 
 ---
 
 ## Bookkeeping
-* Ocean Sciences - no reimbursements yet for recent expenses.
-* KC Meeting - 5/23
-* General Exam - scheduled 6/18
-* PECS - ORAL presentation accepted! 9/23-9/27
+* OOO - 7/5
+* PECS - 9/23-9/27
+  * Need to register!
 
 ---
 
@@ -136,6 +87,6 @@ Thoughts for posterity:
 3. Keep on Taylor for me to be involved in KC Whidbey sampling...
 
 ### Goals For This Week:
-1. KC meeting!
-2. Write!!!
+1. General Exam homework!
+2. 
 
