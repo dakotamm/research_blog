@@ -1,16 +1,38 @@
-# DO Solubility Changes and 
+# DO Solubility and Stratification Investigation and ...
 
 ### Goals From Last Meeting:
-1. General Exam!!!
-2. Work on integrating new KC data into LO - README + Parker review.
-3. Follow up with Ecology and Metro Vancouver.
-4. Contact Christopher Krembs (Ecology) for data discussion.
-5. Contact Dave Clark (HDR) to discuss long-term trends 
+1. Work on integrating new KC data into LO - README + Parker review.
+2. Follow up with Ecology and Metro Vancouver.
+3. Contact Christopher Krembs (Ecology) for data discussion.
+4. Keep on Marielle/Dave Clark (HDR) to discuss long-term trends
+5. Homeworks!
+6. Investigate changes in DO solubility due to temperature and salinity at Point Jefferson (long time series).
+7. Set meeting with Taylor regarding Penn Cove instrumentation.
+8. Identify target journal.
    
 ### Completed Goals:
-1. General Exam!!!
-2. Contacted Marielle for introduction with Dave Clark (HDR) to discuss long-term trends
+1. Followed up with Ecology (the provided link doesn't give any data?) - still need to touch base with Metro Vancouver/
+2. Contacted Marielle for introduction with Dave Clark (HDR) to discuss long-term trends - still pending.
+3. Investigated changes in DO solubility due to temperature and salinity at Point Jefferson (long time series).
+4. Set meeting with Taylor regarding Penn Cove instrumentation - Wednesday, 7/3.
+5. Identified target journal - Estuaries & Coasts.
 
+
+---
+
+## DO Solubility and Stratification Changes at Point Jefferson
+
+From the General Exam, we discussed investigating the change in DO solubility at the surface as a result of changing temperature and salinity separately. Based on my reading so far, I know that salinity and temperature both play a role in impacting DO solubility with the atmosphere at the ocean surface, and that temperature has stronger influence over solubility. As a corallary to this work, we also know that density (and thus stratification) is influenced by both temperature and salinity to varying extents. Though I didn't know exactly during the General Exam, I've found that a good rule of thumb is that density changes by 0.001 kg/m^3 when there is a 5 degree change in temperature, a 1 PSU change in salinity, or 200m change in depth (I got this succinct addage from [here](https://science.widener.edu/~svanbram/seawater.html)). Both density and DO solubility are non-linear and more sensitive in different temperature/salinity ranges.
+
+To understand the relative effect of temperature and salinity on solubility and density at our Point Jefferson site, I used the [Gibbs Seawater package](https://www.teos-10.org/software.htm) for the equation of state and then [Garcia and Gordon (1992)](https://aslopubs.onlinelibrary.wiley.com/doi/abs/10.4319/lo.1992.37.6.1307) to empirically derive the DO solubility changes.
+
+First, here's the oft-viewed century time series for DO, temperature, and salinity given both the annual surface 5m average and the bottom 20% average at Point Jefferson during the summer season.
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/799f7b8c-fd68-4f6d-b22c-d1a23b3bbc04" width="400"/><br>Fig 1. Point Jefferson DO, temperature, and salinity annual summer averages; light color is surface and dark color is bottom.</p><br>
+
+We see a decrease in DO of about 0.5 mg/L at the bottom over the last century. Using very rough estimates, we arrived at the conclusion that surface salinity and temperature change accounted for a solubility change of 0.2 mg/L DO. The following plot investigates both stratification changes and solubility changes considering just observations, and then holding a constant temperature or constant salinity. We calculate this stratification proxy as a difference between the surface and bottom measurements (deep less surface). The solubility uses Garcia and Gordon (1992) best fit method and then I convert the units using the calculated surface density using either natural or constant temperature or salinity conditions.
+
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/d8f3cacc-75d3-42dc-99bb-a554b7dfed27" width="400"/><br>Fig 2. Point Jefferson stratification and solubility annual summer averages, observed and holding salinity or temperature constant.</p><br>
 
 ---
 
