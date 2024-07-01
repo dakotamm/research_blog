@@ -1,5 +1,4 @@
-# DO Solubility and Stratification Investigation and ...
-
+# DO Solubility and Stratification Investigation
 ### Goals From Last Meeting:
 1. Work on integrating new KC data into LO - README + Parker review.
 2. Follow up with Ecology and Metro Vancouver.
