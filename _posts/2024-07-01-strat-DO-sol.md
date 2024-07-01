@@ -30,15 +30,24 @@ First, here's the oft-viewed century time series for DO, temperature, and salini
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/799f7b8c-fd68-4f6d-b22c-d1a23b3bbc04" width="400"/><br>Fig 1. Point Jefferson DO, temperature, and salinity annual summer averages; light color is surface and dark color is bottom.</p><br>
 
-We see a decrease in DO of about 0.5 mg/L at the bottom over the last century. Using very rough estimates, we arrived at the conclusion that surface salinity and temperature change accounted for a solubility change of 0.2 mg/L DO. The following plot investigates both stratification changes and solubility changes considering just observations, and then holding a constant temperature or constant salinity. We calculate this stratification proxy as a difference between the surface and bottom measurements (deep less surface). The solubility uses Garcia and Gordon (1992) best fit method and then I convert the units using the calculated surface density using either natural or constant temperature or salinity conditions.
+We see a decrease in DO of about 0.5 mg/L at the bottom over the last century. Using very rough estimates, we arrived at the conclusion that surface salinity and temperature change accounted for a solubility change of 0.2 mg/L DO. The following plot investigates both stratification changes and solubility changes considering just observations, and then holding a constant temperature or constant salinity. We calculate this stratification proxy as a potential density difference between the surface and bottom measurements (deep less surface). The solubility uses Garcia and Gordon (1992) best fit method and then I convert the units using the calculated surface density using either natural or constant temperature or salinity conditions. Note that for all plots I only use data from casts that reach the bottom 20% of the water column.
 
 <p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/d8f3cacc-75d3-42dc-99bb-a554b7dfed27" width="800"/><br>Fig 2. Point Jefferson stratification and solubility annual summer averages, observed and holding salinity or temperature constant.</p><br>
 
+As a reminder, the presence of trend lines indicates a significant slope at a 95% confidence level, but all slopes are indicated.
+
+From these plots, we see that stratification and solubility both show significant decrease under observed conditions, though we not the presence of early high outliers especially for stratification. We note that the difference between the surface and bottom density is decreasing at a rate of 0.6 sigma units per century, or 0.0006 kg/m^3. We see that the total slope is accounted for by changes in both salinity and temperature impacting the density, but both neither values have significant slopes by my linear regression criteria. We see that holding temperature constant and varying salinity yields a larger density change (~5:1!) than varying temperature and holding salinity constant.
+
+For solubility, we note that the observed decrease of 0.2 mg/L per century is really close to what we estimated using rough back of the envelope calculations! But now we can calculate with more detail. We see that holding temperature constant yields very little change in solubility due solely to salinity changes, despite the impact of salinity on stratification. The vast of the trend overall is accounted for the variation in temperature.
+
+Thus, we've been able to parse the effects of temperature and salinity change over time on stratification and DO solubility, which are more dependent on salinity and temperature, respectively. As to what accounts for the remaining 0.3 mg/L of DO loss per century...more analysis will tell!
+
+
 ---
 
-## General Exam Debrief
+## General Exam Notes
 
-It's done! I'm excited to have a milestone accomplished and even more so to get all of the awesome feedback that our discusssion brought forth! Overall, it was a good opportunity to go back to some fundamentals, do some good literature review, and make sure I can explain some of the theory in a digestible way. I was proud of my presentation! In terms of my research progress, I'm glad I did this earlier than usual in my PhD. It seems like there's a ton more to do, but I'm really excited to look back too at how much I've done.
+Leaving my General Exam notes here for future reference...
 
 Some good notes from the discussions:
 1. Lots of great audience comments - Melissa Moulton mentioned using idealized terminal inlets for hypothesis testing using LO.
@@ -49,13 +58,13 @@ Some good notes from the discussions:
 7. Comments on "avoiding inadvertant p-hacking" - basically, layout all my data analysis steps.
    * Taylor recommended bootstrapping techniques, using Mann-Kendall trends with Thiel-Sen slope (and checking residuals when using linear-regressions...)
    * Taylor/Alex recommended instead of "no slope detected" - explain the minimum detectable slope given data, say that slope does not exceed that.
-   * Group discussed propagating errors through to final results - e.g. what is the uncertainty on my solubility calculations given CT/SA etc.
+   * Group discussed propagating errors through to final results - e.g. what is the uncertainty on my solubility calculations given CT/SA etc. - 7/1/2024: just doing calculations with measured values then assigning 95% confidence intervals for now
    * Also - listing out all the slopes and uncertainties, comparing slopes across sites, keeping 95% confidence interval on slopes...
    * Investigate "step trends" as well as full time series
    * Consider % change vs. absolute changes, like with stratification!
 8. Mike pointed out the importance of winter properties on DO minima...consider this in more expanded analyses.
 9. Penn Cove - pull in Ecology data as well + Coupeville wharf
-10. Emily Herrington - reach out to for Penn Cove data, especially on mussel growing stuff?
+10. Emily Herrington - reach out to for Penn Cove data, especially on mussel growing stuff? - Michelle to connect us
 
 Further reading:
 1. [Elmstrom et al. (2024)](https://www.nature.com/articles/s43247-024-01235-8) - nutrient trends
@@ -63,24 +72,15 @@ Further reading:
 3. [Brandenburger et al. (2011)](https://link.springer.com/article/10.1007/s10498-011-9129-0) - sediment trends
 
 Homework
-1. Check into stratification plot labelling issue - confirmed that I just mislabeled. The stratification is DEEP density less SURFACE density in sigma [kg/m^3]. All indicated trends and interpretations are accurate with regards to my calculations, and that was just a typo. Oops, but at least I didn't totally mess up some simple math!
-2. Better solubility calcs using CT/SA - ref. [Garcia and Gordon (1992)](https://aslopubs.onlinelibrary.wiley.com/doi/abs/10.4319/lo.1992.37.6.1307) per Mike.
-   * Parker recommended calculating relative contributions of both overtime.
-4. Make sure I know equation of state specifics better - unit change in temperature vs. salinity impact on density.
+1. ~~Check into stratification plot labelling issue - confirmed that I just mislabeled. The stratification is DEEP density less SURFACE density in sigma [kg/m^3]. All indicated trends and interpretations are accurate with regards to my calculations, and that was just a typo. Oops, but at least I didn't totally mess up some simple math!~~ - ylabel typo fixed
+2. ~~Better solubility calcs using CT/SA - ref. [Garcia and Gordon (1992)](https://aslopubs.onlinelibrary.wiley.com/doi/abs/10.4319/lo.1992.37.6.1307) per Mike.~~
+   * ~~Parker recommended calculating relative contributions of both overtime.~~ - see 7/1/2024 blogpost
+4. ~~Make sure I know equation of state specifics better - unit change in temperature vs. salinity impact on density.~~ - same as above
 5. Parker HW question - can we do a box model to estimate a respiration rate from observations, say in Penn Cove? Basically, what can change our simple DO decay that I scraped together on the board (~ DO(t) = DO_i*e^(t/T)) where T is the time after which DO(T) = DO_i/e (or the e-folding timescale)?
 6. Mike HW question - using LO & SSM rates for settling and POC degradation and mean PS depth/Penn Cove depth/etc., how much organic matter reaches the sediment intact? Does water column or sediment respiration seem to dominate?
-7. Taylor HW question - compare linear regression trends to Mann-Kendall (broken out by seasons) and bootstrapping/subsampling vs. simple time-averaging
-8. Taylor fieldwork question - looks like some ADCPs in Penn Cove are possible! Where and how long? What other field data would be helpful in Penn Cove?
+7. Taylor HW question - compare linear regression trends to Mann-Kendall (broken out by seasons) and bootstrapping/subsampling vs. simple time-averaging, plot residuals for linear regressions!
+8. ~~Taylor fieldwork question - looks like some ADCPs in Penn Cove are possible! Where and how long? What other field data would be helpful in Penn Cove?~~ - meeting with Taylor 7/3/2024
 
-Also as a note - I think I messed up recording the talk. I thought I pressed record but I don't have any cloud or local recordings. Darn it! Food for thought next time...
-
----
-
-## Next Steps
-
-Next on the docket is getting a real Paper 1 out the door. I'd love to do some scoping over the next week so and refresh my outline.
-
-I'd also like to select a target journal - any thoughts?
 
 
 ---
@@ -110,5 +110,9 @@ Thoughts for posterity:
 
 ### Goals For This Week:
 1. General Exam homework!
-2. 
+2. Investigate the remaining DO change...
+3. Keep on Ecology & Metro Vancouver.
+4. Reach out to Christopher Krembs.
+5. Keep on Marielle/Dave Clark.
+6. REGISTER FOR PECS
 
