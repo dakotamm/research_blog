@@ -32,7 +32,7 @@ First, here's the oft-viewed century time series for DO, temperature, and salini
 
 We see a decrease in DO of about 0.5 mg/L at the bottom over the last century. Using very rough estimates, we arrived at the conclusion that surface salinity and temperature change accounted for a solubility change of 0.2 mg/L DO. The following plot investigates both stratification changes and solubility changes considering just observations, and then holding a constant temperature or constant salinity. We calculate this stratification proxy as a difference between the surface and bottom measurements (deep less surface). The solubility uses Garcia and Gordon (1992) best fit method and then I convert the units using the calculated surface density using either natural or constant temperature or salinity conditions.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/d8f3cacc-75d3-42dc-99bb-a554b7dfed27" width="400"/><br>Fig 2. Point Jefferson stratification and solubility annual summer averages, observed and holding salinity or temperature constant.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/d8f3cacc-75d3-42dc-99bb-a554b7dfed27" width="800"/><br>Fig 2. Point Jefferson stratification and solubility annual summer averages, observed and holding salinity or temperature constant.</p><br>
 
 ---
 
