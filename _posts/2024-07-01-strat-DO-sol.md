@@ -96,6 +96,7 @@ Thoughts for posterity:
 ---
 
 ## Bookkeeping
+* CEE Performance Evaluation - ? oops!
 * OOO - 7/5
 * PECS - 9/23-9/27
   * Need to register!
