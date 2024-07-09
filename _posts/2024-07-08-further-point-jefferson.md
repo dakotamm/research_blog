@@ -24,41 +24,41 @@
 
 From last week, I got feedback to investigate the trends I've been showing in different ways to make the analysis more robust. First, I was asked to include 95% confidence intervals on the slopes of the trend lines that I calculate and use an average value when holding salinity or temperature constant to investigate the effects on stratification and solubility. Here's the annual average "summer" trends at Point Jefferson for all trends that I discussed last week.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/6896d9d1-5682-4e9f-9466-153247ab8bd6" width="400"/><br>Fig 1. Point Jefferson DO, temperature, and salinity annual summer averages; light color is surface and dark color is bottom.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/6896d9d1-5682-4e9f-9466-153247ab8bd6" width="300"/><br>Fig 1. Point Jefferson DO, temperature, and salinity annual summer averages; light color is surface and dark color is bottom.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/0e1c75d3-345c-48e9-a689-ffaf448fbfc6" width="800"/><br>Fig 2. Point Jefferson stratification and solubility annual summer averages, observed and holding salinity or temperature constant.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/0e1c75d3-345c-48e9-a689-ffaf448fbfc6" width="600"/><br>Fig 2. Point Jefferson stratification and solubility annual summer averages, observed and holding salinity or temperature constant.</p><br>
 
 We draw the same conclusions as last week from these plots and are able to better understand the slope uncertainty.
 
 Next, I was asked to investigate the trends considering ALL casts averaged within depth bins (instead of annual averages), which we thought may have the effect of disproportionately weighting the trend lines toward later years with higher cast density. In this case, I took just a cast average (without then annually averaging) and plotted the values for "summer" trends at Point Jefferson.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/71117384-92d3-46a1-9d17-70032a372c75" width="400"/><br>Fig 3. Point Jefferson DO, temperature, and salinity summer casts (depth-binned); light color is surface and dark color is bottom.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/71117384-92d3-46a1-9d17-70032a372c75" width="300"/><br>Fig 3. Point Jefferson DO, temperature, and salinity summer casts (depth-binned); light color is surface and dark color is bottom.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/b26632cd-6abf-462f-b1a0-7e3f9ffc911a" width="800"/><br>Fig 4. Point Jefferson stratification and solubility annual summer casts (depth-binned), observed and holding salinity or temperature constant.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/b26632cd-6abf-462f-b1a0-7e3f9ffc911a" width="600"/><br>Fig 4. Point Jefferson stratification and solubility annual summer casts (depth-binned), observed and holding salinity or temperature constant.</p><br>
 
 We see similar trends, but stronger statistical significance of some trends (like surface DO). However, the slope of surface salinity is lessened in this view, though it is still increasing.
 
 Next I investigated changing the definition of "summer". Previously, I defined it using yeardays 125-325 corresponding to about 85% of hypoxic days throughout the observational data. Now, I'll use August and September as summer months, then take an annual average.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/ebc6a84b-dda1-4bde-b554-9c7e046ebaf3" width="400"/><br>Fig 5. Point Jefferson DO, temperature, and salinity annual August-September averages; light color is surface and dark color is bottom.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/ebc6a84b-dda1-4bde-b554-9c7e046ebaf3" width="300"/><br>Fig 5. Point Jefferson DO, temperature, and salinity annual August-September averages; light color is surface and dark color is bottom.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/1f965c59-fade-48ed-80f2-9626ecdd52d4" width="800"/><br>Fig 6. Point Jefferson stratification and solubility annual August-September averages, observed and holding salinity or temperature constant.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/1f965c59-fade-48ed-80f2-9626ecdd52d4" width="600"/><br>Fig 6. Point Jefferson stratification and solubility annual August-September averages, observed and holding salinity or temperature constant.</p><br>
 
 Here's using all casts (depth-binned) instead of annual averages, but considering just August and September.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/6bb46454-5533-4e83-afe7-ad8a447c28fe" width="400"/><br>Fig 7. Point Jefferson DO, temperature, and salinity August-September casts (depth-binned); light color is surface and dark color is bottom.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/6bb46454-5533-4e83-afe7-ad8a447c28fe" width="300"/><br>Fig 7. Point Jefferson DO, temperature, and salinity August-September casts (depth-binned); light color is surface and dark color is bottom.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/bf23c73a-dce6-4941-ba05-3e00b72c5ee6" width="800"/><br>Fig 8. Point Jefferson stratification and solubility August-September casts (depth-binned), observed and holding salinity or temperature constant.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/bf23c73a-dce6-4941-ba05-3e00b72c5ee6" width="600"/><br>Fig 8. Point Jefferson stratification and solubility August-September casts (depth-binned), observed and holding salinity or temperature constant.</p><br>
 
 Very importantly, we do not see a statistically significant decreasing DO trends as in our previous definition of summer (yeardays 125-325) in either set of averaging methods. Using annual averages only, we also do not see a statistically signficant surface salinity increase overtime. This is a bit troubling given that these are different than our earlier definition of summer!
 
 I investigated some further potential changes that may be happening overtime including change of timing of the DO minima. I also investigated the depth of these observed minima. Here's these figures at Point Jefferson, considering the annual DO minimum (depth-binned per cast) and it's timing and depth.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/c7c89317-10b2-4f28-9ecb-b34a587d9394" width="800"/><br>Fig 9. Point Jefferson minimum annual DO (depth-binned per cast), timing of minimum annual DO, and depth of minimum annual DO overtime.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/c7c89317-10b2-4f28-9ecb-b34a587d9394" width="600"/><br>Fig 9. Point Jefferson minimum annual DO (depth-binned per cast), timing of minimum annual DO, and depth of minimum annual DO overtime.</p><br>
 
 This plot does not show any clear trends over time, but does yield some interesting observations. First, the "minimum" depth-binned cast value may be at the surface. This seems to indicate years when casts were not taken at full-depth and corresponds to "high" minimum DO values and earlier yeardays during which the minima occur. Now, we only focus on our the bottom 20% of the water column to capture only deep casts and water column minima.
 
-<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/04f24439-42c4-41b7-9105-588f6041be4c" width="800"/><br>Fig 9. Point Jefferson minimum annual DO in bottom 20% depth-bin, timing of minimum annual DO, and depth of minimum annual DO overtime.</p><br>
+<p style="text-align:center;"><img src="https://github.com/dakotamm/dakotamm.github.io/assets/55995675/04f24439-42c4-41b7-9105-588f6041be4c" width="600"/><br>Fig 9. Point Jefferson minimum annual DO in bottom 20% depth-bin, timing of minimum annual DO, and depth of minimum annual DO overtime.</p><br>
 
 Here we see that there is significant range in annual DO minima at depth. DO minima that occur earlier in the year tend to by higher DO overall. There is some minor variation in the average depth of the depth-binned cast value.
 
