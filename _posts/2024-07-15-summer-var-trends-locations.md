@@ -30,11 +30,11 @@ I finally cleaned up and can use the historical Ecology dataset (1973-1998). Thi
 
 From last week, I presented some different data views at Point Jefferson. Of primary interest was the "summer" seasonal definition. For this analysis, I intend for my summer definition to capture the minimum DO at our sites. Canonically, I've continued this investigation using August and September. However, these do not always follow our "summer" definition, as the minimum DO can fall outside of these bounds. First, I'll start with Point Jefferson's three key variables. We note from last time that August and September do not show a significant decrease in DO overtime, where a longer and later summer season does (yeardays 125-325).
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/abc0d4cc-1be2-4a86-909d-a5c2aa5f1f9d" width="300"/><br>Fig 1. Point Jefferson DO, temperature, and salinity annual August-September averages; purple corresponds to deep depth-bins and pink corresponds to surface 5m.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/abc0d4cc-1be2-4a86-909d-a5c2aa5f1f9d" width="800"/><br>Fig 1. Point Jefferson DO, temperature, and salinity annual August-September averages; purple corresponds to deep depth-bins and pink corresponds to surface 5m.</p><br>
 
 Further, I investigated the DO minima timing and related variables to understand if August and September in fact captures all DO minima. Here's a plot similar to last week, but with shading indicating August/September.
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/7ce6e813-5ea4-4978-ae9c-c917dfc5a5c0" width="600"/><br>Fig 2. Point Jefferson minimum annual DO in bottom 20% depth-bin, timing of minimum annual DO, and depth of minimum annual DO overtime; August and September are highlighted in the middle plot.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/7ce6e813-5ea4-4978-ae9c-c917dfc5a5c0" width="800"/><br>Fig 2. Point Jefferson minimum annual DO in bottom 20% depth-bin, timing of minimum annual DO, and depth of minimum annual DO overtime; August and September are highlighted in the middle plot.</p><br>
 
 We see that while August and September capture some DO minima, it is by know means fully inclusive. I did the same analysis for all long-term and 20-year ecology sites. In general, August-September does not capture all DO minima with most sites having a skew toward later DO minima timing. I can show more plots during the meeting.
 
@@ -46,7 +46,7 @@ I'm not entirely sure yet what this means yet for future summer definition, espe
 
 Given the new summer season definition, I have summarized the varying potential important trends in the following plot, showing the locations of varying significant trends overtime. A reminder that the circular sites are 20-year-ish time histories from Ecology and then the irregular polygons are 60+ year time histories. Color indicates a significant trend during August/September.
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/5bc11328-0b16-40c5-aff6-72dbccfa199a" width="600"/><br>Fig 3. Locations of August/September deep hypoxia, decreasing deep DO, surface warming, increased stratification, and decreased surface DO saturation; signficant trends using annual averages and 95% confidence.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/5bc11328-0b16-40c5-aff6-72dbccfa199a" width="800"/><br>Fig 3. Locations of August/September deep hypoxia, decreasing deep DO, surface warming, increased stratification, and decreased surface DO saturation; signficant trends using annual averages and 95% confidence.</p><br>
 
 Given this summer definition, we see nearly no stratification increases throughout the system, and that DO surface saturation decrease is nicely correlated with surface warming. I intend to use more variables and understand spatial trends in more depth.
 
@@ -56,7 +56,7 @@ Given this summer definition, we see nearly no stratification increases througho
 
 As intended for Paper 1 discussion, it's important to understand the correlation of observed DO/SA/CT trends and variation with environmental variables like river flow. I've taken a quick first pass at using the Skagit River annual flow at Mt. Vernon (from the USGS site) and comparing that graphically to all sites observed DO/SA/CT. Here's starting with Saratoga Passage North, which is nearby the Skagit River mouth.
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/68a40473-180a-4d1a-bd8f-e937e6a8cc9c" width="300"/><br>Fig 4. Skagit River annual mean flow and Saratoga Passage North DO, temperature, and salinity annual August-September averages; purple corresponds to deep depth-bins and pink corresponds to surface 5m.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/68a40473-180a-4d1a-bd8f-e937e6a8cc9c" width="800"/><br>Fig 4. Skagit River annual mean flow and Saratoga Passage North DO, temperature, and salinity annual August-September averages; purple corresponds to deep depth-bins and pink corresponds to surface 5m.</p><br>
 
 We see what perhaps is a slight increasing trend in annual river flow, but a signficant increase of DO both at the surface (pink) and at depth (purple). NOTE: This increase of DO may also be attributable to a LATER DO minima, since this is only capturing August/September. I'll investigate further.
 
