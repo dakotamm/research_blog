@@ -44,7 +44,7 @@ I'm not entirely sure yet what this means yet for future summer definition, espe
 
 ## Trend Locations
 
-Given the new summer season definition, I have summarized the varying potential important trends in the following plot, showing the locations of varying significant trends overtime. A reminder that the circular sites are 20-year-ish time histories from Ecology and then the irregular polygons are 60+ year time histories. Color indicates a significant trend during August/September.
+Keeping the new summer season in mind (and allowing comparison to other definitions), I have summarized the potentially important trends in the following plot, showing the locations of varying significant trends overtime. A reminder that the circular sites are 20-year-ish time histories from Ecology and then the irregular polygons are 60+ year time histories. Color indicates a significant trend during August/September.
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/5bc11328-0b16-40c5-aff6-72dbccfa199a" width="800"/><br>Fig 3. Locations of August/September deep hypoxia, decreasing deep DO, surface warming, increased stratification, and decreased surface DO saturation; signficant trends using annual averages and 95% confidence.</p><br>
 
