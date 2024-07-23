@@ -44,9 +44,9 @@ We see that despite the data similarity, there is variation between the Theil-Se
 
 To look at all these axes of variation, I've created a table view for all the long time history sites using all these different metrics! It reminds me of a big game of Sudoku... *I'll add more interpretation here if time allows.*
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/58b1b162-68b6-47df-ab96-1b174833d865" width="800"/><br>Fig 2. All long time history sites with all variables mentioned so far and all analysis methods.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/c0bd5670-3ec9-4304-87ce-e35f7afb122f" width="800"/><br>Fig 2. All long time history sites with all variables mentioned so far and all analysis methods; red indicates increase (positive slope) and blue indicates decrease (negative slope) normalized to each variable's range; grey indicates non-significant slopes.</p><br>
 
-Here red indicates increase (positive slope) and blue indicates decrease (negative slope) normalized to each variable's range. The grey indicates non-significant slopes. I want to find patterns in this chart! *I'll add more interpretation here if time allows.*
+*I'll add more interpretation here if time allows.*
 
 ---
 
