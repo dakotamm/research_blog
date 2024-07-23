@@ -46,7 +46,7 @@ To look at all these axes of variation, I've created a table view for all the lo
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/58b1b162-68b6-47df-ab96-1b174833d865" width="800"/><br>Fig 2. All long time history sites with all variables mentioned so far and all analysis methods.</p><br>
 
-I want to find patterns in this chart! *I'll add more interpretation here if time allows.*
+Here red indicates increase (positive slope) and blue indicates decrease (negative slope) normalized to each variable's range. The grey indicates non-significant slopes. I want to find patterns in this chart! *I'll add more interpretation here if time allows.*
 
 ---
 
