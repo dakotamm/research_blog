@@ -9,6 +9,7 @@
 6. Further investigate trends using different statistical methods (e.g., varying summer seasons, trend tests, bootstrapping).
 7. Continue to investigate correlations with Skagit flow and other environmental variables (ref. Banas MacCready Long Live the Kings report).
 8. Write write write.
+9. Start thinking about Parker's website update on trends.
    
 ### Completed Goals:
 1. Investigated the effect on long-term analysis results for varying summer seasons and varying trend tests - decided Mann-Kendall with all casts; still deciding summer season handling.
@@ -27,6 +28,8 @@ Some takeaways:
 * Timeline of capital improvement projects vs. time series (does discharge change have any impact on what we observe?)
 * Summer seasonal breakouts are still something to figure out! (From last week's blogposts and email discussions as well!)
 * What's the best way to explain the statistical significance of a "can't reject the 0-slope null hypothesis"?
+* Dave mentioned qualifying trends based on existing water quality, like at Point Jefferson with naturally high DO
+* Need to look further into Christopher Krembs water quality index...
 
 ---
 
@@ -34,17 +37,18 @@ Some takeaways:
 
 Given I focused a lot on the presentation last week, I spent some time getting back into my paper 1 discussion section topics. One that I have not yet tackled is correlations with the Skagit river flow and my observed variables. Last time I presented this weeks ago, we thought property-property plots would be a helpful way to visualize this. So here are the long time history sites, using annual averages during the summer season defined August-November and annual mean discharge values in cubic feet per second.
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/ea8dcc18-666d-4732-b519-01ef8cb93c19" width="800"/><br>Fig 1. Annual Skagit river mean flow vs. Saratoga Passage Mid surface and deep DO, surface and deep temperature, surface adn deep salinity, stratification, and DO surface saturation annual November averages.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/ea8dcc18-666d-4732-b519-01ef8cb93c19" width="800"/><br>Fig 1. Annual Skagit river mean flow vs. Saratoga Passage Mid surface and deep DO, surface and deep temperature, surface and deep salinity, stratification, and DO surface saturation annual November averages.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/7f5a3f03-945e-450c-985d-46e24db4273f" width="800"/><br>Fig 1. Annual Skagit river mean flow vs. Point Jefferson surface and deep DO, surface and deep temperature, surface adn deep salinity, stratification, and DO surface saturation annual November averages.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/7f5a3f03-945e-450c-985d-46e24db4273f" width="800"/><br>Fig 2. Annual Skagit river mean flow vs. Point Jefferson surface and deep DO, surface and deep temperature, surface and deep salinity, stratification, and DO surface saturation annual November averages.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/7d12202d-d486-47fd-aeb8-b314755b46b7" width="800"/><br>Fig 1. Annual Skagit river mean flow vs. Near Seattle Offshore surface and deep DO, surface and deep temperature, surface adn deep salinity, stratification, and DO surface saturation annual November averages.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/7d12202d-d486-47fd-aeb8-b314755b46b7" width="800"/><br>Fig 3. Annual Skagit river mean flow vs. Near Seattle Offshore surface and deep DO, surface and deep temperature, surface and deep salinity, stratification, and DO surface saturation annual November averages.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/cf7ead8d-8a26-4eac-a171-0be2a531fdf6" width="800"/><br>Fig 1. Annual Skagit river mean flow vs. Lynch Cove Mid surface and deep DO, surface and deep temperature, surface adn deep salinity, stratification, and DO surface saturation annual November averages.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/cf7ead8d-8a26-4eac-a171-0be2a531fdf6" width="800"/><br>Fig 4. Annual Skagit river mean flow vs. Lynch Cove Mid surface and deep DO, surface and deep temperature, surface and deep salinity, stratification, and DO surface saturation annual November averages.</p><br>
 
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/eed36775-d018-4a6b-b763-4ed58f171642" width="800"/><br>Fig 1. Annual Skagit river mean flow vs. Carr Inlet Mid surface and deep DO, surface and deep temperature, surface adn deep salinity, stratification, and DO surface saturation annual November averages.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/eed36775-d018-4a6b-b763-4ed58f171642" width="800"/><br>Fig 5. Annual Skagit river mean flow vs. Carr Inlet Mid surface and deep DO, surface and deep temperature, surface and deep salinity, stratification, and DO surface saturation annual November averages.</p><br>
 
+I need to review the Long Live the King's report in more depth. Also some important variables like freshet timing have yet to be considered or different seasonal responses.
 
 **Dakota still updating.**
 
