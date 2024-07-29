@@ -35,7 +35,7 @@ Some takeaways:
 
 ## Skagit Annual Discharge vs. Summer DO/SA/CT Values at Long Time History Sites
 
-Given I focused a lot on the presentation last week, I spent some time getting back into my paper 1 discussion section topics. One that I have not yet tackled is correlations with the Skagit river flow and my observed variables. Last time I presented this weeks ago, we thought property-property plots would be a helpful way to visualize this. So here are the long time history sites, using annual averages during the summer season defined August-November and annual mean discharge values in cubic feet per second.
+Given I focused a lot on the presentation last week, I spent some time getting back into my paper 1 discussion section topics. One that I have not yet tackled is correlations with the Skagit river flow and my observed variables. Last time I presented this weeks ago, we thought property-property plots would be a helpful way to visualize this. So here are the long time history sites, using annual averages during the summer season defined August-November and annual mean discharge values in cubic feet per second. NOTE: These are for water years starting the previous October 1!
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/ea8dcc18-666d-4732-b519-01ef8cb93c19" width="800"/><br>Fig 1. Annual Skagit river mean flow vs. Saratoga Passage Mid surface and deep DO, surface and deep temperature, surface and deep salinity, stratification, and DO surface saturation annual November averages.</p><br>
 
@@ -48,7 +48,7 @@ Given I focused a lot on the presentation last week, I spent some time getting b
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/eed36775-d018-4a6b-b763-4ed58f171642" width="800"/><br>Fig 5. Annual Skagit river mean flow vs. Carr Inlet Mid surface and deep DO, surface and deep temperature, surface and deep salinity, stratification, and DO surface saturation annual November averages.</p><br>
 
-I need to review the Long Live the King's report in more depth. Also some important variables like freshet timing have yet to be considered or different seasonal responses.
+I need to review the Long Live the King's report in more depth. Also some important variables like freshet timing have yet to be considered or different seasonal responses. From these plots, however, quick interpretation shows that weirdly, Saratoga Passage doesn't show signficant correlation. The largest r^2 values are for Point Jefferson surface and deep salinity at 0.37 (pretty weak). More to dig into here!
 
 **Dakota still updating.**
 
