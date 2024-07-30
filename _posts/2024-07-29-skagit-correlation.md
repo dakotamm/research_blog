@@ -50,8 +50,6 @@ Given I focused a lot on the presentation last week, I spent some time getting b
 
 I need to review the Long Live the King's report in more depth. Also some important variables like freshet timing have yet to be considered or different seasonal responses. From these plots, however, quick interpretation shows that weirdly, Saratoga Passage doesn't show signficant correlation. The largest r^2 values are for Point Jefferson surface and deep salinity at 0.37 (pretty weak). More to dig into here!
 
-**Dakota still updating.**
-
 
 ---
 
