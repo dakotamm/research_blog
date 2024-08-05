@@ -65,7 +65,40 @@ Looking at just the August-November "summer" definition:
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/68018796-6f6c-4dea-af4f-c2c406938917" width="800"/><br>Fig 16. Surface DO saturation trend slopes [mg/L/century] at various sites from August-November.</p><br>
 
+Some issues with using this summer definition may be that it does sometimes capture the winter storm start, which in Lynch Cove looks like it may have a singificant impact on the variation in the slopes for surface salinity? This is vexing me!!!
 
+---
+
+## DIN and Chlorophyll Trend Analysis Attempt
+
+From last week, we also discussed finally performing the same trend analysis at my long time-history sites. I assessed NO3, chlorophyll, NO2, and NH4. NO2 and NH4 had nearly no time record at all time histories. NO3 and chlorophyll had enough data for a trend analysis, but do not meet the criteria for a 60-year time history at each site (they don't have the same length of record for DO/SA/CT and NO3/Chl). Here's the time series plots, but in my opinion any calculated trends are not particularly useful given the spotty time record and the extreme resolution differences before and after the late 90s. NOTE: I'm using yeardays 125-325 to bound these data points (summer definition: ~85% of hypoxic days).
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/3984f3d8-da5b-4ba3-ae24-9554cafc24a5" width="800"/><br>Fig 17. Summer surface and deep NO3 at Point Jefferson.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/b0a41739-eb1f-48f9-b640-6a7ecb42d6d7" width="800"/><br>Fig 18. Summer surface and deep chlorophyll at Point Jefferson.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/596b1a41-ef5d-4192-941d-526e9a83deae" width="800"/><br>Fig 19. Summer surface and deep NO3 at Near Seattle Offshore.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/6e87b848-2c79-4ce9-93d9-234b8a6470f4" width="800"/><br>Fig 20. Summer surface and deep chlorophyll at Near Seattle Offshore.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/bbb28efa-a6da-42e5-a262-c899f3410270" width="800"/><br>Fig 21. Summer surface and deep NO3 at Saratoga Passage Mid.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/bb0e8076-c939-46dd-86df-2d9cf549a2a4" width="800"/><br>Fig 22. Summer surface and deep chlorophyll at Saratoga Passage Mid.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/a0da5131-83e5-4d71-bdb0-f46865c7f569" width="800"/><br>Fig 23. Summer surface and deep NO3 at Carr Inlet Mid.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/19f30c06-3b6d-491e-b34b-05aeec06f42c" width="800"/><br>Fig 24. Summer surface and deep chlorophyll at Carr Inlet Mid.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/f7cdfbea-c0eb-4221-8487-05d1d818762a" width="800"/><br>Fig 25. Summer surface and deep NO3 at Lynch Cove Mid.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/a19d1ea0-eb69-4966-a4d4-65bde9cfc2db" width="800"/><br>Fig 26. Summer surface and deep chlorophyll at Lynch Cove Mid.</p><br>
+
+
+---
+
+## 
+
+uses for the 20-year time histories??? variations???
 
 ---
 
