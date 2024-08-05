@@ -33,7 +33,7 @@ Here's the plots for all casts using Thiel-Sen slopes with 95% confidence for al
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/852f00d0-a6fa-4ba2-8671-ffc83251df51" width="800"/><br>Fig 4. Deep CT trend slopes [deg C/century] at various sites, under various summer defintions.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/3e7fd45c-1a9b-4d44-beab-c2ad9dd08ade" width="800"/><br>Fig 5. Surface SA trend slopes [psu/century] at various sites, under various summer defintions.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/5212e00d-9b8d-4a48-89f5-7e3608c31086" width="800"/><br>Fig 5. Surface SA trend slopes [psu/century] at various sites, under various summer defintions.</p><br>
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/9b62639f-4961-443f-bb29-a9e0d3358c00" width="800"/><br>Fig 6. Deep SA trend slopes [psu/century] at various sites, under various summer defintions.</p><br>
 
@@ -42,7 +42,6 @@ Here's the plots for all casts using Thiel-Sen slopes with 95% confidence for al
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/03a06a97-5ceb-4bc4-ae70-ea122589caf1" width="800"/><br>Fig 8. Surface DO saturation trend slopes [mg/L/century] at various sites.</p><br>
 
 So what
-
 
 
 ---
