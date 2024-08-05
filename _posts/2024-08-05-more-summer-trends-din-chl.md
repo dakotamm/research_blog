@@ -1,4 +1,4 @@
-# Understanding Summer Trends More & DIN/Chlorophyll Investigation
+# Understanding Summer Trends More and DIN/Chlorophyll Investigation
 
 ### Goals From Last Meeting:
 1. Work on integrating new KC data + Ecology historical into LO - README + Parker review.
