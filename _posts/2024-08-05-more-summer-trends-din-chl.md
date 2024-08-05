@@ -96,12 +96,6 @@ From last week, we also discussed finally performing the same trend analysis at 
 
 ---
 
-## 
-
-uses for the 20-year time histories??? variations???
-
----
-
 ## General Exam Notes
 
 Leaving my General Exam notes here for future reference...
