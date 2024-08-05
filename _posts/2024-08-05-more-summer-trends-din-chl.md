@@ -21,9 +21,9 @@
 
 Last meeting, we had a good conversation about the communication of "near-0" trends in plots. We decided to no longer use the 95% confidence interval accept/reject null hypothesis using a Mann-Kendall test for monotonocity, and instead just plot the 95% confidence intervals for each slope in each location.
 
-NOTE: I'm using Thiel-Sen slopes and the "maximum" 95% confidence interval from that analysis. Thiel-Sen slopes use medians, and so the 95% confidence interval maximum and minimum slopes are not necessarily symmetric. However, in this case I've taken the absolute value of the high and low slope deviations from the Thiel-Sen slope. This gives a conservative, symmetric range. I'm happy to discuss this use more.
+NOTE: I'm using Thiel-Sen slopes and the "maximum" 95% confidence interval from that analysis. Thiel-Sen slopes use medians, and so the 95% confidence interval maximum and minimum slopes are not necessarily symmetric. However, in this case I've taken the absolute value of the high and low slope deviations from the Thiel-Sen slope. This gives a conservative, symmetric range that was easy to compare to previous linear regression confidence intervals. I'm happy to discuss this use more.
 
-Here's the plots for all casts using Thiel-Sen slopes with 95% confidence for all measured variables. First, I've colored varying summer definitions separately.
+Here's the plots for all casts using Thiel-Sen slopes with 95% confidence for all measured variables. First, I've colored varying summer definitions separately. Large dots are the reported Thiel-Sen slope and the small dots are the higher and lower 95% confidence interval slopes.
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/20310355-c7b4-40de-bb24-1494771623cf" width="800"/><br>Fig 1. Surface DO trend slopes [mg/L/century] at various sites, under various summer defintions.</p><br>
 
@@ -37,11 +37,36 @@ Here's the plots for all casts using Thiel-Sen slopes with 95% confidence for al
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/9b62639f-4961-443f-bb29-a9e0d3358c00" width="800"/><br>Fig 6. Deep SA trend slopes [psu/century] at various sites, under various summer defintions.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/10a30d56-3e68-4996-bcec-01579df1ed61" width="800"/><br>Fig 7. Stratification trend slopes [sigma diff./century] at various sites.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/10a30d56-3e68-4996-bcec-01579df1ed61" width="800"/><br>Fig 7. Stratification trend slopes [sigma diff./century] at various sites, under various summer defintions.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/03a06a97-5ceb-4bc4-ae70-ea122589caf1" width="800"/><br>Fig 8. Surface DO saturation trend slopes [mg/L/century] at various sites.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/03a06a97-5ceb-4bc4-ae70-ea122589caf1" width="800"/><br>Fig 8. Surface DO saturation trend slopes [mg/L/century] at various sites, under various summer defintions.</p><br>
 
-So what
+Statistically, if a 95% confidence interval encompasses the 0-slope line, then that particular slope would be considered statistically no-different than 0.
+
+As usual, the strongest trends we observed are warming. Nearly all summer definitions and at all locations, we observe surface and deep warming. However, most seasons show very little difference from the 0-slope for surface and deep DO, with the exception of Near Seattle Offshore deep DO, which shows a decrease, and Saratoga Pasage Mid surface DO, which shows an increase.
+
+A big takeaway I'd like to get from this meeting is **how to deal with variation caused by different summer definitions**. We've previously discussed "averaging" all of these slopes, but I find that the definitions I've selected for summer are somewhat arbitrary anyway and I'm having a hard time justifying their selection. I'm somewhat inclined to choose the August-November metric because that seems to capture most of the late-summer DO minima. But I'd love input here.
+
+Looking at just the August-November "summer" definition:
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/20310355-c7b4-40de-bb24-1494771623cf" width="800"/><br>Fig 9. Surface DO trend slopes [mg/L/century] at various sites from August-November.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/f46c671c-8f57-4abd-be2d-e6cdfb3ad715" width="800"/><br>Fig 10. Deep DO trend slopes [mg/L/century] at various sites from August-November.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/6ccae012-15b7-489f-a4e8-64edf8a69b72" width="800"/><br>Fig 11. Surface CT trend slopes [deg C/century] at various sites from August-November.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/e982242c-5238-4924-a318-ff50399a4044" width="800"/><br>Fig 12. Deep CT trend slopes [deg C/century] at various sites from August-November.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/41e6f7d3-ac92-4cf2-afef-018e8791c81a" width="800"/><br>Fig 13. Surface SA trend slopes [psu/century] at various sites from August-November.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/89162847-d046-48cb-b9d1-55aa0b283a85" width="800"/><br>Fig 14. Deep SA trend slopes [psu/century] at various sites from August-November.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/65936781-121b-4508-b084-182adaf96f38" width="800"/><br>Fig 15. Stratification trend slopes [sigma diff./century] at various sites from August-November.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/68018796-6f6c-4dea-af4f-c2c406938917" width="800"/><br>Fig 16. Surface DO saturation trend slopes [mg/L/century] at various sites from August-November.</p><br>
+
+
+
 
 
 ---
