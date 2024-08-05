@@ -49,7 +49,7 @@ A big takeaway I'd like to get from this meeting is **how to deal with variation
 
 Looking at just the August-November "summer" definition:
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/20310355-c7b4-40de-bb24-1494771623cf" width="800"/><br>Fig 9. Surface DO trend slopes [mg/L/century] at various sites from August-November.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/0cb788dc-02f3-44da-b320-eabd7b4328a9" width="800"/><br>Fig 9. Surface DO trend slopes [mg/L/century] at various sites from August-November.</p><br>
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/f46c671c-8f57-4abd-be2d-e6cdfb3ad715" width="800"/><br>Fig 10. Deep DO trend slopes [mg/L/century] at various sites from August-November.</p><br>
 
@@ -64,8 +64,6 @@ Looking at just the August-November "summer" definition:
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/65936781-121b-4508-b084-182adaf96f38" width="800"/><br>Fig 15. Stratification trend slopes [sigma diff./century] at various sites from August-November.</p><br>
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/68018796-6f6c-4dea-af4f-c2c406938917" width="800"/><br>Fig 16. Surface DO saturation trend slopes [mg/L/century] at various sites from August-November.</p><br>
-
-
 
 
 
