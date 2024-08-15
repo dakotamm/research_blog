@@ -31,7 +31,7 @@ However, 50th percentile cutoff is not the only path. Throughout the blog, I hav
 
 Here's a graphical example of the process:
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/4bf77f4b-1bfd-446f-bf25-4b2059e93ee8" width="400"/><br>Fig 3. Point Jefferson deep DO August-November percentile filtering example.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/44038c50-c813-4a0a-94d3-63fa71f8115e" width="400"/><br>Fig 3. Point Jefferson deep DO August-November percentile filtering example.</p><br>
 
 ---
 
