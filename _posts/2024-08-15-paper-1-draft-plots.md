@@ -110,7 +110,7 @@ Alex and I discussed Elmstrom et al. (2024). I need to do a closer read, but thi
 
 For WWTP - I intend to take a look at Aurora's adapted WWTP time series and...see if there's a trend? Could also correlate this to higher resolution ecology data in the same time period.
 
-Finally, I will take a look at population change to see if it has any correlation with nutrients, especially from WWTPs...
+Finally, I will take a look at population change to see if it has any correlation with nutrients, especially from WWTPs and specific wastewater events...
 
 
 # Atmospheric Changes
