@@ -90,7 +90,7 @@ I haven't spent a ton of time interpreting these plots yet - but here's the same
 
 I have identified 21 Ecology monitoring sites with 20+ years of data. I've so far not used these too much, but Alex suggested that I take a look at whether or not the trends that I see at the long-term history sites are statistically different than the modern sites. So I've done that for all variables, but I've shown deep DO here.
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/a84bbaa1-7fef-4520-8e02-9effe8d6ad92" width="800"/><br>Fig 8. Short and long term sites deep DO trends in summer (August-November).</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/a84bbaa1-7fef-4520-8e02-9effe8d6ad92" width="400"/><br>Fig 8. Short and long term sites deep DO trends in summer (August-November).</p><br>
 
 The only value with statistically signifcant slope is at HCB004 (which is about halfway down Hood Canal, south of Seabeck). This is showing an epic INCREASE in deep DO. GOR001 also shows a decrease but not significantly different than the nearest long term site at Carr Inlet. That being said, I'm having a hard time making this a cohesive thought (**some help would be appreciated!**).
 
