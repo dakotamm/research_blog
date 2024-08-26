@@ -27,7 +27,7 @@ NOTE AGAIN: As I'm writing the blog, I am seeing some dupliate cast IDs when I d
 
 All that said, the below figure shows the century trends for all three variables (DO/CT/SA) both during summer and using all-years' worth of data.
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/a448f976-6db3-497d-92b1-5aa880fcde4c" width="400"/><br>Fig 1. Surface and deep DO/CT/SA trend slopes at long-term sites using median and lower for deep DO as filter for casts; grey uses all seasons and color filters to just the "low DO season/summer" August-November.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/a448f976-6db3-497d-92b1-5aa880fcde4c" width="800"/><br>Fig 1. Surface and deep DO/CT/SA trend slopes at long-term sites using median and lower for deep DO as filter for casts; grey uses all seasons and color filters to just the "low DO season/summer" August-November.</p><br>
 
 Mostly, we do not see big differences between annual trends and low DO season trends...
 
