@@ -46,11 +46,12 @@ Also from last week, we discussed doing an analysis at all long time history sit
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/7e4c4b6b-d3a3-4f9f-9015-9f5bd5e9d8a5" width="400"/><br>Fig 5. Deep CT trend slopes at long-term sites using median and lower for deep DO as filter for casts occurring August-November using full and modern time series.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/64d72a44-50ae-4e04-935b-5f3d13dd3fc6" width="400"/><br>Fig 6. Surface SA trend slopes at long-term sites using median and lower for deep DO as filter for casts occurring August-November using full and modern time series.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/0b9b525b-29c2-42d5-b1af-bb13194966b9" width="400"/><br>Fig 6. Surface SA trend slopes at long-term sites using median and lower for deep DO as filter for casts occurring August-November using full and modern time series.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/0d909f90-6770-437d-8114-98c3e5036364" width="400"/><br>Fig 7. Deep SA trend slopes at long-term sites using median and lower for deep DO as filter for casts occurring August-November using full and modern time series.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/0493e01e-11a9-4467-bad2-cd43b323722a" width="400"/><br>Fig 7. Deep SA trend slopes at long-term sites using median and lower for deep DO as filter for casts occurring August-November using full and modern time series.</p><br>
 
 For the most part, the trends are not statistically significantly different than the long-term trends...
+
 
 ---
 
