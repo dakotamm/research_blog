@@ -21,9 +21,11 @@
 
 ## Full-Year Trends and Time Series Averages
 
-*This needs graphical work and interpretation added.*
+From two meetings ago, we'd discussed a plot of all trends and also average time series values for each variable of each of DO/CT/SA. These also include "full-year" vs. just "low DO season" values. Here's an attempt at that! *This needs some graphical work.*
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/a37cb195-9c98-40d7-a112-0575ae0e7247" width="800"/><br>Fig 1. Top row: time series averages for "low DO season/summer" at surface (pink) and depth (purple) with full-year averages at surface (grey-pink) and depth (grey-purple); bottom two rows: August-November surface and deep DO/CT/SA trend slopes at long-term sites using median and lower for deep DO as filter for casts; grey uses all seasons and color filters to just the "low DO season/summer" August-November.</p><br>
+
+This corroborates some of our initial thoughts: the places where DO is bad (like the bottom of Lynch Cove) are not the places seeing a trend of decreasing DO. Instead regions with minimal oxygen variation throughout the water column (in central Main Basin) are seeing a "background" decrease in DO.
 
 
 ---
@@ -44,21 +46,29 @@ From last week, we suggested modifying the comparison of "modern" vs. "historic"
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/6a9b7076-9898-4d59-a538-1a9a060e2ea9" width="400"/><br>Fig 7. Deep SA trend slopes at long-term sites using median and lower for deep DO as filter for casts occurring August-November using historic and modern time series.</p><br>
 
-*Add interpretation.*
+In general we mantain there is minimal statistically significant difference between the trends before and after 1999. However, the reduced number of data points in either case can lead to expanded confidence intervals, and thus change conclusions regarding trend significance.
 
 ---
 
 ## Deep DO vs. Surface DO Saturation
 
+From two meetings ago, we discussed an improved graphical representation of the deep DO concentration at each site vs. the surface saturation (calculated using temperature and salinity measured at the surface) to understand how much these physical changes account for DO change over time. Here's an attempt at improving the presentation.
+
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/e82e5093-2605-4ef0-8ea2-5e2d035ba53c" width="400"/><br>Fig 8. Deep DO trend slopes and surface DO saturation at long-term sites using median and lower for deep DO as filter for casts occurring August-November.</p><br>
 
-*Add interpretation.*
 
 ---
 
 ## Seasonal Skagit Flow vs. DO/CT/SA
 
-*Add explanation: started with just correlations between low-DO season DO/CT/SA and seasonal average flows for each year using Skagit. Can also correlate with differencing between the seasonal flows. Can also use more than just Skagit. Also plotted short-term sites but just long sites shown. Seasons are: winter = Dec-Mar, grow = Apr-Jul, loDO = Aug-Nov*
+Last meeting, we discussed different ways to look at freshwater and DO/CT/SA. This analysis uses only Skagit River monthly average flow data and correlates it with DO/CT/SA. To understand potential seasonal effects, I found the mean flow for each of three segments of the year at the Skagit. These are defined as:
+* Winter = December-March
+* Grow = April-June
+* Low DO = August-November
+
+Each seasonal average flow is then correlated to the low DO season DO/CT/SA at each site!
+
+*There's lots more to do here potentially. I can also correlate with differencing between the seasonal flows. I should use more than just Skagit. Also I've plotted short-term sites but just long sites shown.*
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/b9a4015e-4b60-4b2e-bc66-ed0011335633" width="800"/><br>Fig 9. Annual Carr Inlet low DO season DO/CT/SA vs. annual Skagit low DO season average flow.</p><br>
 
@@ -92,8 +102,7 @@ From last week, we suggested modifying the comparison of "modern" vs. "historic"
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/1a7cfd8d-fde6-4135-8c75-91e1a7e31c0f" width="800"/><br>Fig 23. Annual Saratoga Passage low DO season DO/CT/SA vs. annual Skagit winter season average flow.</p><br>
 
-*Looks like grow season might be the best correlated? More to do.*
-
+At first glance, it appears that the "grow" season Skagit flow is the best predictor of low-DO season salinity in most cases. However, I need to look at this in more depth!
 
 
 ---
