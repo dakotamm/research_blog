@@ -102,7 +102,7 @@ Each seasonal average flow is then correlated to the low DO season DO/CT/SA at e
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/1a7cfd8d-fde6-4135-8c75-91e1a7e31c0f" width="800"/><br>Fig 23. Annual Saratoga Passage low DO season DO/CT/SA vs. annual Skagit winter season average flow.</p><br>
 
-At first glance, it appears that the "grow" season Skagit flow is the best predictor of low-DO season salinity in most cases. However, I need to look at this in more depth!
+At first glance, it appears that the "grow" season Skagit flow is the best predictor of low-DO season salinity in at Main Basin sites. However, I need to look at this in more depth!
 
 
 ---
