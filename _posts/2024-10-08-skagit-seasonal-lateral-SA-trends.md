@@ -137,6 +137,7 @@ Thoughts for posterity:
 * CEE Performance Evaluation - ? oops!
 * PECS - reimbursements submitted...
 * KC Quarterly Report - 10/11
+* WWU Seminar - 11/8
  
 
 ---
