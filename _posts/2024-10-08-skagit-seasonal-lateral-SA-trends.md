@@ -75,6 +75,7 @@ I've put some more thought into my outline...
       * Can I leverage monthly EPA data for this correlation using modern WWTP time series? As in - see if correlation anywhere in modern data? If not, likely no correlation in long-term data.
          * Event-based correlation?
     * River nutrient changes over time? Review Elmstrom et al. (2024) further
+  * **Out of scope:** offshore processes contribution?! Other than heat waves?
 * Time lagged/seasonal correlations? E.g., dry winter predicting low DO or something?
 
 
