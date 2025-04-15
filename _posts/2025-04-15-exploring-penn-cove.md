@@ -21,11 +21,11 @@
 
 ## KC Penn Cove Observational Data Exploration
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/6a134e5b-defe-4655-b20d-715dd1f2a477" width="800"/><br>Fig 1. King County's Whidbey Basin sites sampled from 2022-2024.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/15666699-5026-4e4a-a590-316ec05fdc48" width="800"/><br>Fig 1. King County's Whidbey Basin sites sampled from 2022-2024.</p><br>
 
-
-
-
+![kc_whidbey_DO_mg_L_timeseries](https://github.com/user-attachments/assets/d377bc48-cbaf-4a36-89f8-b7384c7a0a6d)
+![kc_whidbey_SA_timeseries](https://github.com/user-attachments/assets/253e9a63-6576-418a-ab33-125c9a4a0dc4)
+![kc_whidbey_CT_timeseries](https://github.com/user-attachments/assets/b9af92ae-2b2f-48f4-80b3-9f4e6b407a50)
 
 
 
