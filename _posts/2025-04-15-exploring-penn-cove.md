@@ -23,9 +23,10 @@
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/508a648a-b11e-4bc2-824b-d1854429d1d6" width="800"/><br>Fig 1. King County's Whidbey Basin sites sampled from 2022-2024.</p><br>
 
-![kc_whidbey_DO_mg_L_timeseries](https://github.com/user-attachments/assets/d377bc48-cbaf-4a36-89f8-b7384c7a0a6d)
-![kc_whidbey_SA_timeseries](https://github.com/user-attachments/assets/253e9a63-6576-418a-ab33-125c9a4a0dc4)
-![kc_whidbey_CT_timeseries](https://github.com/user-attachments/assets/b9af92ae-2b2f-48f4-80b3-9f4e6b407a50)
+![kc_whidbey_DO_mg_L_timeseries](https://github.com/user-attachments/assets/f0b1065e-0132-44fd-a12d-8ef368f248f9)
+![kc_whidbey_SA_timeseries](https://github.com/user-attachments/assets/77979b53-6a7d-42b6-b4bb-acecc4bf7a66)
+![kc_whidbey_CT_timeseries](https://github.com/user-attachments/assets/df4c339f-d4b9-4a59-a2e2-f169ae727aeb)
+
 
 
 
