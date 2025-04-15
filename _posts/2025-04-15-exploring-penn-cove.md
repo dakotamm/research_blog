@@ -21,11 +21,15 @@
 
 ## KC Penn Cove Observational Data Exploration
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/508a648a-b11e-4bc2-824b-d1854429d1d6" width="800"/><br>Fig 1. King County's Whidbey Basin sites sampled from 2022-2024.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/508a648a-b11e-4bc2-824b-d1854429d1d6" width="600"/><br>Fig 1. King County's Whidbey Basin sites sampled from 2022-2024; maximum LO depth indicated; LO grid shown.</p><br>
 
-![kc_whidbey_DO_mg_L_timeseries](https://github.com/user-attachments/assets/f0b1065e-0132-44fd-a12d-8ef368f248f9)
-![kc_whidbey_SA_timeseries](https://github.com/user-attachments/assets/77979b53-6a7d-42b6-b4bb-acecc4bf7a66)
-![kc_whidbey_CT_timeseries](https://github.com/user-attachments/assets/df4c339f-d4b9-4a59-a2e2-f169ae727aeb)
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/df4c339f-d4b9-4a59-a2e2-f169ae727aeb" width="800"/><br>Fig 2. King County's Whidbey Basin sites cast time series colored by temperature.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/77979b53-6a7d-42b6-b4bb-acecc4bf7a66" width="800"/><br>Fig 3. King County's Whidbey Basin sites cast time series colored by salinity.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/f0b1065e-0132-44fd-a12d-8ef368f248f9" width="800"/><br>Fig 4. King County's Whidbey Basin sites cast time series colored by DO concentration.</p><br>
+
+
 
 
 
