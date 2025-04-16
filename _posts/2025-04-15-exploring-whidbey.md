@@ -1,4 +1,4 @@
-# Exploring Penn Cove Observations
+# Exploring Whidbey Basin Observations
 
 ### Goals From Last Meeting:
 1. Submit Paper 1!
@@ -33,7 +33,7 @@ It's out! A bit of a rush at the end to get all the formatting in line and publi
 
 ---
 
-## KC Penn Cove Observational Data Exploration
+## KC Whidbey Basin Observational Data Exploration
 
 Now onto Penn Cove!!! The first step has been looking at what observational data we have from KC and starting to compare that to existing model data. Get ready for lots of plots! The first one is a map of all the sampling locations that KC has sampled in Whidbey Basin since 2022.
 
