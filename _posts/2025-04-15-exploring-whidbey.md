@@ -43,7 +43,7 @@ Next I've ploted each site's cast time series to verify temporal and spatial res
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/41024bce-deb8-4e83-ab57-0205ec84f776" width="800"/><br>Fig 2. King County's Whidbey Basin sites sampling depths from 2022-2024; maximum LO depth indicated + 80\% bottom bin definition.</p><br>
 
-Now I've plotted time series of each site's bottom CT, SA, and DO. I've also compared them to model data. I know this is old, but I'm using the cas6_v0_live and cas6_v1_live data for continuity (mainly since I had it readily available).
+Now I've plotted time series of each site's bottom CT, SA, and DO. I've also compared them to model data. I know this is old, but I'm using the cas6_v0_live and cas6_v1_live data for continuity (mainly since I had it readily available). NOTE: black is model output and color is observations.
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/7c49dda3-b1e0-496c-b586-5f5cddb8fc2f" width="800"/><br>Fig 3. King County's Whidbey Basin sites bottom CT (degC) compared to select LO model output.</p><br>
 
