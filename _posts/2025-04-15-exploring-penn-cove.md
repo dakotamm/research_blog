@@ -44,7 +44,7 @@ Next I've ploted each site's cast time series to verify temporal and spatial res
 
 Now I've plotted time series of each site's bottom CT, SA, and DO. I've also compared them to model data. I know this is old, but I'm using the cas6_v0_live and cas6_v1_live data for continuity (mainly since I had it readily available).
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/7c49dda3-b1e0-496c-b586-5f5cddb8fc2f)" width="800"/><br>Fig 3. King County's Whidbey Basin sites bottom CT (degC) compared to select LO model output.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/7c49dda3-b1e0-496c-b586-5f5cddb8fc2f" width="800"/><br>Fig 3. King County's Whidbey Basin sites bottom CT (degC) compared to select LO model output.</p><br>
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/5a3448d3-0fb1-4a57-92c5-6fc029e28fd0" width="800"/><br>Fig 4. King County's Whidbey Basin sites bottom SA (g/kg) compared to select LO model output.</p><br>
 
@@ -52,15 +52,18 @@ Now I've plotted time series of each site's bottom CT, SA, and DO. I've also com
 
 I'm a bit light on written interpretation, but I'd love to tease this out in the meeting tomorrow! Overall, this has been a helpful preliminary look at what we have to work with.
 
+Next Steps:
+* Set meetings to get more acclimated with running LO, how nested models get set up, and the state of affairs with LO versions/procedures!
+* Further data analysis!
+
 
 ---
 
 ## Bookkeeping
-* CEE Performance Evaluation - ? oops!
-* PECS - reimbursements submitted...
-* KC Quarterly Report - 10/11
-* WWU Seminar - 11/8
- 
+* Ocean Visions - reimbursements submitted!
+* 5/13: Steve Riser's undergrad class guest lecture
+* 5/15-5/16: OOO
+* 6/16-7/3: Wedding, etc.
 
 ---
 
