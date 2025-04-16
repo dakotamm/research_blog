@@ -29,6 +29,7 @@ For posterity, I want to record some reflections on AGU Ocean Visions, although 
 It's out! A bit of a rush at the end to get all the formatting in line and publish my dataframe. I'm very grateful for all the support and proud to have it closer to published. Some more items:
 * Send for peer review to Jan, Taylor, Mike...anyone else?
 * Should I reach out to anyone to let them know I am using their data? It's a bit late but as a courtesy?
+* I need to clean up all of the obs data I was working with and my processing code for integration with our existing LO obs data!
 
 ---
 
@@ -55,7 +56,6 @@ I'm a bit light on written interpretation, but I'd love to tease this out in the
 Next Steps:
 * Set meetings to get more acclimated with running LO, how nested models get set up, and the state of affairs with LO versions/procedures!
 * Further data analysis!
-
 
 ---
 
