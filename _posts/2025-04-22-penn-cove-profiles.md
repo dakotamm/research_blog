@@ -39,7 +39,7 @@ I'm again a bit light on written interpretation, but I'm wondering if my seasona
 ---
 
 ## Bookkeeping
-* Ocean Visions - reimbursements submitted!
+* Ocean Visions - reimbursements paid out!
 * 5/13: Steve Riser's undergrad class guest lecture
 * 5/15-5/16: OOO
 * 6/16-7/3: Wedding, etc.
