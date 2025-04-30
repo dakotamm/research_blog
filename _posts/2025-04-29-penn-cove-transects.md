@@ -38,10 +38,12 @@ As we work to develop the next part of my PhD work and beyond, here's some brain
 * What mechanisms drive low DO water spatial and temporal variation in Penn Cove? (Especially given the seeming origin within Penn Cove...)
   * What role do nutrients play? What role do physical processses play (e.g., wind or tides)?
 * What influence do Skagit/freshwater events have on Penn Cove and throughout Whidbey Basin?
-  * Even though Penn Cove low DO seems to originate from within, perhaps stratification is at play?
+  * Even though Penn Cove low DO seems to originate from within, stratification from external freshwater likely plays a role.
+* Related - what is the salinity structure in Penn Cove throughout the year? How does this differ from other regions in Whidbey Basin?
+* What is the exchange flow structure in Puget Sound? Some theory suggests reverse exchange flow - is this supported by data/model?
+* What is the role of rain/freshwater lenses on low DO events in Penn Cove? Turbidity?
 * Is there variability in oxygen drawdown rates in Penn Cove or other regions in Whidbey Basin, given that there appears to be significantly more internal forcing than external in Penn Cove oxygen?
   * Following on Aurora's work - if low DO water entering Penn Cove doesn't cause hypoxia...what does?
-* *to be completed*
 
 
 ---
