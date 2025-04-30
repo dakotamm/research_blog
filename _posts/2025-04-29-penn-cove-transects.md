@@ -46,11 +46,13 @@ As we work to develop the next part of my PhD work and beyond, here's some brain
 * Is there variability in oxygen drawdown rates in Penn Cove or other regions in Whidbey Basin, given that there appears to be significantly more internal forcing than external in Penn Cove oxygen?
   * Following on Aurora's work - if low DO water entering Penn Cove doesn't cause hypoxia...what does?
 * How generalizable is Penn Cove to other spots within Whidbey Basin? To other hypoxic inlets like Lynch Cove?
+* What is the role of sediment processes on DO development in Penn Cove?
 
 If the field work component comes through, here's some thoughts for cool data we could use:
 * Velocity data to understand the exchange flow structure
 * CTD/bottles/velocity data collected during high river flow times
 * CTD/bottles/velocity data collected when the low DO "mass" moves through Penn Cove (fall)
+* Oxygen burial/sediment oxygen demand rates (not sure how this is actually collected...)
 
 
 ---
