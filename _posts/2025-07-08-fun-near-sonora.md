@@ -4,7 +4,7 @@
 
 ### Quick Stop on Salt Spring Island
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/a4021835-1d4a-4d71-a643-45c1f72f67ec](https://github.com/user-attachments/assets/78ff49cd-930a-4636-a5c3-5a33af7bad72" width="800"/><br>Fig 1. Sunset on Salt Spring Island on June 21, 2025.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/78ff49cd-930a-4636-a5c3-5a33af7bad72" width="800"/><br>Fig 1. Sunset on Salt Spring Island on June 21, 2025.</p><br>
 
 This is work-related since you can see ocean in the background! Specifically - Stuart Channel (between Salt Spring Island and Vancouver Island) is shown.
 
@@ -14,7 +14,6 @@ This is work-related since you can see ocean in the background! Specifically - S
 
 We took a quick jaunt to the towering peaks and narrow channels of the Discovery Islands, the southernmost islands before the narrows beginning with the Johnstone Strait turn into the Strait of Georgia.
 
-![Map_of_the_Discovery_Islands svg](https://github.com/user-attachments/assets/0191b491-e889-4ff2-8ac0-59ec53bf7cc6)
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/0191b491-e889-4ff2-8ac0-59ec53bf7cc6" width="800"/><br>Fig 2. Map of the Discovery Islands.</p><br>
 
