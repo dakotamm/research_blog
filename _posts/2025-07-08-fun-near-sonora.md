@@ -1,11 +1,14 @@
 # Off-Piste - Fun Observations Near Sonora Island
 
+---
+
 ### Quick Stop on Salt Spring Island
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/2c57f5f1-7eb2-49cb-9527-5f32bffefcfc" width="800"/><br>Fig 1. Sunset on Salt Spring Island on June 21, 2025.</p><br>
 
 This is work-related since you can see ocean in the background! Specifically - Stuart Channel (between Salt Spring Island and Vancouver Island) is shown.
 
+---
 
 ### Big Tides Around Sonora Island
 
