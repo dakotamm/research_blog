@@ -43,7 +43,7 @@ And then here's that isthmus fully inundated when the tide has risen!
 
 The tidal currents around Sonora were insane (~13 knots when we were there). Here's a video from the little tidal island during a flood tide.
 
-<p style="text-align:center;"><video src="https://github.com/user-attachments/assets/ea258e81-7730-4d39-9283-d3a9b9018fea" controls="controls" style="max-width: 600px;"></video><br>Fig 10. Flood tide on the north side of "Alcatraz" Island.</p><br>
+<p style="text-align:center;"><video src="https://github.com/user-attachments/assets/6d1ca875-b8a5-44a8-8ec5-fd1e78a4dd2f" controls="controls" style="max-width: 600px;"></video><br>Fig 10. Flood tide on the north side of "Alcatraz" Island.</p><br>
 
 There were tons of eddies and boils during this super energetic flood.
 
