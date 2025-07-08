@@ -51,7 +51,7 @@ There were tons of eddies and boils during this super energetic flood.
 
 We also witnessed one of the coolest things I've ever seen - all of this high energy flow slowing and reversing after the most peaceful slack. I've never seen this actually happen before, especially in such a narrow, energetic channel. Here's the end of flood at 7:02pm.
 
-<p style="text-align:center;"><video src="https://github.com/user-attachments/assets/eaf65e6d-6c71-4bdc-a9d3-ed20bd452091" controls="controls" style="max-width: 600px;"></video><br>Fig 12. End of flood tide on the north side of "Alcatraz" Island.</p><br>
+<p style="text-align:center;"><video src="https://github.com/user-attachments/assets/45aeda3f-212f-4a95-bb87-6c777753f5d1" controls="controls" style="max-width: 600px;"></video><br>Fig 12. End of flood tide on the north side of "Alcatraz" Island.</p><br>
 
 Then the full slack at 7:25pm.
 
