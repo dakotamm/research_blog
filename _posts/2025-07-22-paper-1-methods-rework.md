@@ -1,4 +1,4 @@
-# Penn Cove Profiles
+# Paper 1 Methods Rework
 
 This work is part of revising my Methods section in Paper 1 and incorporating GRL reviewer feedback.
 
