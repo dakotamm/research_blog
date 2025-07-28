@@ -1,6 +1,7 @@
 # Whidbey Model Test1 Output
 
-This post is mainly just to show that I ran a model! And I can view the basic outputs like temperature and salinity. I ran the model for just 2017.01.01 and did not run a biogeochemistry module.
+This post is mainly to show that I ran a model! And I can view the basic outputs like temperature and salinity. I ran the model for just 2017.01.01 and did not run a biogeochemistry module.
+
 ---
 
 ## Temperature & Salinity Hourly Surface Output
