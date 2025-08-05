@@ -16,7 +16,7 @@ I also did the same method but sectioned the data into a "through-1988" and "pos
 
 Here, there is a vast difference in the shape of the GAM on either side of the gap, due to the sampling differences. In the more modern samples, we can resolve some wiggles on a smaller timescale - but I think this is just a step too far. I think this may be too much stats for what is also just kind of imperfect observational data.
 
-This was just a quick effort, but I wanted to show this in case this was something we opted to include given the reviewer comments from GRL. If included, my current plan is to say something brief in the Results section, to the effect of: "GAM shows decadal variation, which may be correlated with Eastern Pacific decadal cycles like PDO, but are outside the scope of this work as we focus on monotonic trends."
+This was just a quick effort, but I wanted to show this in case this was something we opted to include given the reviewer comments from GRL. If included, my current plan is to say something brief in the Results section, to the effect of: "GAM shows decadal variation, which may be correlated with Eastern Pacific decadal cycles like PDO, but are outside the scope of this work as we focus on monotonic trends. However, this does necessitate using a signficantly long time history to assess monotonic trends despite this decadal variation."
 
 If we want to go in more depth here, I can - but for now I'll show you these and stay the course with monotonic trends.
 
