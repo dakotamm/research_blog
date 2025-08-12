@@ -1,4 +1,4 @@
-# Off-Piste - Salinity Hypothesis Testing
+# Revising Paper 1 Scope
 
 This work is part of revising my Paper 1 to fortify my discussion of salinity change mechanisms. I'm using our long-term site time histories as well as Ecology 
 
