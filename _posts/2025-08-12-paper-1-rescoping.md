@@ -44,7 +44,7 @@ I'll start with a reminder of the hypothesis I presented in my GRL submission, w
  
 Here's a reminder of Skagit River trends (more winter flow, less spring flow):
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/fcb9d801-4c83-4414-b58f-c1c8e427cb6" width="800"/><br>Fig 2. a) Skagit Theil-Sen slopes + monthly time history; b) decadal average hydrographs.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/b4b3926b-9a00-47f5-9b8a-7ea4e7456665" width="800"/><br>Fig 2. a) Skagit Theil-Sen slopes + monthly time history; b) decadal average hydrographs.</p><br>
 
 Here's a reminder of salinity trends for all seasons, depths, and sites:
 
