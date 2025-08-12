@@ -118,10 +118,24 @@ For completeness (and as a result of my salinity investigation), I've been force
 
 Should I include other trends in the Results? Mechanisms? Discussion? I've considered presenting all the results, but then discussing just mechanisms for my fall, bottom trends. Thoughts?
 
-If I do consider all the trends, then I've tried to look at some of the aggregate trends to see if there are any patterns. Here's a feeble attempt that doesn't really seem to help me too much:
+If I do consider all the trends, then I've tried to look at some of the aggregate trends to see if there are any patterns. Here's a graphic that takes some staring at, but ultimately there aren't any clear patterns in these trends:
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/4b0121b3-c070-41aa-ba40-02d2072caabe" width="800"/><br>Fig 5. All sites/depths/variables Theil-Sen slopes arranged by season.</p><br>
 
+Is this type of investigation worth adding to the scope of Paper 1?
 
+### Considering Removing Near Seattle Site
 
+Since this is so challenging to understand and Near Seattle is such a different site than others (much bigger, not really one sampling location), and often doing something a bit different than Point Jefferson, I recreated the same plot without NS:
 
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/a7ba689a-dcf7-4ca2-8ce8-3668182c6f11" width="800"/><br>Fig 6. All sites/depths/variables Theil-Sen slopes arranged by season WITHOUT Near Seattle.</p><br>
+
+Is it worth potentially focusing just on Point Jefferson, instead of having to explain differences between the two sites when we're claiming they represent a system average?
+
+### Changing Surface Definition
+
+This doesn't have a plot - but is 5m the correct definition for a surface layer? Should I be basing it off the pycnocline, or an assumed pycnocline? Should it vary per site?
+
+### Considering Shorter Scale Trends
+
+I summarized some thoughts here in a recent [blogpost](https://dakotamm.github.io/research_blog/2025/08/05/long-term-GAM.html). Since this I've removed some outliers and also have done the same analysis as part of the salinity investigation with Ecology sites (higher resolution). Ultimately I haven't done much interpretation, but should we consider adding a discussion of shorter term trends? Coherent trends? Mechanisms for these?
