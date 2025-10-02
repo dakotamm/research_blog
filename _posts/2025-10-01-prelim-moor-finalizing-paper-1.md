@@ -19,6 +19,7 @@ The following are daily values taken from the bottom sigma layer of each model:
 The intent of this was to start taking a look at model output myself and learn how to use the extraction tools. A few initial thoughts:
 * My model (black) surface elevation values are shifted lower by a consistent value. I will look into changing this to be more consistent with the LO hindcast model.
 * My model tends to predict more oxygen than the hindcast model.
+* My model tends to be a little cooler during fall as well...
 * It looks like some "freshwater" influx events in the spring are more pronounced in my extractions.
 
 Not a lot of action here yet, but I look forward to evaluating this model with observational data throughout Whidbey Basin.
@@ -27,7 +28,7 @@ Not a lot of action here yet, but I look forward to evaluating this model with o
 
 ## Finalizing Paper 1 Scope
 
-As I get to the fine details of revising my Paper 1 for resubmission in the next week or so, I'd like to discuss some shifting conclusions as I've added all three seasons and both surface and bottom trends to discuss. In particular, I want to interrogate the conclusion that "30-100% of DO loss is accounted for by warming" in more depth here. 
+As I get to the fine details of revising my Paper 1 for resubmission in the next week or so, I'd like to discuss some shifting conclusions as I've added all three seasons and both surface and bottom trends to discuss. In particular, I want to interrogate the conclusion that "30-100% of August-November, bottom DO loss is accounted for by warming" in more depth here. 
 
 This plot shows the portion of the DO trend explained by solubility change (both temperature and salinity based, but 90-99% temperature) for both surface and bottom and all three seasons and all five sites, as indicated:
 
@@ -35,4 +36,4 @@ This plot shows the portion of the DO trend explained by solubility change (both
 
 NOTE: Almost all solubility change is negative in sign. The only exception is at **SP at the surface during winter** where I suspect the large freshening trend actually dominates the solubility-change, since there is minimal temperature change here as well.
 
-This plot takes a minute to dissect, but ultimately 20-100+% of the BOTTOM DO loss is explainable by solubility change...
+This plot takes a minute to dissect, but ultimately 20-100+% of the BOTTOM DO loss is explainable by solubility change. Per some reviewer comments, however, does the fact that surface DO is not being accounted for be solubility-change muddy the argument that the atmospheric warming can impact deep water trends?
