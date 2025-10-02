@@ -12,9 +12,13 @@ The following are daily values taken from the bottom sigma layer of each model:
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/e1420ca6-396c-4f26-90bc-a8855862e70b" width="800"/><br>Fig 2. M1 mooring extractions in the hindcast LO model (gray) vs. my high-resolution Whidbey Basin model (black).</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/d9d92e8c-a63a-4be3-82e0-0ba4daa61f5f" width="800"/><br>Fig 3. M3 mooring extractions in the hindcast LO model (gray) vs. my high-resolution Whidbey Basin model (black).</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/3e33af36-5fcf-4844-bc3f-f43e526de978" width="800"/><br>Fig 3. M2 mooring extractions in the hindcast LO model (gray) vs. my high-resolution Whidbey Basin model (black).</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/4f781fb3-ee6b-43c5-bf79-3e2021e9292d" width="800"/><br>Fig 4. M5 mooring extractions in the hindcast LO model (gray) vs. my high-resolution Whidbey Basin model (black).</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/d9d92e8c-a63a-4be3-82e0-0ba4daa61f5f" width="800"/><br>Fig 4. M3 mooring extractions in the hindcast LO model (gray) vs. my high-resolution Whidbey Basin model (black).</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/ee0ec509-bdde-4e0d-8781-1a4eb4efafd6" width="800"/><br>Fig 5. M4 mooring extractions in the hindcast LO model (gray) vs. my high-resolution Whidbey Basin model (black).</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/4f781fb3-ee6b-43c5-bf79-3e2021e9292d" width="800"/><br>Fig 6. M5 mooring extractions in the hindcast LO model (gray) vs. my high-resolution Whidbey Basin model (black).</p><br>
 
 The intent of this was to start taking a look at model output myself and learn how to use the extraction tools. A few initial thoughts:
 * My model (black) surface elevation values are shifted lower by a consistent value. I will look into changing this to be more consistent with the LO hindcast model.
