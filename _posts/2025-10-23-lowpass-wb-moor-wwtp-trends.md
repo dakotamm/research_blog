@@ -34,10 +34,11 @@ I also then ran a lowpass filter (LO's standard rolling 71-hour average) and got
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/7ca0c290-fe62-4346-a5dc-45fbc916dbb6" width="800"/><br>Fig 11. Lowpass filtered time series of M5 mooring extractions my high-resolution Whidbey Basin model.</p><br>
 
-Takeaways:
-* Tide stage seems very important in hourly velocity extractions!
+A Few Takeaways:
+* Tide stage is obviously very important in hourly velocity extractions!
 * We can still see some cool flow reversal associated with the freshwater plume in early December.
 * BIG: There seems to be some serious flow asymmetry between M2 and M4, with M2 having the dominant tidally-averaged INWARD flow in Penn Cove and M4 having dominant OUTWARD flow, suggesting some clockwise circulation around Penn Cove...
+* It also appears that we may have a three-level tidally averaged flow at M3.
 
 ---
 
@@ -46,3 +47,5 @@ Takeaways:
 In revising my Paper 1, I have taken a look at Aurora's valiantly cleaned WWTP effluent data from Mohamedeli et al., 2020 and Wasieliewski et al., 2024. This plot is the nitrogen loading in kg/day from all WWTP continuously monitored during this time:
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/3451126f-bd5a-4062-be51-e608e199de12" width="800"/><br>Fig 12. WWTP monitoring loading time series for continuously monitored plants in Puget Sound.</p><br>
+
+There appears to be an increase in loading. While I've included plants that have full recordds throughout this time period, there's definitly some significant changes at individual plants that are captured between the two datasets. What should I be thinking about with these plots?
