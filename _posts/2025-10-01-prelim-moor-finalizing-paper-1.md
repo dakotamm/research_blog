@@ -1,4 +1,4 @@
-# Preliminary Whidbey Model Mooring Exstractions and Finalizing Paper 1 Scope
+# Preliminary Whidbey Model Mooring Extractions and Finalizing Paper 1 Scope
 
 ---
 
