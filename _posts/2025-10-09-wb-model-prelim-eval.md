@@ -1,4 +1,4 @@
-# Preliminary Whidbey Model vs. Observtions
+# Preliminary Whidbey Model vs. Observations
 
 After some excitement last week at the uses of this model for field work, I've taken a step back to focus on some model evaluation for my 2017 test nested model in Whidbey Basin. Careful evaluation now ensures it will be useful for both science and planning in the future.
 
