@@ -21,4 +21,5 @@ Takeaways:
 * At the bottom, there is more density variation at the mouth than at the head. The opposite is true for velocity!
 * At mid-depth, the density variance is highest at the head.
 * At the top, density and speed variances are aligned, with maxima at the northern mouth of Penn Cove.
+* The bottom water at the back doesn't seem particularly stagnant, despite early hypotheses!
 * I made lots of choices to make these plots. Let me know what we want to see presented differently.
