@@ -15,3 +15,10 @@ NOTE: The plots are colored with variable scales to show the variation within ea
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/5162361e-f65c-498a-82ce-d7584614e7d7" width="800"/><br>Fig 5. Modeled density variance at the top of Penn Cove for December 3-5, 2017.</p><br>
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/f213b661-c23c-40fd-b1e5-872ef2a702d1" width="800"/><br>Fig 6. Modeled velocity variance at the top of Penn Cove for December 3-5, 2017.</p><br>
+
+Takeaways:
+* The most density variance from the total mean is at the bottom. The smallest density variance for both speed and density is at mid-depth. The speed variance extents for both the top and bottom have similar scales.
+* At the bottom, there is more density variation at the mouth than at the head. The opposite is true for velocity!
+* At mid-depth, the density variance is highest at the head.
+* At the top, density and speed variances are aligned, with maxima at the northern mouth of Penn Cove.
+* I made lots of choices to make these plots. Let me know what we want to see presented differently.
