@@ -1,8 +1,8 @@
 # Penn Cove Modeled Density and Speed Variance
 
-I have created some density and speed variance plots from my Whidbey Basin nested model to complement field planning and collection on in early December 2025. I have used hourly output for the most similar tides during this time: December 3 & 4, 2017. Both days have very similar timing and amplitude of tides. I included both days and some buffer on either end (72 hours in total). I've made plots using the total mean over the time period for all filled grid cells for both density and speed for the BOTTOM, TOP, and MID gridcells so far. Note I've included preliminary mooring locations as of 12/1/2025.
+I have created some density and speed variance plots from my Whidbey Basin nested model to complement field planning and collection on in early December 2025. I have used hourly output for the most similar tides during this time: December 3 & 4, 2017. Both days have very similar timing and amplitude of tides. I included both days and some buffer on either end (72 hours in total). I've made plots using the total mean over the time period for all filled grid cells for both density and speed for the BOTTOM, TOP, and MID gridcells so far. I've included preliminary mooring locations as of 12/1/2025.
 
-
+NOTE: The plots are colored with variable scales to show the variation within each layer.
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/ceae3e4f-ca6d-40ba-b758-c70cd21744ba" width="800"/><br>Fig 1. Modeled density variance at the bottom of Penn Cove for December 3-5, 2017.</p><br>
 
