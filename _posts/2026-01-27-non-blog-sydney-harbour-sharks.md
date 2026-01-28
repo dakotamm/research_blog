@@ -32,6 +32,6 @@ Never fear - we got plenty of sunshine and the fun side fo Australia!
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/ffce4e8a-0655-46c9-b828-872bacf5597b" width="800"/><br>Fig 7. Faint but present aurora australis, not to be confused with the aurora borealis, nor the Aurora Leeson.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/86a48ca0-619f-4d2d-8430-a996845f5e6b" width="800"/><br>Fig 8. Calm beach and bay after the storm from Barrenjoey Point</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/86a48ca0-619f-4d2d-8430-a996845f5e6b" width="800"/><br>Fig 8. Calm beach and bay after the storm from Barrenjoey Point.</p><br>
 
 
