@@ -12,7 +12,7 @@ Sydney sits on a really cool estuary system, most of which is the Sydney Harbour
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/3dcfe9d0-8632-4142-909c-300efc7880b4" width="800"/><br>Fig 2. Sydney Harbour from [Siboni et al. (2016)](https://doi.org/10.3389/fmicb.2016.00460).</p><br>
 
-The storm meant closed beaches for dangerous currents and waves, as well as closures for contamination, since lots of the ocean outfalls for wastewater used only primary treatment! But the storm brought another unexpected risk... SHARKS!!!
+The storm meant closed beaches for dangerous currents and waves, as well as closures for contamination, since lots of the ocean outfalls for wastewater use only primary treatment! But the storm brought another unexpected risk... SHARKS!!!
 
 We know freshwater is critical to determine estuary hydrodynamics, like the exchange flow. This in turn impacts residence time and oxygen. But - tons of freshwater also brings bull sharks, who love brackish water for rearing their shark pups. Also, lots of nutrients from outfalls and runoff brings prey for these guys. Further, the water was turbid from high energy waves nearshore and all the runoff, meaning sharks were hard to spot! It was a perfect storm leading to [four bull shark attacks in 48 hours](https://www.bbc.com/news/articles/c0err023g5lo). Trigger warning for discussion of shark-related fatality and injuries!
 
