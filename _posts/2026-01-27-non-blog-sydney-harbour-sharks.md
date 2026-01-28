@@ -28,5 +28,10 @@ Never fear - we got plenty of sunshine and the fun side fo Australia!
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/79872ea3-dcb7-4e8f-b8fd-c5aae2dfb69f" width="800"/><br>Fig 5. Less intimidating megafauna.</p><br>
 
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/bb16dbe7-4d68-4e0c-ac8c-7b2e075ca33c" width="800"/><br>Fig 6. Airbnb hosts (rainbow lorikeets).</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/ffce4e8a-0655-46c9-b828-872bacf5597b" width="800"/><br>Fig 7. Faint but present aurora australis, not to be confused with the aurora borealis, nor the Aurora Leeson.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/86a48ca0-619f-4d2d-8430-a996845f5e6b" width="800"/><br>Fig 8. Calm beach and bay after the storm from Barrenjoey Point</p><br>
 
 
