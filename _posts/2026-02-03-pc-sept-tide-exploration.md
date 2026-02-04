@@ -8,7 +8,7 @@ Putting some exploratory plots here. Using my Penn Cove model, I identified some
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/f6ece37e-c2fa-4b8f-8ddc-6c3baa1902c8" width="800"/><br>Fig 3. September spring flood bottom DO.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/39d071a5-e3f8-4f39-9a43-2ada45" width="800"/><br>Fig 4. September spring ebb bottom DO.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/94b919fb-97a9-414e-b95b-5c384dac3f60" width="800"/><br>Fig 4. September spring ebb bottom DO.</p><br>
 
 Now bottom u-velocity:
 
