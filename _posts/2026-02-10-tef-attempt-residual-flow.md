@@ -38,3 +38,4 @@ Conversely, I made an hourly plot for just our spring and neap periods during 20
 
 <p style="text-align:center;"><video src="https://github.com/user-attachments/assets/69b0c2e0-e031-4c2f-a21c-e93ee1088bc4" controls="controls" style="max-width: 800px;"></video><br>Fig 8. Penn Cove hourly bottom DO and surface velocities for 2017.09.05-2017.09.18.</p><br>
 
+I need more time with this. But I'd like to investigate stratification and freshwater plumes graphically next.
