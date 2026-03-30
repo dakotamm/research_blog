@@ -6,14 +6,7 @@ First, I've been able to run my model with hourly average output in addition to 
 
 The last piece of the puzzle is a slight error I made in the interpretation of specifying "open boundaries" in various locations in the file, specifically I needed to define the boundary section for the terminal segment, not the open boundary for the whole domain in budget_functions.py. All that said, both solutions are required to get a nicely closed budget. 
 
-Here are my closed budgets:
-
-STOPPED HERE
-<img width="1200" height="800" alt="Figure_2-pc-xn11ab-FIXED" src="https://github.com/user-attachments/assets/3291daba-0ccf-4dc1-a979-b775eefe53c0" />
-<img width="1200" height="800" alt="Figure_3-pc-xn11ab-FIXED" src="https://github.com/user-attachments/assets/6a27ea16-82eb-4402-9b29-13e984a02dc3" />
-<img width="1200" height="800" alt="Figure_4-pc-xn11ab-FIXED" src="https://github.com/user-attachments/assets/f66931f3-087e-4fdf-b2c2-26732a3e1c5e" />
-<img width="1200" height="800" alt="Figure_1-pc-xn11ab-FIXED" src="https://github.com/user-attachments/assets/0367ae00-ed18-449d-a1eb-f8fc90fcc5cf" />
-
+Here are my closed budgets (huzzah!):
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/0367ae00-ed18-449d-a1eb-f8fc90fcc5cf" width="800"/><br>Fig 1. Salt budget for Penn Cove model year 2017.</p><br>
 
@@ -22,3 +15,5 @@ STOPPED HERE
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/6a27ea16-82eb-4402-9b29-13e984a02dc3" width="800"/><br>Fig 3. Oxygen budget for Penn Cove model year 2017.</p><br>
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/f66931f3-087e-4fdf-b2c2-26732a3e1c5e" width="800"/><br>Fig 4. Volume budget for Penn Cove model year 2017.</p><br>
+
+Next step with budgets is to run Jilian's more nuanced oxygen budget code to elucidate bio and air-sea flux components of the budget.
