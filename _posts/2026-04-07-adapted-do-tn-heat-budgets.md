@@ -8,4 +8,4 @@ After closing the loop on the simple TEF volume budgets last week, I implemented
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/c9593198-0bfe-4f20-a455-49ad4bc9f005" width="800"/><br>Fig 3. TN budget for Penn Cove model year 2017 using Jilian's code, adapted.</p><br>
 
-Notably, the individual sources and sinks that are calculated within this codebase tend to increase in magnitude over the three weeks. Are these physical, a product of model "spin-up", or an error on my end? Stay tuned as I dive in and investigate these budgets for a full year!
+Notably, the individual DO and TN sources and sinks that are calculated within this codebase tend to increase in magnitude over the three weeks. Are these physical, a product of model "spin-up", or an error on my end? Stay tuned as I dive in and investigate these budgets for a full year!
