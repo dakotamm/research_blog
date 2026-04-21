@@ -15,7 +15,7 @@ Now, let's look at the same plot but using CTD data:
 
 I'm pretty sure this is a little concerning... So I checked it out in a variety of different ways. Here's a map of how overpredicted the model is compared to observations for 2024 CTDs:
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/235da561-a9c0-4426-a74d-fa850f44724b" width="800"/><br>Fig 3. 2024 ctd obs/mod overprediction plot for wb1_t0_xn11ab.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/d3d4b258-25c2-4be9-91f4-402b3e983761" width="800"/><br>Fig 3. 2024 ctd obs/mod overprediction plot for wb1_t0_xn11ab.</p><br>
 
 Here's another concerning plot, showing that hypoxia actually doesn't develop in Penn Cove during 2024 (showing hypoxic days), despite observations suggesting that it should, and hypoxia developing elsewhere, including right at the mouth of the Skagit...?
 
