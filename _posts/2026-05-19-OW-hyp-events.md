@@ -1,33 +1,25 @@
 # Okubo-Weiss and Vorticity Changes Around Hypoxic Events in Penn Cove.
 
-I took some time to use my Okubo-Weiss eddy detection methods to see what's happening around hypoxic events modeled in Fall 2017 in wb1_r0_x11b model.
+I took some time to use my Okubo-Weiss eddy detection methods to see what's happening around hypoxic events modeled in Fall 2017 in wb1_r0_x11b model. Here's an animation of ~14 days before the first hypoxic event through ~3 days after the last hypoxic event. These come from a mooring extraction "M1" in the center of the channel near the head of Penn Cove. The data being used for this analysis is lowpassed.
 
-<img width="1621" height="1510" alt="_timeseries_combined" src="https://github.com/user-attachments/assets/dfc08a1d-f3f9-4214-86b5-b8bedddc7e7c" />
-<img width="1444" height="1282" alt="_analysis_stacked_DO_vort_layers" src="https://github.com/user-attachments/assets/1977685a-6f68-43bd-8a21-8b7480345460" />
+<p style="text-align:center;"><video src="https://github.com/user-attachments/assets/bfb04edf-cd3e-4d7d-9392-5a9dcadb76a9" controls="controls" style="max-width: 800px;"></video><br>Fig 1. Velocity fields, Okubo-Weiss parameters, and time series for hypoxic events during modeled 2017.</p><br>
 
+We see some interesting things here. Both events start during neap tide. Also at the beginning of the events, we see a reduction of the velocity field overall and the vorticity field (reduction of eddies on surface and in depth-averaged field). However, bottom eddies to persist toward the tail end of the events.
 
+I also took a look at stratification and /zeta_vorticity, or the vertical component of relative vorticity for each layer analyzed.
 
-https://github.com/user-attachments/assets/bfb04edf-cd3e-4d7d-9392-5a9dcadb76a9
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/dfc08a1d-f3f9-4214-86b5-b8bedddc7e7c" width="800"/><br>Fig 2. 2017 modeled density, DO, and relative vorticity time series.</p><br>
 
+Note that during hypoxic events, stratification is low but also is almost equally defined by temperature and salinity!
 
-We have formed some hypotheses over the last few months that in Penn Cove, hypoxia may be driven by changes in residence time over time. We see a strong seasonal signal in DO and also strong tidal fluctuation in flow. So I developed some tools to look at model output as averaged over seasons and also different tidal phases. We've already seen this in part focusing on specific tidal phases when we hypothesized that the formation/persistence of two distinct flow cells and how they may move and interact may cause increased residenct time at the head of Penn Cove. This makes use of my older wb1_r0_xn11b model (that actually simulates hypoxia and matches observations). Tidal phase is calculated with UTide at an extraction point in the middle of Penn Cove using SSH. Please squint at these plots with me:
+To zoom in more on the relative vorticity during events, here is a time series plotting the events on top of each other for each of the surface, depth-averaged, and bottom layers:
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/50cc06d4-9474-4423-9786-6afb70a8d550" width="800"/><br>Fig 1. 2017 modeled seasonal/tidal/depth-averaged velocity fields for Penn Cove.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/1977685a-6f68-43bd-8a21-8b7480345460" width="800"/><br>Fig 3. 2017 modeled relative vorticity time series for two hypoxic events.</p><br>
 
-What would make my job really easy here is if something about Penn Cove in September/October (our most likely hypoxia season) was drastically different than the other seasons. And what we do see if that the spring flood has reduced velocity during this time. However the biggest changes seasonally appears to happen during November/December. This supports the hypothesis that hypoxia is really a race against time - as soon as the flow patterns coincident with winter begin to occur, DO increases. The most severe months just happen to be severe because they are the latest months before more mixing occurs...
+Finally, I also investigated wind to see if this is something that plays a role as well...
 
-Another analysis idea I've followed, mainly to understand these tools, is eddy detection. We have hypothesized that the interior region of Penn Cove disconnects from the exterior circulation, and potentially may trap water in a slowly rotating flow that remains in the head. This is very preliminary, but uses the [Okubo-Weiss](https://doi.org/10.1016/j.dsr2.2004.09.013) criteria. In theory, it detects eddies that are at minimum ~500m in diameter and persist for at least 10 hours... I developed these tools from the baseline of [SWIRL](https://github.com/jcanivete/swirl) eddy detection code, but ultimately have been using the slightly less tuned Okubo-Weiss parameter. Of course I had assistance from Claude too! But here are some preliminary eddy track results:
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/fa13e26f-3c1e-4d63-aadf-695e4f878ac8" width="800"/><br>Fig 4. 2017 modeled wind and velocity time series compared to hypoxic events.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/47dc6797-3e01-4cbe-b1ae-d05fdccc5aa0" width="800"/><br>Fig 2. 2017 modeled seasonal/tidal/depth-averaged eddy tracking for Penn Cove.</p><br>
+It doesn't really appear to have a clear wind-driven signal for these events. It looks like tidal flushing reduction is the largest component. But why does this happen so preferentially during fall? Freshwater reduction?
 
-So...there's a lot going on, but I think we can generally surmise that there are two zones as we expect, and also that most of the tracks are counterclockwise (blue). There looks like there might be less eddy activity during September/October, which is then disrupted in November/December. But what does this say about residence time and hypoxia?
-
-As I seek to quantify residence time more, here's some other plans that I've identified with some literature review:
-* Lagrangian particle tracking (e.g., [Defne and Ganju, 2014](https://doi.org/10.1007/s12237-014-9885-3))
-  * What is the average "exit" time of a number of particles?
-  * Jilian and Erin have done this in post-processing with LO!
-* Box models with TEF and Eulerian passive tracers (e.g., [MacCready et al., 2021](https://doi.org/10.1029/2020JC016738))
-  * Requires drawing boundaries a priori for quantification of residence time in different zones
-  * I think - requies another model run (dye release)...
-
-I'm still wrapping my head around this... Stay tuned!
+I'd like to run some more TEF analysis and DO budgets for inner and outer section of Penn Cove when model results are available. This is hot off the press - would love your thoughts on anything I'm missing!
