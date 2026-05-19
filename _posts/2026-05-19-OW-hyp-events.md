@@ -1,4 +1,4 @@
-# Okubo-Weiss and Vorticity Changes Around Hypoxic Events in Penn Cove.
+# Okubo-Weiss and Vorticity Changes Around Hypoxic Events in Penn Cove
 
 I took some time to use my Okubo-Weiss eddy detection methods to see what's happening around hypoxic events modeled in Fall 2017 in wb1_r0_x11b model. Here's an animation of ~14 days before the first hypoxic event through ~3 days after the last hypoxic event. These come from a mooring extraction "M1" in the center of the channel near the head of Penn Cove. The data being used for this analysis is lowpassed.
 
