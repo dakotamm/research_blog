@@ -1,4 +1,4 @@
-# Fortifying our Paper 1 statistical methods
+# Fortifying Paper 1 statistical methods
 
 From a combination of reviewer comments and consulting with the STATS department, I've been able to dive in more depth about our statistics for long-term trends in DO, temperature, and salinity. I'll present this in a few sections. With all of this, I'm new to the stats, so I'm happy to chat with anyone more about this! I think the best place for all of this will be a "Sensitivity Analysis" section, added to my Methods (or maybe somewhere else? Discussion?).
 
