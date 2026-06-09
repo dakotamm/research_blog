@@ -56,7 +56,7 @@ Finally, I took a look at our recent acquisition of field data in December 2025.
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/2e7bb820-fca8-42a6-9fcc-79740d945cd7" width="800"/><br>Fig 8. Salinity at entrance for wb1_t0_xn11abbur00 vs. December 2025 recon observations.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/883b8068-007c-447f-b044-aa244bbf3fac width="800"/><br>Fig 9. DO at entrance for wb1_t0_xn11abbur00 vs. December 2025 recon observations.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/883b8068-007c-447f-b044-aa244bbf3fac" width="800"/><br>Fig 9. DO at entrance for wb1_t0_xn11abbur00 vs. December 2025 recon observations.</p><br>
 
 A few takeaways:
 * DO minima are not captured by the model
