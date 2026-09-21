@@ -25,52 +25,60 @@ To do this, we need to understand:
  
 ## How do we do this?
 
-### Volume/DO Transport - Preliminary Assessment + Possible Methods
+### Possible Tools
 
-To assess volume and DO transport, first I have tried to get an average sense of the subtidal and tidally-varying flow fields in Penn Cove. To do so simply, I used the hourly average flow rate and oxygen and created depth-averaged and sectional DO transport maps for several sections. This is for the mouth of Penn Cove during the full year and for the Low-DO season.
+When we discuss residence time and flushing in Penn Cove, three tools are considered:
+* Lagrangian particle tracking
+* Dye release of passive tracer
+* TEF
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/71d2f448-83af-4078-af22-18ff3454616f" width="800"/><br>Fig 1. Modeled subtidal, Eulerian (advective), and tidal pumping components of DO flux through PC's Long Point section for the full model run (2024-2025).</p><br>
+For reference, here are the three sections that I will reference throughout Penn Cove.
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/717c2bec-3f9a-4749-9a8e-a308a9379702" width="800"/><br>Fig 2. Modeled subtidal, Eulerian (advective), and tidal pumping components of DO flux through PC's Long Point section for the full model run Low-DO seasons (Aug-Nov, 2024-2025).</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/32971bb2-cfb1-4b9d-b157-6e05a165351a" width="800"/><br>Fig 1. Penn Cove TEF sections.</p><br>
+
+#### Assessing DO transport variation
+
+While TEF is of course a gold standard in discussing estuarine exchange flow, the preliminary concern with using TEF is that it will underestimate flux in highly tidally dominated fields where not a lot of modification takes place given the lack of freshwater input in the model (i.e., the frozen field issue). To illustrate this quickly, I calculated the subtidal Qin and Qout across pc_lp with TEF, TEF using DO coordinates (a topic of discussion perhaps), and then the hourly average Qin from model output directly. Here we can see that TEF is similar using both coordinate systems but fails to match the modeled Qin and Qout.
 
 
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/60c01d35-e52e-46fd-8032-18d04a8995ea" width="800"/><br>Fig 2. Modeled Qin/Qout/Qnet calculated using just model output, TEF, and TEF with DO coordinates through PC's Long Point section for the full model run (2024-2025).</p><br>
+
+To assess the pathways volume and DO transport, I have tried to get an average sense of the subtidal and tidally-varying flow fields in Penn Cove using just model output. To do so simply, I used the hourly average flow rate and oxygen and created depth-averaged and sectional DO transport maps for several sections. This is for the mouth of Penn Cove during the full year and for the Low-DO season.
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/71d2f448-83af-4078-af22-18ff3454616f" width="800"/><br>Fig 2. Modeled subtidal, Eulerian (advective), and tidal pumping components of DO flux through PC's Long Point section for the full model run (2024-2025).</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/717c2bec-3f9a-4749-9a8e-a308a9379702" width="800"/><br>Fig 3. Modeled subtidal, Eulerian (advective), and tidal pumping components of DO flux through PC's Long Point section for the full model run Low-DO seasons (Aug-Nov, 2024-2025).</p><br>
+
+Taking this simple calculation at face-value, we see the dominant exchange is the "exchange flow" as compared to "tidal pumping". The shape of this exchange is very familiar given our previous work with average velocity fields. However, the next DO transport is much smaller than total DO flux, suggesting significant tidal reversal. We note that Penn Cove is a net exporter of DO in this view, but that tidal pumping opposes the tidally-averaged exchange flow by acting as a net importer of DO.
+
+Using a simple budget again that uses just model output, I have a flux decomposition using this same method for the whole water column and also the bottom 1/3 of sigma layers.
+
+<img width="3223" height="1943" alt="20260917_pc_o2_flux_decomp_ts" src="https://github.com/user-attachments/assets/906bec6e-e1f9-4949-bedd-06c0e9fc753a" />
+
+<img width="3223" height="1943" alt="20260917_pc_o2_flux_decomp_ts_bot0 33" src="https://github.com/user-attachments/assets/637432e6-daee-45fb-b049-461f6b48bf68" />
+
+<img width="4765" height="2220" alt="pcbot_retention_grid_2025" src="https://github.com/user-attachments/assets/92269ba5-568c-49bf-ab31-4001def33214" />
+
+<img width="2766" height="1815" alt="pcbot_release_map" src="https://github.com/user-attachments/assets/0a483848-20df-400a-8308-1c028a3d5e47" />
+
+Plan: Use Eulerian decomposition for assessment of flux variation.
+
+#### Assessing residence time variation
+
+Method 1: Particle tracking released during selected seasons/tide phases
+* As I did in my PECS presentation, select several comparable release times and track for several tidal cycles.
+* Release Times:
+  * Monthly spring and neap tides, release at "start" of spring and neap cycle, match tidal release (e.g. at high tide)
+* Release Extent Options:
+  * Entire Skagit Basin region (including Penn Cove) - Poincare maps (like Banas et al., 2005)
+  * Just Penn Cove
+  * Specific depth/region (backbay at the bottom)
+
+Here are example releases from my PECS presentation:
+
+Method 2: Age tracer (like Banas et al., 2006)
+* Using non-conservative tracer initially set to 0 but allowed to grow at constant rate within only Penn Cove; provides age estimate at equilibrium using concentration at each grid cell
+* Requires rerunning the model!<img width="2200" height="1800" alt="20260921_pc_sections_map_wb1_pc1" src="https://github.com/user-attachments/assets/32971bb2-cfb1-4b9d-b157-6e05a165351a" />
 
 
-
-
-
-Important takeaways here:
-* xn11abbur00 matches observations better than xn11b - though there is still bias
-* t1_xn11abbur00 quickly converges with t0_xn11abbur00 at the beginning of 2025, suggesting that the results are not very sensitivie to the burial in the initial condition
-* All the models follow similar general patterns but are biased high.
-* The models do not capture the timing of DO minima in observations.
-
-For completeness, here are the two xn11abbur00 models' lowpass-filtered time series within all of Penn Cove (minimum and mean bottom DO) and hypoxic days/extent.
-
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/bcc8196f-f49d-4bcc-b2f3-16360f38b054" width="800"/><br>Fig 2. Two models Penn Cove minimum and average bottom DO.</p><br>
-
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/afcd144f-298a-4397-add4-4ec0b6568210" width="800"/><br>Fig 3. Two models Penn Cove hypoxic extent.</p><br>
-
-These models seem to predict a LOT of hypoxia - just not necessarily at the bottom or where KC's records capture it.
-
-Finally, I took a look at our recent acquisition of field data in December 2025. I compare it to wb1_t0_xn11abbur00. I'm showing some TS diagrams, property-property plots, and then selected sectional comparisons for temperature, salinity, DO, and velocity. I have every lap-components section comparisons if need be, but am showing just a few examples.
-
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/6fc4182b-eaac-47a0-a136-14c1ba684a6e" width="800"/><br>Fig 4. TS plots for wb1_t0_xn11abbur00 vs. December 2025 recon observations.</p><br>
-
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/a030db0a-ad27-468d-9146-96896b9cc372" width="800"/><br>Fig 5. Property-property plots for wb1_t0_xn11abbur00 vs. December 2025 recon observations.</p><br>
-
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/0143cac2-18e3-4420-8663-6a35c89a9cbb" width="800"/><br>Fig 6. Velocity at entrance section (eastward +) for wb1_t0_xn11abbur00 vs. December 2025 recon observations.</p><br>
-
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/f786aa1d-ae05-4d37-a868-8acf156c0bf4" width="800"/><br>Fig 7. Temperature at entrance for wb1_t0_xn11abbur00 vs. December 2025 recon observations.</p><br>
-
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/2e7bb820-fca8-42a6-9fcc-79740d945cd7" width="800"/><br>Fig 8. Salinity at entrance for wb1_t0_xn11abbur00 vs. December 2025 recon observations.</p><br>
-
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/883b8068-007c-447f-b044-aa244bbf3fac" width="800"/><br>Fig 9. DO at entrance for wb1_t0_xn11abbur00 vs. December 2025 recon observations.</p><br>
-
-A few takeaways:
-* DO minima are not captured by the model
-* Speed maxima are not captured by the model
-* Freshwater layer is less pronounced in the model
-* Model bottom water is much cooler than observed.
-
-With all this - is this model fit for purpose? Let's discuss!
+Plan Both methods provide spatial + temporally varying information about residence time. Ultimately I will correlate these two method results to environmental factors such as freshwater/wind.
