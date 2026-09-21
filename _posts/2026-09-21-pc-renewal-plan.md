@@ -2,7 +2,7 @@
 
 ## Background
 
-We know from Aurora's paper that the most significant differentiators of hypoxic vs. oxygenated terminal inlets are the concentration of inflowing DO and the flushing time of inlets. Penn Cove DO follows a similar seasonal cycle as outside in Saratoga Passage; however, hypoxic events in the model only occur in Penn Cove and exhibit some episodic modulation that appears local to Penn Cove.
+We know from Aurora's paper that the most significant differentiators of hypoxic vs. oxygenated terminal inlets are the concentration of inflowing DO and the flushing time of inlets. Penn Cove DO follows a similar seasonal cycle as outside in Saratoga Passage; however, hypoxic events in the model only occur in Penn Cove and exhibit some episodic modulation that appears local to Penn Cove. We hypothesize that physical environmental factors like freshwater flow and wind drive changes in DO flux and retention time and lead to hypoxia in Penn Cove.
 
 ## Goals
 
@@ -45,23 +45,21 @@ While TEF is of course a gold standard in discussing estuarine exchange flow, th
 
 To assess the pathways volume and DO transport, I have tried to get an average sense of the subtidal and tidally-varying flow fields in Penn Cove using just model output. To do so simply, I used the hourly average flow rate and oxygen and created depth-averaged and sectional DO transport maps for several sections. This is for the mouth of Penn Cove during the full year and for the Low-DO season.
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/71d2f448-83af-4078-af22-18ff3454616f" width="800"/><br>Fig 2. Modeled subtidal, Eulerian (advective), and tidal pumping components of DO flux through PC's Long Point section for the full model run (2024-2025).</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/71d2f448-83af-4078-af22-18ff3454616f" width="800"/><br>Fig 3. Modeled subtidal, Eulerian (advective), and tidal pumping components of DO flux through PC's Long Point section for the full model run (2024-2025).</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/717c2bec-3f9a-4749-9a8e-a308a9379702" width="800"/><br>Fig 3. Modeled subtidal, Eulerian (advective), and tidal pumping components of DO flux through PC's Long Point section for the full model run Low-DO seasons (Aug-Nov, 2024-2025).</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/717c2bec-3f9a-4749-9a8e-a308a9379702" width="800"/><br>Fig 4. Modeled subtidal, Eulerian (advective), and tidal pumping components of DO flux through PC's Long Point section for the full model run Low-DO seasons (Aug-Nov, 2024-2025).</p><br>
 
 Taking this simple calculation at face-value, we see the dominant exchange is the "exchange flow" as compared to "tidal pumping". The shape of this exchange is very familiar given our previous work with average velocity fields. However, the next DO transport is much smaller than total DO flux, suggesting significant tidal reversal. We note that Penn Cove is a net exporter of DO in this view, but that tidal pumping opposes the tidally-averaged exchange flow by acting as a net importer of DO.
 
 Using a simple budget again that uses just model output, I have a flux decomposition using this same method for the whole water column and also the bottom 1/3 of sigma layers.
 
-<img width="3223" height="1943" alt="20260917_pc_o2_flux_decomp_ts" src="https://github.com/user-attachments/assets/906bec6e-e1f9-4949-bedd-06c0e9fc753a" />
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/906bec6e-e1f9-4949-bedd-06c0e9fc753a" width="800"/><br>Fig 5. Modeled subtidal, Eulerian (advective), and tidal pumping components of DO flux through PC sections for the full model (2024-2025).</p><br>
 
-<img width="3223" height="1943" alt="20260917_pc_o2_flux_decomp_ts_bot0 33" src="https://github.com/user-attachments/assets/637432e6-daee-45fb-b049-461f6b48bf68" />
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/637432e6-daee-45fb-b049-461f6b48bf68" width="800"/><br>Fig 6. Modeled subtidal, Eulerian (advective), and tidal pumping components of DO flux through PC sections for the full model and bottom 1/3 of the water column(2024-2025).</p><br>
 
-<img width="4765" height="2220" alt="pcbot_retention_grid_2025" src="https://github.com/user-attachments/assets/92269ba5-568c-49bf-ab31-4001def33214" />
 
-<img width="2766" height="1815" alt="pcbot_release_map" src="https://github.com/user-attachments/assets/0a483848-20df-400a-8308-1c028a3d5e47" />
 
-Plan: Use Eulerian decomposition for assessment of flux variation.
+Plan: Use Eulerian decomposition for assessment of DO flux variation. Correlate to changes in freshwater/wind.
 
 #### Assessing residence time variation
 
@@ -74,7 +72,12 @@ Method 1: Particle tracking released during selected seasons/tide phases
   * Just Penn Cove
   * Specific depth/region (backbay at the bottom)
 
-Here are example releases from my PECS presentation:
+Here are example releases from my PECS presentation including release location (bottom half of water column) and particle retention for matched spring/neap and seasonal variation.
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/0a483848-20df-400a-8308-1c028a3d5e47" width="800"/><br>Fig 7. Penn Cove particle release location.</p><br>
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/92269ba5-568c-49bf-ab31-4001def33214" width="800"/><br>Fig 8. Penn Cove particle retention time for spring/neap and seasonal variation.</p><br>
+
 
 Method 2: Age tracer (like Banas et al., 2006)
 * Using non-conservative tracer initially set to 0 but allowed to grow at constant rate within only Penn Cove; provides age estimate at equilibrium using concentration at each grid cell
