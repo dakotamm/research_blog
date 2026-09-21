@@ -70,7 +70,7 @@ Method 1: Particle tracking released during selected seasons/tide phases
 * Release Times:
   * Monthly spring and neap tides, release at "start" of spring and neap cycle, match tidal release (e.g. at high tide)
 * Release Extent Options:
-  * Entire Skagit Basin region (including Penn Cove) - Poincare maps (like Banas et al., 2005)
+  * Entire Skagit Basin region (including Penn Cove) - Poincare maps (like [Banas et al., 2005](https://doi.org/10.1029/2005JC002950Digital Object Identifier (DOI))
   * Just Penn Cove
   * Specific depth/region (backbay at the bottom)
 
@@ -81,9 +81,9 @@ Here are example releases from my PECS presentation including release location (
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/92269ba5-568c-49bf-ab31-4001def33214" width="800"/><br>Fig 8. Penn Cove particle retention time for spring/neap and seasonal variation.</p><br>
 
 
-Method 2: Age tracer (like Banas et al., 2006)
+Method 2: Age tracer (like [Banas et al., 2005](https://doi.org/10.1029/2005JC002950Digital Object Identifier (DOI))
 * Using non-conservative tracer initially set to 0 but allowed to grow at constant rate within only Penn Cove; provides age estimate at equilibrium using concentration at each grid cell
-* Requires rerunning the model!<img width="2200" height="1800" alt="20260921_pc_sections_map_wb1_pc1" src="https://github.com/user-attachments/assets/32971bb2-cfb1-4b9d-b157-6e05a165351a" />
+* Requires rerunning the model!
 
 
 **Plan:** Both methods provide spatial + temporally varying information about residence time. Ultimately I will correlate these two method results to environmental factors such as freshwater/wind.
