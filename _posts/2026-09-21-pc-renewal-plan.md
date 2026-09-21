@@ -1,4 +1,6 @@
-# Penn Cove Renewal and Hypoxia Paper Plan
+# Penn Cove Renewal and Hypoxia Paper Plan IN PROGRESS
+
+*Please note - this planning document is in progress.*
 
 ## Background
 
@@ -59,7 +61,7 @@ Using a simple budget again that uses just model output, I have a flux decomposi
 
 
 
-Plan: Use Eulerian decomposition for assessment of DO flux variation. Correlate to changes in freshwater/wind.
+**Plan:** Use Eulerian decomposition for assessment of DO flux variation. Correlate to changes in freshwater/wind.
 
 #### Assessing residence time variation
 
@@ -84,4 +86,4 @@ Method 2: Age tracer (like Banas et al., 2006)
 * Requires rerunning the model!<img width="2200" height="1800" alt="20260921_pc_sections_map_wb1_pc1" src="https://github.com/user-attachments/assets/32971bb2-cfb1-4b9d-b157-6e05a165351a" />
 
 
-Plan Both methods provide spatial + temporally varying information about residence time. Ultimately I will correlate these two method results to environmental factors such as freshwater/wind.
+**Plan:** Both methods provide spatial + temporally varying information about residence time. Ultimately I will correlate these two method results to environmental factors such as freshwater/wind.
