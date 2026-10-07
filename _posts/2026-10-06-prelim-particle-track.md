@@ -40,11 +40,11 @@ Here, we see LESS evidence of gyre activity and less dispersion of particles int
 
 Both of these runs were in the middle of the spring/neap cycle. I show two floods during similar wind/freshwater conditions and tidal asymmetry, but varying spring/neap. 
 
-<p style="text-align:center;"><video src="https://github.com/user-attachments/assets/50b5df72-4fae-40c2-a35c-c99921c110e6" controls="controls" style="max-width: 800px;"></video><br>Fig 9. SPRING flood release on August 21, 2025; trajectories shown for one lunar day. Particles initial positions are broken into quadrants and top and bottom half of the water column.</p><br>
+<p style="text-align:center;"><video src="https://github.com/user-attachments/assets/e0c0c4b7-bf6b-4563-89dd-ec344c74487f" controls="controls" style="max-width: 800px;"></video><br>Fig 9. SPRING flood release on August 21, 2025; trajectories shown for one lunar day. Particles initial positions are broken into quadrants and top and bottom half of the water column.</p><br>
 
-<p style="text-align:center;"><video src="https://github.com/user-attachments/assets/50b5df72-4fae-40c2-a35c-c99921c110e6" controls="controls" style="max-width: 800px;"></video><br>Fig 10. NEAP flood release on August 28, 2025; trajectories shown for one lunar day. Particles initial positions are broken into quadrants and top and bottom half of the water column.</p><br>
+<p style="text-align:center;"><video src="https://github.com/user-attachments/assets/345b3e81-b105-44da-a9c0-1beb17681d06" controls="controls" style="max-width: 800px;"></video><br>Fig 10. NEAP flood release on August 28, 2025; trajectories shown for one lunar day. Particles initial positions are broken into quadrants and top and bottom half of the water column.</p><br>
 
-Looking at the retention curves, interestingly, there is not a lot of difference between these two retention times! This is interesting and contradicts some earlier thoughts (but again this is just bulk curves)l. 
+Spring seems to have more dispersion out to the south side! Looking at the retention curves, interestingly, there is not a lot of difference between these two retention times! This is interesting and contradicts some earlier thoughts (but again this is just bulk curves)l. 
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/b30bc85c-3c78-4529-a4f1-275eb206a4e2" width="800"/><br>Fig 11. Penn Cove bulk retention curves spring vs. neap</p><br>
 
@@ -85,6 +85,6 @@ Next steps:
 * More particle releases!!! Primarily to understand particle entry into Penn Cove (DO transport into/out of the Cove).
 * Wind experiment (perhaps for one month in each season) - how does turning off wind modulate hypoxia?
 * Dye release to evaluate particle retention time performance
-* Comparison of retention time to TEF flushing time
+* Comparison of retention time to TEF flushing time (mean ~ 6.7 days for my calculations, overestimates particle retention time!)
 
 I would love some feedback on different ways to look at this and/or other things I should be trying!
