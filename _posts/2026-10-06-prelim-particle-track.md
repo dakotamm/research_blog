@@ -85,6 +85,6 @@ Next steps:
 * More particle releases!!! Primarily to understand particle entry into Penn Cove (DO transport into/out of the Cove).
 * Wind experiment (perhaps for one month in each season) - how does turning off wind modulate hypoxia?
 * Dye release to evaluate particle retention time performance
-* Comparison of retention time to TEF flushing time (mean ~ 6.7 days for my calculations, overestimates particle retention time!)
+* Comparison of retention time to TEF flushing time (mean ~ 6.7 days for my calculations, overestimates particle retention time of ~3.3 day mean!)
 
 I would love some feedback on different ways to look at this and/or other things I should be trying!
