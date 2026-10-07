@@ -10,8 +10,13 @@
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/2dbc331a-15cc-446b-95cb-1c38dd000b1d" width="800"/><br>Fig 1. Penn Cove particle release locations. Areas are considered in post-processing.</p><br>
 
+First, let's look at some spaghetti plots. I made animations of two different releases close to the median "particle retention curve" - in this case, these are the major ebb and flood of July 10, 2025.
 
-First
+
+
+https://github.com/user-attachments/assets/94254da1-df14-47ec-95f6-9d392b9dff08
+
+
 
 
 w/o WWTP + thinking no wind for a month or something
