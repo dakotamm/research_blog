@@ -12,9 +12,9 @@
 
 First, let's look at some spaghetti plots. I made animations of two different releases close to the median "particle retention curve" - in this case, these are the major ebb and flood of July 10, 2025.
 
+<p style="text-align:center;"><video src="https://github.com/user-attachments/assets/94254da1-df14-47ec-95f6-9d392b9dff08" controls="controls" style="max-width: 800px;"></video><br>Fig 2. Median retention time EBB release on July 10, 2025; trajectories shown for one lunar day. Particles initial positions are broken into quadrants and top and bottom half of the water column.</p><br>
 
-
-https://github.com/user-attachments/assets/94254da1-df14-47ec-95f6-9d392b9dff08
+<p style="text-align:center;"><video src="https://github.com/user-attachments/assets/945d9a7d-a27d-49cd-b19e-842ce2bb10af" controls="controls" style="max-width: 800px;"></video><br>Fig 3. Median retention time FLOOD release on July 10, 2025; trajectories shown for one lunar day. Particles initial positions are broken into quadrants and top and bottom half of the water column.</p><br>
 
 
 
