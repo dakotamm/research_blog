@@ -10,11 +10,11 @@
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/2dbc331a-15cc-446b-95cb-1c38dd000b1d" width="800"/><br>Fig 1. Penn Cove particle release locations. Areas are considered in post-processing.</p><br>
 
-First, let's look at some spaghetti plots. I made animations of two different releases close to the median "particle retention curve" - in this case, these are the major ebb and flood of July 10, 2025.
+First, let's look at some spaghetti plots (yum). I made animations of two different releases close to the median "particle retention curve" - in this case, these are the major ebb and flood of July 10, 2025.
 
-<p style="text-align:center;"><video src="https://github.com/user-attachments/assets/94254da1-df14-47ec-95f6-9d392b9dff08" controls="controls" style="max-width: 800px;"></video><br>Fig 2. Median retention time EBB release on July 10, 2025; trajectories shown for one lunar day. Particles initial positions are broken into quadrants and top and bottom half of the water column.</p><br>
+<p style="text-align:center;"><video src="https://github.com/user-attachments/assets/dcfc5afa-3c68-44e4-a94f-70d2d9c68776" controls="controls" style="max-width: 800px;"></video><br>Fig 2. Median retention time EBB release on July 10, 2025; trajectories shown for one lunar day. Particles initial positions are broken into quadrants and top and bottom half of the water column.</p><br>
 
-<p style="text-align:center;"><video src="https://github.com/user-attachments/assets/945d9a7d-a27d-49cd-b19e-842ce2bb10af" controls="controls" style="max-width: 800px;"></video><br>Fig 3. Median retention time FLOOD release on July 10, 2025; trajectories shown for one lunar day. Particles initial positions are broken into quadrants and top and bottom half of the water column.</p><br>
+<p style="text-align:center;"><video src="https://github.com/user-attachments/assets/e405e9af-6f7f-4bff-9a47-ac423a4914bf" controls="controls" style="max-width: 800px;"></video><br>Fig 3. Median retention time FLOOD release on July 10, 2025; trajectories shown for one lunar day. Particles initial positions are broken into quadrants and top and bottom half of the water column.</p><br>
 
 
 
