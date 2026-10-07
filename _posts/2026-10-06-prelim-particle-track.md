@@ -8,7 +8,7 @@
 
 **This last week:** I simulated particle release seeded according to Figure 1. Particles are spaced approximately 2m apart and are tracked for 14 days using hourly time steps during 2025. I started particle releases during each major flood and ebb in a lunar day, then subsampled this to every 3 days for simulation efficiency. ~220 particle releases for 14 days took only ~20 hours to run, so I can make modifications to this set up. I am currently in the process of going through this output, but have some fun plots to share!
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/32971bb2-cfb1-4b9d-b157-6e05a165351a" width="800"/><br>Fig 1. Penn Cove TEF sections.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/2dbc331a-15cc-446b-95cb-1c38dd000b1d" width="800"/><br>Fig 1. Penn Cove particle release locations. Areas are considered in post-processing.</p><br>
 
 
 First
