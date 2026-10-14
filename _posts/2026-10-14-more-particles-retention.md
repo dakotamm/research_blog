@@ -30,19 +30,19 @@ This week, I've been settling into the nuts of bolts of analyzing Penn Cove circ
 
 For the Eulerian decomposition, the salt flux can be broken down into three components: the tidally- and spatially-averaged component (F_R, or the river flow component), the tidally-averaged but spatially-varying component (F_E, or the exchange flow), and the tidally- and spatially-varying component (F_T, or the tidal pumping component). Here is a plot of how these terms work together using my Penn Cove section at Long Point:
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/1ceed677-0338-4438-a296-e95a98022984" width="600"/><br>Fig 1. Eulerian decomposition for Penn Cove model salt flux time series at Long Point section.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/1ceed677-0338-4438-a296-e95a98022984" width="800"/><br>Fig 1. Eulerian decomposition for Penn Cove model salt flux time series at Long Point section.</p><br>
 
 We know that the issue with this decomposition is that the F_T component is not known a priori. TEF circumvents this by considering a decomposition of the salt flux here using salinity coordinates. If we compare the tidally-averaged distribution of salt flux through the water column between the tidally-averaged component of the Eulerian decomposition and TEF, we get the following:
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/418548eb-c2b9-4758-ad48-96646af53b05" width="600"/><br>Fig 2. TEF vs. tidally-averaged Eulerian decomposition for Penn Cove model salt flux at Long Point section.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/418548eb-c2b9-4758-ad48-96646af53b05" width="800"/><br>Fig 2. TEF vs. tidally-averaged Eulerian decomposition for Penn Cove model salt flux at Long Point section.</p><br>
 
 If we compare the tidally-averaged Eulerian salt flux and volume flux we get:
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/8e8d4da1-d4e3-4604-8929-c79956ddac09" width="600"/><br>Fig 3. TEF vs. tidally-averaged Eulerian decomposition for Penn Cove model salt and volume flux time series at Long Point section.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/8e8d4da1-d4e3-4604-8929-c79956ddac09" width="800"/><br>Fig 3. TEF vs. tidally-averaged Eulerian decomposition for Penn Cove model salt and volume flux time series at Long Point section.</p><br>
 
 Now I've considered a cumulative salt integrated flux using hourly average model output:
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/8e8d4da1-d4e3-4604-8929-c79956ddac09" width="600"/><br>Fig 4. TEF vs. full Eulerian decomposition vs. tidally-averaged Eulerian decomposition for Penn Cove model integrated salt flux cumulative time series at Long Point section.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/0638f92d-c50c-4025-965b-8d422317fc40" width="800"/><br>Fig 4. TEF vs. full Eulerian decomposition vs. tidally-averaged Eulerian decomposition for Penn Cove model integrated salt flux cumulative time series at Long Point section.</p><br>
 
 I think I've done the math right (which was half the battle here) and I think I have an understanding of the different components of this flow over the course of the model run. Here are some initial takeaways:
 * F_E brings salt into the cove; F_T exports it
