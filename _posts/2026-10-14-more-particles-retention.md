@@ -51,6 +51,6 @@ I think I've done the math right (which was half the battle here) and I think I 
 
 Calculating a residence time per this paper, using the average salinity vs. the inflowing salinity, gives a median residence time of all model hours of 6.4 and 5.9 days for TEF and the tidally-averaged Eulerian decomposition. These assume that the water is well-mixed in Penn Cove and that entering water is new! This is about twice the length of our ~3 day average e-folding scale of particles.
 
-What interpretation am I missing here? I have done the math right but am likely missing nuance that I need to account for.
+What interpretation am I missing here? I have done the math right I hope but am likely missing nuance that I need to account for.
 
 
