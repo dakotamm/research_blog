@@ -1,56 +1,35 @@
-# Tidal circulation and residuals in Penn Cove
+# Eddies and tidal circulation in Penn Cove
 
-## Particle tracking for source water
+## Do eddies trap water in the Cove?
 
-I've started some more particle tracking runs based on some reading by Brasseale and MacCready [(2021)](http://doi.org/10.1175/JPO-D-20-0080.1) to understand source waters. I seed particles in the head of Saratoga Passage at a spacing of every other gridcell horizontally and every 4m for depth. I released particles to mirror the retention time tracking from last week. I am only showing August 2025 here since the whole year is still running. This plot is an example mid-August released divided based on entry depth into Penn Cove and colored based on the DO concentration along that track.
+We've been discussing two possible mechanism for retaining water in Penn Cove: slow velocities and persistent eddy trapping.
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/e708c668-9321-4538-8460-14b4b9f954f9" width="800"/><br>Fig 1. Saratoga head particle release example on flood 2025/08/15; divided by entry depth and colored by DO concentration.</p><br>
+I used Okubo-Weiss to detect eddy presence from Eulerian residuals (Godin-filtered hourly snapshots of velocity). After reviewing quite a bit of literature, I believe that the simple Okubo-Weiss parameter (comparing deformation vs. rotation at all points in the domain using velocity) is the best way to assess for rotating points in this small-scale environment. I used thresholds that enable me to detect eddies with a radius of 400m or greater given grid resolution. This gave me an idea of where particles might circle an eddy, and also allowed me to track where eddy centers might move seasonally. I did this for different depths: 0-4m, 4-10m, and 10m-bottom.
 
-Surface-entry particles largely enter from the north; deep entry is largely from the south! Not many particles entering at depth start hypoxic; those that do have likely already been in Penn Cove! I will have that test done shortly.
+I found some interesting things with this analysis. Effectively, eddies are modulated BY flushing (or they spin-up and are more detectable when velocities are higher). This is a schematic that I asked Claude to help me make given all the different metrics I was trying to assess:
 
-## Retention mechanisms: eddies vs. slow velocities
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/2092d976-0dd6-4540-98f0-381120995329" width="800"/><br>Fig 1. Eddy modulation schematic.</p><br>
 
-After chatting with Alex last week, I investigated the two "slowing" mechanisms possible in Penn Cove for the spaghetti plot examples I showed last week. To investigate slow velocities as a trapping mechanism, I used the bottom tidal excursion in both an Eulerian and particle tracking sense to plot these maps and compare them to distance to the mouth:
+I did use particles released in the model domain to see if particles actually circle the eddy and thus are retained longer. Each particle needed to start in the back bay (behind Coupeville); if a particle loops around the eddy center (defined above) it is defined as having looped the eddy! This is based on the trajectory of motion between hourly snapshots of the model. The results of this test are tricky and so I am still going through this/unclear if this aides the story, but ultimately the findings are the same as the Okubo-Weiss findings using Eulerian residuals.
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/aee21ed5-b91f-4423-8436-0c946363daaa" width="800"/><br>Fig 2. Penn Cove Eulerian tidal excursion at bottom during specific releases.</p><br>
+I think the takeaway here is that the eddy retention mechanism is not independent of velocity. There is a persistent rotation in the back bay that has some depth variation. Eddies are detected and present when there is more flow and Eulerian residence time is low! Therefore, eddies do not appear to be an effective trapping mechanism and are more a product of the geometry in the Cove.
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/00d074c0-e1c3-46b0-9f6f-45610ed41f8f" width="800"/><br>Fig 3. Penn Cove particle tidal excursion at bottom during specific releases.</p><br>
+**Pervasive question for me:** What, then, causes the eddy? Just flow separation at Coupeville?
 
-Note that the tidal excursion does vary a lot around the July 17 release (this was selected since it had minimal diurnal inequality in the tides)!
+## How does the tide work at Penn Cove?
 
-To investigate eddy mechanisms, I moved away from the Okubo-Weiss mechansism because the currents are just so slow and the domain is small! However, I did try to get an estimate of residence for particles that headed one direction for a full rotation averaged tidally during their residence time vs. those that didn't! This is a course pass, but a start.
+I got into this in more depth while trying to figure out why the eddy exists like it does. I did a lot of tidal ellipses (which largely show that the tide just goes in and out!). But then I got into some interesting stuff regarding the structure of the tides throughout tidal cycles.
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/44b99355-2aea-4251-9644-deb0c7b6ff79" width="800"/><br>Fig 4. Penn Cove particle looping vs. non-looping averaged over tidal cycles; distance from mouth overtime.</p><br>
+We know that the tidally-averaged flow is almost entirely laterally-separated. However, there is definitely two-layer flow during the tidal cycle which may/do enhance the tidal excursion of particles beyond just a simple tidal prism. I made some animations of this if we want to check it out. But also, we hypothesize that there is differences in bottom water retention; perhaps this is modulated tidally. I wanted to look at this in more depth, so I made some simple cross-section schematics for tidal cycles at the mouth of Penn Cove. I am out of time to narrate this so let's look together!
 
-Ultimately it seems that slow velocity is more correlated with enhanced residence time than eddies. I still need to link these both to DO more formally.
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/334e7c0c-f9b3-4bea-8b08-c33eb8387937" width="800"/><br>Fig 2. Typical layered flow across Penn Cove mouth during tidal cycle.</p><br>
 
-## TEF vs. Eulerian decompositions and residence time estimates
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/6f0dcb10-ad5e-4e36-9bc0-1251351d2083" width="800"/><br>Fig 3. Typical layered flow across Penn Cove mouth during spring/neap tidal cycle.</p><br>
 
-This week, I've been settling into the nuts of bolts of analyzing Penn Cove circulation, flushing, and transport to understand hypoxia. A lingering item from a few weeks ago was to go back through the TEF and Eulerian decompositions for Penn Cove mouth circulation, both for my own understanding and to ensure that we are using all the tools available to understand circulation. Going back through MacCready [(2011)](http://doi.org/10.1175/2011JPO4517.1), I have been able to use hourly model snapshots to calculate the terms in the following decompositions. For brevity in typing, I'll just go to the paper if we want to look at the math!
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/943e9d8f-da8c-4ffd-b7be-0b4da3d4fa47" width="800"/><br>Fig 4. Typical layered flow across Penn Cove mouth during tropic/equatorial tidal cycle.</p><br>
 
-For the Eulerian decomposition, the salt flux can be broken down into three components: the tidally- and spatially-averaged component (F_R, or the river flow component), the tidally-averaged but spatially-varying component (F_E, or the exchange flow), and the tidally- and spatially-varying component (F_T, or the tidal pumping component). Here is a plot of how these terms work together using my Penn Cove section at Long Point:
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/e6424152-d579-4675-9d7a-72cacaafc836" width="800"/><br>Fig 5. Typical layered flow across Penn Cove mouth during high/low stratification tidal cycle.</p><br>
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/1ceed677-0338-4438-a296-e95a98022984" width="800"/><br>Fig 1. Eulerian decomposition for Penn Cove model salt flux time series at Long Point section.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/7b6cb51e-e5ba-48b6-8f5a-c83c817eda75" width="800"/><br>Fig 6. Typical layered flow across Penn Cove mouth during into/out of cove wind tidal cycle.</p><br>
 
-We know that the issue with this decomposition is that the F_T component is not known a priori. TEF circumvents this by considering a decomposition of the salt flux here using salinity coordinates. If we compare the tidally-averaged distribution of salt flux through the water column between the tidally-averaged component of the Eulerian decomposition and TEF, we get the following:
-
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/418548eb-c2b9-4758-ad48-96646af53b05" width="800"/><br>Fig 2. TEF vs. tidally-averaged Eulerian decomposition for Penn Cove model salt flux at Long Point section.</p><br>
-
-If we compare the tidally-averaged Eulerian salt flux and volume flux we get:
-
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/8e8d4da1-d4e3-4604-8929-c79956ddac09" width="800"/><br>Fig 3. TEF vs. tidally-averaged Eulerian decomposition for Penn Cove model salt and volume flux time series at Long Point section.</p><br>
-
-Now I've considered a cumulative salt integrated flux using hourly average model output:
-
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/0638f92d-c50c-4025-965b-8d422317fc40" width="800"/><br>Fig 4. TEF vs. full Eulerian decomposition vs. tidally-averaged Eulerian decomposition for Penn Cove model integrated salt flux cumulative time series at Long Point section.</p><br>
-
-I think I've done the math right (which was half the battle here) and I think I have an understanding of the different components of this flow over the course of the model run. Here are some initial takeaways:
-* F_E brings salt into the cove; F_T exports it
-* TEF components account for this tidal pumping more than the tidally-averaged Eulerian decomposition; again this speaks to the importance of F_T since this is not included in the tidally-averaged Eulerian decomposition
-* To further this point further, F_T is required to balance a salt budget.
-
-Calculating a residence time per this paper, using the average salinity vs. the inflowing salinity, gives a median residence time of all model hours of 6.4 and 5.9 days for TEF and the tidally-averaged Eulerian decomposition. These assume that the water is well-mixed in Penn Cove and that entering water is new! This is about twice the length of our ~3 day average e-folding scale of particles.
-
-What interpretation am I missing here? I have done the math right I hope but am likely missing nuance that I need to account for.
-
-
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/bcd5508c-d54a-4aed-abf8-fa89f2b38dab" width="800"/><br>Fig 7. Typical layered tidal excursion during different events.</p><br>
