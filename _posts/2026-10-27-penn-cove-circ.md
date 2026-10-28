@@ -8,7 +8,7 @@ I used Okubo-Weiss to detect eddy presence from Eulerian residuals (Godin-filter
 
 I found some interesting things with this analysis. Effectively, eddies are modulated BY flushing (or they spin-up and are more detectable when velocities are higher). This is a schematic that I asked Claude to help me make given all the different metrics I was trying to assess:
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/2092d976-0dd6-4540-98f0-381120995329" width="800"/><br>Fig 1. Eddy modulation schematic.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/8392231f-1dda-4db7-b7be-2ecb596cdc5f" width="800"/><br>Fig 1. Eddy modulation schematic.</p><br>
 
 I did use particles released in the model domain to see if particles actually circle the eddy and thus are retained longer. Each particle needed to start in the back bay (behind Coupeville); if a particle loops around the eddy center (defined above) it is defined as having looped the eddy! This is based on the trajectory of motion between hourly snapshots of the model. The results of this test are tricky and so I am still going through this/unclear if this aides the story, but ultimately the findings are the same as the Okubo-Weiss findings using Eulerian residuals.
 
