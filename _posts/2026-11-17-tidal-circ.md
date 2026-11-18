@@ -12,7 +12,7 @@ I have taken a look at this in a few ways. One way has been to look at all flood
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/09be122c-c3c2-46ab-bd5a-a4605dafb0e7" width="800"/><br>Fig 1. Map of averaged PEAK flood and ebb hours + Godin-filtered hourly residual over 2024 for surface 1/3, bottom 1/3, and depth-averaged velocities.</p><br>
 
-Conversely, I can represent an identical view for a specific lunar day that represents an "average" tide in terms of spring/neap, tropic/equatorial, stratification, and wind stress at the surface. Selecting these days has required hypothesizing which variables are the most important drivers of tidal variation (these four for now), making time series of these variables, ranking each day on the time series, and the selecting the day closest to average on all these axes. The same plot of ONE "average" lunar day (2024.08.31-2024.09.01) is as follows:
+Conversely, I can represent an identical view for a specific lunar day that represents an "average" tide in terms of spring/neap, tropic/equatorial, stratification, and wind stress. Selecting these days has required hypothesizing which variables are the most important drivers of tidal variation (these four for now), making time series of these variables, ranking each day on the time series, and the selecting the day closest to average on all these axes. The same plot of ONE "average" lunar day (2024.08.31-2024.09.01) is as follows:
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/f99c5f8e-3c46-45c3-b61b-83b0f7d87046" width="800"/><br>Fig 2. Map of baseline day PEAK flood and ebb hours + Godin-filtered hourly residual for surface 1/3, bottom 1/3, and depth-averaged velocities.</p><br>
 
@@ -44,13 +44,19 @@ Here I've also broken out the greater and lesser ebb and have plotted in gray ev
 
 If tidal velocity are modified, then that might lend clues as to the residence time experience by particles which ultimately leads to hypoxia. Also, there is clear variation in the individual tides we see in the model, which is an important physical process for us to summarize. So, I have tried to look at what could modify just tidal velocity from many directions, with limited success.
 
-While I have ran EOF analyses on the full velocity field, I think I've been personally able to understand more from the profile shapes (though I'm still not sure how confident I am). Here are the EOFs of the Lovejoy velocity profiles and cross-sections.
+First I took and defined days that were held consistent across my spring/neap, tropic/equatorial, stratification, and wind stress axes and then looking at the evolution of velocities or other metrics over the course of a tidal cycle in these hystereses. In this case I'm considering the max cross-sectional velocity across Lovejoy, and then the "in" and "out velocities to try to look at the variation of two-layer flow. throughout these tidal cycles.
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/493f33cd-a66b-4610-9a55-a611ee382b9a" width="800"/><br>Fig 7. EOFs of Lovejoy and profile shapes.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/ae321d9c-395f-4aa8-8444-03c93161e0ed" width="800"/><br>Fig 7. Hystereses for spring/neap, tropic/equatorial, stratification, and wind variable individual lunar days in 2024.</p><br>
+
+Honestly, this is interesting to look at but gives me almost nothing quantitatively (open to suggestions!).
+
+Next I looked at EOFs. While I have run EOF analyses on the full velocity field, I think I've been personally able to understand more from the profile shapes (though I'm still not sure how confident I am). Here are the EOFs of the Lovejoy velocity profiles and cross-sections.
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/493f33cd-a66b-4610-9a55-a611ee382b9a" width="800"/><br>Fig 8. EOFs of Lovejoy and profile shapes.</p><br>
 
 After some statistics that I'm beginning now to understand a bit, these factors are standardized coefficients, or effectively, if each of these variables shifts by a standard deviation, how many standard deviations does the mode change? More is a bigger effect of that individual variable, based on linear regressions. Note that these variables were selected in part for their independence from each other after trying many (these are the most independent variables that represent a certain possible physical effect that I tested). Here are these coefficients:
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/061845d2-686e-4d74-987f-9015b2846f41" width="800"/><br>Fig 8. Primary EOF modes' standardized coefficients from a list of physical forcing mechanisms at Lovejoy for 2024.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/061845d2-686e-4d74-987f-9015b2846f41" width="800"/><br>Fig 9. Primary EOF modes' standardized coefficients from a list of physical forcing mechanisms at Lovejoy for 2024.</p><br>
 
 Takeaways:
 * Wind is the most consistent driver across.
