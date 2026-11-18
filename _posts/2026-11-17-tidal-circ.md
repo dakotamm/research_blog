@@ -1,4 +1,4 @@
-# Describing tidal and residual circulation in Penn Cove
+# Describing tidal circulation in Penn Cove
 
 ...is not easy, so it seems. I am hoping that y'all can help me focus on what's important for my Chapter/Paper 2.
 
