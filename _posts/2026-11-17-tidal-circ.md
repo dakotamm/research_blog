@@ -10,13 +10,20 @@ I have tried very many ways to get a descriptive model of tidal circulation; unf
 
 I have taken a look at this in a few ways. One way has been to look at all floods and ebbs and average them, or lesser/greater floods/ebbs. In general I am taking a Godin-filtered hourly velocity and then averaging that over each time period. In this case, I have all the PEAK flood and ebb hours averaged over the course of 2024, then the average Godin-filtered residual.
 
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/09be122c-c3c2-46ab-bd5a-a4605dafb0e7" width="800"/><br>Fig 1. Map of averaged PEAK flood and ebb hours + Godin-filtered hourly residual over 2024 for surface 1/3, bottom 1/3, and depth-averaged velocities.</p><br>
 
-<img width="3200" height="1900" alt="cove_peak_maps_all_all" src="https://github.com/user-attachments/assets/09be122c-c3c2-46ab-bd5a-a4605dafb0e7" />
+Conversely, I can represent an identical view for a specific lunar day that represents an "average" tide in terms of spring/neap, tropic/equatorial, stratification, and wind stress at the surface. Selecting these days has required hypothesizing which variables are the most important drivers of tidal variation (these four for now), making time series of these variables, ranking each day on the time series, and the selecting the day closest to average on all these axes. The same plot of ONE "average" lunar day (2024.08.31-2024.09.01) is as follows:
 
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/f99c5f8e-3c46-45c3-b61b-83b0f7d87046" width="800"/><br>Fig 2. Map of baseline day PEAK flood and ebb hours + Godin-filtered hourly residual for surface 1/3, bottom 1/3, and depth-averaged velocities.</p><br>
 
-*insert surface third/bottom third/whole water column plan view (flood ebb residual)*
+Similarly, I can look at the cross-sections anywhere, but here we look at the Lovejoy line I've defined.
 
-*insert cross-sections (flood ebb residual)*
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/0c69aa0d-9838-4b23-998a-2480e4f5c038" width="800"/><br>Fig 3. Section at Lovejoy of average PEAK flood and ebb hours + Godin-filtered hourly residual over 2024.</p><br>
+
+And now the baseline day!
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/bab3893b-1776-401d-b1a3-c3e02b88fbec" width="800"/><br>Fig 4. Section at Lovejoy of baseline day PEAK flood and ebb hours + Godin-filtered hourly residual.</p><br>
+
 
 ## Tidal ellipses?
 
