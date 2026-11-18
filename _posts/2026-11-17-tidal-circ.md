@@ -63,3 +63,6 @@ Takeaways:
 * Up-cove wind weakens the mid-depth out mode!
 * Lateral structure is super robust and isn't really modified by these variables too much.
 
+About half of the variation in the model is not accounted for. I haven't considered cross-channel density gradients nor greater time lags in wind/velocities within the Cove, nor "nonlinear" interactions. I'm also not sure how much of this is necessary; this seems to corroborate that the shape is variable and depends somewhat on wind!
+
+Anyway - send help. I need to get out of just describing tidal circulation!
