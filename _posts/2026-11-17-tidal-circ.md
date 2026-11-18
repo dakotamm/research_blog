@@ -24,21 +24,32 @@ And now the baseline day!
 
 <p style="text-align:center;"><img src="https://github.com/user-attachments/assets/bab3893b-1776-401d-b1a3-c3e02b88fbec" width="800"/><br>Fig 4. Section at Lovejoy of baseline day PEAK flood and ebb hours + Godin-filtered hourly residual.</p><br>
 
+Is there a way to do this that anyone has seen more of or would prefer? Clearly there is variation in what can be considered the baseline, and how to represent it is something I am struggling with.
 
 ## Tidal ellipses?
 
-*insert tidal ellipses*
+Part of this study has been decomposing the tidal constituents as well. So I ran utide and created tidal ellipses.
 
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/ef96bc48-951e-44e0-ba3b-29be93029a02" width="800"/><br>Fig 5. Top 1/3, bottom 1/3, and depth-averaged tidal ellipses for top 4 constituents over 2024-2025.</p><br>
 
 ## What does tidal velocity look like at Lovejoy?
-- profile and cross-section
-- greater/lesser ebb?
-- standard "day"
-- 
+
+One way I've been trying to see patterns here is creating profiles and cross-sections of velocity. Both the layered and lateral transport are important parts of both the tidal and residual circulation.
+
+Here I've also broken out the greater and lesser ebb and have plotted in gray every hourly profile. The thick orange line is the average profile and the dotted line is our baseline day profile.
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/89380897-14ef-4eb3-81e1-cadd7b0de018" width="800"/><br>Fig 6. Greater and lesser flood and ebb profiles at Lovejoy during 2024.</p><br>
 
 ## What modifies tidal velocity?
 
+If tidal velocity are modified, then that might lend clues as to the residence time experience by particles which ultimately leads to hypoxia. Also, there is clear variation in the individual tides we see in the model, which is an important physical process for us to summarize. So, I have tried to look at what could modify just tidal velocity from many directions, with limited success.
+
 ### Tidal Umax? Top/bottom flood/ebb speed/direction?
+
+While I have ran EOF analyses on the full velocity profile, I think I've been personally able to understand more from the profile shapes (though I'm still not sure how confident I am). Here are the EOFs of the Lovejoy velocity profiles and cross-sections.
+
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/493f33cd-a66b-4610-9a55-a611ee382b9a width="800"/><br>Fig 7. EOFs of Lovejoy and profile shapes.</p><br>
+
 
 ### Shape of profiles?
 
