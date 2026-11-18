@@ -48,7 +48,7 @@ If tidal velocity are modified, then that might lend clues as to the residence t
 
 While I have ran EOF analyses on the full velocity profile, I think I've been personally able to understand more from the profile shapes (though I'm still not sure how confident I am). Here are the EOFs of the Lovejoy velocity profiles and cross-sections.
 
-<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/493f33cd-a66b-4610-9a55-a611ee382b9a width="800"/><br>Fig 7. EOFs of Lovejoy and profile shapes.</p><br>
+<p style="text-align:center;"><img src="https://github.com/user-attachments/assets/493f33cd-a66b-4610-9a55-a611ee382b9a" width="800"/><br>Fig 7. EOFs of Lovejoy and profile shapes.</p><br>
 
 
 ### Shape of profiles?
